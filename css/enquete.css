@@ -1,0 +1,201 @@
+/*Start - css/enquete.css*/
+.enquete{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-top:1vw;
+padding-bottom:2vw;
+}
+.enquete-campo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+}
+.enquete-titulo{
+width: 100%;
+height: 3.3vw;
+background-color: var(--cinza222);
+float: left;
+margin-top: 0vw;
+margin-bottom: 1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight: 700;
+font-size: 1vw;
+line-height: 1.1vw;
+color: var(--fonte);
+text-align: left;
+letter-spacing: 0vw;
+display: table;
+position: relative;
+padding:0.3vw;
+border-radius:0.3vw;
+border: 0.1vw solid var(--cinza205);
+}
+.enquete-titulo span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+.enquete-realce{
+font-weight:600;
+color:var(--padrao05);
+}
+.enquete-linha{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.enquete-descricao{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.8vw;
+line-height:1.2vw;
+color:var(--fonte);
+text-align: justify;
+letter-spacing:0vw;
+padding-left: 0.5%;
+padding-right: 0.5%;
+}
+.enquete-descricao a{
+color:var(--padrao05);
+font-weight:600;
+}
+.enquete-descricao p{
+margin:0vw;
+margin-bottom:1vw;
+}
+.enquete-comentario{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.7vw;
+line-height:0.8vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+font-style: italic;
+}
+.enquete-download-item{
+width:95%;
+height:3.6vw;
+background-color:var(--teste00);
+float:left;
+border:0.1vw solid var(--cinza100);
+border-radius: 0.3vw;
+transition:all 0.2s ease-in-out;
+margin-bottom: 1vw;
+}
+.enquete-download-item:hover{
+background-color:var(--cinza245);
+border:0.1vw solid var(--padrao02);
+transition:all 0.2s ease-in-out;
+}
+.enquete-download-icone{
+width:10%;
+height:100%;
+background-color:var(--teste00);
+float:left;
+text-align: center;
+line-height: 3.6vw;
+}
+.enquete-download-icone svg{
+width:auto;
+height:1.4vw;
+vertical-align: middle;
+fill: var(--cinza100);
+transition:all 0.2s ease-in-out;
+}
+.enquete-download-nome{
+width:70%;
+height:100%;
+background-color:var(--teste00);
+float:left;
+line-height: 3.6vw;
+font-size: 0.7vw;
+color: var(--cinza100);
+overflow: hidden;
+margin-right: 3%;
+position: relative;
+transition:all 0.2s ease-in-out;
+}
+.enquete-download-btn{
+width:5.7vw;
+height:2.1vw;
+background-color:var(--cinza100);
+float:left;
+text-align: center;
+line-height: 2.1vw;
+border-radius: 0.5vw;
+margin-top: 0.8vw;
+transition:all 0.2s ease-in-out;
+color:white;
+}
+.enquete-download-item:hover .enquete-download-btn{
+background-color:var(--padrao01);
+color:white;
+transition:all 0.2s ease-in-out;
+}
+.enquete-download-item:hover .enquete-download-icone svg{
+fill:var(--padrao01);
+transition:all 0.2s ease-in-out;
+}
+.enquete-download-item:hover .enquete-download-nome{
+color: var(--padrao01);
+transition:all 0.2s ease-in-out;
+}
+
+.enquete-grafico{
+width:20vw;
+height:1.5vw;
+background-color:white;
+overflow:hidden;
+border-radius:5vw;
+position:relative;
+}
+.enquete-fill{
+width:20vw;
+height:1.5vw;
+background-color:var(--padrao01);
+border-radius:5vw;
+left:-50%;
+position:absolute;
+}
+.enquete-valor{
+width:20vw;
+height:1.5vw;
+background-color:var(--teste00);
+overflow:hidden;
+position:relative;
+padding-left:1vw;
+padding-right:1vw;
+font-weight:600;
+font-size:0.7vw;
+line-height:1.5vw;
+color:var(--cinza222);
+text-align: left;
+letter-spacing:0vw;
+}
+/*End - css/enquete.css*/

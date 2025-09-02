@@ -1,0 +1,110 @@
+/*Start - css/menu.css*/
+.menu{
+width:100%;
+height:2.9vw;
+background-color:var(--padrao01);
+float:left;
+margin-top:-0.3vw;
+margin-bottom:0vw;
+margin-left:0vw;
+margin-right:0vw;
+overflow:hidden;
+}
+.menu-btns-campo{
+width:100%;
+height:2.8vw;
+background-color:var(--padrao04);
+float:right;
+margin-top:0.3vw;
+padding-right: 19.8vw;
+}
+.menu-btn{
+height:100%;
+background-color:var(--teste00);
+float:right;
+font-weight:400;
+font-size:0.7vw;
+line-height:2.8vw;
+color:white;
+text-align: left;
+letter-spacing:0vw;
+padding-left:1vw;
+padding-right:1vw;
+text-transform: uppercase;
+cursor:pointer;
+position:relative;
+}
+.menu-btn .material-symbols-outlined{
+font-weight: 700;
+font-size: 1.2vw;
+color: white;
+line-height:2.8vw;
+}
+.menu-btn-nome{
+position:relative;
+z-index:1;
+}
+.menu-btn-base{
+width:100%;
+height:5vw;
+background-color:var(--padrao02);
+position:absolute;
+top:2.8vw;
+left:0vw;
+transition:all 0.2s ease-in-out;
+}
+.menu-btn:hover .menu-btn-base{
+top:-0.3vw;
+transition:all 0.2s ease-in-out;
+}
+.menu-btn.on .menu-btn-base{
+top:-0.3vw;
+transition:all 0.2s ease-in-out;
+}
+.submenu{
+width:44.5vw;
+height:auto;
+background-color:var(--padrao01);
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+display:none;
+padding:0.5vw;
+}
+.submenu-box{
+display:none;
+}
+.submenu-btn{
+width:25%;
+height:5vw;
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.8vw;
+line-height:1vw;
+color:white;
+text-align: left;
+letter-spacing:0vw;
+transition:all 0.2s ease-in-out;
+display: table;
+position: relative;
+background-color:var(--teste00);
+border: 0vw solid red;
+}
+.submenu-btn a{
+padding:0.5vw;
+display:block;
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+.submenu-btn:hover{
+text-decoration: underline;
+background-color:var(--branco_lente03);
+padding-left:0.5vw;
+transition:all 0.2s ease-in-out;
+}
+/*End - css/menu.css*/

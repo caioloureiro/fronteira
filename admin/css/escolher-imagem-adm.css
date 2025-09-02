@@ -1,0 +1,82 @@
+/*Start - css/escolher-imagem-adm.css*/
+.escolher-imagem-adm-btn{
+width:14vw;
+height:7vw;
+background-color:var(--cinza);
+float:left;
+background-image:url("img/img.png");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:cover;
+margin:1vw;
+padding:0.5vw;
+border-radius: 0.7vw;
+text-align: center;
+line-height: 1.6vw;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.escolher-imagem-adm-thumb{
+width:14vw;
+height:7vw;
+background-color:var(--cinza);
+float:left;
+background-image:url("img/img.png");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:cover;
+margin:1vw;
+padding:0.5vw;
+border-radius: 0.7vw;
+text-align: center;
+line-height: 1.6vw;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0vw 0vw 0vw var(--azul);
+}
+.escolher-imagem-adm-thumb:hover{
+box-shadow: 0.1vw 0.1vw 0.5vw var(--azul);
+}
+
+@media only screen and (max-width:1024px){
+	
+.escolher-imagem-adm-btn{
+width:50vw;
+height:21vw;
+margin:3vw;
+padding:5vw;
+border-radius:3vw;
+line-height:5vw;
+}
+.escolher-imagem-adm-thumb{
+width:42vw;
+height:21vw;
+margin:3vw;
+padding:5vw;
+border-radius:3vw;
+line-height:5vw;
+}
+.escolher-imagem-adm-thumb:hover{
+box-shadow: 0.3vw 0.3vw 2vw var(--azul);
+}
+.escolher-imagem-adm-thumb-tabela{
+width:21vw;
+height:11vw;
+margin:3vw;
+padding:2vw;
+border-radius:2vw;
+line-height:5vw;
+}
+.escolher-imagem-adm-thumb-tabela:hover{
+box-shadow: 0.3vw 0.3vw 2vw var(--azul);
+}
+.escolher-imagem-adm-td-tabela{
+line-height: 21vw;
+}
+
+}
+/*End - css/escolher-imagem-adm.css*/

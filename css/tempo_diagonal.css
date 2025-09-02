@@ -1,0 +1,325 @@
+/*Start - css/tempo.css*/
+.tempo{
+width:100%;
+height:auto;
+background-color:var(--fundo);
+float:left;
+padding-bottom:1.7vw;
+}
+.tempo-campo{
+width:100%;
+height:8.4vw;
+background-color:white;
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+border-radius:0.5vw;
+overflow:hidden;
+cursor:default;
+}
+.tempo-logo-box{
+width: 18.7vw;
+height: 100%;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-left: -3vw;
+transform: skew(-20deg);
+overflow: hidden;
+background-image: linear-gradient(to bottom, var(--padrao01), var(--padrao05));
+transition:all 0.2s ease-in-out;
+box-shadow: 0vw 0.1vw 0.3vw rgba(0,0,0,0.1);
+}
+.tempo-logo{
+width: 16.5vw;
+height: 100%;
+background-color: var(--teste00);
+float: right;
+margin-top: 0vw;
+margin-right: -2vw;
+transform: skew(20deg);
+transition:all 0.2s ease-in-out;
+}
+.tempo-campo:hover .tempo-logo-box{
+transform: skew(20deg);
+transition:all 0.2s ease-in-out;
+}
+.tempo-campo:hover .tempo-logo{
+transform: skew(-20deg);
+transition:all 0.2s ease-in-out;
+}
+.tempo-logo-icone{
+width: 5.9vw;
+height: 100%;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-right:0.9vw;
+text-align: center;
+color:var(--amarelo);
+}
+.tempo-logo-icone .material-symbols-outlined{
+font-size:6vw;
+line-height:8.4vw;
+}
+.tempo-logo-titulo{
+width: 9vw;
+height: 100%;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-left: 0vw;
+}
+.tempo-logo-titulo-01{
+width: 100%;
+height: auto;
+background-color: var(--teste00);
+float: left;
+margin-top: 1.9vw;
+margin-bottom: 0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight: 400;
+font-size: 0.9vw;
+line-height: 1.4vw;
+color: white;
+text-align: left;
+letter-spacing: 0vw;
+padding-left: 1.1vw;
+}
+.tempo-logo-titulo-02{
+width: 100%;
+height: 1.8vw;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-bottom: 0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight: 700;
+font-size: 2vw;
+line-height: 1.1vw;
+color: white;
+text-align: left;
+letter-spacing: 0vw;
+}
+.tempo-logo-titulo-03{
+width: 100%;
+height: auto;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-bottom: 0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight: 600;
+font-size: 0.9vw;
+line-height: 1.3vw;
+color: var(--branco_lente06);
+text-align: left;
+letter-spacing: 0vw;
+}
+.tempo-itens{
+width: 43.2vw;
+height: 100%;
+background-color: var(--teste00);
+float: right;
+}
+.tempo-item{
+width: 13vw;
+height: 4.3vw;
+background-color: var(--teste00);
+float: left;
+margin-top:2.1vw;
+margin-bottom: 0vw;
+border-right: 0.2vw solid var(--cinza222);
+margin-right: 2vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.tempo-item:nth-child(3n){
+border-right:0vw;
+margin-right:0vw;
+}
+.tempo-item-icone{
+width: 4.3vw;
+height: 4.3vw;
+line-height:4.3vw;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-left: 1.4vw;
+border-radius: 5vw;
+background-image: linear-gradient(to bottom, var(--padrao01), var(--padrao05));
+color:white;
+text-align:center;
+}
+.tempo-item-icone .material-symbols-outlined{
+font-size:3vw;
+line-height:4.3vw;
+}
+.tempo-item-icone svg{
+height:2vw;
+fill:white;
+}
+.tempo-item-col{
+width: 6.5vw;
+height: auto;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-left: 0.6vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.tempo-item-data{
+width: 100%;
+height: auto;
+background-color: var(--teste00);
+float: left;
+margin-top: 0.2vw;
+margin-bottom: 0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight: 400;
+font-size: 0.7vw;
+line-height: 1.3vw;
+color: var(--fonte);
+text-align: left;
+letter-spacing: 0vw;
+}
+.tempo-item-temperatura{
+width: 100%;
+height: auto;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-bottom: 0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight: 700;
+font-size: 1vw;
+line-height: 1.3vw;
+color: var(--fonte);
+text-align: left;
+letter-spacing: 0vw;
+}
+.tempo-item-hora{
+width: 100%;
+height: auto;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-bottom: 0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight: 400;
+font-size: 0.7vw;
+line-height: 1.3vw;
+color: var(--fonte);
+text-align: left;
+letter-spacing: 0vw;
+}
+.tempo-item-temperatura-verde{
+color:var(--padrao01);
+}
+.tempo-item-temperatura-vermelho{
+color:red;
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.tempo{
+padding-bottom:6vw;
+}
+.tempo-campo{
+width:100%;
+height:auto;
+border-radius:1.5vw;
+}
+.tempo-logo-box{
+width:100%;
+height:100%;
+margin-left: -9vw;
+box-shadow: 0vw 0.2vw 1vw rgba(0,0,0,0.1);
+}
+.tempo-logo{
+width:100%;
+margin-right: -12vw;
+}
+.tempo-logo-icone{
+width:18vw;
+height:18vw;
+margin-right:3vw;
+}
+.tempo-logo-icone .material-symbols-outlined{
+font-size:18vw;
+line-height:25vw;
+}
+.tempo-logo-titulo{
+width:27vw;
+}
+.tempo-logo-titulo-01{
+margin-top:6vw;
+font-size:5vw;
+line-height:6vw;
+padding-left:0vw;
+}
+.tempo-logo-titulo-02{
+height:6vw;
+font-size:6vw;
+line-height:4vw;
+}
+.tempo-logo-titulo-03{
+font-size:4vw;
+line-height:6vw;
+}
+.tempo-itens{
+width: 90vw;
+float: left;
+}
+.tempo-item{
+width: 90vw;
+height: 13vw;
+margin-top:6.3vw;
+margin-bottom:6.3vw;
+border-right:0vw;
+margin-right: 0vw;
+}
+.tempo-item-icone{
+width:13vw;
+height:13vw;
+line-height:13vw;
+border-radius: 13vw;
+margin-left:5vw;
+margin-bottom:3vw;
+}
+.tempo-item-icone .material-symbols-outlined{
+font-size:9vw;
+line-height:13vw;
+}
+.tempo-item-icone svg{
+height:9vw;
+}
+.tempo-item-col{
+width:70vw;
+margin-left: 0vw;
+padding-left:5vw;
+}
+.tempo-item-data{
+margin-top: 0.6vw;
+font-size: 3.5vw;
+}
+.tempo-item-temperatura{
+font-size: 5vw;
+line-height:10vw;
+}
+.tempo-item-hora{
+font-size:3.5vw;
+line-height:4vw;
+}
+
+}
+/*End - css/tempo.css*/

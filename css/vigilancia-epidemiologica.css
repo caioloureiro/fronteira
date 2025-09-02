@@ -1,0 +1,117 @@
+/*Start - css/vigilancia-epidemiologica.css*/
+.vigilancia-epidemiologica{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-bottom:2vw;
+}
+.vigilancia-epidemiologica-tabela-janela{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.tabela_vigilancia-epidemiologica{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.datatable-filter.datatable-input-text.form-control{
+width:100%;
+height:1.5vw;
+background-color:white;
+border:0vw;
+font-family:var(--segoe);
+font-weight:400;
+font-size:0.8vw;
+line-height:1.5vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+border-radius:0.3vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding-left:1vw;
+padding-right:1vw;
+margin-top:0.5vw;
+margin-bottom:0.5vw;
+}
+.tabela_vigilancia-epidemiologica thead tr{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+}
+.tabela_vigilancia-epidemiologica thead tr th{
+font-weight:700;
+font-size:0.8vw;
+line-height:1vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+}
+.tabela_vigilancia-epidemiologica tbody tr{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+}
+.tabela_vigilancia-epidemiologica tbody tr:nth-child(odd) {
+background-color:var(--cinza205);
+}
+.tabela_vigilancia-epidemiologica tbody tr:hover{
+background-color:var(--cinza155);
+}
+.tabela_vigilancia-epidemiologica tbody tr td{
+font-weight:400;
+font-size:0.8vw;
+line-height:2vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding-left:1vw;
+padding-right:1vw;
+}
+.tabela_vigilancia-epidemiologica tbody tr td a{
+display:block;
+width:100%;
+height:100%;
+}
+.pagination{
+padding:0vw;
+margin:0 auto;
+display:table;
+}
+.pagination li{
+width:2vw;
+height:2vw;
+padding:0vw;
+background-color:white;
+line-height:2vw;
+margin:0.1vw;
+font-family:var(--segoe);
+border-radius:0.3vw;
+box-shadow: 0vw 0.1vw 0.3vw rgba(0,0,0,0.1);
+}
+.pagination li:hover{
+background-color:var(--cinza205);
+}
+.pagination li a{
+font-weight:400;
+font-size:0.8vw;
+line-height:2vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+}
+/*End - css/vigilancia-epidemiologica.css*/

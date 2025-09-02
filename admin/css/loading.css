@@ -1,0 +1,36 @@
+/*Start - css/loading.css*/
+.loading{
+width:100vw;
+height:100vh;
+background-color:var(--preto_lente);
+position:fixed;
+top:0vw;
+left:0vw;
+display:none;
+z-index:9999;
+}
+.loading-icone-container{
+width:auto;
+height:auto;
+background-color:var(--teste00);
+float:left;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.loading-icone{
+width:5vw;
+height:5vw;
+background-color:var(--teste00);
+margin:0 auto;
+animation:girar 2s linear infinite;
+background-image:url("img/loading.svg");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:100% auto;
+}
+.loading-on{
+display:block;
+}
+/*Start - css/loading.css*/

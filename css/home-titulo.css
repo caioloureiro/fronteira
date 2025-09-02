@@ -1,0 +1,65 @@
+/*Start - css/home-titulo.css*/
+.home-titulo-campo{
+width:100%;
+height:3.1vw;
+background-color:var(--teste00);
+float:left;
+border-bottom: 0.1vw solid var(--cinza205);
+margin-top: 0vw;
+margin-bottom: 0vw;
+position:relative;
+}
+.home-titulo-icone{
+width: 3vw;
+height: 100%;
+background-color: var(--teste00);
+position: absolute;
+line-height: 6vw;
+text-align: left;
+}
+.home-titulo-icone .material-symbols-outlined{
+font-size: 3vw;
+color: var(--preto_lente01);
+}
+.home-titulo{
+width: auto;
+height: 100%;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-left: 1.8vw;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 1vw;
+line-height: 3.6vw;
+color: var(--fonte);
+text-align: left;
+letter-spacing: 0vw;
+padding-right: 0.6vw;
+transition:all 0.2s ease-in-out;
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.home-titulo-campo{
+height:15vw;
+border-bottom: 0.3vw solid var(--cinza205);
+}
+.home-titulo-icone{
+width:15vw;
+line-height:15vw;
+}
+.home-titulo-icone .material-symbols-outlined{
+font-size: 15vw;
+height: 15vw;
+line-height: 15vw;
+}
+.home-titulo{
+margin-left:5.4vw;
+font-size: 5vw;
+line-height:15vw;
+padding-right: 1.8vw;
+}
+
+}
+/*End - css/home-titulo.css*/

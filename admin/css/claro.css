@@ -1,0 +1,11 @@
+/*Start - css/escuro.css*/
+:root{
+--fundo:rgb(240, 241, 241);
+--fundo_02:rgba(251,251,251,1);
+--fundo_03:rgba(230,231,231,1);
+--fonte_padrao: #454550;
+--fonte_02: rgb(94, 88, 115);
+
+--menu_fundo:rgba(255, 255, 255, 0.7);
+}
+/*End - css/escuro.css*/

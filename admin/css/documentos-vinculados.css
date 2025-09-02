@@ -1,0 +1,10 @@
+/*Start - css/documentos-vinculados.css*/
+.vinculo_chamamento,
+.vinculo_sem,
+.vinculo_ps,
+.vinculo_noticia,
+.vinculo_evento,
+.vinculo_conteudo{
+display:none;
+}
+/*End - css/documentos-vinculados.css*/

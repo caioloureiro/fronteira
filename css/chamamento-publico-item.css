@@ -1,0 +1,153 @@
+/*Start - css/chamamento-publico-item.css*/
+.chamamento-publico-item{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-top:1vw;
+padding-bottom:2vw;
+}
+.chamamento-publico-item-campo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+}
+.chamamento-publico-item-titulo{
+width: 100%;
+height: 3.3vw;
+background-color: var(--cinza222);
+float: left;
+margin-top: 0vw;
+margin-bottom: 1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight: 700;
+font-size: 1vw;
+line-height: 1.1vw;
+color: var(--fonte);
+text-align: left;
+letter-spacing: 0vw;
+display: table;
+position: relative;
+padding:0.3vw;
+border-radius:0.3vw;
+border: 0.1vw solid var(--cinza205);
+}
+.chamamento-publico-item-titulo span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+.chamamento-publico-item-realce{
+font-weight:600;
+color:var(--padrao05);
+}
+.chamamento-publico-item-linha{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.chamamento-publico-item-descricao{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.8vw;
+line-height:1.2vw;
+color:var(--fonte);
+text-align: justify;
+letter-spacing:0vw;
+padding-left: 0.5%;
+padding-right: 0.5%;
+}
+.chamamento-publico-item-descricao a{
+color:var(--padrao05);
+font-weight:600;
+}
+.chamamento-publico-item-descricao p{
+margin:0vw;
+margin-bottom:1vw;
+}
+
+.chamamento-publico-download-item{
+width:95%;
+height:3.6vw;
+background-color:var(--teste00);
+float:left;
+border:0.1vw solid var(--cinza100);
+border-radius: 0.3vw;
+transition:all 0.2s ease-in-out;
+margin-bottom: 1vw;
+}
+.chamamento-publico-download-item:hover{
+background-color:var(--cinza245);
+border:0.1vw solid var(--padrao02);
+transition:all 0.2s ease-in-out;
+}
+.chamamento-publico-download-icone{
+width:10%;
+height:100%;
+background-color:var(--teste00);
+float:left;
+text-align: center;
+line-height: 3.6vw;
+}
+.chamamento-publico-download-icone svg{
+width:auto;
+height:1.4vw;
+vertical-align: middle;
+fill: var(--cinza100);
+transition:all 0.2s ease-in-out;
+}
+.chamamento-publico-download-nome{
+width:70%;
+height:100%;
+background-color:var(--teste00);
+float:left;
+line-height: 3.6vw;
+font-size: 0.7vw;
+color: var(--cinza100);
+overflow: hidden;
+margin-right: 3%;
+position: relative;
+transition:all 0.2s ease-in-out;
+}
+.chamamento-publico-download-btn{
+width:5.7vw;
+height:2.1vw;
+background-color:var(--cinza100);
+float:left;
+text-align: center;
+line-height: 2.1vw;
+border-radius: 0.5vw;
+margin-top: 0.8vw;
+transition:all 0.2s ease-in-out;
+color:white;
+}
+.chamamento-publico-download-item:hover .chamamento-publico-download-btn{
+background-color:var(--padrao01);
+color:white;
+transition:all 0.2s ease-in-out;
+}
+.chamamento-publico-download-item:hover .chamamento-publico-download-icone svg{
+fill:var(--padrao01);
+transition:all 0.2s ease-in-out;
+}
+.chamamento-publico-download-item:hover .chamamento-publico-download-nome{
+color: var(--padrao01);
+transition:all 0.2s ease-in-out;
+}
+/*End - css/chamamento-publico-item.css*/

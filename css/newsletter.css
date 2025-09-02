@@ -1,0 +1,38 @@
+/*Start - css/newsletter.css*/
+.newsletter{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-bottom:1vw;
+}
+.newsletter-campo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:2vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.newsletter-classe{
+width:5vw;
+height:5vw;
+background-color:var(--teste02);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.newsletter{
+padding-bottom:3vw;
+}
+.newsletter-campo{
+margin-bottom:6vw;
+}
+
+}
+/*End - css/newsletter.css*/

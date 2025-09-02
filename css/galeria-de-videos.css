@@ -1,0 +1,66 @@
+/*Start - css/galeria-de-videos.css*/
+.videos{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-bottom:2vw;
+}
+.videos-counter{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:600;
+font-size:0.7vw;
+line-height:1.5vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+border-bottom: 0.1vw solid var(--cinza205);
+}
+.videos-campo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:1vw;
+}
+.videos-item{
+width:11vw;
+height:auto;
+aspect-ratio: 16 / 9;
+background-color:var(--preto_lente08);
+float:left;
+margin-right:1vw;
+margin-bottom:1vw;
+text-align:center;
+border-radius:0.3vw;
+color:white;
+position:relative;
+background-repeat:no-repeat;
+background-position:center center;
+background-size:cover;
+}
+.videos-item:nth-child(5n){
+margin-right:0vw;
+}
+.videos-item a{
+display:block;
+width:100%;
+height:100%;
+}
+.videos-item span{
+font-size:3vw;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+transition:all 0.2s ease-in-out;
+}
+.videos-item:hover span{
+font-size:4vw;
+}
+/*End - css/galeria-de-videos.css*/

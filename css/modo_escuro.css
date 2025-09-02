@@ -1,0 +1,394 @@
+/*Start - css/modo_escuro.css*/
+.modo_escuro{
+color:white;
+background-color:black;
+}
+.modo_escuro .home-base{
+background-color:black;
+}
+.modo_escuro .cabecalho{
+background-color:var(--cinza100);
+}
+.modo_escuro .cabecalho-logo-box{
+background-color:var(--cinza100);
+}
+.modo_escuro .topo{
+background-color:var(--cinza155);
+}
+.modo_escuro .acessibilidade{
+background-color:var(--cinza120);
+}
+.modo_escuro .menu{
+background-color:var(--cinza33);
+}
+.modo_escuro .menu-btns-campo{
+background-color:var(--cinza33);
+}
+.modo_escuro .menu-btn-base{
+background-color:var(--cinza155);
+}
+.modo_escuro .submenu-box{
+background-color:var(--preto_lente05);
+}
+.modo_escuro .submenu_horizontal{
+background-color:var(--preto_lente05);
+}
+.modo_escuro .submenu_horizontal_h1{
+background-color:var(--cinza100);
+}
+.modo_escuro .acesso-facil{
+background-color:black;
+}
+.modo_escuro .acesso-facil-campo{
+background-color:var(--cinza100);
+}
+.modo_escuro .acesso-facil-gaveta{
+background-color:var(--preto_lente05);
+}
+.modo_escuro .home-noticias{
+background-color:black;
+}
+.modo_escuro .home-titulo{
+color:white;
+}
+.modo_escuro .home-titulo-icone .material-symbols-outlined{
+color: var(--branco_lente01);
+}
+.modo_escuro .btnVerMais-campo{
+background-color:var(--cinza33);
+color:white;
+}
+.modo_escuro .btnVerMais-icone{
+background-color:var(--cinza100);
+}
+.modo_escuro .home-noticias-destaque-data{
+background-color:var(--cinza120);
+}
+.modo_escuro .home-noticias-destaque-categoria{
+background-color:var(--cinza100);
+}
+.modo_escuro .home-noticias-item{
+background-color:var(--cinza33);
+}
+.modo_escuro .home-noticias-item-data{
+color:var(--cinza222);
+}
+.modo_escuro .home-noticias-item-categoria{
+background-color:var(--cinza120);
+}
+.modo_escuro .home-noticias-item-titulo{
+color:white;
+}
+.modo_escuro .arquivos-destaque{
+background-color:black;
+}
+.modo_escuro .arquivos-destaque-item{
+background-color:var(--cinza33);
+}
+.modo_escuro .arquivos-destaque-data{
+color: var(--cinza222);
+}
+.modo_escuro .arquivos-destaque-titulo{
+color:white;
+}
+.modo_escuro .arquivos-destaque-tipo{
+color: var(--cinza222);
+}
+.modo_escuro .arquivos-destaque-nuvem .material-symbols-outlined{
+color: var(--branco_lente02);
+}
+.modo_escuro .acesso-rapido{
+background-color:black;
+}
+.modo_escuro .acesso-rapido-btn{
+background-color: var(--cinza100);
+}
+.modo_escuro .acesso-rapido-titulo-campo{
+background-color:var(--cinza155);
+}
+.modo_escuro .editais-destaque{
+background-color:black;
+}
+.modo_escuro .editais-destaque-item{
+background-color:var(--cinza33);
+}
+.modo_escuro .editais-destaque-item-nome{
+color:white;
+}
+.modo_escuro .carrossel{
+background-color:black;
+}
+.modo_escuro .banner{
+background-color:black;
+}
+.modo_escuro .home-galeria{
+background-color:black;
+}
+.modo_escuro .home-videos{
+background-color:black;
+}
+.modo_escuro .home-videos-campo{
+background-color:var(--cinza33);
+}
+.modo_escuro .home-videos-data{
+color:white;
+}
+.modo_escuro .home-videos-titulo{
+color:white;
+}
+.modo_escuro .home-videos-assista{
+color:white;
+}
+.modo_escuro .tempo{
+background-color:black;
+}
+.modo_escuro .tempo-campo{
+background-color:var(--cinza33);
+}
+.modo_escuro .tempo-logo-box{
+background-image: linear-gradient(to bottom, var(--cinza100), var(--cinza33));
+}
+.modo_escuro .tempo-item-icone{
+background-image: linear-gradient(to bottom, var(--cinza100), var(--cinza33));
+}
+.modo_escuro .tempo-item-data{
+color:white;
+}
+.modo_escuro .tempo-item-hora{
+color:white;
+}
+.modo_escuro .tempo-item-temperatura{
+color:white;
+}
+.modo_escuro .tempo-item-temperatura-verde{
+color: var(--cinza205);
+}
+.modo_escuro .footer{
+background-color:var(--cinza100);
+}
+.modo_escuro .footer-quadrado01{
+background-color: var(--cinza155);
+}
+.modo_escuro .footer-quadrado02{
+background-color: var(--cinza100);
+}
+.modo_escuro .footer-redes svg{
+fill:var(--cinza33);
+}
+.modo_escuro .footer-titulo{
+color: var(--cinza33);
+}
+.modo_escuro .footer-copyright{
+background-color: var(--cinza155);
+}
+.modo_escuro .footer:hover{
+background-color: var(--cinza155);
+}
+.modo_escuro .footer:hover .footer-quadrado01{
+background-color: var(--cinza100);
+}
+.modo_escuro .footer:hover .footer-quadrado02{
+background-color: var(--cinza155);
+}
+.modo_escuro .footer:hover .footer-titulo{
+color: var(--cinza33);
+}
+.modo_escuro .conteudo-titulo-campo{
+color:white;
+}
+.modo_escuro .menu-interno-campo{
+background-color:var(--cinza33);
+}
+.modo_escuro .menu-interno-item {
+background-color:var(--cinza100);
+}
+.modo_escuro .conteudo-compartilhar-campo {
+background-color:var(--cinza33);
+}
+.modo_escuro .conteudo-compartilhar-titulo{
+color:white;
+}
+.modo_escuro .leitor-voz-campo{
+background-color:var(--cinza33);
+}
+.modo_escuro .leitor-voz-titulo{
+color:white;
+}
+.modo_escuro .leitor-voz-txt{
+color:white;
+}
+.modo_escuro .leitor-voz-select{
+background-color:var(--cinza100);
+color:white;
+}
+.modo_escuro .leitor-voz-btn{
+background-color:black;
+}
+.modo_escuro .leitor-voz-btn span{
+color:white;
+}
+.modo_escuro .conteudo h1, 
+.modo_escuro .conteudo h2, 
+.modo_escuro .conteudo h3, 
+.modo_escuro .conteudo h4, 
+.modo_escuro .conteudo h5{
+color:white;
+}
+.modo_escuro .localizacao p{
+color:white;
+}
+.modo_escuro .secretarias-txt{
+color:white;
+}
+.modo_escuro .chamadas-publicas-filtro{
+background-color:var(--cinza33);
+}
+.modo_escuro .chamadas-publicas-filtro-titulo{
+color:white;
+}
+.modo_escuro .chamadas-publicas-filtro-label{
+color:white;
+}
+.modo_escuro .chamadas-publicas-filtro-input input{
+background-color:black;
+}
+.modo_escuro .chamadas-publicas-counter{
+color:white;
+}
+.modo_escuro .chamadas-publicas-item{
+background-color:var(--cinza33);
+}
+.modo_escuro .chamadas-publicas-titulo{
+color:white;
+}
+.modo_escuro .chamadas-publicas-linha.dados{
+background-color:var(--cinza100);
+}
+.modo_escuro .chamadas-publicas-dado-item{
+color:white;
+}
+.modo_escuro .chamadas-publicas-dado-icone span{
+fill:white;
+}
+.modo_escuro .chamadas-publicas-dado-icone span{
+color:white;
+}
+.modo_escuro .downloads-filtro{
+background-color:var(--cinza33);
+}
+.modo_escuro .downloads-filtro-titulo{
+color:white;
+}
+.modo_escuro .downloads-filtro-label{
+color:white;
+}
+.modo_escuro .downloads-filtro-input input{
+background-color:black;
+color:white;
+}
+.modo_escuro .downloads-counter{
+color:white;
+}
+.modo_escuro .downloads-item{
+background-color:var(--cinza33);
+}
+.modo_escuro .downloads-titulo{
+color:white;
+}
+.modo_escuro .downloads-linha.dados{
+background-color:var(--cinza100);
+}
+.modo_escuro .downloads-dado-item{
+color:white;
+}
+.modo_escuro .downloads-dado-icone span{
+fill:white;
+}
+.modo_escuro .downloads-dado-icone span{
+color:white;
+}
+.modo_escuro .contato-txt{
+color:white;
+}
+.modo_escuro .contato-col01{
+background-color:var(--cinza33);
+}
+.modo_escuro .contato-form h2{
+color:white;
+}
+.modo_escuro .contato-form p{
+color:white;
+}
+.modo_escuro .contato-form-input{
+background-color:var(--cinza100);
+color:white;
+}
+.modo_escuro .contato-form-select{
+background-color:var(--cinza100);
+color:white;
+}
+.modo_escuro .contato-form-textarea{
+background-color:var(--cinza100);
+color:white;
+}
+.modo_escuro .conteudo-txt{
+color:white;
+}
+.modo_escuro .galerias-item{
+background-color:var(--cinza33);
+}
+.modo_escuro .conteudo p{
+color:white;
+}
+.modo_escuro .noticias-filtro{
+background-color:var(--cinza33);
+}
+.modo_escuro .noticias-filtro-titulo{
+color:white;
+}
+.modo_escuro .noticias-filtro-label{
+color:white;
+}
+.modo_escuro .noticias-filtro-input input{
+background-color:black;
+color:white;
+}
+.modo_escuro .noticias-filtro-input select{
+background-color:black;
+color:white;
+}
+.modo_escuro .noticias-item{
+background-color:var(--cinza33);
+}
+.modo_escuro .noticias-item-data{
+color:white;
+}
+.modo_escuro .noticias-item-titulo{
+color:white;
+}
+.modo_escuro .noticias-item-subtitulo{
+color:white;
+}
+.modo_escuro .noticia-realce{
+color:white;
+}
+.modo_escuro .noticia-descricao{
+color:white !important;
+}
+.modo_escuro .chamamento-publico-counter{
+color:white;
+}
+.modo_escuro thead tr{
+background-color:var(--cinza33);
+}
+.modo_escuro th{
+color:white;
+}
+.modo_escuro tbody tr{
+background-color:black;
+color:white;
+}
+.modo_escuro tbody tr:nth-child(2n){
+background-color:var(--cinza33);
+}
+/*End - css/modo_escuro.css*/

@@ -1,0 +1,42 @@
+/*Start - css/organograma.css*/
+.organograma{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-bottom:3vw;
+}
+.organograma-first{
+color:var(--padrao05);
+cursor:pointer;
+font-weight:700;
+float:left;
+width:100%;
+}
+.organograma-first summary{
+padding-bottom:0.5vw;
+}
+.organograma-first details{
+padding-left:3vw;
+color:black;
+cursor:pointer;
+font-weight:400;
+}
+.organograma-btn{
+color:white;
+background-color:var(--padrao05);
+padding-top:0vw;
+padding-bottom:0vw;
+padding-left:0.5vw;
+padding-right:0.5vw;
+margin-right:1vw;
+float:left;
+font-weight:400;
+font-size:0.8vw;
+line-height:2vw;
+text-align: left;
+letter-spacing:0vw;
+border-radius:0.3vw;
+cursor:pointer;
+}
+/*End - css/organograma.css*/

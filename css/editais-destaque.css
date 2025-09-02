@@ -1,0 +1,215 @@
+/*Start - css/editais-destaque.css*/
+.editais-destaque{
+width:100%;
+height:auto;
+background-color:var(--fundo);
+float:left;
+padding-bottom:4vw;
+}
+.editais-destaque-campo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0.8vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.editais-destaque-item{
+width:100%;
+height:4.8vw;
+background-color:white;
+float:left;
+margin-top: 0vw;
+margin-bottom: 1vw;
+overflow:hidden;
+box-shadow: 0vw 0.1vw 0.3vw rgba(0,0,0,0.1);
+border-radius:0.3vw;
+}
+.editais-destaque-item a{
+display:block;
+}
+.editais-destaque-item-icone{
+width: 10.2vw;
+height: 6vw;
+background-color: var(--cinza222);
+float: left;
+margin-right: 0.8vw;
+margin-left: -5.2vw;
+font-weight: 400;
+color: var(--cinza100);
+text-align: center;
+letter-spacing: 0vw;
+transform: skew(-12deg, -11deg);
+border-radius: 0.7vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+margin-top: -1vw;
+padding-left: 6vw;
+padding-top: 1.3vw;
+transition:all 0.2s ease-in-out;
+}
+.editais-destaque-item-icone span{
+font-size:2vw;
+line-height:5vw;
+transform: skew(12deg, 11deg);
+}
+.editais-destaque-item-campo{
+width: 54.5vw;
+height: auto;
+background-color: var(--teste00);
+float: left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+overflow:hidden;
+transition:all 0.2s ease-in-out;
+}
+.editais-destaque-item-linha{
+width:100%;
+height:auto;
+background-color: var(--teste00);
+float:left;
+margin-top:0.8vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.editais-destaque-item-nome{
+width: 100%;
+height: 2vw;
+background-color: var(--teste00);
+float: left;
+margin-top: 0.5vw;
+margin-left: 0vw;
+font-weight: 600;
+font-size: 0.8vw;
+line-height: 0.8vw;
+color: var(--fonte);
+text-align: left;
+letter-spacing: 0vw;
+display: table;
+position: relative;
+}
+.editais-destaque-item-nome span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+.editais-destaque-item-data-ini{
+width:auto;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+font-weight:400;
+font-size:0.7vw;
+line-height:1vw;
+color:green;
+text-align: left;
+letter-spacing:0vw;
+}
+.editais-destaque-item-data-separador{
+width:auto;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-left: 0.3vw;
+margin-right: 0.3vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+}
+.editais-destaque-item-data-separador span{
+font-weight:900;
+font-size:1vw;
+line-height:1vw;
+}
+.editais-destaque-item-data-fim{
+width:auto;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+font-weight:400;
+font-size:0.7vw;
+line-height:1vw;
+color:red;
+text-align: left;
+letter-spacing:0vw;
+}
+.editais-destaque-item:hover .editais-destaque-item-icone{
+background-color: var(--padrao01);
+color: white;
+transition:all 0.2s ease-in-out;
+}
+.editais-destaque-item:hover .editais-destaque-item-campo{
+padding-left:0.5vw;
+transition:all 0.2s ease-in-out;
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.editais-destaque{
+padding-bottom:12vw;
+}
+.editais-destaque-campo{
+margin-top:2.5vw;
+}
+.editais-destaque-item{
+height:15vw;
+margin-bottom: 3vw;
+box-shadow: 0vw 0.3vw 1vw rgba(0,0,0,0.1);
+border-radius:1vw;
+}
+.editais-destaque-item-icone{
+width: 31vw;
+height: 18vw;
+margin-right: 3vw;
+margin-left: -15.6vw;
+border-radius: 2.1vw;
+margin-top: -3vw;
+padding-left: 18vw;
+padding-top: 3.9vw;
+}
+.editais-destaque-item-icone span{
+font-size:6vw;
+line-height:15vw;
+}
+.editais-destaque-item-campo{
+width: 71vw;
+}
+.editais-destaque-item-nome{
+height:6vw;
+margin-top: 1.5vw;
+font-size:4vw;
+line-height:4vw;
+}
+.editais-destaque-item-data-ini{
+font-size:3.5vw;
+line-height:3vw;
+}
+.editais-destaque-item-data-separador{
+margin-left: 1vw;
+margin-right: 1vw;
+line-height: 3vw;
+}
+.editais-destaque-item-data-separador span{
+font-size:3vw;
+line-height:3vw;
+}
+.editais-destaque-item-data-fim{
+font-size:3.5vw;
+line-height:3vw;
+}
+
+.editais-destaque-item:hover .editais-destaque-item-campo{
+padding-left:1.5vw;
+}
+
+}
+/*End - css/editais-destaque.css*/

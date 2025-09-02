@@ -1,0 +1,347 @@
+/*Start - css/cadastro.css*/
+.cadastro{
+width:100%;
+height:auto;
+background-color:rgba(255,255,255,1);
+float:left;
+padding-top:2vw;
+padding-bottom:2vw;
+}
+.cadastro-cabecalho{
+width:100%;
+height:4vw;
+background-color:rgba(255,0,0,0);
+float:left;
+margin-top:2vw;
+}
+.cadastro-titulo-campo{
+width:auto;
+height:100%;
+background-color:var(--azul_claro);
+float:left;
+border-top-left-radius:0vw;
+border-top-right-radius:50vw;
+border-bottom-left-radius:0vw;
+border-bottom-right-radius:50vw;
+padding-right:4vw;
+font-family: 'Bebas Neue', sans-serif;
+text-shadow: 0.3vw 0.2vw var(--azul_sombra);
+margin-right:1vw;
+}
+.cadastro-titulo{
+width:auto;
+height:100%;
+background-color:rgba(255,0,0,0);
+float:left;
+margin-left:15vw;
+font-weight:400;
+font-size:3.1vw;
+line-height:4vw;
+color: var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+}
+.cadastro-subtitulo{
+width: 100%;
+height: 5vw;
+background-color: rgba(255,0,0,0);
+float: left;
+margin-top:0vw;
+margin-bottom:3vw;
+font-weight: 400;
+font-size: 3.1vw;
+line-height: 5.3vw;
+color: var(--padrao01);
+text-align: center;
+letter-spacing: 0.2vw;
+font-family: 'Bebas Neue', sans-serif;
+text-shadow: 0.3vw 0.2vw var(--azul_sombra);
+}
+.cadastro-subtitulo02{
+width: 100%;
+height: 5vw;
+background-color:var(--azul_claro);
+float: left;
+margin-top:0vw;
+margin-bottom:3vw;
+font-weight: 400;
+font-size: 3.1vw;
+line-height: 5.3vw;
+color: var(--padrao01);
+text-align: center;
+letter-spacing: 0.2vw;
+font-family: 'Bebas Neue', sans-serif;
+text-shadow: 0.3vw 0.2vw var(--azul_sombra);
+border-radius:5vw;
+}
+.cadastro-texto{
+font-weight:400;
+font-size:inherit;
+line-height:inherit;
+color:inherit;
+text-align: justify;
+letter-spacing:0vw;
+}
+.cadastro-negrito{
+font-weight:bold;
+}
+.cadastro-img{
+width:100%;
+height:25vw;
+background-image:url("img/cadastre-se.jpg");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:cover;
+}
+.cadastro-realce-box{
+border: 0.1vw solid rgba(58,58,68,1);
+padding:1vw;
+margin-top:2vw;
+}
+.cadastro-btn{
+width:20vw;
+font-weight:400;
+font-size:1vw;
+color:white;
+text-align: center;
+letter-spacing:0vw;
+line-height:3vw;
+background-color:var(--padrao01);
+margin-top:1vw;
+border-radius:0.5vw;
+cursor:pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+.cadastro-label{
+width:100%;
+font-weight:inherit;
+font-size:inherit;
+line-height:inherit;
+color:inherit;
+text-align: inherit;
+letter-spacing:inherit;
+}
+.cadastro-input{
+width:100%;
+height:3vw;
+line-height:3vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:1vw;
+color:inherit;
+text-align: left;
+letter-spacing:0vw;
+padding:0.5vw;
+border-radius:0.5vw;
+border: 0.1vw solid rgba(58,58,68,1);
+background-color:rgba(255,255,255,1);
+}
+
+.section_gavetas{
+width:100%;
+height:auto;
+background-color:rgba(255,0,0,0);
+float:left;
+}
+.section_gavetas-box-geral{
+width:80vw;
+height:auto;
+overflow:hidden;
+margin:0 auto;
+background-color:rgba(255,0,0,0);
+}
+.section_gavetas-box{
+width:100%;
+height:auto;
+background-color:rgba(255,0,0,0);
+float:left;
+margin-top:2vw;
+margin-bottom:0vw;
+}
+.section_gavetas-gaveta{
+width:100%;
+height:auto;
+background-color:rgba(255,0,0,0);
+float:left;
+margin-top:0vw;
+margin-bottom:1vw;
+}
+.section_gavetas-pergunta{
+width:100%;
+height:auto;
+line-height:2vw;
+background-color:var(--padrao01);
+float:left;
+font-weight:800;
+font-size:1.3vw;
+padding:3%;
+border-top-left-radius:1vw;
+border-top-right-radius:1vw;
+border-bottom-left-radius:1vw;
+border-bottom-right-radius:1vw;
+cursor:pointer;
+transition:all 0.2s ease-in-out;
+color:white;
+}
+.section_gavetas-pergunta:hover{
+background-color:var(--padrao01);
+transition:all 0.2s ease-in-out;
+}
+.section_gavetas-chevron{
+width:2vw;
+height:2vw;
+background-color:rgba(255,0,0,0);
+float:right;
+text-align:center;
+transition:all 0.2s ease-in-out;
+}
+.section_gavetas-chevron svg{
+height:1vw;
+vertical-align:middle;
+transition:all 0.2s ease-in-out;
+fill:white;
+}
+.section_gavetas-resposta{
+width:100%;
+height:auto;
+background-color:var(--cinza_claro);
+float:left;
+padding:3%;
+border-top-left-radius:0vw;
+border-top-right-radius:0vw;
+border-bottom-left-radius:1vw;
+border-bottom-right-radius:1vw;
+cursor:default;
+transition:all 0.2s ease-in-out;
+display:none;
+position:relative;
+}
+.section_gavetas-pergunta-on{
+border-bottom-left-radius:0vw;
+border-bottom-right-radius:0vw;
+margin-bottom:0vw;
+}
+.section_gavetas-pergunta-on svg{
+fill:white;
+transform:rotate(180deg);
+transition:all 0.2s ease-in-out;
+}
+.etapa_2_ancora{
+width:0.1vw;
+height:0.1vw;
+background-color:rgba(255,0,0,1);
+position:absolute;
+top:43vw;
+opacity:0;
+}
+.fonte-vermelha{
+color:red;
+}
+.fonte-verde{
+color:green;
+font-weight:bold;
+}
+
+@media only screen and (max-width:1024px){
+
+.cadastro{
+padding-top:20vw;
+padding-bottom:15vw;
+}
+.cadastro-cabecalho{
+height:30vw;
+}
+.cadastro-titulo-campo{
+width:90vw;
+border-top-right-radius:150vw;
+border-bottom-right-radius:150vw;
+padding-right:12vw;
+text-shadow: 0.9vw 0.6vw var(--azul_sombra);
+margin-right:3vw;
+}
+.cadastro-titulo{
+margin-left:5vw;
+font-size:10vw;
+line-height:30vw;
+}
+.cadastro-subtitulo{
+height: auto;
+margin-bottom:9vw;
+font-size:10vw;
+line-height:12vw;
+letter-spacing: 0.6vw;
+text-shadow: 0.9vw 0.6vw var(--azul_sombra);
+}
+.cadastro-subtitulo02{
+font-size:10vw;
+line-height:15vw;
+letter-spacing: 0.6vw;
+text-shadow: 0.9vw 0.6vw var(--azul_sombra);
+border-radius:15vw;
+}
+.cadastro-img{
+height:75vw;
+}
+.cadastro-realce-box{
+border: 0.3vw solid rgba(58,58,68,1);
+padding:3vw;
+margin-top:6vw;
+}
+.cadastro-btn{
+width:100%;
+height:15vw;
+line-height:15vw;
+font-size:4vw;
+margin-top:3vw;
+border-radius:1.5vw;
+}
+.cadastro-input{
+height:15vw;
+line-height:15vw;
+font-size:4vw;
+padding:1.5vw;
+border-radius:1.5vw;
+border: 0.3vw solid rgba(58,58,68,1);
+}
+
+.section_gavetas-box-geral{
+width:90vw;
+}
+.section_gavetas-box{
+margin-top:6vw;
+margin-bottom:6vw;
+}
+.section_gavetas-gaveta{
+margin-bottom:3vw;
+}
+.section_gavetas-pergunta{
+line-height:6vw;
+font-size:4vw;
+border-top-left-radius:3vw;
+border-top-right-radius:3vw;
+border-bottom-left-radius:3vw;
+border-bottom-right-radius:3vw;
+}
+.section_gavetas-chevron{
+width:6vw;
+height:6vw;
+}
+.section_gavetas-chevron svg{
+height:3vw;
+}
+.section_gavetas-resposta{
+border-bottom-left-radius:3vw;
+border-bottom-right-radius:3vw;
+}
+.etapa_2_ancora{
+width:0.3vw;
+height:0.3vw;
+top:129vw;
+opacity:0;
+}
+
+}
+/*End - css/cadastro.css*/

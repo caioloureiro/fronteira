@@ -1,0 +1,51 @@
+/*Start - css/tags.css*/
+.tag-cinza{
+background-color:rgba(58, 58, 68, 0.2);
+color:rgba(58, 58, 68, 1);
+border: 0.1vw solid rgba(58, 58, 68, 1);
+border-radius:5vw;
+text-align:center;
+}
+.tag-amarela{
+background-color:rgba(245, 205, 71, 0.2);
+color:rgba(245, 205, 71, 1);
+border: 0.1vw solid rgba(245, 205, 71, 1);
+border-radius:5vw;
+text-align:center;
+}
+.tag-laranja{
+background-color:rgba(165, 72, 0, 0.2);
+color:rgba(165, 72, 0, 1);
+border: 0.1vw solid rgba(165, 72, 0, 1);
+border-radius:5vw;
+text-align:center;
+}
+.tag-verde{
+background-color:rgba(126, 226, 184, 0.2);
+color:rgba(126, 226, 184, 1);
+border: 0.1vw solid rgba(126, 226, 184, 1);
+border-radius:5vw;
+text-align:center;
+}
+.tag-roxa{
+background-color:rgba(184, 172, 246, 0.2);
+color:rgba(184, 172, 246, 1);
+border: 0.1vw solid rgba(184, 172, 246, 1);
+border-radius:5vw;
+text-align:center;
+}
+.tag-vermelha{
+background-color:rgba(253, 152, 145, 0.2);
+color:rgba(253, 152, 145, 1);
+border: 0.1vw solid rgba(253, 152, 145, 1);
+border-radius:5vw;
+text-align:center;
+}
+.tag-azul{
+background-color:rgba(133, 184, 255, 0.2);
+color:rgba(133, 184, 255, 1);
+border: 0.1vw solid rgba(133, 184, 255, 1);
+border-radius:5vw;
+text-align:center;
+}
+/*End - css/tags.css*/

@@ -1,0 +1,225 @@
+/*Start - css/cabecalho.css*/
+.cabecalho{
+width:100%;
+height:7.8vw;
+background-color:var(--padrao01);
+float:left;
+position:relative;
+z-index:9999;
+}
+.cabecalho-logo-box{
+width: 37.7vw;
+height: 100%;
+background-color:var(--padrao01);
+float: left;
+margin-top: 0vw;
+margin-bottom: 0vw;
+margin-left: -1vw;
+margin-right: 2vw;
+transform: skew(-15deg);
+box-shadow: 0.5vw 0vw 0.3vw rgba(0,0,0,0.1);
+overflow:hidden;
+transition:all 0.2s ease-in-out;
+}
+.cabecalho-logo{
+width: 16vw;
+height: 100%;
+background-color: var(--teste00);
+float: right;
+background-image: url("img/logo.png");
+background-repeat: no-repeat;
+background-position: left center;
+background-size: auto 4.5vw;
+transform: skew(15deg);
+margin-right: 0.9vw;
+transition:all 0.2s ease-in-out;
+}
+.cabecalho-dir{
+width: 64.3vw;
+height: 100%;
+background-color: var(--teste00);
+float: right;
+margin-top: 0vw;
+margin-bottom: 0vw;
+margin-left: -5vw;
+margin-right: 0vw;
+}
+.cabecalho-logo-box:hover{
+transform: skew(15deg);
+transition:all 0.2s ease-in-out;
+}
+.cabecalho-logo-box:hover .cabecalho-logo{
+transform: skew(-15deg);
+transition:all 0.2s ease-in-out;
+}
+.menu-mobile,
+.menu-mobile-links{
+display:none;
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.cabecalho{
+display:none;
+}
+.menu-mobile{
+width:100%;
+height:15vw;
+background-color:var(--padrao01);
+position:fixed;
+z-index:999;
+transition:all 0.2s ease-in-out;
+box-shadow: 0vw 0.3vw 1vw rgba(0,0,0,0.2);
+display:block;
+}
+.menu-mobile-hamburger{
+width:10vw;
+height:7.5vw;
+margin-top:3vw;
+margin-left:5vw;
+background-color: rgba(253, 185, 19,0);
+padding-top:2.5vw;
+border-radius:2vw;
+float:left;
+}
+.menu-mobile-hamburger-01{
+width:6vw;
+height:1vw;
+margin-left:2vw;
+background-color:white;
+transition:all 0.5s ease-in-out;
+border-radius: 5vw;
+}
+.menu-mobile-hamburger-01-on{
+transform:rotate(45deg);
+margin-top:18%;
+transition:all 0.5s ease-in-out;
+}
+.menu-mobile-hamburger-02{
+width:6vw;
+height:1vw;
+margin-top:1vw;
+margin-left:2vw;
+background-color:white;
+opacity:1;
+transition:all 0.2s ease-in-out;
+border-radius: 5vw;
+}
+.menu-mobile-hamburger-02-on{
+opacity:0;
+transition:all 0.2s ease-in-out;
+}
+.menu-mobile-hamburger-03{
+width:6vw;
+height:1vw;
+margin-top:1vw;
+margin-left:2vw;
+background-color:white;
+transition:all 0.5s ease-in-out;
+border-radius: 5vw;
+}
+.menu-mobile-hamburger-03-on{
+transform:rotate(-45deg);
+margin-top:-30%;
+transition:all 0.5s ease-in-out;
+}
+.menu-mobile-esquerda{
+width:85vw;
+height:15vw;
+background-color:rgba(255,0,0,0);
+float:left;
+}
+.menu-mobile-logo{
+width:100%;
+height:100%;
+background-color:rgba(255,0,0,0);
+float:left;
+background-image:url("img/logo.png");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:auto 11vw;
+}
+.menu-mobile-on{
+top:0vw;
+}
+
+.menu-mobile-links{
+display:block;
+width:100%;
+height:auto;
+background-color:rgba(255,255,255,1);
+position:fixed;
+z-index:998;
+top:-500vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding-top:20vw;
+padding-bottom:5vw;
+box-shadow: 0vw 0.3vw 0.9vw rgba(0,0,0,0.2);
+transition:all 0.2s ease-in-out;
+}
+.menu-mobile-links-box{
+width:90vw;
+height:150vw;
+background-color:rgba(255,0,0,0);
+margin:0 auto;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+overflow:auto;
+}
+.menu-mobile-links-pai{
+width:100%;
+height:auto;
+background-color:rgba(255,0,0,0);
+float:left;
+margin-top:0vw;
+margin-bottom:3vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.menu-mobile-links-pai summary{
+width:100%;
+height:auto;
+background-color:var(--cinza245);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+border: 0.1vw solid var(--padrao01);
+font-weight:600;
+font-size:4vw;
+line-height:6vw;
+color:var(--padrao01);
+text-align: left;
+letter-spacing:0vw;
+padding:3vw;
+border-radius:2vw;
+}
+.menu-mobile-links-btn{
+width:100%;
+height:auto;
+background-color:var(--cinza245);
+float:left;
+margin-top:1vw;
+margin-bottom:2vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+border: 0.1vw solid var(--padrao01);
+font-weight:600;
+font-size:4vw;
+line-height:6vw;
+color:var(--padrao01);
+text-align: left;
+letter-spacing:0vw;
+padding:3vw;
+border-radius:2vw;
+}
+.menu-mobile-links-on{
+top:0vw;
+}
+
+}
+/*End - css/cabecalho.css*/

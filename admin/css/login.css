@@ -1,0 +1,339 @@
+/*End - admin/css/login.css*/
+@keyframes girar{
+0%{ transform:rotate( 0deg ); }
+100%{ transform:rotate( 360deg ); }
+}
+@keyframes girar_invertido{
+0%{ transform:rotate( 360deg ); }
+100%{ transform:rotate( 0deg ); }
+}
+
+body{
+margin:0;
+padding:0;
+background-image:url("img/fundo.jpg");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:cover;
+background-color:rgba(0,0,0,1);
+font-size:0.95vw;
+line-height:1.7vw;
+font-family:"Segoe UI";
+color:rgba(230,230,240,1);
+}
+a, a:visited, a:focus{
+text-decoration:none;
+font-weight:normal;
+color:rgba(230,230,240,1);
+font-size:0.95vw;
+}
+p{
+text-align:justify;
+}
+.sublinhado{
+text-decoration:underline;
+}
+.negrito{
+font-weight:bold;
+}
+
+.login-container{
+width:100vw;
+height:100vh;
+}
+.login-card{
+width:19vw;
+height:auto;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+border-radius:0.5vw;
+padding-left:3vw;
+padding-right:3vw;
+
+background-color: rgba(255, 255, 255, 0.2);
+box-shadow: 0 0.3vw 2.2vw rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 0.1vw solid rgba(255, 255, 255, 0.1);
+}
+.login-logo{
+width:100%;
+height:13vw;
+background-color:rgba(255,0,0,0);
+float:left;
+background-repeat:no-repeat;
+background-position:center center;
+background-size:contain;
+}
+.login-txt{
+width:100%;
+height:auto;
+background-color:rgba(255,0,0,0);
+float:left;
+}
+.login-input-box{
+width:100%;
+height:3vw;
+background-color:rgba(255,0,0,0);
+float:left;
+margin-bottom:2vw;
+}
+.login-input-box input{
+width:100%;
+height:100%;
+padding:0vw;
+border-top:0vw;
+border-right:0vw;
+border-left:0vw;
+border-bottom:0.1vw solid rgba(255, 255, 255, 0.1);
+font-size:0.95vw;
+line-height:3vw;
+font-family:"Segoe UI";
+color:rgba(230,230,240,1);
+background-color:rgba(240,240,240,0);
+background-image:unset;
+transition:all 0.3s ease-in-out;
+}
+.login-input-box input:focus,
+.login-input-box input:active,
+input:-internal-autofill-selected{
+background-color:rgba(240,240,240,0);
+background-image: none;
+}
+.login-input-box input:hover{
+background-color: rgba(255, 255, 255, 0.3);
+border: 0.1vw solid rgba(255, 255, 255, 0.2);
+color:white;
+transition:all 0.3s ease-in-out;
+}
+.login-btn-box{
+width:100%;
+height:4vw;
+background-color:rgba(255,0,0,0);
+float:left;
+margin-bottom:2vw;
+}
+.login-btn-box button{
+width:100%;
+height:100%;
+background-color:rgba(255, 255, 255, 1);
+border:0.1vw solid rgba(255, 255, 255, 1);
+border-radius:0.3vw;
+font-size:1vw;
+line-height:4vw;
+font-family:"Segoe UI";
+color:black;
+cursor:pointer;
+transition:all 0.3s ease-in-out;
+}
+.login-btn-box button:hover{
+background-color: rgba(255, 255, 255, 0.3);
+border: 0.1vw solid rgba(255, 255, 255, 0.2);
+color:white;
+transition:all 0.3s ease-in-out;
+}
+.login-esqueceu-senha{
+width:100%;
+height:2vw;
+line-height:2vw;
+background-color:rgba(255,0,0,0);
+float:left;
+text-align:center;
+margin-bottom:2vw;
+}
+.login-acesse{
+width:100%;
+height:2vw;
+line-height:2vw;
+background-color:rgba(255,0,0,0);
+float:left;
+text-align:center;
+}
+.login-ver{
+width:3vw;
+height:3vw;
+background-image:url("img/ver.svg");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:2vw auto;
+position:absolute;
+background-color:rgba(255,0,0,0);
+cursor:pointer;
+margin-top:-3vw;
+margin-left:16vw;
+}
+.login-circulo-box{
+width: 30vw;
+height: 30vw;
+background-color: rgba(255,0,0,0);
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+position:relative;
+}
+.login-circulo01{
+width: 30vw;
+height: 30vw;
+background-color: rgba(255,0,0,0);
+position: absolute;
+left:0vw;
+top:0vw;
+border-top-left-radius: 14vw;
+border-top-right-radius: 16vw;
+border-bottom-left-radius: 16vw;
+border-bottom-right-radius: 14vw;
+border: 0.2vw solid rgb(218, 94, 113);
+animation:girar 4s linear infinite;
+box-shadow: 0vw 0vw 2vw rgba(218, 94, 113, 0.5);
+}
+.login-circulo02{
+width: 30vw;
+height: 30vw;
+background-color: rgba(255,0,0,0);
+position: absolute;
+left:0vw;
+top:0vw;
+border-top-left-radius: 19vw;
+border-top-right-radius: 15vw;
+border-bottom-left-radius: 15vw;
+border-bottom-right-radius: 19vw;
+border: 0.2vw solid rgb(250, 238, 153);
+animation:girar_invertido 4s linear infinite;
+box-shadow: 0vw 0vw 2vw rgba(250, 238, 153, 0.5);
+}
+.login-circulo03{
+width: 30vw;
+height: 30vw;
+background-color: rgba(255,0,0,0);
+position: absolute;
+left:0vw;
+top:0vw;
+border-top-left-radius: 16vw;
+border-top-right-radius: 27vw;
+border-bottom-left-radius: 27vw;
+border-bottom-right-radius: 17vw;
+border: 0.2vw solid rgb(129, 145, 146);
+animation:girar 8s linear infinite;
+box-shadow: 0vw 0vw 2vw rgba(129, 145, 146, 0.5);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{ /*CHROME FIX*/
+-webkit-background-clip: text;
+-webkit-text-fill-color: white;
+transition: background-color 5000s ease-in-out 0s;
+box-shadow: inset 0 0 0 0 rgba(255,0,0,0);
+}
+
+@media only screen and (max-width:1024px){
+body{
+font-size:3.4vw;
+line-height:6.1vw;
+}
+a, a:visited, a:focus{
+font-size:3.4vw;
+}
+.login-container{
+background-size:cover;
+}
+.login-card{
+width:68.4vw;
+border-radius:1.8vw;
+padding-left:10.8vw;
+padding-right:10.8vw;
+box-shadow:0.3vw 0.3vw 1vw rgba(0,0,0,0.2);
+}
+.login-logo{
+height:46.8vw;
+background-size:contain;
+}
+.login-input-box{
+height:10.8vw;
+margin-bottom:7.2vw;
+}
+.login-input-box input{
+padding:0vw;
+border-top:0vw;
+border-right:0vw;
+border-left:0vw;
+border-bottom:0.1vw solid rgba(255, 255, 255, 0.1);
+font-size:3.4vw;
+line-height:10.8vw;
+}
+.login-btn-box{
+height:14.4vw;
+margin-bottom:7.2vw;
+}
+.login-btn-box button{
+border-radius:1.8vw;
+font-size:4.3vw;
+line-height:14.4vw;
+}
+.login-btn-box button:hover{
+border:0.3vw solid rgb(58, 0, 198);
+}
+.login-esqueceu-senha{
+height:7.2vw;
+line-height:7.2vw;
+margin-bottom:7.2vw;
+}
+.login-acesse{
+height:7.2vw;
+line-height:7.2vw;
+}
+.login-ver{
+width:10.8vw;
+height:10.8vw;
+background-size:7.2vw auto;
+margin-top:-10.8vw;
+margin-left:57.6vw;
+}
+.login-circulo-box{
+width: 100%;
+height: 130vw;
+background-color: rgba(255,0,0,0);
+overflow:hidden;
+}
+.login-circulo01{
+width: 90vw;
+height: 90vw;
+border-top-left-radius: 42vw;
+border-top-right-radius: 48vw;
+border-bottom-left-radius: 48vw;
+border-bottom-right-radius: 42vw;
+border: 0.6vw solid rgb(218, 94, 113);
+box-shadow: 0vw 0vw 6vw rgba(218, 94, 113, 0.5);
+left:5vw;
+top:8vw;
+}
+.login-circulo02{
+width: 90vw;
+height: 90vw;
+border-top-left-radius:57vw;
+border-top-right-radius: 45vw;
+border-bottom-left-radius: 45vw;
+border-bottom-right-radius: 57vw;
+border: 0.6vw solid rgb(250, 238, 153);
+box-shadow: 0vw 0vw 6vw rgba(250, 238, 153, 0.5);
+left:5vw;
+top:8vw;
+}
+.login-circulo03{
+width: 90vw;
+height: 90vw;
+border-top-left-radius: 48vw;
+border-top-right-radius: 81vw;
+border-bottom-left-radius: 81vw;
+border-bottom-right-radius: 41vw;
+border: 0.6vw solid rgb(129, 145, 146);
+box-shadow: 0vw 0vw 6vw rgba(129, 145, 146, 0.5);
+left:5vw;
+top:10vw;
+}
+}
+/*End - admin/css/login.css*/

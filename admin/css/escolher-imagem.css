@@ -1,0 +1,108 @@
+/*Start - css/escolher-imagem.css*/
+.escolher-imagem-btn{
+width:7vw;
+height:7vw;
+background-color:var(--cinza);
+float:left;
+background-image:url("img/img.png");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:contain;
+margin:0.5vw;
+padding:0.2vw;
+border-radius: 0.3vw;
+text-align: center;
+line-height: 1.6vw;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.escolher-imagem-thumb{
+width:14vw;
+height:7vw;
+background-color:var(--fundo_03);
+float:left;
+background-image:url("img/img.png");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:auto 100%;
+margin:1vw;
+padding:0.5vw;
+border-radius: 0.7vw;
+text-align: center;
+line-height: 1.6vw;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0vw 0vw 0vw var(--azul);
+}
+.escolher-imagem-thumb:hover{
+box-shadow: 0.1vw 0.1vw 0.5vw var(--azul);
+}
+.escolher-imagem-thumb-tabela{
+width:3.5vw;
+height:3.5vw;
+background-color:var(--fundo_03);
+float:left;
+background-image:url("img/img.png");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:contain;
+margin:0vw;
+padding:0vw;
+border-radius: 0.2vw;
+text-align: center;
+line-height: 1.6vw;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0vw 0vw 0vw var(--fundo_03);
+}
+.escolher-imagem-thumb-tabela:hover{
+box-shadow: 0.1vw 0.1vw 0.5vw var(--fundo_03);
+}
+.escolher-imagem-td-tabela{
+line-height: 7vw;
+}
+
+@media only screen and (max-width:1024px){
+	
+.escolher-imagem-btn{
+width:50vw;
+height:21vw;
+margin:3vw;
+padding:5vw;
+border-radius:3vw;
+line-height:5vw;
+}
+.escolher-imagem-thumb{
+width:42vw;
+height:21vw;
+margin:3vw;
+padding:5vw;
+border-radius:3vw;
+line-height:5vw;
+}
+.escolher-imagem-thumb:hover{
+box-shadow: 0.3vw 0.3vw 2vw var(--azul);
+}
+.escolher-imagem-thumb-tabela{
+width:21vw;
+height:11vw;
+margin:3vw;
+padding:2vw;
+border-radius:2vw;
+line-height:5vw;
+}
+.escolher-imagem-thumb-tabela:hover{
+box-shadow: 0.3vw 0.3vw 2vw var(--azul);
+}
+.escolher-imagem-td-tabela{
+line-height: 21vw;
+}
+
+}
+/*End - css/escolher-imagem.css*/

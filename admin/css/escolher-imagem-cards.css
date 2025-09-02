@@ -1,0 +1,199 @@
+/*Start - css/escolher-imagem-cards.css*/
+.escolher-imagem-cards-box{
+width:100%;
+height:auto;
+background-color:rgba(255,0,0,0);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.escolher-imagem-cards-campo{
+width:100%;
+height:auto;
+background-color:rgba(255,0,0,0);
+float:left;
+margin-top:1.5vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.escolher-imagem-cards-box-pastas{
+width:90vw;
+height:auto;
+background-color:rgba(255,0,0,0);
+margin:0 auto;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+overflow:hidden;
+}
+.escolher-imagem-cards-card{
+width:10vw;
+height:15vw;
+background-color:var(--fundo_03);
+float:left;
+margin:0.55vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+overflow:hidden;
+border-radius:0.5vw;
+border: 0.1vw solid var(--cinza_claro);
+box-shadow: 0vw 0.1vw 0.3vw rgba(0,0,0,0.2);
+cursor:pointer;
+position:relative;
+}
+.escolher-imagem-cards-card:nth-child(8n){
+margin-right:0vw;
+}
+.escolher-imagem-cards-card-pastas{
+width:10vw;
+height:20vw;
+background-color:var(--fundo_03);
+float:left;
+margin:0.6vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+overflow:hidden;
+border-radius:0.5vw;
+border: 0.1vw solid var(--cinza_claro);
+box-shadow: 0vw 0.1vw 0.3vw rgba(0,0,0,0.2);
+cursor:pointer;
+position:relative;
+}
+.escolher-imagem-cards-card-pastas:nth-child(8n){
+margin-right:0vw;
+}
+.escolher-imagem-cards-imagem{
+width:100%;
+height:10vw;
+background-color:rgba(0,0,0,0.3);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+background-repeat:no-repeat;
+background-position:center center;
+background-size:contain;
+}
+.escolher-imagem-cards-titulo{
+width:100%;
+height:5vw;
+background-color:rgba(255,0,0,0);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+overflow:hidden;
+display: table;
+position: relative;
+font-weight:400;
+font-size:0.8vw;
+line-height:0.9vw;
+color:var(--fonte_padrao);
+text-align: center;
+letter-spacing:0vw;
+}
+.escolher-imagem-cards-titulo span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+.escolher-imagem-cards-input{
+width:90%;
+height:100%;
+padding:0vw;
+font-size:0.95vw;
+line-height:3vw;
+font-family:"Segoe UI";
+color:var(--fonte_02);
+background-color:var(--fundo_02);
+border: 0.1vw solid var(--fundo_03);
+padding-left: 3%;
+margin-bottom:2vw;
+margin-left:5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.escolher-imagem-cards-excluir{
+width:100%;
+height:5vw;
+background-color:rgba(0,0,0,0);
+float:left;
+background-image:url("img/excluir.svg");
+background-repeat:no-repeat;
+background-position:center center;
+background-size:auto 1.8vw;
+}
+.escolher-imagem-cards-excluir a{
+width:100%;
+height:100%;
+background-color:rgba(255,0,0,0);
+display:block;
+}
+
+@media only screen and (max-width:1024px){
+	
+.escolher-imagem-cards-box{}
+.escolher-imagem-cards-campo{
+margin-top:4.5vw;
+}
+.escolher-imagem-cards-box-pastas{}
+.escolher-imagem-cards-card{
+width:26.8vw;
+height:45vw;
+margin:1.5vw;
+border-radius:1.5vw;
+border: 0.3vw solid var(--cinza_claro);
+box-shadow: 0vw 0.3vw 0.9vw rgba(0,0,0,0.2);
+}
+.escolher-imagem-cards-card:nth-child(8n){
+margin-right:1.5vw;
+}
+.escolher-imagem-cards-card:nth-child(3n){
+margin-right:0vw;
+}
+.escolher-imagem-cards-card-pastas{
+width:26.8vw;
+height:60vw;
+margin:1.5vw;
+border-radius:1.5vw;
+border: 0.3vw solid var(--cinza_claro);
+box-shadow: 0vw 0.3vw 0.9vw rgba(0,0,0,0.2);
+}
+.escolher-imagem-cards-card-pastas:nth-child(8n){
+margin-right:1.5vw;
+}
+.escolher-imagem-cards-card-pastas:nth-child(3n){
+margin-right:0vw;
+}
+.escolher-imagem-cards-imagem{
+height:30vw;
+}
+.escolher-imagem-cards-titulo{
+height:15vw;
+font-size:2vw;
+line-height:3vw;
+}
+.escolher-imagem-cards-input{
+width:100%;
+font-size:4vw;
+line-height:9vw;
+border: 0.3vw solid var(--fundo_03);
+padding-left: 3%;
+margin-bottom:6vw;
+margin-left:5%;
+}
+.escolher-imagem-cards-excluir{
+height:15vw;
+background-size:auto 6vw;
+}
+
+}
+/*End - css/escolher-imagem-cards.css*/

@@ -1,0 +1,296 @@
+/*Start - css/audiencias-publicas.css*/
+.audiencias-publicas{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-top:1vw;
+padding-bottom:2vw;
+}
+.audiencias-publicas-filtro{
+width: 100%;
+height: auto;
+background-color: var(--cinza222);
+float: left;
+margin-top: 0vw;
+margin-bottom: 1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding: 1vw;
+border: 0.1vw solid var(--cinza205);
+border-radius: 0.3vw;
+}
+.audiencias-publicas-filtro-titulo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:700;
+font-size:0.8vw;
+line-height:2vw;
+color:var(--fonte);
+text-align: center;
+letter-spacing:0vw;
+border-bottom: 0.1vw solid var(--cinza205);
+text-transform: uppercase;
+}
+.audiencias-publicas-filtro-campo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.audiencias-publicas-filtro-col01{
+width:25%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-right:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.audiencias-publicas-filtro-col02{
+width:25%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-right:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.audiencias-publicas-filtro-col03{
+width:25%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-right:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.audiencias-publicas-filtro-col04{
+width:25%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+margin-left:0vw;
+margin-right:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.audiencias-publicas-filtro-label{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:600;
+font-size:0.8vw;
+line-height:1.3vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+}
+.audiencias-publicas-filtro-input{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.audiencias-publicas-filtro-input input{
+width:100%;
+height:auto;
+background-color:white;
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.8vw;
+line-height:2vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+padding:0vw;
+padding-left:0.5vw;
+padding-right:0.5vw;
+border:0.1vw solid var(--cinza205);
+}
+.audiencias-publicas-filtro-input select{
+width:100%;
+height:2.1vw;
+background-color:white;
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.8vw;
+line-height:2vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+padding:0vw;
+padding-left:0.5vw;
+padding-right:0.5vw;
+border:0.1vw solid var(--cinza205);
+}
+.audiencias-publicas-counter{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:600;
+font-size:0.7vw;
+line-height:1.5vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+border-bottom: 0.1vw solid var(--cinza205);
+}
+.audiencias-publicas-itens{
+width: 100%;
+height: auto;
+background-color: var(--teste00);
+float: left;
+margin-top: 1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.audiencias-publicas-item{
+width: 100%;
+height: auto;
+background-color: var(--cinza222);
+float: left;
+margin-top: 0vw;
+margin-bottom: 1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+border: 0.1vw solid var(--cinza205);
+border-radius: 0.3vw;
+padding: 1vw;
+}
+.audiencias-publicas-item a{
+width:100%;
+height:100%;
+display:block;
+}
+.audiencias-publicas-item-titulo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:700;
+font-size:0.8vw;
+line-height:2vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+border-bottom: 0.1vw solid var(--cinza205);
+}
+.audiencias-publicas-item-campo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.audiencias-publicas-item-col{
+width:auto;
+height:auto;
+background-color:var(--teste00);
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.audiencias-publicas-item-icone{
+width:3vw;
+height:3vw;
+line-height:2vw;
+padding:0.5vw;
+background-color:var(--cinza205);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+margin-left:0vw;
+margin-right:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+border: 0.1vw solid var(--cinza205);
+border-radius:0.3vw;
+text-align: center;
+}
+.audiencias-publicas-item-icone span{
+font-size:2vw;
+line-height:2vw;
+}
+.audiencias-publicas-item-data{
+width:13vw;
+height:3vw;
+background-color:var(--teste00);
+float:left;
+padding-left:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+display: table;
+position: relative;
+}
+.audiencias-publicas-item-data span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+.audiencias-publicas-item-cat{
+width:14vw;
+height:3vw;
+background-color:var(--teste00);
+float:left;
+padding-left:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+display: table;
+position: relative;
+}
+.audiencias-publicas-item-cat span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+.audiencias-publicas-item-local{
+width:20vw;
+height:3vw;
+background-color:var(--teste00);
+float:left;
+padding-left:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+display: table;
+position: relative;
+}
+.audiencias-publicas-item-local span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+/*End - css/audiencias-publicas.css*/

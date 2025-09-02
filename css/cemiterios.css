@@ -1,0 +1,100 @@
+/*Start - css/cemiterios.css*/
+.cemiterios{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-bottom:2vw;
+}
+.cemiterios-item{
+width:100%;
+height:12vw;
+background-color:white;
+float:left;
+margin-top:0vw;
+margin-bottom:1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+overflow:hidden;
+border-radius:0.3vw;
+box-shadow: 0vw 0.1vw 0.3vw rgba(0,0,0,0.1);
+}
+.cemiterios-nome{
+width:50%;
+height:100%;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+font-weight:600;
+font-size:1.2vw;
+line-height:1.3vw;
+color:var(--fonte);
+text-align: center;
+letter-spacing:0vw;
+display: table;
+position: relative;
+padding:1vw;
+}
+.cemiterios-nome span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+.cemiterios-campo{
+width:50%;
+height:100%;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+padding:1vw;
+display: table;
+position: relative;
+}
+.cemiterios-campo span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+.cemiterios-titulo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-bottom: 0.5vw;
+font-weight:600;
+font-size:1vw;
+line-height:1.3vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+}
+.cemiterios-txt{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-bottom: 0.5vw;
+font-weight:400;
+font-size:0.8vw;
+line-height:0.9vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+}
+.cemiterios-btn{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+}
+/*End - css/cemiterios.css*/

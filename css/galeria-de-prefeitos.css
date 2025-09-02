@@ -1,0 +1,195 @@
+/*Start - css/galeria-de-prefeitos.css*/
+.galeria-de-prefeitos{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-bottom:1vw;
+}
+.galeria-de-prefeitos-card{
+width: 7.7vw;
+height: auto;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-bottom: 1vw;
+margin-left: 0vw;
+margin-right: 1.1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+cursor:default;
+}
+.galeria-de-prefeitos-card:nth-child(7n){
+margin-right:0vw;
+}
+.galeria-de-prefeitos-img{
+width:100%;
+height:10vw;
+background-color:var(--preto_lente02);
+float:left;
+margin-top:0vw;
+margin-bottom:0.3vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+background-repeat:no-repeat;
+background-position:center center;
+background-size:cover;
+border-radius:0.3vw;
+}
+.galeria-de-prefeitos-nome{
+width:100%;
+height:3vw;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:600;
+font-size:0.8vw;
+line-height:0.8vw;
+color:var(--fonte);
+text-align: center;
+letter-spacing:0vw;
+}
+.galeria-de-prefeitos-txt{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:100;
+font-size:0.8vw;
+line-height:0.8vw;
+color:var(--fonte);
+text-align: center;
+letter-spacing:0vw;
+}
+.galeria-de-prefeitos-periodo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.galeria-de-prefeitos-periodo-data{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:600;
+font-size:0.7vw;
+line-height:0.7vw;
+color:var(--fonte);
+text-align: center;
+letter-spacing:0vw;
+}
+.galeria-de-prefeitos-periodo-seperador{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0.2vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:100;
+font-size:0.7vw;
+line-height:0.7vw;
+color:var(--fonte);
+text-align: center;
+letter-spacing:0vw;
+}
+.galeria-de-prefeitos-periodo-seperador span{
+color:green;
+font-size:1vw;
+font-weight:900;
+}
+.galeria-de-prefeitos-btn{
+width:100%;
+height:auto;
+background-color:var(--padrao01);
+float:left;
+margin-top:1vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:600;
+font-size:0.7vw;
+line-height:1vw;
+color:white;
+text-align: center;
+letter-spacing:0vw;
+text-transform: uppercase;
+border-radius:0.3vw;
+}
+.galeria-de-prefeitos-btn a{
+display:block;
+width:100%;
+height:100%;
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.galeria-de-prefeitos{
+padding-bottom:3vw;
+}
+.galeria-de-prefeitos-card{
+width:23vw;
+height:90vw;
+margin-bottom:3vw;
+margin-right:5vw;
+}
+.galeria-de-prefeitos-card:nth-child(7n){
+margin-right:5vw;
+}
+.galeria-de-prefeitos-card:nth-child(3n){
+margin-right:0vw;
+}
+.galeria-de-prefeitos-img{
+height:30vw;
+margin-bottom:1vw;
+border-radius:1vw;
+}
+.galeria-de-prefeitos-nome{
+height:auto;
+font-size:4vw;
+line-height:4vw;
+margin-bottom:3vw;
+}
+.galeria-de-prefeitos-txt{
+margin-bottom:1.5vw;
+font-size:4vw;
+line-height:4vw;
+}
+.galeria-de-prefeitos-periodo-data{
+font-size:3.5vw;
+line-height:3.5vw;
+}
+.galeria-de-prefeitos-periodo-seperador{
+margin-top:0.6vw;
+font-size:3.5vw;
+line-height:3.5vw;
+}
+.galeria-de-prefeitos-periodo-seperador span{
+font-size:4vw;
+}
+.galeria-de-prefeitos-btn{
+margin-top:3vw;
+font-size:3.5vw;
+line-height:5vw;
+border-radius:1vw;
+}
+
+}
+/*End - css/galeria-de-prefeitos.css*/

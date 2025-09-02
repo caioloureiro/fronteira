@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.cidade.sp.gov.br/sitemap.xml

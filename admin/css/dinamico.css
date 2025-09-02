@@ -1,0 +1,435 @@
+/*Start - css/dinamico.css*/
+.banner-interno {
+width: 100%;
+height: 19.6vw;
+background-color: rgba(255, 0, 0, 0.5);
+background-repeat: no-repeat;
+background-size: 100% auto;
+background-position: top left;
+}
+.box-tela-grande {
+max-width: 1920px;
+/*1920px - setar aqui o width maximo*/
+margin: 0 auto;
+}
+.box {
+width: 84vw;
+height:auto;
+margin:0 auto;
+background-color:rgba(255,0,0,0);
+overflow:hidden;
+}
+.box-elastica {
+background-color: rgba(0, 255, 255, 0.5);
+width: auto;
+height: 100%;
+}
+.texto-centralizado {
+text-align: center;
+}
+.btn-amarelo {
+background-color: rgba(0, 255, 255, 1);
+width: 10vw;
+height: 10vw;
+}
+.btn-azul {
+background-color: rgba(0, 255, 255, 1);
+width: 10vw;
+height: 10vw;
+}
+.fonte-amarela {
+color: rgba(0, 255, 255, 1);
+}
+.fonte-azul {
+color: rgba(0, 255, 255, 1);
+}
+.fonte-vermelha {
+color: rgba(255, 0, 0, 1);
+}
+.negrito{
+font-weight:700;
+}
+.italico{
+font-style: italic;
+}
+
+/*Start - GRID*/
+.linha {
+width: 100%;
+height: auto;
+float: left;
+margin-top: 0.5vw;
+margin-bottom: 0.5vw;
+}
+.separador {
+width: 100%;
+height: 2vw;
+line-height: 2vw;
+float: left;
+margin-top: 0.5vw;
+margin-bottom: 0.5vw;
+}
+.col05 {
+width: 5%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col10 {
+width: 10%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col15 {
+width: 15%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col16 {
+width: 16.66%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col20 {
+width: 20%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col25 {
+width: 25%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col30 {
+width: 30%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col33 {
+width: 33.33%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col35 {
+width: 35%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col40 {
+width: 40%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col45 {
+width: 45%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col50 {
+width: 50%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col55 {
+width: 55%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col60 {
+width: 60%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col65 {
+width: 65%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col66 {
+width: 65.66%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col70 {
+width: 70%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col75 {
+width: 75%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col80 {
+width: 80%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col85 {
+width: 85%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col90 {
+width: 90%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col95 {
+width: 95%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.col100 {
+width: 100%;
+height: 100%;
+float: left;
+padding-left: 0.5%;
+padding-right: 0.5%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+
+.col05,
+.col10,
+.col15,
+.col16,
+.col20,
+.col25,
+.col30,
+.col33,
+.col35,
+.col40,
+.col45,
+.col50,
+.col55,
+.col60,
+.col65,
+.col66,
+.col70,
+.col75,
+.col80,
+.col85,
+.col90,
+.col95,
+.col100{
+display: table;
+position: relative;
+}
+.col05 span,
+.col10 span,
+.col15 span,
+.col16 span,
+.col20 span,
+.col25 span,
+.col30 span,
+.col33 span,
+.col35 span,
+.col40 span,
+.col45 span,
+.col50 span,
+.col55 span,
+.col60 span,
+.col65 span,
+.col66 span,
+.col70 span,
+.col75 span,
+.col80 span,
+.col85 span,
+.col90 span,
+.col95 span,
+.col100 span,
+.col05 a,
+.col10 a,
+.col15 a,
+.col16 a,
+.col20 a,
+.col25 a,
+.col30 a,
+.col33 a,
+.col35 a,
+.col40 a,
+.col45 a,
+.col50 a,
+.col55 a,
+.col60 a,
+.col65 a,
+.col66 a,
+.col70 a,
+.col75 a,
+.col80 a,
+.col85 a,
+.col90 a,
+.col95 a,
+.col100 a{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+/*End - GRID*/
+
+/*Start - SWITCH*/
+.on {
+display: block !important;
+}
+.off {
+display: none !important;
+}
+/*End - SWITCH*/
+
+/*Start - DEBUG*/
+.xdebug-error.xe-warning{
+position:absolute;
+z-index:999;
+top:0vw;
+left:0vw;
+}
+/*End - DEBUG*/
+
+@media only screen and (max-width:1024px) {
+
+.banner-interno {
+height:60vw;
+}
+.box {
+width: 90vw;
+}
+.btn-amarelo {
+width:30vw;
+height:30vw;
+}
+.btn-azul {
+width: 30vw;
+height: 30vw;
+}
+
+/*Start - GRID*/
+.linha {
+margin-top:2vw;
+margin-bottom:2vw;
+}
+.separador {
+height:6vw;
+line-height:6vw;
+margin-top:2vw;
+margin-bottom:2vw;
+}
+.col05,
+.col10,
+.col15,
+.col16,
+.col20,
+.col25,
+.col30,
+.col33,
+.col35,
+.col40,
+.col45,
+.col50,
+.col55,
+.col60,
+.col65,
+.col66,
+.col70,
+.col75,
+.col80,
+.col85,
+.col90,
+.col95,
+.col100{
+width:100%;
+height:auto;
+}
+/*End - GRID*/
+
+}
+/*End - css/dinamico.css*/

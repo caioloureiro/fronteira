@@ -1,0 +1,227 @@
+/*Start - css/home-videos.css*/
+.home-videos{
+width:100%;
+height:auto;
+background-color:var(--fundo);
+float:left;
+padding-bottom:3vw;
+cursor:default;
+}
+.home-videos-campo{
+width: 100%;
+height: 15.8vw;
+background-color:white;
+float: left;
+margin-top: 0.7vw;
+margin-bottom: 0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+overflow: hidden;
+border-radius: 0.3vw;
+box-shadow: 0vw 0.1vw 0.3vw rgba(0,0,0,0.1);
+}
+.home-videos-video{
+width:26vw;
+height:auto;
+aspect-ratio: 16 / 9;
+background-color:var(--preto_lente08);
+float:left;
+margin-top: 0vw;
+margin-left: 2.1vw;
+overflow:hidden;
+border-top-left-radius:0vw;
+border-top-right-radius:0vw;
+border-bottom-left-radius:0.3vw;
+border-bottom-right-radius:0.3vw;
+}
+.home-videos-video iframe{
+width:100%;
+height:100%;
+border:0vw;
+}
+.home-videos-col{
+width: 29.7vw;
+height: 100%;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-left: 1.4vw;
+}
+.home-videos-data{
+width: 100%;
+height: auto;
+background-color: var(--teste00);
+float: left;
+margin-top: 1.3vw;
+margin-bottom: 0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight: 400;
+font-size: 0.7vw;
+line-height: 0.7vw;
+color: var(--padrao01);
+text-align: left;
+letter-spacing: 0vw;
+}
+.home-videos-titulo{
+width: 100%;
+height: 1.7vw;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-bottom: 0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight: 600;
+font-size: 0.8vw;
+line-height: 0.8vw;
+color: var(--fonte);
+text-align: left;
+letter-spacing: 0vw;
+display: table;
+position: relative;
+}
+.home-videos-titulo span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+.home-videos-descricao{
+width: 100%;
+height: 2.4vw;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-bottom: 0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight: 400;
+font-size: 0.7vw;
+line-height: 0.7vw;
+color: var(--cinza155);
+text-align: left;
+letter-spacing: 0vw;
+border-bottom: 0.1vw solid var(--cinza155);
+}
+.home-videos-assista{
+width: 100%;
+height: auto;
+background-color:var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-bottom: 0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight: 400;
+font-size: 0.7vw;
+line-height: 2.2vw;
+color: var(--fonte);
+text-align: center;
+letter-spacing: 0vw;
+text-transform: uppercase;
+font-style: italic;
+}
+.home-videos-proximos{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+display: flex;
+flex-wrap:wrap;
+justify-content:space-between;
+}
+.home-videos-thumb{
+width:9.5vw;
+height:auto;
+aspect-ratio: 16 / 9;
+background-color:var(--preto_lente08);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+text-align:center;
+border-radius:0.3vw;
+color:white;
+position:relative;
+background-repeat:no-repeat;
+background-position:center center;
+background-size:cover;
+}
+.home-videos-thumb a{
+display:block;
+width:100%;
+height:100%;
+}
+.home-videos-thumb span{
+font-size:3vw;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+transition:all 0.2s ease-in-out;
+}
+.home-videos-thumb:hover span{
+font-size:4vw;
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.home-videos{
+padding-bottom:9vw;
+}
+.home-videos-campo{
+height:auto;
+margin-top:3.5vw;
+border-radius:1vw;
+box-shadow: 0vw 0.3vw 1vw rgba(0,0,0,0.1);
+padding:3vw;
+}
+.home-videos-video{
+width:100%;
+margin-left:0vw;
+border-radius:1vw;
+margin-bottom:3vw;
+}
+.home-videos-col{
+width: 100%;
+margin-left:0vw;
+}
+.home-videos-data{
+margin-top:4.5vw;
+font-size:3.5vw;
+line-height:3.5vw;
+}
+.home-videos-titulo{
+height:10vw;
+font-size:4vw;
+line-height:4vw;
+}
+.home-videos-descricao{
+height:11.5vw;
+font-size:3.5vw;
+line-height:3.5vw;
+border-bottom: 0.3vw solid var(--cinza155);
+}
+.home-videos-assista{
+font-size:3.5vw;
+line-height:10vw;
+}
+.home-videos-thumb{
+width:100%;
+border-radius:1vw;
+margin-bottom:3vw;
+}
+.home-videos-thumb span{
+font-size:15vw;
+}
+.home-videos-thumb:hover span{
+font-size:20vw;
+}
+
+}
+/*End - css/home-videos.css*/

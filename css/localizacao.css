@@ -1,0 +1,73 @@
+/*Start - css/localizacao.css*/
+.localizacao{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-bottom:1vw;
+}
+.localizacao h1,
+.localizacao h2,
+.localizacao h3,
+.localizacao h4,
+.localizacao h5{
+font-weight:600;
+font-size:1vw;
+line-height:1.5vw;
+color:var(--fonte);
+text-align: justify;
+letter-spacing:0vw;
+margin-bottom:1vw;
+}
+.localizacao p{
+font-weight:400;
+font-size:0.8vw;
+line-height:1vw;
+color:var(--fonte);
+text-align: justify;
+letter-spacing:0vw;
+margin-bottom:1vw;
+}
+.mapa{
+width:100%;
+height:20vw;
+background-color:var(--teste00);
+float:left;
+overflow:hidden;
+border-radius:0.3vw;
+box-shadow: 0vw 0.1vw 0.3vw rgba(0,0,0,0.1);
+}
+.mapa iframe{
+border:0vw;
+width:100%;
+height:100%;
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.localizacao{
+padding-bottom:3vw;
+}
+.localizacao h1,
+.localizacao h2,
+.localizacao h3,
+.localizacao h4,
+.localizacao h5{
+font-size:5vw;
+line-height:7.5vw;
+margin-bottom:3vw;
+}
+.localizacao p{
+font-size:4vw;
+line-height:5vw;
+margin-bottom:3vw;
+}
+.mapa{
+width:100%;
+height:60vw;
+border-radius:1vw;
+box-shadow: 0vw 0.3vw 1vw rgba(0,0,0,0.1);
+}
+
+}
+/*End - css/localizacao.css*/

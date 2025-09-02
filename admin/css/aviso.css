@@ -1,0 +1,53 @@
+/*Start - css/aviso.css*/
+.aviso-verde{
+width:98%;
+float:left;
+line-height:2vw;
+margin-bottom:1vw;
+color: var(--verde);
+border: 0.1vw solid var(--verde);
+padding: 1%;
+border-radius: 0.4vw;
+text-align: left;
+background-color: var(--verde_transp);
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.aviso-cinza,
+.comentario{
+width:98%;
+float:left;
+line-height:2vw;
+margin-bottom:1vw;
+color: var(--fonte_padrao);
+border: 0.1vw solid var(--fonte_padrao);
+padding: 1%;
+border-radius: 0.4vw;
+text-align: left;
+background-color: var(--fundo_03);
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+
+@media only screen and (max-width:1024px){
+
+.aviso-verde{
+width:100%;
+line-height:6vw;
+margin-bottom:3vw;
+border: 0.3vw solid var(--verde);
+padding: 1%;
+border-radius: 1.5vw;
+}
+.aviso-cinza,
+.comentario{
+width:100%;
+line-height:6vw;
+margin-bottom:3vw;
+border: 0.3vw solid var(--fonte_padrao);
+padding: 1%;
+border-radius: 1.5vw;
+}
+
+}
+/*End - css/aviso.css*/

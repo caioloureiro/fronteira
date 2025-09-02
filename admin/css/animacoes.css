@@ -1,0 +1,5 @@
+/*Start - css/animacoes.css*/
+@keyframes girar{
+100%{transform:rotate(360deg);}
+}
+/*End - css/animacoes.css*/

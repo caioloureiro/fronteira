@@ -1,0 +1,350 @@
+/*Start - css/estilo.css*/
+body{
+margin:0;
+padding:0;
+background-color:var(--fundo);
+font-size:0.8vw;
+line-height:1vw;
+font-family: 'Segoe UI', sans-serif;
+color:var(--fonte_padrao);
+cursor:default;
+}
+a, a:visited, a:focus{
+text-decoration:none;
+font-weight:normal;
+color:var(--fonte_padrao);
+font-size:0.8vw;
+}
+a:hover{
+text-decoration: underline;
+}
+p{
+text-align:justify;
+}
+input{
+width:100%;
+height:100%;
+padding:0vw;
+font-size:0.8vw;
+line-height:2vw;
+font-family: 'Segoe UI', sans-serif;
+color:var(--fonte_02);
+background-color:var(--fundo_02);
+border: 0.1vw solid var(--fundo_03);
+padding-left: 0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+select{
+width:100%;
+height:100%;
+padding:0vw;
+font-size:0.8vw;
+line-height:2vw;
+font-family: 'Segoe UI', sans-serif;
+color:var(--fonte_02);
+background-color:var(--fundo_02);
+border: 0.1vw solid var(--fundo_03);
+padding-left: 0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+option{
+font-family: 'Segoe UI', sans-serif;
+color:var(--fonte_02);
+font-size:0.8vw;
+}
+textarea{
+width:100%;
+height:100%;
+padding:0vw;
+font-size:0.8vw;
+line-height:1vw;
+font-family: 'Segoe UI', sans-serif;
+color:var(--fonte_02);
+background-color:var(--fundo_02);
+border: 0.1vw solid var(--fundo_03);
+padding-left: 0.5vw;
+padding-right: 0.5vw;
+padding-top:1%;
+padding-bottom:1%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+button{
+width:auto;
+height:auto;
+background-color:var(--azul);
+padding-left: 1vw;
+padding-right: 1vw;
+padding-top:0vw;
+padding-bottom:0vw;
+border-radius: 0.2vw;
+line-height:2vw;
+border:0vw;
+cursor: pointer;
+float: left;
+text-align: center;
+margin-right: 0.5vw;
+color:white;
+font-size:0.8vw;
+font-family: 'Segoe UI', sans-serif;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+button.btn-vermelho{
+background-color:var(--vermelho);
+border:0.1vw solid var(--vermelho);
+}
+input[type=file]{
+display:none;
+}
+input[type=checkbox],
+input[type=radio]{
+width:1vw;
+height:1vw;
+}
+input[required],
+select[required],
+textarea[required]{
+border-color:var(--vermelho);
+}
+label.btn{
+min-width:8vw;
+height:auto;
+border-top-left-radius:0.3vw;
+border-bottom-left-radius:0.3vw;
+background-color:var(--verde_transp);
+color:var(--verde);
+cursor:pointer;
+border: 0vw solid var(--verde);
+padding-left: 1vw;
+padding-right: 1vw;
+transition:all 0.1s linear;
+margin-right: -0.2vw;
+display: inline-block;
+line-height: 2vw;
+margin-top: 0vw;
+border-right: 0vw;
+font-family: 'Segoe UI', sans-serif;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-size: 0.8vw;
+}
+.btn-escolher-arquivo-td{
+margin-top:0.5vw !important;
+}
+.enviar-arquivo-submit{
+width:auto;
+height:auto;
+border-top-right-radius:0.3vw;
+border-bottom-right-radius:0.3vw;
+background-color:var(--azul);
+margin-bottom:0vw;
+color:var(--branco);
+cursor:pointer;
+border-top: 0vw solid var(--azul);
+padding-left: 1vw;
+padding-right: 1vw;
+transition:all 0.1s linear;
+float: unset;
+line-height: 2.8vw;
+border-top-left-radius: 0vw;
+border-bottom-left-radius: 0vw;
+border-left: 0vw;
+margin-top: 0vw;
+border: 0vw;
+font-family: 'Segoe UI', sans-serif;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-size: 0.8vw;
+line-height: 2vw;
+}
+.btn{
+color:white;
+background-color:var(--azul);
+text-align:center;
+line-height:2vw;
+float:left;
+border-radius:0.2vw;
+margin:0vw;
+border:0vw;
+cursor: pointer;
+padding-left:1vw;
+padding-right:1vw;
+}
+.btn.vermelho{
+background-color:var(--vermelho);
+}
+.btn.icone{
+text-align:right;
+background-color:var(--transp);
+}
+.btn.icone.vermelho svg{
+fill:var(--vermelho);
+}
+.pointer{
+cursor:pointer;
+}
+svg{
+vertical-align:middle;
+fill:var(--fonte_padrao);
+height:1vw;
+}
+hr{
+border: 0.1vw solid var(--fundo_03);
+}
+.btn-svg{
+color:white;
+background-color:var(--azul);
+text-align:center;
+line-height:3vw;
+float:left;
+border-radius:0.5vw;
+margin:0vw;
+border:0vw;
+cursor: pointer;
+padding-left:1vw;
+padding-right:1vw;
+}
+.btn-svg svg{
+fill:white;
+height:1.9vw;
+}
+.formulario_campo .linha{
+height:2.5vw;
+background-color:var(--teste00);
+}
+.formulario_campo .linha input,
+.formulario_campo .linha select{
+line-height:2.5vw;
+border:0vw;
+background-color:var(--preto_lente01);
+}
+.formulario_campo .linha textarea{
+line-height:auto;
+border:0vw;
+background-color:var(--preto_lente01);
+}
+.formulario_campo .linha:nth-child(odd) {
+background-color: var(--branco235);
+}
+.formulario_campo .linha:hover{
+background-color:var(--preto_lente02);
+}
+.formulario_campo .linha input.bordaAzul{
+border:0.1vw solid blue;
+}
+.formulario_campo .acao{
+float:right;
+}
+.formulario_campo .linha input[type=file]{
+display:block;
+}
+.formulario_campo .linha-auto{
+height:auto;
+background-color:var(--teste00);
+padding-top:1vw;
+padding-bottom:1vw;
+float:left;
+}
+
+@media only screen and (max-width:1024px){
+
+body{
+font-size:4vw;
+line-height:6vw;
+}
+a, a:visited, a:focus{
+font-size:4vw;
+}
+a:hover{}
+p{}
+input{
+font-size:4vw;
+height:15vw;
+line-height:15vw;
+border: 0.3vw solid var(--fundo_03);
+padding:1vw;
+}
+select{
+font-size:4vw;
+height:15vw;
+line-height:15vw;
+border: 0.3vw solid var(--fundo_03);
+padding:1vw;
+}
+option{
+font-size:4vw;
+}
+textarea{
+font-size:4vw;
+line-height:6vw;
+height:50vw;
+border: 0.3vw solid var(--fundo_03);
+padding:1vw;
+}
+button{
+width:100%;
+height:15vw;
+line-height:15vw;
+padding: 0vw;
+border-radius: 1.5vw;
+margin-right: 0vw;
+font-size:4vw;
+margin-top:2vw;
+margin-bottom:2vw;
+}
+button.btn-vermelho{
+border:0.3vw solid var(--vermelho);
+}
+label.btn{
+min-width:24vw;
+border-top-left-radius:1.5vw;
+border-bottom-left-radius:1.5vw;
+border: 0vw;
+padding-left: 3vw;
+padding-right: 3vw;
+margin-right: -0.6vw;
+line-height: 9vw;
+}
+.btn-escolher-arquivo-td{
+margin-top:1.5vw !important;
+}
+.enviar-arquivo-submit{
+width:100%;
+height:15vw;
+line-height:15vw;
+padding: 0vw;
+border-radius: 1.5vw;
+margin-right: 0vw;
+font-size:4vw;
+}
+.btn{
+width:100%;
+height:15vw;
+line-height:15vw;
+padding: 0vw;
+border-radius: 1.5vw;
+margin-right: 0vw;
+font-size:4vw;
+}
+svg{
+height:4vw;
+}
+hr{
+border: 0.3vw solid var(--fundo_03);
+}
+.btn-svg{
+line-height:9vw;
+border-radius:1.5vw;
+padding-left:3vw;
+padding-right:3vw;
+}
+.btn-svg svg{
+height:6vw;
+}
+
+
+}
+/*End - css/estilo.css*/

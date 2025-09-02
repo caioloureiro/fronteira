@@ -1,0 +1,148 @@
+/*Start - css/prefeito.css*/
+.prefeito{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-bottom:5vw;
+}
+.prefeito-nome{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:600;
+font-size:1.3vw;
+line-height:1.3vw;
+color:var(--fonte);
+text-align: center;
+letter-spacing:0vw;
+}
+.prefeito-foto{
+width:7.7vw;
+height: 10vw;
+background-color: var(--preto_lente02);
+margin: 0 auto;
+display:table;
+margin-bottom: 0.3vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+border-radius: 0.3vw;
+}
+.prefeito-periodo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:1vw;
+margin-bottom:1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.8vw;
+line-height:1vw;
+color:var(--fonte);
+text-align: center;
+letter-spacing:0vw;
+}
+.prefeito-periodo-campo{
+border:0.1vw solid var(--cinza205);
+padding-left:1vw;
+padding-right:1vw;
+border-radius:2vw;
+}
+.prefeito-periodo-campo .material-symbols-outlined{
+color:var(--padrao01);
+font-weight:700;
+}
+.prefeito-titulo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:600;
+font-size:1vw;
+line-height:1.3vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+}
+.prefeito-titulo .material-symbols-outlined{
+color:var(--padrao01);
+font-weight:700;
+}
+.prefeito-texto{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.8vw;
+line-height:1.3vw;
+color:var(--fonte);
+text-align: justify;
+letter-spacing:0vw;
+}
+.prefeito-texto p{
+margin-top:0vw;
+margin-bottom:1vw;
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.prefeito{
+padding-bottom:15vw;
+}
+.prefeito-nome{
+margin-bottom:3vw;
+font-size:6.5vw;
+line-height:6.5vw;
+}
+.prefeito-foto{
+width:23vw;
+height: 30vw;
+margin-bottom:1vw;
+border-radius:1vw;
+}
+.prefeito-periodo{
+margin-top:3vw;
+margin-bottom:3vw;
+font-size:4vw;
+line-height:5vw;
+}
+.prefeito-periodo-campo{
+border:0.3vw solid var(--cinza205);
+padding-left:3vw;
+padding-right:3vw;
+border-radius:6vw;
+}
+.prefeito-titulo{
+margin-bottom:3vw;
+font-size:5vw;
+line-height:6.5vw;
+}
+.prefeito-texto{
+font-size:4vw;
+line-height:6.5vw;
+}
+.prefeito-texto p{
+margin-bottom:3vw;
+}
+
+}
+/*End - css/prefeito.css*/

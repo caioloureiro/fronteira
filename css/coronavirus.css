@@ -1,0 +1,148 @@
+/*Start - css/coronavirus.css*/
+.coronavirus{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-bottom:2vw;
+}
+.coronavirus-txt{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.coronavirus-grid{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.coronavirus-data{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:1vw;
+margin-bottom:1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:700;
+font-size:1vw;
+line-height:1.3vw;
+color:inherit;
+text-align: left;
+letter-spacing:0vw;
+}
+.coronavirus-linha{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.coronavirus-celula{
+width:33.33%;
+height:5vw;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+margin-left:0vw;
+margin-right:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding:0.5vw;
+}
+.coronavirus-item{
+width:100%;
+height:100%;
+background-color:var(--cinza120);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+margin-left:0vw;
+margin-right:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+border-radius:0.3vw;
+}
+.coronavirus-icone{
+width:3vw;
+height:3vw;
+border-radius:3vw;
+background-color:var(--branco_lente02);
+float:left;
+margin:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+text-align:center;
+color:white;
+}
+.coronavirus-icone span{
+font-size:2vw;
+line-height:3vw;
+}
+.coronavirus-nome{
+width:9vw;
+height:100%;
+line-height:4vw;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+margin-left:0vw;
+margin-right:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:600;
+font-size:inherit;
+color:white;
+text-align: left;
+letter-spacing:0vw;
+}
+.coronavirus-valor{
+width:5vw;
+height:100%;
+line-height:4vw;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+margin-left:0vw;
+margin-right:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:700;
+font-size:1.5vw;
+color:white;
+text-align: right;
+letter-spacing:0vw;
+}
+.coronavirus-item.verde{
+background-color:var(--verde);
+}
+.coronavirus-item.preto{
+background-color:black;
+}
+.coronavirus-item.amarelo{
+background-color:var(--amarelo);
+}
+.coronavirus-item.vermelho{
+background-color:var(--vermelho);
+}
+.coronavirus-item.laranja{
+background-color:var(--laranja);
+}
+/*End - css/coronavirus.css*/

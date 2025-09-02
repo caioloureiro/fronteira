@@ -1,0 +1,56 @@
+/*Start - css/topo.css*/
+.topo{
+width:100%;
+height:1.5vw;
+background-color:var(--amarelo02);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+margin-left:0vw;
+margin-right:0vw;
+}
+.topo-txt{
+float: right;
+font-weight: 400;
+font-size: 0.7vw;
+line-height: 1.5vw;
+color: white;
+text-align: center;
+letter-spacing: 0vw;
+background-color: var(--teste00);
+padding-left: 1vw;
+padding-right: 1vw;
+transition: all 0.2s ease-in-out;
+margin-right: 19.8vw;
+}
+.topo-txt:hover{
+background-color:var(--branco_lente03);
+transition:all 0.2s ease-in-out;
+}
+.topo-txt .material-symbols-outlined{
+font-size:0.8vw;
+line-height:1.5vw;
+float:left;
+margin-right:0.1vw;
+}
+.topo-nome{
+width:auto;
+height:100%;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+margin-left:0vw;
+margin-right:1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.topo-sair{
+width:auto;
+height:100%;
+background-color:var(--teste00);
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+/*End - css/topo.css*/

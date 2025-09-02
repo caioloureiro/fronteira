@@ -1,0 +1,68 @@
+<?php
+//
+
+error_reporting (E_ALL & ~ E_NOTICE & ~ E_DEPRECATED);
+date_default_timezone_set('America/Sao_Paulo');
+
+if( $_SERVER['HTTP_HOST'] == 'localhost' ){
+
+	require '../../../model/conexao-off.php';
+
+}else{
+	
+	require '../../../model/conexao-on.php';
+	
+}
+
+require '../../../controller/funcoes.php';
+require '../../../../model/artigos.php';
+
+?>
+<!doctype html>
+<html lang="pt-br" prefix="og: https://ogp.me/ns#">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Painel de Controle</title>
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatable/2.0.1/css/datatable.css" integrity="sha512-zHpjdnFxcMInClTw4ZqdX6NNLuPU+iJMZEQsyIjXuQX8TZXzRhZIlUi0tQTGQxt/UGruFgs0qTBshuGN0ts/vQ==" crossorigin="anonymous" />
+	</head>
+	<body>
+		
+		<style><?php require '../../../routes/css-modulo.php'; ?></style>
+		
+		<div class="box">
+		
+			<?php
+			
+				foreach( $artigos_array as $pag ){
+					
+					if( $pag['id'] == $_GET['id'] ){
+			
+						echo'
+						<div class="alerta-vermelho">
+							Ao clicar em confirmar, você estará APAGANDO o usuário:<br/>
+							'. $pag['titulo'] .'
+						</div>
+						<div class="linha">
+							<a href="../../../matriz?artigo=artigos" ><button>Retornar</button></a>
+							<a href="../controller/excluir?id='. $pag['id'] .'"><button class="btn-vermelho" onclick="return confirm(&apos;Tem certeza?&apos;)">Confirmar</button></a>
+						</div>
+						';
+						
+					}
+					
+				}
+
+			?>
+			
+		</div>
+		
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/datatable/2.0.1/js/datatable.js" integrity="sha512-9Jte0+zkyqOLUDxEfIz74iRN9geJm2oBwSYDdZVLzBWa3cxGh0YWw4/aBmq2FTJodryloQjd7mCxHo+gHQwzcA==" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="../js/motor.js"></script>	
+		
+	</body>
+	
+</html>

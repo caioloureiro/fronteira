@@ -1,0 +1,149 @@
+/*Start - admin/css/thumb.css*/
+.thumb{
+width:5vw;
+height:7vw;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-left:0vw;
+margin-right:1vw;
+margin-bottom:1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+position:relative;
+box-shadow: 0vw 0.1vw 0.3vw var(--preto_lente02);
+border-radius:0.3vw;
+overflow:hidden;
+}
+.thumb-excluir{
+width:1.5vw;
+height:1.5vw;
+border-radius:1.5vw;
+line-height:1.2vw;
+background-color:var(--branco_lente07);
+position:absolute;
+right:0.3vw;
+top:0.3vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+text-align: center;
+cursor:pointer;
+}
+.thumb-excluir svg{
+height:0.5vw;
+fill:var(--fonte);
+}
+.thumb-img{
+width:5vw;
+height:5vw;
+background-color:var(--preto_lente07);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+margin-left:0vw;
+margin-right:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+background-repeat:no-repeat;
+background-position:center center;
+background-size:cover;
+}
+.thumb-btn{
+width:100%;
+height:2vw;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-left:0vw;
+margin-right:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.8vw;
+line-height:2vw;
+color:var(--fonte);
+text-align: center;
+letter-spacing:0vw;
+cursor:pointer;
+transition:all 0.2s ease-in-out;
+}
+.thumb-btn:hover{
+background-color:var(--preto_lente03);
+transition:all 0.2s ease-in-out;
+}
+
+.tagBtn{
+width: auto;
+height: auto;
+background-color: var(--azul);
+padding-left: 1vw;
+padding-right: 0.3vw;
+padding-top: 0vw;
+padding-bottom: 0vw;
+border-radius: 3vw;
+line-height: 2vw;
+border: 0vw;
+float: left;
+text-align: center;
+margin-right: 1vw;
+margin-bottom: 1vw;
+font-size: 0.8vw;
+color: white;
+font-family: 'Segoe UI', sans-serif;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.tagBtn-nome{
+float:left;
+padding-right: 1vw;
+}
+.tagBtn-excluir{
+width:1.4vw;
+height:1.4vw;
+float:right;
+background-color: white;
+border-radius:5vw;
+line-height:1.1vw;
+text-align: center;
+margin-top:0.3vw;
+cursor: pointer;
+}
+.tagBtn-excluir svg{
+height:0.8vw;
+fill:var(--azul);
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.thumb{
+width:15vw;
+height:21vw;
+margin-right:3vw;
+margin-bottom:3vw;
+box-shadow: 0vw 0.3vw 1vw var(--preto_lente02);
+border-radius:1vw;
+}
+.thumb-excluir{
+width:4.5vw;
+height:4.5vw;
+border-radius:4.5vw;
+line-height:3.6vw;
+right:1vw;
+top:1vw;
+}
+.thumb-excluir svg{
+height:1.5vw;
+}
+.thumb-img{
+width:15vw;
+height:15vw;
+}
+.thumb-btn{
+height:6vw;
+font-size:4vw;
+line-height:6vw;
+}
+
+}
+/*End - admin/css/thumb.css*/

@@ -1,0 +1,113 @@
+/*Start - css/boas-vindas-menor.css*/
+.boas-vindas-menor{
+width:31vw;
+height:30vw;
+background-color:rgba(255,0,0,0);
+float:left;
+border-radius:0.5vw;
+overflow:hidden;
+box-shadow: 0vw 0.3vw 0.8vw rgba(0,0,0,0.1);
+background-image: linear-gradient(to bottom, var(--cor_app_01), var(--cor_app_02));
+color:white;
+display: table;
+position: relative;
+}
+.boas-vindas-menor-box{
+background-color:rgba(255,0,0,0);
+margin:0 auto;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding:3vw;
+}
+.boas-vindas-menor-icone{
+width:5vw;
+height:5vw;
+line-height:4.5vw;
+border-radius:5vw;
+background-color:rgba(0,0,0,0.3);
+margin:0 auto;
+margin-top:0vw;
+margin-bottom:1vw;
+text-align:center;
+}
+.boas-vindas-menor-icone svg{
+fill:white;
+height:2.5vw;
+}
+.boas-vindas-menor-titulo{
+width:100%;
+height:auto;
+background-color:rgba(255,0,0,0);
+float:left;
+margin-top:0vw;
+margin-bottom:0.5vw;
+font-weight:400;
+font-size:2vw;
+line-height:2.6vw;
+color:white;
+text-align: center;
+letter-spacing:0vw;
+}
+.boas-vindas-menor-txt{
+width:100%;
+height:auto;
+background-color:rgba(255,0,0,0);
+float:left;
+margin-top:0vw;
+margin-bottom:1vw;
+font-weight:400;
+font-size:1vw;
+line-height:1.5vw;
+color:white;
+text-align: center;
+letter-spacing:0vw;
+}
+.boas-vindas-menor-txt p{
+margin-top:0vw;
+margin-bottom:0.5vw;
+text-align: center;
+}
+
+@media only screen and (max-width:1024px){
+
+.boas-vindas-menor{
+width:100%;
+height:auto;
+border-radius:1.5vw;
+box-shadow: 0vw 0.9vw 2.4vw rgba(0,0,0,0.1);
+}
+.boas-vindas-menor-box{
+width:90vw;
+padding:5vw;
+}
+.boas-vindas-menor-icone{
+width:15vw;
+height:15vw;
+line-height:15vw;
+border-radius:15vw;
+margin-bottom:3vw;
+}
+.boas-vindas-menor-icone svg{
+height:7.5vw;
+}
+.boas-vindas-menor-titulo{
+margin-bottom:1.5vw;
+font-size:6vw;
+line-height:8vw;
+}
+.boas-vindas-menor-txt{
+margin-bottom:3vw;
+font-size:4vw;
+line-height:6vw;
+}
+.boas-vindas-menor-txt p{
+margin-bottom:1.5vw;
+}
+
+}
+
+/*End - css/boas-vindas-menor.css*/

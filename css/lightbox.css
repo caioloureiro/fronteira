@@ -1,0 +1,227 @@
+/*Start - css/lightbox.css*/
+.lightbox{
+display:none;
+}
+.lightbox-escurecer{
+width:100vw;
+height:100vh;
+background-color:var(--preto_lente07);
+position:fixed;
+top:0vw;
+left:0vw;
+z-index:99991;
+cursor:pointer;
+}
+.lightbox-campo{
+width:90vw;
+height:86vh;
+background-color:white;
+position:fixed;
+top:8vh;
+left:5vw;
+z-index:99992;
+border-radius:0.3vw;
+overflow-x:hidden;
+overflow-y:auto;
+padding:1vw;
+box-shadow: 0vw 0.1vw 0.3vw var(--preto_lente01);
+}
+.lightbox-fechar{
+width:3vw;
+height:3vw;
+background-color:var(--teste00);
+position:absolute;
+top:1vw;
+right:1vw;
+line-height:3vw;
+text-align: center;
+}
+.lightbox-fechar svg{
+height:2vw;
+fill:white;
+}
+.lightbox-titulo{
+width:100%;
+height:4vw;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:600;
+font-size:1vw;
+line-height:1vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+display: table;
+position: relative;
+border-bottom:0.1vw solid var(--cinza205);
+}
+.lightbox-titulo span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+.lightbox-conteudo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.8vw;
+line-height:0.9vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+display: table;
+position: relative;
+padding-top:1vw;
+padding-bottom:1vw;
+}
+.lightbox-footer{
+width:100%;
+height:4vw;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.8vw;
+line-height:0.9vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+display: table;
+position: relative;
+border-top:0.1vw solid var(--cinza205);
+padding-top:1vw;
+padding-bottom:1vw;
+}
+.lightbox-footer span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+.lightbox-campo.transparente{
+background-color:var(--teste00);
+box-shadow:unset;
+}
+.lightbox-imagem{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.8vw;
+line-height:0.9vw;
+color:var(--fonte);
+text-align: center;
+letter-spacing:0vw;
+display: table;
+position: relative;
+}
+.lightbox-imagem img{
+height:80vh;
+}
+.lightbox-btn-esq{
+width:4vw;
+height:100%;
+background-color:var(--teste00);
+position:absolute;
+top:0vw;
+left:0vw;
+z-index:99992;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+cursor:pointer;
+transition:all 0.1s ease-in-out;
+}
+.lightbox-btn-esq:hover{
+background-color:var(--preto_lente08);
+transition:all 0.1s ease-in-out;
+}
+.lightbox-btn-esq span{
+color:white;
+font-size:4vw;
+}
+.lightbox-btn-dir{
+width:4vw;
+height:100%;
+background-color:var(--teste00);
+position:absolute;
+top:0vw;
+right:0vw;
+z-index:99992;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+cursor:pointer;
+transition:all 0.2s ease-in-out;
+}
+.lightbox-btn-dir:hover{
+background-color:var(--preto_lente08);
+transition:all 0.1s ease-in-out;
+}
+.lightbox-btn-dir span{
+color:white;
+line-height:30vw;
+font-size:4vw;
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.lightbox-escurecer{}
+.lightbox-campo{
+padding:3vw;
+box-shadow: 0vw 0.3vw 1vw var(--preto_lente01);
+}
+.lightbox-fechar{
+width:9vw;
+height:9vw;
+line-height:9vw;
+}
+.lightbox-fechar svg{
+height:6vw;
+}
+.lightbox-titulo{
+height:20vw;
+font-size:5vw;
+line-height:5vw;
+border-bottom:0.3vw solid var(--cinza205);
+}
+.lightbox-conteudo{
+font-size:4vw;
+line-height:5vw;
+padding-top:3vw;
+padding-bottom:3vw;
+}
+.lightbox-footer{
+height:12vw;
+font-size:4vw;
+line-height:5vw;
+border-top:0.3vw solid var(--cinza205);
+}
+.lightbox-imagem img{
+width:100%;
+height:auto;
+}
+
+}
+/*End - css/lightbox.css*/

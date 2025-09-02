@@ -1,0 +1,12 @@
+/*Start - css/scrollbar.css*/
+*{
+scrollbar-color: var(--padrao01) white;
+}
+::-webkit-scrollbar{
+background-color:white;
+}
+::-webkit-scrollbar-thumb{
+background-color:var(--padrao01);
+border-radius:50px;
+}
+/*End - css/scrollbar.css*/

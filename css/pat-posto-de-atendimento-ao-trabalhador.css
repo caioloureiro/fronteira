@@ -1,0 +1,277 @@
+/*Start - css/pat-posto-de-atendimento-ao-trabalhador.css*/
+.pat{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-top:1vw;
+padding-bottom:2vw;
+}
+.pat-campo{
+width:50.5vw;
+height:auto;
+background-color:var(--teste00);
+float:left;
+}
+.pat-col{
+width:50%;
+height:100%;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+}
+.pat-item{
+width:100%;
+height:3vw;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-bottom: 1vw;
+}
+.pat-icone{
+width:3vw;
+height:3vw;
+background-color:var(--preto_lente05);
+float:left;
+margin-top: 0vw;
+margin-right: 0.5vw;
+text-align:center;
+border-radius:3vw;
+cursor:default;
+line-height:2.8vw;
+transition:all 0.2s ease-in-out;
+}
+.pat-icone span{
+color:white;
+line-height:3vw;
+font-size:2vw;
+}
+.pat-icone svg{
+fill:white;
+line-height:3vw;
+height:1.5vw;
+}
+.pat-txt{
+width:21vw;
+height:100%;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+font-weight:400;
+font-size:0.8vw;
+line-height:1vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+display: table;
+position: relative;
+transition:all 0.2s ease-in-out;
+}
+.pat-txt span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+}
+.pat-img{
+width:10vw;
+height:10vw;
+border-radius:10vw;
+background-color:var(--preto_lente03);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+background-repeat:no-repeat;
+background-position:center center;
+background-size:cover;
+border:0.5vw solid white;
+box-shadow: 0vw 0.1vw 0.3vw rgba(0,0,0,0.1);
+}
+.pat-item:hover .pat-icone{
+background-color:var(--padrao01);
+transition:all 0.2s ease-in-out;
+}
+.pat-item:hover .pat-txt{
+color:var(--padrao01);
+transition:all 0.2s ease-in-out;
+}
+.pat-mapa{
+width:100%;
+height:20vw;
+background-color:var(--teste00);
+float:left;
+overflow:hidden;
+border-radius:0.3vw;
+box-shadow: 0vw 0.1vw 0.3vw rgba(0,0,0,0.1);
+margin-top:1vw;
+}
+.pat-mapa iframe{
+border:0vw;
+width:100%;
+height:100%;
+}
+.pat-html{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+overflow:hidden;
+margin-top:1vw;
+}
+.pat-html p{
+margin-bottom:0.8vw;
+font-weight:400;
+font-size:0.8vw;
+line-height:1vw;
+color:inherit;
+text-align: justify;
+letter-spacing:0vw;
+}
+.pat-html h3{
+margin-bottom:0.8vw;
+font-weight:700;
+font-size:1vw;
+line-height:1vw;
+color:inherit;
+text-align: justify;
+letter-spacing:0vw;
+}
+.pat-html .centro{
+text-align:center
+}
+.pat-html img{
+width:30vw;
+}
+.pat-html table{
+width:100%;
+border-collapse: collapse;
+background-color:white;
+cursor:default;
+margin-top:1vw;
+margin-bottom:1vw;
+}
+.pat-html th{
+background-color:var(--padrao01);
+font-weight:700;
+font-size:0.8vw;
+line-height:1.5vw;
+text-align: left;
+letter-spacing:0vw;
+color:white;
+padding:0.3vw;
+}
+.pat-html td{
+font-weight:400;
+font-size:0.8vw;
+line-height:1.5vw;
+text-align: left;
+letter-spacing:0vw;
+color:var(--fonte);
+padding:0.3vw;
+}
+.pat-html tr:nth-child(even) {
+background-color:var(--cinza222);
+}
+.pat-html tr:hover{
+background-color:var(--cinza155);
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.pat{
+padding-top:3vw;
+padding-bottom:6vw;
+}
+.pat-campo{
+width:60vw;
+}
+.pat-col{
+width:100%;
+height:auto;
+}
+.pat-item{
+height:15vw;
+margin-bottom: 3vw;
+}
+.pat-icone{
+width:15vw;
+height:15vw;
+margin-right:2.5vw;
+border-radius:15vw;
+line-height:15vw;
+}
+.pat-icone span{
+color:white;
+line-height:15vw;
+font-size:10vw;
+}
+.pat-icone svg{
+line-height:15vw;
+height:7.5vw;
+}
+.pat-txt{
+width:42vw;
+height:15vw;
+font-size:4vw;
+line-height:5vw;
+}
+.pat-img{
+width:30vw;
+height:30vw;
+border-radius:30vw;
+border:1.5vw solid white;
+box-shadow: 0vw 0.3vw 1vw rgba(0,0,0,0.1);
+}
+.pat-mapa{
+height:100vw;
+border-radius:1vw;
+box-shadow: 0vw 0.3vw 1vw rgba(0,0,0,0.1);
+margin-top:3vw;
+}
+.pat-table-mobile{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+overflow-x:scroll;
+}
+.pat-html{
+margin-top:3vw;
+}
+.pat-html p{
+margin-bottom:2.4vw;
+font-size:4vw;
+line-height:5vw;
+}
+.pat-html h3{
+margin-bottom:2.4vw;
+font-size:5vw;
+line-height:5vw;
+}
+.pat-html img{
+width:100%;
+}
+.pat-html table{
+margin-top:3vw;
+margin-bottom:3vw;
+}
+.pat-html th{
+font-size:4vw;
+line-height:7.5vw;
+padding:1vw;
+}
+
+.pat-html td{
+font-size:4vw;
+line-height:6vw;
+padding-top:3vw;
+padding-bottom:3vw;
+padding-left:1vw;
+padding-right:1vw;
+}
+
+}
+/*End - css/pat-posto-de-atendimento-ao-trabalhador.css*/

@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule (.*)$ index.php?pagina=$1 [NC]
+
+<Files "cron/newsletter.php">
+    Order Allow,Deny
+    Allow from all
+</Files>

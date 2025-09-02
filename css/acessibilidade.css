@@ -1,0 +1,93 @@
+/*Start - css/acessibilidade.css*/
+.acessibilidade{
+width:100%;
+height:3.7vw;
+background-color:var(--padrao01);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+margin-left:0vw;
+margin-right:0vw;
+}
+.acessibilidade-itens{
+height:100%;
+float:right;
+margin-right: 19.8vw;
+background-color:var(--teste00);
+}
+.acessibilidade-itens form{
+float:left;
+}
+input.acessibilidade-input{
+width: 12.6vw;
+height: 2vw;
+float: left;
+background-color: var(--branco_lente01);
+border: 0vw;
+margin-top: 0.9vw;
+font-weight:400;
+font-size:0.8vw;
+line-height:1.3vw;
+color:white;
+text-align: left;
+letter-spacing:0vw;
+border-top-left-radius:0.3vw;
+border-bottom-left-radius:0.3vw;
+border-top-right-radius:0vw;
+border-bottom-right-radius:0vw;
+padding-left:1vw;
+font-family:var(--segoe);
+}
+input.acessibilidade-input::placeholder {
+color:white;
+}
+.acessibilidade-button{
+width:3vw;
+height:2vw;
+line-height:2.8vw;
+float: left;
+background-color: var(--branco_lente01);
+border: 0vw;
+margin-top: 0.9vw;
+text-align: center;
+letter-spacing:0vw;
+border-top-left-radius:0vw;
+border-bottom-left-radius:0vw;
+border-top-right-radius:0.3vw;
+border-bottom-right-radius:0.3vw;
+cursor:pointer;
+padding:0vw;
+}
+.acessibilidade-button .material-symbols-outlined{
+font-size: 1.4vw;
+color: white;
+}
+.acessibilidade-btn{
+width: 1.7vw;
+height: 1.7vw;
+line-height:2.2vw;
+float: left;
+border-radius: 2vw;
+background-color: var(--branco_lente01);
+text-align: center;
+margin-top: 1vw;
+margin-right: 0.7vw;
+box-shadow: 0vw 0.1vw 0.3vw rgba(0,0,0,0.1);
+cursor:pointer;
+transition:all 0.2s ease-in-out;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+.acessibilidade-btn:hover{
+background-color: var(--branco_lente03);
+transition:all 0.2s ease-in-out;
+}
+.acessibilidade-btn .material-symbols-outlined{
+font-size: 1.2vw;
+color: white;
+}
+.accessibilidade_reset{
+display:none;
+}
+/*End - css/acessibilidade.css*/

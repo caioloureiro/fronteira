@@ -1,0 +1,41 @@
+/*Start - css/conteudo-titulo.css*/
+.conteudo-titulo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:2vw;
+margin-bottom:0.5vw;
+}
+.conteudo-titulo-campo{
+width: 100%;
+height: auto;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-bottom: 0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight: 100;
+font-size: 2vw;
+line-height: 3vw;
+color: var(--fonte);
+text-align: left;
+letter-spacing: 0vw;
+border-bottom: 0.1vw solid var(--cinza205);
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.conteudo-titulo{
+padding-top:19vw;
+margin-bottom:1.5vw;
+}
+.conteudo-titulo-campo{
+font-size:10vw;
+line-height:15vw;
+border-bottom: 0.3vw solid var(--cinza205);
+}
+
+}
+/*End - css/conteudo-titulo.css*/

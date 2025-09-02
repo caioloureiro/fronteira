@@ -1,0 +1,349 @@
+<?php
+//
+
+error_reporting (E_ALL & ~ E_NOTICE & ~ E_DEPRECATED);
+date_default_timezone_set('America/Sao_Paulo');
+
+if( $_SERVER['HTTP_HOST'] == 'localhost' ){
+
+	require '../../../../model/conexao-off.php';
+
+}else{
+	
+	require '../../../../model/conexao-on.php';
+	
+}
+
+require '../../../controller/funcoes.php';
+require '../../../../model/artigos.php';
+
+?>
+<!doctype html>
+<html lang="pt-br" prefix="og: https://ogp.me/ns#">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Painel de Controle</title>
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+		<link rel="stylesheet" href="https://digitalmd.com.br/editor-de-texto/assets/estilo.css"/>
+		<link rel="stylesheet" href="../../../css/tail.select-dark.css"/>
+		<link rel="stylesheet" href="../../../../css/dinamico.css"/>
+		<link rel="stylesheet" href="../../../css/estilo.css"/>
+		<link rel="stylesheet" href="../../../css/smartphone.css"/>
+		
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/tail.select@0.5.15/js/tail.select-full.js"></script>
+		
+	</head>
+	<body>
+	
+		<?php
+		
+			require '../../../view/escurecer.php';
+			require '../../../view/loading.php';
+			
+		?>
+		
+		<style>
+			<?php 
+				require '../../../routes/css-modulo.php';
+				require '../../../css/drag-and-drop.css'; 
+			?>
+		</style>
+		
+		<div class="lightbox artigo-nova on">
+			
+			<div class="lightbox-titulo">
+
+				Ordenar Destaques
+				<div class="lightbox-fechar" onClick="voltar()" style="background-image:url( ../../../img/fechar.svg );" ></div>
+				
+			</div>
+			
+			<form action="../controller/ordenar.php" method="POST">
+			
+				<div class="linha-auto">
+				
+					<?php
+						
+						usort($artigos_array, function($a, $b){//Função responsável por ordenar
+
+							$al = mb_strtolower($a['destaque_ordem']);
+							$bl = mb_strtolower($b['destaque_ordem']);
+							
+							if ($al == $bl){
+								return 0;
+							}
+							
+							return ($bl < $al) ? +1 : -1;
+							
+						});
+
+						//dd( $artigos_array );
+						
+						$i = 1;
+						
+						foreach( $artigos_array as $noticia ){
+							
+							if( $noticia['destaque'] == 1 ){
+								
+								$imagem_check = explode( '/', $noticia['imagem'] );
+
+								if(
+									$imagem_check[0] == 'http:' ||
+									$imagem_check[0] == 'https:'
+								){
+
+									$imagem = $noticia['imagem'];
+									
+								}else{
+
+									$imagem = '../../../../img-artigos/'. $noticia['imagem'];
+									
+								}
+							
+								echo'
+								<div class="drag_drop_item item_'. $i .'" draggable="true">
+									<div
+										class="escolher-imagem-thumb-tabela"
+										style="background-image:url( '.$imagem.' )"
+									></div>
+									<div class="drag_drop_item_txt">'.$noticia['destaque_ordem'].'</div>
+									<input 
+										type="hidden" 
+										name="noticia_id_'.$i.'" 
+										value="'.$noticia['id'].'" 
+										class="drag_drop_input"
+									/>
+								</div>
+								';
+								
+								$i++;
+								
+							}
+							
+						}
+						
+					?>
+					
+				</div>
+				
+				<div class="separador"></div>
+				
+				<div class="linha">Arraste para cá:</div>
+				
+				<div class="linha-auto">
+					
+					<?php
+						
+						$j = 0;
+					
+						foreach( $artigos_array as $noticia ){
+							
+							if( $noticia['destaque'] == 1 ){
+							
+								$j++;
+								
+								echo'<div class="drag_drop_alvo alvo_'. $j .'">'. $j .'</div>';
+								
+							}
+							
+						}
+						
+					?>
+				
+				</div>
+				
+				<div class="linha">
+					
+					<?php
+						
+						$i = 0;
+					
+						foreach( $artigos_array as $noticia ){
+							
+							if( $noticia['destaque'] == 1 ){
+							
+								$i++;
+								
+								echo'
+								<input 
+									type="hidden" 
+									name="noticia_nova_ordem_'.$i.'" 
+									value="0" 
+									class="drag_drop_input drag_drop_input_'.$i.'"
+								/>
+								';
+								
+							}
+							
+						}
+						
+					?>
+				
+				</div>
+				
+				<div class="linha">
+				
+					<button type="submit">Gravar</button>
+					<div class="btn" onclick="voltar()">Cancelar</div>
+					<div class="drag_drop_btn_on" onclick="reset()">Reiniciar Processo</div>
+					
+				</div>
+				
+			</form>
+			
+			<div class="separador"></div>
+			
+		</div>
+		
+		<script>
+			
+			function voltar(){
+				
+				window.history.back();
+				
+			}
+			
+			function reset(){
+				
+				location.reload();
+				
+			}
+			
+			/*Start - TIPO DE TELA*/
+			let largura_browser = window.innerWidth;
+			let tipo_tela = 'desktop';
+
+			//console.log( largura_browser );
+
+			if( largura_browser < 1024 ){ tipo_tela = 'mobile' }else{ tipo_tela = 'desktop' }
+
+			//console.log( tipo_tela );
+			/*End - TIPO DE TELA*/
+			
+			/*Start - DESKTOP*/
+			const dragItems = document.querySelectorAll('.drag_drop_item');
+			const dropBoxes = document.querySelectorAll('.drag_drop_alvo');
+			var valor;
+
+			if( tipo_tela == 'desktop' ){
+				
+				dragItems.forEach( item => {
+				
+					item.addEventListener( "dragstart", dragInicio );
+					
+				} );
+
+				dropBoxes.forEach( box => {
+					
+					box.addEventListener( "dragover", dragOver );
+					box.addEventListener( "drop", dropEvent );
+					box.addEventListener( "dragleave", dragLeave );
+					
+				} );
+				
+			}
+
+			function dragInicio( e ){ //PEGA OS DADOS
+				
+				if( tipo_tela == 'desktop' ){
+					
+					//console.log( this.children[2].value ); //ENVIA
+					e.dataTransfer.setData( 'id', this.children[2].value );
+					e.dataTransfer.setData( 'backgroundImage', this.children[0].style.backgroundImage );
+					e.dataTransfer.setData( 'text/plain', e.target.innerText );
+					setTimeout( () => { this.className = 'off'; }, 0 );
+					
+				}
+				
+			}
+
+			function dragOver( e ){
+				
+				if( tipo_tela == 'desktop' ){
+					
+					e.preventDefault();
+					
+					//console.log( 'Entrou na box' );
+					this.classList.add("enter");
+					
+				}
+				
+			}
+
+			function dragLeave( e ){
+				
+				if( tipo_tela == 'desktop' ){
+					
+					e.preventDefault();
+					
+					//console.log( 'Saiu da box' );
+					this.classList.remove("enter");
+					
+				}
+				
+				
+			}
+
+			function dropEvent( e ){ //SOLTA OS DADOS
+				
+				if( tipo_tela == 'desktop' ){
+					
+					e.preventDefault();
+					
+					//console.log( 'Soltou o botão' );
+					
+					const el = document.createElement( 'div' );
+					el.className = 'drag_drop_item_in';
+					this.appendChild( el );
+					
+					//console.log( e.dataTransfer.getData( 'backgroundImage' ) ); //RECEBE
+					
+					const el_img = document.createElement( 'div' );
+					el_img.className = 'escolher-imagem-thumb-tabela';
+					el_img.style.backgroundImage = e.dataTransfer.getData( 'backgroundImage' );
+					el.appendChild( el_img );
+					
+					const el_txt = document.createElement( 'div' );
+					el_txt.className = 'drag_drop_item_txt';
+					el_txt.innerText = e.dataTransfer.getData( 'text' );
+					el.appendChild( el_txt );
+					
+					/*
+					const el_input = document.createElement( 'div' );
+					el_input.className = 'drag_drop_item_txt';
+					el_input.innerText = e.dataTransfer.getData( 'id' );
+					el.appendChild( el_input );
+					*/
+					
+					this.classList.remove("enter");
+					
+					let box_class = this.className;
+					//console.log( box_class );
+					
+					let box_class_array = box_class.split(' ');
+					//console.log( box_class_array[1] );
+					
+					let box_class_number = box_class.split('_');
+					//console.log( box_class_number[box_class_number.length - 1] );
+					
+					let input_alvo = document.querySelector('.drag_drop_input_'+ box_class_number[box_class_number.length - 1] );
+					//console.log( input_alvo );
+					
+					valor = e.dataTransfer.getData( 'text' );
+					//console.log( valor );
+					
+					//input_alvo.value = valor;
+					input_alvo.value = e.dataTransfer.getData( 'id' );
+					
+				}
+				
+			}
+			/*End - DESKTOP*/
+			
+		</script>
+		
+	</body>
+	
+</html>

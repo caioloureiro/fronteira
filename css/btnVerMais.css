@@ -1,0 +1,82 @@
+/*Start - css/btnVerMais.css*/
+.btnVerMais{
+width:auto;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top: 0.8vw;
+transition:all 0.2s ease-in-out;
+}
+.btnVerMais-campo{
+width:2vw;
+height:2vw;
+line-height:2vw;
+background-color:white;
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+font-weight:600;
+font-size:0.7vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+padding-left:1vw;
+border-radius:2vw;
+text-transform: uppercase;
+overflow:hidden;
+cursor:pointer;
+transition:all 0.2s ease-in-out;
+}
+.btnVerMais-icone{
+width:2vw;
+height:2vw;
+border-radius:2vw;
+background-color:var(--padrao01);
+float:left;
+margin-left: -2vw;
+font-weight:400;
+font-size:1vw;
+color:white;
+text-align: center;
+letter-spacing:0vw;
+cursor:pointer;
+}
+.btnVerMais-icone .material-symbols-outlined{
+line-height:2vw;
+font-size: 1.5vw;
+}
+.btnVerMais:hover .btnVerMais-campo{
+width:7vw;
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.btnVerMais{
+margin-top: 2.4vw;
+padding-top: 2vw;
+}
+.btnVerMais-campo{
+width:6vw;
+height:6vw;
+line-height:6vw;
+font-size:2.1vw;
+padding-left:3vw;
+border-radius:6vw;
+}
+.btnVerMais-icone{
+width:6vw;
+height:6vw;
+border-radius:6vw;
+margin-left: -6vw;
+font-size:3vw;
+}
+.btnVerMais-icone .material-symbols-outlined{
+line-height:6vw;
+font-size: 4.5vw;
+}
+.btnVerMais:hover .btnVerMais-campo{
+width:21vw;
+}
+
+}
+/*End - css/btnVerMais.css*/

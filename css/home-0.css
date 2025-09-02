@@ -1,0 +1,17 @@
+/*Start - css/home-0.css*/
+.home-0{
+width:100%;
+height:auto;
+background-color:var(--teste02);
+float:left;
+padding-bottom:5vw;
+}
+.home-0-classe{
+width:5vw;
+height:5vw;
+background-color:var(--teste02);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+}
+/*End - css/home-0.css*/

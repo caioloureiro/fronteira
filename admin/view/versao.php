@@ -1,0 +1,1 @@
+<script>console.log( '<?php echo $head_nome ?> - Versão <?php echo $versao ?> - <?php echo $release ?>.' );</script>

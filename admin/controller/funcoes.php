@@ -1,0 +1,4 @@
+<?php
+/*Start - FUNÇÕES PARTICULARES DO ADMIN*/
+/*End - FUNÇÕES PARTICULARES DO ADMIN*/
+?>

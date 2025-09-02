@@ -1,0 +1,118 @@
+/*Start - css/telefones-uteis.css*/
+.telefones-uteis{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-bottom:1vw;
+}
+.telefones-uteis-flex{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+display: flex;
+flex-wrap:wrap;
+align-items: flex-start;
+gap:1vw;
+}
+.telefones-uteis-item{
+width:20vw;
+height:8vw;
+background-color:white;
+float:left;
+margin-top: 0vw;
+overflow:hidden;
+flex-grow: 1;
+border-radius:0.3vw;
+box-shadow: 0vw 0.1vw 0.3vw rgba(0,0,0,0.1);
+padding:0.5vw;
+}
+.telefones-uteis-img{
+width:5vw;
+height:5vw;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+background-repeat:no-repeat;
+background-position:center center;
+background-size:contain;
+}
+.telefones-uteis-campo{
+width:calc(100% - 10vw);
+height:5vw;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+}
+.telefones-uteis-titulo{
+width:100%;
+height:2vw;
+line-height:2vw;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding-left:1vw;
+padding-right:1vw;
+font-weight:600;
+font-size:0.8vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+}
+.telefones-uteis-fone{
+width:100%;
+height:3vw;
+line-height:3vw;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding-left:1vw;
+padding-right:1vw;
+font-weight:900;
+font-size:1vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+}
+.telefones-uteis-icone{
+width:3vw;
+height:3vw;
+line-height:3vw;
+background-color:var(--cinza155);
+float:right;
+margin-top:1vw;
+margin-right:1vw;
+border-radius:3vw;
+text-align:center;
+}
+.telefones-uteis-icone span{
+font-size:2vw;
+line-height:3vw;
+color:var(--fonte);
+}
+.telefones-uteis-comentario{
+width:100%;
+height:2vw;
+line-height:2vw;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+font-weight:400;
+font-size:0.7vw;
+color:var(--fonte);
+text-align: center;
+letter-spacing:0vw;
+padding-left:1vw;
+padding-right:1vw;
+border-top: 0.1vw solid var(--cinza155);
+}
+/*End - css/telefones-uteis.css*/

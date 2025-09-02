@@ -1,0 +1,36 @@
+/*Start - css/destaque-btn.css*/
+.destaque-btn{
+width: 8vw;
+height: auto;
+border-radius: 5vw;
+background-color: rgba(90,90,90,1);
+cursor: pointer;
+border: 0vw;
+transition: all 0.5s ease-in-out;
+float: left;
+line-height: 2vw;
+color:rgba(50,50,50,1);
+display: table;
+position: relative;
+}
+.destaque-btn span{
+width:100%;
+height:100%;
+display:block;
+display: table-cell;
+vertical-align: middle;
+text-align:center;
+}
+.destaque-btn-on{
+background-color:rgba(116,238,21,1);
+color:white;
+font-weight:800;
+transition:all 0.5s ease-in-out;
+}
+.destaque-btn-checkbox{
+display:none;
+}
+
+@media only screen and (max-width:1024px){}
+
+/*End - css/destaque-btn.css*/

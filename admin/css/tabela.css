@@ -1,0 +1,133 @@
+/*Start - css/tabela.css*/
+table{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+border-collapse: collapse;
+margin-top: 2vw;
+}
+thead tr{
+background-color:var(--fundo);
+}
+th{
+line-height:2.5vw;
+text-align: left;
+padding: 0vw;
+padding-left: 1.5vw;
+text-transform: uppercase;
+letter-spacing: 0.1vw;
+font-size:0.8vw;
+color: var(--fonte_padrao);
+border-bottom: 0.1vw solid var(--fundo_03);
+white-space: nowrap;
+}
+.th-border-bottom{
+width:50%;
+height:0.1vw;
+background-color:var(--fonte_02);
+}
+tbody tr{
+background-color:var(--teste00);
+min-height: 4vw;
+line-height:1.5vw;
+transition:all 0.2s ease-in-out;
+}
+td{
+text-align: left;
+padding: 0vw;
+padding-left: 1.5vw;
+padding-top:0.5vw;
+padding-bottom:0.5vw;
+font-size:0.8vw;
+/* white-space: nowrap; */
+overflow: hidden;
+max-width: 5vw;
+}
+tbody tr:nth-child(odd) {
+background-color:var(--fundo_02);
+}
+tbody tr:nth-child(even) {
+background-color:var(--fundo);
+}
+tbody tr:hover{
+background-color:var(--fundo_03);
+transition:all 0.2s ease-in-out;
+}
+.tabela-btn{
+width:2vw;
+height:2vw;
+background-color:var(--teste00);
+float:left;
+margin-right:0.5vw;
+margin-left:0.5vw;
+background-repeat: no-repeat;
+background-position: center center;
+background-size:auto 1.5vw;
+cursor:pointer;
+}
+.tabela-btn-editar{
+background-image:url("img/editar.svg");
+}
+.tabela-btn-excluir{
+background-image:url("img/excluir.svg");
+}
+.tabela-btn-fechar{
+background-image:url("img/fechar.svg");
+}
+.tabela-btn-anexos{
+background-image:url("img/anexo.svg");
+}
+.tabela-btn-email{
+background-image:url("img/enviar.svg");
+}
+.tabela-btn-imprimir{
+background-image:url("img/print.svg");
+}
+.tabela-td-imagem{
+line-height:7vw;
+}
+.tabela-acao{
+width:10vw;
+}
+
+@media only screen and (max-width:1024px){
+
+table{
+width:300vw;
+margin-top:6vw;
+}
+thead tr{}
+th{
+line-height:8vw;
+padding-left:5vw;
+letter-spacing: 0.3vw;
+font-size:4vw;
+border-bottom: 0.3vw solid var(--fundo_03);
+}
+.th-border-bottom{
+height:0.3vw;
+}
+tbody tr{
+min-height: 12vw;
+line-height:10vw;
+}
+td{
+padding-left:5vw;
+padding-top:1.5vw;
+padding-bottom:1.5vw;
+font-size:3vw;
+}
+.tabela-btn{
+width:6vw;
+height:6vw;
+margin-right:3vw;
+margin-left:1.5vw;
+background-size:auto 5vw;
+}
+.tabela-acao{
+width:30vw;
+}
+
+}
+/*End - css/tabela.css*/

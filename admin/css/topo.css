@@ -1,0 +1,188 @@
+/*Start - css/topo.css*/
+.topo{
+width:100%;
+height:5vw;
+background-color:var(--padrao05);
+position:fixed;
+right:0vw;
+z-index:999;
+padding-left:2vw;
+padding-right:2vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-shadow: 0vw 0.3vw 0.8vw rgba(0,0,0,0.1);
+}
+.topo-usr-campo{
+min-width:13vw;
+height:100%;
+background-color:var(--teste00);
+float:right;
+}
+.topo-usr-dados{
+min-width:8vw;
+height:100%;
+background-color:var(--teste00);
+float:left;
+margin-right:1vw;
+}
+.topo-usr-nome{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:1vw;
+margin-bottom:0vw;
+font-weight:600;
+font-size:inherit;
+line-height:1.5vw;
+color:white;
+text-align: right;
+letter-spacing:inherit;
+}
+.topo-usr-tipo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+font-weight:inherit;
+font-size:inherit;
+line-height:1.5vw;
+color:white;
+text-align: right;
+letter-spacing:inherit;
+}
+.topo-usr{
+width:3vw;
+height:3vw;
+background-color:var(--teste00);
+float:left;
+background-repeat:no-repeat;
+background-position:center center;
+background-size:cover;
+margin-top: 1vw;
+border-radius: 5vw;
+cursor: pointer;
+box-shadow: 0vw 0.3vw 0.8vw rgba(0,0,0,0.2);
+position:relative;
+}
+.topo-btn{
+width:2vw;
+height:5vw;
+line-height:5vw;
+background-color:var(--teste00);
+float:right;
+background-repeat:no-repeat;
+background-position:center center;
+background-size:auto 2vw;
+margin-top:0vw;
+cursor: pointer;
+margin-right:1vw;
+text-align:center;
+}
+.topo-btn svg{
+height:1.5vw;
+vertical-align:middle;
+fill:white;
+}
+.topo-greetings{
+width:auto;
+height:100%;
+background-color:var(--teste00);
+float:left;
+line-height: 5vw;
+font-size: 1vw;
+color:var(--fonte_02);
+}
+.topo-usr-bolinha{
+position:absolute;
+bottom:0vw;
+right:0vw;
+width:0.6vw;
+height:0.6vw;
+background-color:var(--verde);
+border-radius:5vw;
+border: 0.1vw solid var(--branco02);
+}
+.topo-btn-menu{
+width:5vw;
+height:5vw;
+line-height:5vw;
+background-color:var(--teste00);
+float:left;
+background-repeat:no-repeat;
+background-position:center center;
+background-size:auto 2vw;
+margin-top:0vw;
+cursor: pointer;
+margin-right:2vw;
+text-align:center;
+}
+.topo-btn-menu svg{
+height:1.5vw;
+vertical-align:middle;
+fill:white;
+}
+.topo-logo{
+width:20vw;
+height:100%;
+background-color:var(--teste00);
+margin:0 auto;
+background-repeat:no-repeat;
+background-position:center center;
+background-size:auto 4vw;
+}
+
+@media only screen and (max-width:1024px){
+
+.topo{
+height:15vw;
+padding-left:6vw;
+padding-right:6vw;
+box-shadow: 0vw 0.9vw 2.4vw rgba(0,0,0,0.1);
+}
+.topo-usr-campo{
+min-width:auto;
+}
+.topo-usr-dados{
+display:none;
+}
+.topo-usr{
+width:9vw;
+height:9vw;
+margin-top: 3vw;
+border-radius: 15vw;
+box-shadow: 0vw 0.9vw 2.4vw rgba(0,0,0,0.2);
+}
+.topo-btn{
+display:none;
+}
+.topo-greetings{
+line-height: 15vw;
+font-size: 3vw;
+}
+.topo-usr-bolinha{
+width:2vw;
+height:2w;
+border-radius:15vw;
+border: 0.3vw solid var(--branco02);
+}
+.topo-btn-menu{
+width:15vw;
+height:15vw;
+line-height:15vw;
+background-size:auto 6vw;
+margin-right:0vw;
+text-align:left;
+}
+.topo-btn-menu svg{
+height:4.5vw;
+}
+.topo-logo{
+width:60vw;
+background-size:auto 12vw;
+}
+
+}
+/*End - css/topo.css*/

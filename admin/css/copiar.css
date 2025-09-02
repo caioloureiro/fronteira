@@ -1,0 +1,27 @@
+/*Start - css/copiar.css*/
+.copiar_input{
+background-color:transparent;
+color:var(--verde);
+text-align:center;
+height:2vw;
+line-height:2vw;
+font-size:1.2vw;
+}
+.copiar{
+width:3vw;
+height:2vw;
+line-height:2vw;
+background-color:var(--verde);
+float:right;
+text-align:center;
+cursor:pointer;
+margin-top:-2vw;
+position:relative;
+z-index:1;
+border-radius: 0.4vw;
+}
+.copiar svg{
+height:1.5vw;
+fill:var(--preto);
+}
+/*End - css/copiar.css*/

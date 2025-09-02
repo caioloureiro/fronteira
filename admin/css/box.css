@@ -1,0 +1,67 @@
+/*Start - css/box.css*/
+.box{
+height: auto;
+width: 30vw;
+position: absolute;
+left: 50%;
+margin-left: -15vw;
+background-color:var(--fundo_02);
+border-radius: 0.6vw;
+padding: 1vw;
+top:5vw;
+}
+.alerta{
+width:98%;
+margin-bottom:1vw;
+color: var(--fonte_padrao);
+border: 0.1vw solid var(--fonte_padrao);
+padding: 1%;
+border-radius: 0.4vw;
+text-align: left;
+background-color: rgba(0,0,0,0.1);
+}
+.alerta-verde{
+width:98%;
+line-height:2vw;
+margin-bottom:1vw;
+color: var(--verde);
+border: 0.1vw solid var(--verde);
+padding: 1%;
+border-radius: 0.4vw;
+text-align: center;
+background-color: var(--verde_transp);
+}
+.alerta-vermelho{
+width:98%;
+line-height:2vw;
+margin-bottom:1vw;
+color: var(--vermelho);
+border: 0.1vw solid var(--vermelho);
+padding: 1%;
+border-radius: 0.4vw;
+text-align: center;
+background-color: var(--vermelho_transp);
+}
+.alerta-amarelo{
+width:98%;
+line-height:2vw;
+margin-bottom:1vw;
+color: var(--amarelo);
+border: 0.1vw solid var(--amarelo);
+padding: 1%;
+border-radius: 0.4vw;
+text-align: center;
+background-color: var(--amarelo_transp);
+}
+.alerta-azul{
+width:98%;
+line-height:2vw;
+margin-bottom:1vw;
+color: var(--azul);
+border: 0.1vw solid var(--azul);
+padding: 1%;
+border-radius: 0.4vw;
+text-align: center;
+background-color: var(--azul_transp);
+}
+/*End - css/box.css*/

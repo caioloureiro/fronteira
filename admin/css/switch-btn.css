@@ -1,0 +1,61 @@
+/*Start - css/switch-btn.css*/
+.switch-btn-claro{
+width:2.6vw;
+height:1.3vw;
+background-color:var(--cinza_claro);
+float:left;
+border-radius:5vw;
+cursor:pointer;
+}
+.switch-btn-claro span{
+width:1.3vw;
+height:1.3vw;
+background-color:var(--cinza);
+float:left;
+border-radius:5vw;
+}
+.switch-btn-escuro{
+width:2.6vw;
+height:1.3vw;
+background-color:var(--roxo-lente);
+float:left;
+border-radius:5vw;
+cursor:pointer;
+}
+.switch-btn-escuro span{
+width:1.3vw;
+height:1.3vw;
+background-color:var(--roxo);
+float:right;
+border-radius:5vw;
+}
+
+@media only screen and (max-width:1024px){
+
+.switch-btn-claro{
+width:7.8vw;
+height:3.9vw;
+border-radius:15vw;
+margin-top:1vw;
+}
+.switch-btn-claro span{
+width:3.9vw;
+height:3.9vw;
+border-radius:15vw;
+}
+.switch-btn-escuro{
+width:7.8vw;
+height:3.9vw;
+border-radius:15vw;
+margin-top:1vw;
+}
+.switch-btn-escuro span{
+width:3.9vw;
+height:3.9vw;
+background-color:var(--roxo);
+border-radius:15vw;
+}
+
+}
+
+/*End - css/switch-btn.css*/

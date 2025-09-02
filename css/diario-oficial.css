@@ -1,0 +1,558 @@
+/*Start - css/diario-oficial.css*/
+.diario-oficial{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-bottom:1vw;
+}
+.diario-oficial-filtro{
+width: 100%;
+height: auto;
+background-color: var(--cinza222);
+float: left;
+margin-top: 0vw;
+margin-bottom: 1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding: 1vw;
+border: 0.1vw solid var(--cinza205);
+border-radius: 0.3vw;
+}
+.diario-oficial-filtro-titulo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:700;
+font-size:0.8vw;
+line-height:2vw;
+color:var(--fonte);
+text-align: center;
+letter-spacing:0vw;
+border-bottom: 0.1vw solid var(--cinza205);
+text-transform: uppercase;
+}
+.diario-oficial-filtro-campo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.diario-oficial-filtro-col01{
+width:50%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-right:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.diario-oficial-filtro-col02{
+width:25%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-right:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.diario-oficial-filtro-col03{
+width:25%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+padding-right:0.5vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.diario-oficial-filtro-col04{
+width:25%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+margin-left:0vw;
+margin-right:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.diario-oficial-filtro-label{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:600;
+font-size:0.8vw;
+line-height:1.3vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+}
+.diario-oficial-filtro-input{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.diario-oficial-filtro-input input{
+width:100%;
+height:auto;
+background-color:white;
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.8vw;
+line-height:2vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+padding:0vw;
+padding-left:0.5vw;
+padding-right:0.5vw;
+border:0.1vw solid var(--cinza205);
+}
+.diario-oficial-filtro-input select{
+width:100%;
+height:2.1vw;
+background-color:white;
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:400;
+font-size:0.8vw;
+line-height:2vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+padding:0vw;
+padding-left:0.5vw;
+padding-right:0.5vw;
+border:0.1vw solid var(--cinza205);
+}
+.diario-oficial-counter{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-weight:600;
+font-size:0.7vw;
+line-height:1.5vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+border-bottom: 0.1vw solid var(--cinza205);
+}
+.diario-oficial-campo{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:2vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.diario-oficial-item{
+width:100%;
+height:auto;
+background-color:var(--cinza222);
+float:left;
+margin-top:0vw;
+margin-bottom:2vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding-top:1vw;
+padding-bottom:1vw;
+padding-left:0vw;
+padding-right:1vw;
+border-radius:0.3vw;
+border: 0.1vw solid var(--cinza205);
+cursor:pointer;
+}
+.diario-oficial-thumb-campo{
+width: 10vw;
+height: 10vw;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-left: 0vw;
+}
+.diario-oficial-thumb{
+width: 6.4vw;
+height: 9vw;
+background-color: var(--teste00);
+float: left;
+margin-top: 0.5vw;
+margin-left: 1.8vw;
+background-image: url("img/diario-oficial-thumb.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: auto 100%;
+box-shadow: -0.3vw 0.3vw var(--cinza205);
+transition:all 0.2s ease-in-out;
+overflow:hidden;
+}
+.diario-oficial-item:hover .diario-oficial-thumb{
+box-shadow: -0.8vw 0.8vw var(--cinza205);
+transition:all 0.2s ease-in-out;
+}
+.diario-oficial-linha{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:0vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.diario-oficial-titulo{
+width: auto;
+height: 2vw;
+background-color: var(--teste00);
+float: left;
+margin-top: 0vw;
+margin-right: 1vw;
+font-weight: 600;
+font-size: 1.5vw;
+line-height: 2vw;
+color: var(--fonte);
+text-align: left;
+letter-spacing: 0vw;
+}
+.diario-oficial-icone{
+width:2vw;
+height:2vw;
+background-color:var(--verde_lente02);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+border-radius:2vw;
+text-align:center;
+}
+.diario-oficial-icone span{
+line-height:2vw;
+font-size:1.5vw;
+color:var(--verde);
+}
+.diario-oficial-btn{
+width:auto;
+height:100%;
+background-color:var(--padrao02);
+float:right;
+margin-top: 0vw;
+margin-left: 0vw;
+overflow:hidden;
+border-radius:0.3vw;
+}
+.diario-oficial-btn-icone{
+width:2vw;
+height:100%;
+background-color:var(--padrao05);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+text-align:center;
+}
+.diario-oficial-btn-icone span{
+line-height:2vw;
+font-weight:700;
+font-size:1.5vw;
+color:white;
+}
+.diario-oficial-btn-nome{
+width:5vw;
+height:100%;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+font-weight:600;
+font-size:0.8vw;
+line-height:2vw;
+color:white;
+text-align: left;
+letter-spacing:0vw;
+padding-left:0.5vw;
+}
+.diario-oficial-linha.dados{
+width:100%;
+height:auto;
+background-color:white;
+float:left;
+margin-top:2vw;
+margin-bottom:0vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+border-radius:0.3vw;
+overflow:hidden;
+padding:1vw;
+}
+.diario-oficial-dado-icone{
+width:3vw;
+height:3vw;
+background-color:var(--preto_lente01);
+float:left;
+margin-top: 0vw;
+margin-right: 1vw;
+text-align:center;
+border-radius:3vw;
+}
+.diario-oficial-dado-icone span{
+line-height:3vw;
+font-weight:700;
+font-size:2vw;
+color:var(--fonte);
+}
+.diario-oficial-dado-item{
+width:auto;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+font-weight:400;
+font-size:0.8vw;
+line-height:3vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+}
+.diario-oficial-extra{
+width:auto;
+height:100%;
+background-color:var(--preto_lente02);
+float:left;
+margin-top: 0vw;
+margin-left: 1vw;
+overflow:hidden;
+border-radius:2vw;
+padding-left:0.5vw;
+padding-right:1vw;
+}
+.diario-oficial-extra-icone{
+width:2vw;
+height:100%;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+text-align:center;
+}
+.diario-oficial-extra-icone span{
+line-height:2vw;
+font-weight:700;
+font-size:1.5vw;
+color:var(--fonte);
+}
+.diario-oficial-extra-nome{
+width:auto;
+height:100%;
+background-color:var(--teste00);
+float:left;
+margin-top: 0vw;
+margin-left: 0vw;
+font-weight:600;
+font-size:0.8vw;
+line-height:2vw;
+color:var(--fonte);
+text-align: left;
+letter-spacing:0vw;
+padding-left:0.3vw;
+text-transform: uppercase;
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait){
+
+.diario-oficial{
+padding-bottom:3vw;
+}
+.diario-oficial-filtro{
+margin-bottom: 3vw;
+padding: 3vw;
+border: 0.3vw solid var(--cinza205);
+border-radius: 1;
+}
+.diario-oficial-filtro-titulo{
+font-size:4vw;
+line-height:10vw;
+border-bottom: 0.3vw solid var(--cinza205);
+}
+.diario-oficial-filtro-campo{
+margin-top:1.5vw;
+}
+.diario-oficial-filtro-col01{
+width:100%;
+padding-right:0vw;
+padding-bottom:3vw;
+}
+.diario-oficial-filtro-col02{
+width:100%;
+padding-right:0vw;
+padding-bottom:3vw;
+}
+.diario-oficial-filtro-col03{
+width:100%;
+padding-right:0vw;
+padding-bottom:3vw;
+}
+.diario-oficial-filtro-col04{
+width:100%;
+padding-right:0vw;
+padding-bottom:3vw;
+}
+.diario-oficial-filtro-label{
+font-size:4vw;
+line-height:6.5vw;
+}
+.diario-oficial-filtro-input input{
+font-size:4vw;
+line-height:15vw;
+padding-left:1.5vw;
+padding-right:1.5vw;
+border:0.3vw solid var(--cinza205);
+}
+.diario-oficial-filtro-input select{
+height:15vw;
+font-size:4vw;
+line-height:15vw;
+padding-left:1.5vw;
+padding-right:1.5vw;
+border:0.3vw solid var(--cinza205);
+}
+.diario-oficial-counter{
+font-size:3.5vw;
+line-height:6.5vw;
+border-bottom: 0.3vw solid var(--cinza205);
+}
+.diario-oficial-campo{
+margin-top:6vw;
+}
+.diario-oficial-item{
+margin-bottom:6vw;
+padding-top:3vw;
+padding-bottom:3vw;
+padding-left:3vw;
+padding-right:3vw;
+border-radius:1vw;
+border: 0.3vw solid var(--cinza205);
+}
+.diario-oficial-thumb-campo{
+width: 30vw;
+height: 30vw;
+}
+.diario-oficial-thumb{
+width: 19.2vw;
+height: 27vw;
+background-color: var(--teste00);
+float: left;
+margin-top: 1.5vw;
+margin-bottom:5vw;
+margin-left:35vw;
+box-shadow: -1vw 1vw var(--cinza205);
+}
+.diario-oficial-item:hover .diario-oficial-thumb{
+box-shadow: -2.4vw 2.4vw var(--cinza205);
+}
+.diario-oficial-titulo{
+width: 100%;
+height: auto;
+margin-right:0vw;
+margin-bottom:5vw;
+font-size:7.5vw;
+line-height:10vw;
+text-align:center;
+}
+.diario-oficial-icone{
+width:10vw;
+height:10vw;
+border-radius:10vw;
+margin-left:5vw;
+}
+.diario-oficial-icone span{
+line-height:10vw;
+font-size:7.5vw;
+}
+.diario-oficial-btn{
+width:30vw;
+height:auto;
+border-radius:1vw;
+}
+.diario-oficial-btn-icone{
+width:6vw;
+}
+.diario-oficial-btn-icone span{
+line-height:10vw;
+font-size:4.5vw;
+}
+.diario-oficial-btn-nome{
+width:24vw;
+height:100%;
+font-size:4vw;
+line-height:10vw;
+padding-left:1.5vw;
+}
+.diario-oficial-linha.dados{
+width:100%;
+margin-top:6vw;
+border-radius:1vw;
+padding:3vw;
+margin-left:0vw;
+}
+.diario-oficial-dado-icone{
+width:15vw;
+height:15vw;
+margin-right:3vw;
+border-radius:15vw;
+}
+.diario-oficial-dado-icone span{
+line-height:15vw;
+font-size:10vw;
+}
+.diario-oficial-dado-item{
+font-size:4vw;
+line-height:15vw;
+}
+.diario-oficial-extra{
+width:auto;
+height:100%;
+background-color:var(--preto_lente02);
+float:left;
+margin-top: 0vw;
+margin-left: 1vw;
+overflow:hidden;
+border-radius:2vw;
+padding-left:0.5vw;
+padding-right:1vw;
+}
+.diario-oficial-extra-icone{
+width:6vw;
+}
+.diario-oficial-extra-icone span{
+line-height:10vw;
+font-size:4.5vw;
+}
+.diario-oficial-extra-nome{
+font-size:3.5vw;
+line-height:10vw;
+padding-left:1vw;
+}
+
+}
+/*End - css/diario-oficial.css*/

@@ -1,0 +1,13 @@
+/*Start - css/scroll.css*/
+*{
+scrollbar-color: var(--fundo_03) var(--fundo_02);
+}
+::-webkit-scrollbar{
+background-color:var(--fundo_02);
+width:17px;
+border-radius:50px;
+}
+::-webkit-scrollbar-thumb{
+background-color:var(--fundo_03);
+}
+/*End - css/scroll.css*/
