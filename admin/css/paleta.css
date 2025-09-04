@@ -74,21 +74,27 @@
 --cinza245:rgb(245, 245, 255);
 --cinza249:rgb(249, 249, 255);
 
---padrao01:rgb(51, 154, 128);
---padrao02:rgb(81, 184, 158);
---padrao03:rgb(111, 214, 188);
---padrao04:rgba(21,124,98,1);
---padrao05:rgba(21,124,98,1);
+--padrao01Verde: rgb(51, 154, 128);
+--padrao02Verde: rgb(81, 184, 158);
+--padrao03Verde: rgb(111, 214, 188);
+--padrao04Verde: rgba(21,124,98,1);
+--padrao05Verde: rgba(21,124,98,1);
 
---padrao_lente01:rgba(51, 154, 128, 0.1);
---padrao_lente02:rgba(51, 154, 128, 0.2);
---padrao_lente03:rgba(51, 154, 128, 0.3);
---padrao_lente04:rgba(51, 154, 128, 0.4);
---padrao_lente05:rgba(51, 154, 128, 0.5);
---padrao_lente06:rgba(51, 154, 128, 0.6);
---padrao_lente07:rgba(51, 154, 128, 0.7);
---padrao_lente08:rgba(51, 154, 128, 0.8);
---padrao_lente09:rgba(51, 154, 128, 0.9);
+--padrao01: rgb(0, 115, 172);
+--padrao02: rgb(9, 125, 184);
+--padrao03: rgb(34, 138, 191);
+--padrao04: rgb(0, 97, 145);
+--padrao05: rgba(0,79,119,1);
+
+--padrao_lente01: rgba(0, 115, 172, 0.1);
+--padrao_lente02: rgba(0, 115, 172, 0.2);
+--padrao_lente03: rgba(0, 115, 172, 0.3);
+--padrao_lente04: rgba(0, 115, 172, 0.4);
+--padrao_lente05: rgba(0, 115, 172, 0.5);
+--padrao_lente06: rgba(0, 115, 172, 0.6);
+--padrao_lente07: rgba(0, 115, 172, 0.7);
+--padrao_lente08: rgba(0, 115, 172, 0.8);
+--padrao_lente09: rgba(0, 115, 172, 0.9);
 
 --amarelo:rgb(252, 194, 47);
 

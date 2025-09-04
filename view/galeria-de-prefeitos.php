@@ -15,6 +15,8 @@ $prefeitos_array = array_reverse( $prefeitos_array );
 		
 		<?php
 			
+			echo $pagina['texto'];
+			
 			foreach( $prefeitos_array as $prefeito ){
 
 				echo '

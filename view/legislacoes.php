@@ -1,4 +1,4 @@
-<!-- Start - view/chamadas-publicas.php !-->
+<!-- Start - view/legislacoes.php !-->
 <?php
 
 require 'model/chamadas_publicas.php';
@@ -21,36 +21,36 @@ if( $counter_diarios > 1 ){
 
 ?>
 
-<style><?php require 'css/chamadas-publicas.css'; ?></style>
+<style><?php require 'css/legislacoes.css'; ?></style>
 
-<section class="chamadas-publicas">
+<section class="legislacoes">
 	
 	<div class="box">
 		
 		<?= $pagina['texto'] ?>
 		
 		<div 
-			class="chamadas-publicas-filtro"
+			class="legislacoes-filtro"
 			title="Essa busca é reativa, basta apenas digitar para achar o resultado."
 		>
 			
-			<div class="chamadas-publicas-filtro-titulo">BUSCA DETALHADA</div>
+			<div class="legislacoes-filtro-titulo">BUSCA DETALHADA</div>
 			
-			<div class="chamadas-publicas-filtro-campo">
+			<div class="legislacoes-filtro-campo">
 				
-				<div class="chamadas-publicas-filtro-col01">
+				<div class="legislacoes-filtro-col01">
 					
-					<div class="chamadas-publicas-filtro-label">Titulo</div>
-					<div class="chamadas-publicas-filtro-input">
+					<div class="legislacoes-filtro-label">Titulo</div>
+					<div class="legislacoes-filtro-input">
 						<input type="text" class="input_titulo" />
 					</div>
 					
 				</div>
 				
-				<div class="chamadas-publicas-filtro-col01">
+				<div class="legislacoes-filtro-col01">
 					
-					<div class="chamadas-publicas-filtro-label">Categorias</div>
-					<div class="chamadas-publicas-filtro-input">
+					<div class="legislacoes-filtro-label">Categorias</div>
+					<div class="legislacoes-filtro-input">
 						<input type="text" class="input_categorias" />
 					</div>
 					
@@ -60,9 +60,9 @@ if( $counter_diarios > 1 ){
 			
 		</div>
 		
-		<div class="chamadas-publicas-counter"><?php echo $counterHTML ?></div>
+		<div class="legislacoes-counter"><?php echo $counterHTML ?></div>
 	
-		<div class="chamadas-publicas-campo div_chamadas_publicas_scroll">
+		<div class="legislacoes-campo div_chamadas_publicas_scroll">
 		
 			<?php
 				
@@ -73,7 +73,7 @@ if( $counter_diarios > 1 ){
 					$categorias = explode( ';', trim( strip_tags( $item['categorias'] ) ) );
 
 					echo '
-					<div class="chamadas-publicas-item">
+					<div class="legislacoes-item">
 					
 						<a 
 							href="arquivos/'. $item['arquivo'] .'" 
@@ -81,50 +81,50 @@ if( $counter_diarios > 1 ){
 						>
 						
 							<div class="col20">
-								<div class="chamadas-publicas-thumb-campo">
-									<div class="chamadas-publicas-thumb">
+								<div class="legislacoes-thumb-campo">
+									<div class="legislacoes-thumb">
 										<span class="material-symbols-outlined">picture_as_pdf</span>
 									</div>
 								</div>
 							</div>
 							<div class="col80">
 							
-								<div class="chamadas-publicas-linha">
+								<div class="legislacoes-linha">
 								
-									<div class="chamadas-publicas-titulo"><span>'. $item['titulo'] .'</span></div>
+									<div class="legislacoes-titulo"><span>'. $item['titulo'] .'</span></div>
 									
-									<div class="chamadas-publicas-btn">
-										<div class="chamadas-publicas-btn-icone">
+									<div class="legislacoes-btn">
+										<div class="legislacoes-btn-icone">
 											<span class="material-symbols-outlined">download</span>
 										</div>
-										<div class="chamadas-publicas-btn-nome">Acessar</div>
+										<div class="legislacoes-btn-nome">Acessar</div>
 									</div>
 									
 								</div>
 								
-								<div class="chamadas-publicas-linha dados">
-									<div class="chamadas-publicas-dado">
-										<div class="chamadas-publicas-dado-icone">
+								<div class="legislacoes-linha dados">
+									<div class="legislacoes-dado">
+										<div class="legislacoes-dado-icone">
 											<span class="material-symbols-outlined">calendar_month</span>
 										</div>
-										<div class="chamadas-publicas-dado-item"><strong>Postagem:</strong> '. $data .'</div>
+										<div class="legislacoes-dado-item"><strong>Postagem:</strong> '. $data .'</div>
 									</div>
-									<div class="chamadas-publicas-dado">
-										<div class="chamadas-publicas-dado-icone">
+									<div class="legislacoes-dado">
+										<div class="legislacoes-dado-icone">
 											<span class="material-symbols-outlined">tag</span>
 										</div>
 										<div 
 											class="
-												chamadas-publicas-dado-item 
+												legislacoes-dado-item 
 												chamadas_publicas_categorias
 											"
 										>
-											<div class="chamadas-publicas-txt"><strong>Categorias:</strong> </div>
+											<div class="legislacoes-txt"><strong>Categorias:</strong> </div>
 											';
 											
 												foreach( $categorias as $categoria ){
 
-													echo '<div class="chamadas-publicas-tag">'. $categoria .'</div>';
+													echo '<div class="legislacoes-tag">'. $categoria .'</div>';
 													
 												}
 												
@@ -171,20 +171,20 @@ if( $counter_diarios > 1 ){
 /*Start - Filtro REATIVO*/
 let input_titulo = document.querySelector('.input_titulo');
 let input_categorias = document.querySelector('.input_categorias');
-let itens = document.querySelector('.chamadas-publicas-campo');
+let itens = document.querySelector('.legislacoes-campo');
 
 if( itens ){
 	
 	input_titulo.addEventListener('keyup', function() {
 		
 		let input_titulo = document.querySelector('.input_titulo').value.toUpperCase();
-		let itens = document.querySelector('.chamadas-publicas-campo');
+		let itens = document.querySelector('.legislacoes-campo');
 		
-		let card = itens.querySelectorAll('.chamadas-publicas-item');
+		let card = itens.querySelectorAll('.legislacoes-item');
 		
 		for( let i = 0; i < card.length; i++ ){
 
-			let a = card[i].querySelector('.chamadas-publicas-titulo');
+			let a = card[i].querySelector('.legislacoes-titulo');
 			
 			if( a.innerHTML.toUpperCase().indexOf( input_titulo ) > -1 ){
 				
@@ -203,9 +203,9 @@ if( itens ){
 	input_categorias.addEventListener('keyup', function() {
 		
 		let input_categorias = document.querySelector('.input_categorias').value.toUpperCase();
-		let itens = document.querySelector('.chamadas-publicas-campo');
+		let itens = document.querySelector('.legislacoes-campo');
 		
-		let card = itens.querySelectorAll('.chamadas-publicas-item');
+		let card = itens.querySelectorAll('.legislacoes-item');
 		
 		for( let i = 0; i < card.length; i++ ){
 
@@ -312,4 +312,4 @@ window.addEventListener('scroll', function() {
 /*End - Efeitos de Scroll*/
 
 </script>
-<!-- End - view/chamadas-publicas.php !-->
+<!-- End - view/legislacoes.php !-->

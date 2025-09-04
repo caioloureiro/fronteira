@@ -1,8 +1,8 @@
 <?php
 
 $servidor = "localhost";
-$usuario = "fronteiramg_user";
-$senha = "Gmaes@suporte*";
+$usuario = "fronteiramg_admin";
+$senha = "4JNyShm9{Fq{Q)GN*";
 $banco = "fronteiramg_site";
 
 $conn = new mysqli( $servidor, $usuario, $senha, $banco );

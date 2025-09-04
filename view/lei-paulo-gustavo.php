@@ -1,4 +1,4 @@
-<!-- Start - view/chamadas-publicas.php !-->
+<!-- Start - view/lei-paulo-gustavo.php !-->
 <?php
 
 require 'model/chamadas_publicas.php';
@@ -21,36 +21,36 @@ if( $counter_diarios > 1 ){
 
 ?>
 
-<style><?php require 'css/chamadas-publicas.css'; ?></style>
+<style><?php require 'css/lei-paulo-gustavo.css'; ?></style>
 
-<section class="chamadas-publicas">
+<section class="lei-paulo-gustavo">
 	
 	<div class="box">
 		
 		<?= $pagina['texto'] ?>
 		
 		<div 
-			class="chamadas-publicas-filtro"
+			class="lei-paulo-gustavo-filtro"
 			title="Essa busca é reativa, basta apenas digitar para achar o resultado."
 		>
 			
-			<div class="chamadas-publicas-filtro-titulo">BUSCA DETALHADA</div>
+			<div class="lei-paulo-gustavo-filtro-titulo">BUSCA DETALHADA</div>
 			
-			<div class="chamadas-publicas-filtro-campo">
+			<div class="lei-paulo-gustavo-filtro-campo">
 				
-				<div class="chamadas-publicas-filtro-col01">
+				<div class="lei-paulo-gustavo-filtro-col01">
 					
-					<div class="chamadas-publicas-filtro-label">Titulo</div>
-					<div class="chamadas-publicas-filtro-input">
+					<div class="lei-paulo-gustavo-filtro-label">Titulo</div>
+					<div class="lei-paulo-gustavo-filtro-input">
 						<input type="text" class="input_titulo" />
 					</div>
 					
 				</div>
 				
-				<div class="chamadas-publicas-filtro-col01">
+				<div class="lei-paulo-gustavo-filtro-col01">
 					
-					<div class="chamadas-publicas-filtro-label">Categorias</div>
-					<div class="chamadas-publicas-filtro-input">
+					<div class="lei-paulo-gustavo-filtro-label">Categorias</div>
+					<div class="lei-paulo-gustavo-filtro-input">
 						<input type="text" class="input_categorias" />
 					</div>
 					
@@ -60,9 +60,9 @@ if( $counter_diarios > 1 ){
 			
 		</div>
 		
-		<div class="chamadas-publicas-counter"><?php echo $counterHTML ?></div>
+		<div class="lei-paulo-gustavo-counter"><?php echo $counterHTML ?></div>
 	
-		<div class="chamadas-publicas-campo div_chamadas_publicas_scroll">
+		<div class="lei-paulo-gustavo-campo div_chamadas_publicas_scroll">
 		
 			<?php
 				
@@ -73,7 +73,7 @@ if( $counter_diarios > 1 ){
 					$categorias = explode( ';', trim( strip_tags( $item['categorias'] ) ) );
 
 					echo '
-					<div class="chamadas-publicas-item">
+					<div class="lei-paulo-gustavo-item">
 					
 						<a 
 							href="arquivos/'. $item['arquivo'] .'" 
@@ -81,50 +81,50 @@ if( $counter_diarios > 1 ){
 						>
 						
 							<div class="col20">
-								<div class="chamadas-publicas-thumb-campo">
-									<div class="chamadas-publicas-thumb">
+								<div class="lei-paulo-gustavo-thumb-campo">
+									<div class="lei-paulo-gustavo-thumb">
 										<span class="material-symbols-outlined">picture_as_pdf</span>
 									</div>
 								</div>
 							</div>
 							<div class="col80">
 							
-								<div class="chamadas-publicas-linha">
+								<div class="lei-paulo-gustavo-linha">
 								
-									<div class="chamadas-publicas-titulo"><span>'. $item['titulo'] .'</span></div>
+									<div class="lei-paulo-gustavo-titulo"><span>'. $item['titulo'] .'</span></div>
 									
-									<div class="chamadas-publicas-btn">
-										<div class="chamadas-publicas-btn-icone">
+									<div class="lei-paulo-gustavo-btn">
+										<div class="lei-paulo-gustavo-btn-icone">
 											<span class="material-symbols-outlined">download</span>
 										</div>
-										<div class="chamadas-publicas-btn-nome">Acessar</div>
+										<div class="lei-paulo-gustavo-btn-nome">Acessar</div>
 									</div>
 									
 								</div>
 								
-								<div class="chamadas-publicas-linha dados">
-									<div class="chamadas-publicas-dado">
-										<div class="chamadas-publicas-dado-icone">
+								<div class="lei-paulo-gustavo-linha dados">
+									<div class="lei-paulo-gustavo-dado">
+										<div class="lei-paulo-gustavo-dado-icone">
 											<span class="material-symbols-outlined">calendar_month</span>
 										</div>
-										<div class="chamadas-publicas-dado-item"><strong>Postagem:</strong> '. $data .'</div>
+										<div class="lei-paulo-gustavo-dado-item"><strong>Postagem:</strong> '. $data .'</div>
 									</div>
-									<div class="chamadas-publicas-dado">
-										<div class="chamadas-publicas-dado-icone">
+									<div class="lei-paulo-gustavo-dado">
+										<div class="lei-paulo-gustavo-dado-icone">
 											<span class="material-symbols-outlined">tag</span>
 										</div>
 										<div 
 											class="
-												chamadas-publicas-dado-item 
+												lei-paulo-gustavo-dado-item 
 												chamadas_publicas_categorias
 											"
 										>
-											<div class="chamadas-publicas-txt"><strong>Categorias:</strong> </div>
+											<div class="lei-paulo-gustavo-txt"><strong>Categorias:</strong> </div>
 											';
 											
 												foreach( $categorias as $categoria ){
 
-													echo '<div class="chamadas-publicas-tag">'. $categoria .'</div>';
+													echo '<div class="lei-paulo-gustavo-tag">'. $categoria .'</div>';
 													
 												}
 												
@@ -171,20 +171,20 @@ if( $counter_diarios > 1 ){
 /*Start - Filtro REATIVO*/
 let input_titulo = document.querySelector('.input_titulo');
 let input_categorias = document.querySelector('.input_categorias');
-let itens = document.querySelector('.chamadas-publicas-campo');
+let itens = document.querySelector('.lei-paulo-gustavo-campo');
 
 if( itens ){
 	
 	input_titulo.addEventListener('keyup', function() {
 		
 		let input_titulo = document.querySelector('.input_titulo').value.toUpperCase();
-		let itens = document.querySelector('.chamadas-publicas-campo');
+		let itens = document.querySelector('.lei-paulo-gustavo-campo');
 		
-		let card = itens.querySelectorAll('.chamadas-publicas-item');
+		let card = itens.querySelectorAll('.lei-paulo-gustavo-item');
 		
 		for( let i = 0; i < card.length; i++ ){
 
-			let a = card[i].querySelector('.chamadas-publicas-titulo');
+			let a = card[i].querySelector('.lei-paulo-gustavo-titulo');
 			
 			if( a.innerHTML.toUpperCase().indexOf( input_titulo ) > -1 ){
 				
@@ -203,9 +203,9 @@ if( itens ){
 	input_categorias.addEventListener('keyup', function() {
 		
 		let input_categorias = document.querySelector('.input_categorias').value.toUpperCase();
-		let itens = document.querySelector('.chamadas-publicas-campo');
+		let itens = document.querySelector('.lei-paulo-gustavo-campo');
 		
-		let card = itens.querySelectorAll('.chamadas-publicas-item');
+		let card = itens.querySelectorAll('.lei-paulo-gustavo-item');
 		
 		for( let i = 0; i < card.length; i++ ){
 
@@ -312,4 +312,4 @@ window.addEventListener('scroll', function() {
 /*End - Efeitos de Scroll*/
 
 </script>
-<!-- End - view/chamadas-publicas.php !-->
+<!-- End - view/lei-paulo-gustavo.php !-->

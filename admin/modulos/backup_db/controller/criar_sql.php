@@ -3,28 +3,31 @@
 http://localhost/area-de-membros-da-tati/admin/controller/backup-mysql.php
 */
 
+$raiz_admin = '../../../';
+$raiz_site = '../../../../';
+
 error_reporting (E_ALL & ~ E_NOTICE & ~ E_DEPRECATED);
 date_default_timezone_set('America/Sao_Paulo');
 
 if( $_SERVER['HTTP_HOST'] == 'localhost' ){
 
-	require '../../../model/conexao-off.php';
+	require $raiz_site .'model/conexao-off.php';
 
 }else{
 	
-	require '../../../model/conexao-on.php';
+	require $raiz_site .'model/conexao-on.php';
 	
 }
 
-require '../../../controller/funcoes.php';
-require '../../../model/admin_user.php';
+require $raiz_site .'controller/funcoes.php';
+require $raiz_site .'model/admin_user.php';
 
 //dd( $conn );
 
 //$banco = 'area_de_membros_da_tati'; //ESTÁ VINDO DA MODEL
 
 $hoje = date( 'Y-m-d-H-i-s' );
-$pasta = '../../../../backup_do_banco/';
+$pasta = $raiz_site .'backup_do_banco/';
 $nome_arquivo = $pasta . $hoje .'-'. $banco .'.sql' ;
 $arquivo = fopen( $nome_arquivo, 'a' );
 
@@ -188,7 +191,7 @@ fwrite( $arquivo, $sql );
 
 echo'
 <script> 
-	window.location.href = "../../../matriz?pagina=backup_db";
+	window.location.href = "'. $raiz_admin .'matriz?pagina=backup_db";
 </script>
 ';
 

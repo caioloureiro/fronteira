@@ -10,2114 +10,448 @@
 	
 	<url>
 		<loc>https://www.cidade.sp.gov.br/</loc>
-		<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+		<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.00</priority>
 	</url>
 	
 		<url>
 			<loc>https://www.cidade.sp.gov.br/historia</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/dados-gerais</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/simbolos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/ouvidoria</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/feriados-e-pontos-facultativos</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/conecta-mais</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/turismo</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/diprourb</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/estrutura-administrativa</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/tributos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/fundo-social-de-solidariedade</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/mapas</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cerest</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/vigilancia-ambiental-em-saude</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/canil-municipal</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/procon</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/servico-de-coleta-seletiva</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/links-uteis</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/exemplo</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/iss</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/iptu</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/bancos-conveniados</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/logomarcas</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/central-de-cadastro-unico</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/uaf-unidade-de-atendimento-as-familias</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cras</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/centro-de-referencia-da-mulher</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/creas</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/espaco-acolhedor</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/vila-dignidade</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/lei-paulo-gustavo</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/pipa</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/equipamentos-secretaria-de-cultura</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/logos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/casa-do-cidadao</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/emprega-jovem</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/editais-parque-tecnologico</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/departamentos-administrativos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/polo-uab-univesp</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cei-centros-de-educacao-infantil</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/escolas-municipais</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cardapio-merenda-escolar</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/acessibilidade</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/jogos-infantis-plinio-paganini</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/enderecos-oficiais-e-telefones</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/cacs-fundeb</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cae</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/jogos-regionais-btu-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/bolsa-atleta</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/departamento-de-futebol-e-futsal</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/ginasio-municipal</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/pesquisa-de-debito-do-imovel-e-2a-via-do-carne-de-iptu</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/estadio-municipal-joao-roberto-pilan-campo-do-inca</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/praca-da-juventude</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/sistemas</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/portal-do-servidor</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cadastro-de-fornecedores</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/balcao-da-cidadania</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-principais-definicoes</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/teste</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-101-marajoara-/-jd.-paraiso</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/termos-de-responsabilidade-ti</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/informativos-ti</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-transporte-coletivo</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario-horarios</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-politica-de-privacidade</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cae-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-102-jd.-brasil-/-vl.-paulista</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-103-jd.-brasil-/-centro</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-104-sesi-/-jd.-bandeirantes</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-106-comerciarios-/-continental</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-107-comerciarios-/-vital-brasil</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-108-maria-luiza-/-centro</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-109-jd.-cambui-/-itamaraty-/-centro</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-114-santa-eliza-/-centro</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-116-pq.-serra-negra-/-lageado</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-117-psiquiatrico-/-hospital-estadual-/-fatec</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-119-demetria-/-centro</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-122-anhumas</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-201--cohab-/-jd.-paraiso</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-202-cohab-/-vl.-maria</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-203-cohab-/-vl.-aparecida</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-204-cohab-/-jd.-brasil</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-205-cohab-/-vl.-paulista</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-206-monte-mor-/-vl.-assumpcao-/-shopping</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-208-rodoviaria-/-vitoriana</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-209-rubiao-jr.-/-centro-(via-pq.-das-cascatas)</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-210-rubiao-jr.-/-centro-(via-cafe-tesouro)</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-211-unesp-circular-(via-pq.-das-cascatas)</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-213-cohab-/-unesp</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-214-comerciarios-/-unesp</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-215-cohab-ii-/-unesp-(via-cachoeirinha)</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-216-bairro-alto-/-unesp</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-217-jd.-paraiso-/-unesp-(linha-universitaria)</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-218-recanto-azul-/-centro-(via-unesp)</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-219-vida-nova-/-centro-(via-pq.-das-cascatas)</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario-andorinha</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-linha-105-sesi-/-vl.-paulista</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario-viacao-plena</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario-viacao-vale-do-tiete</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario-viacao-expresso-de-prata</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario-viacao-guerino-seicento</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario-viacao-garcia</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario-viacao-santa-cruz</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario-vb-transportes</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario-viacao-rapido-campinas</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario-viacao-princesa-do-norte</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario-primar-turismo</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-terminal-rodoviario-viacao-itaqueri</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-multas</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-zona-azul</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-semaforos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-escola-publica-de-transito</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-consorcio-do-transporte-coletivo</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-aeroporto-municipal</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-transporte-por-aplicativos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/semutran-resolucoes</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/carta-de-servicos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/parque-natural-municipal-cachoeira-da-marta</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cidade-cenica</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cms</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2023</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/leis-decretos-portarias-outros-cms</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2022</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2021</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2020</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2019</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2018</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2017</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2016</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2015</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2014</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2013</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2012</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2011</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cms-2010</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/deliberacoes-cms-2022</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/deliberacoes-cms-2023</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/resolucoes-cms-2021</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/resolucoes-cms-2023</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/revista-cidade-invest</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cacs-fundeb-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/leis-decretos-outros-documentos-cacs-fundeb</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/demonstrativos-fundeb-2023</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/pautas-das-reunioes-do-cacs-fundeb</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/teste2</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/vigilanciateste</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/comed</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/calendario-teste</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cae-2022</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-comed-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/buscaativasarampo</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/resolucoes-cms-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/resolucoes-cms-2022</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/comdema</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/ccpnmcm</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/cmas</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/demonstrativos-fundeb-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cmc</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/cmdca</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/cmdr</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/conselho-municipal-de-educacao</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/cmi</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/comtur</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/cmpd</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/conselho-tutelar</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/cmpm</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/cae</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/compir</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/legislacao-da-transparencia</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/comsan</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/contabil</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/comutur</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/covid-19</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cae-2023</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/instrumentos-de-planejamento</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-ccpnmcm-2021</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/ppa</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-ccpnmcm-2022</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/ldo</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-ccpnmcm-2023</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/loa</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cmas-2021</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/balancetes</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/vem-passarinhar</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/repasse-ao-legislativo</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/politica-nacional-aldir-blanc</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/receitas</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/atas-cmc-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/despesas</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-videos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/balancos</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-declaracao-de-privacidade-dos-dados</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/demonstrativos-fiscais-anexos</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-sobre-a-utilizacao-de-cookies</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/rreo-relatorios-resumido-da-execucao-orcamentaria</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-dispensa-do-consentimento-dos-titulares-de-dados</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-compartilhamento-dos-dados-coletados</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-seus-direitos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-tratamento-de-dados-pessoais-de-criancas-e-adolescentes</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-anonimizacao-de-dados-pessoais</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-termino-do-tratamento-de-dados</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-medidas-de-seguranca</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-alteracoes-da-politica</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/lgpd-contato-canal-de-atendimento-ao-titular-de-dados-pessoais</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/concursos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/rgf-relatorio-de-gestao-fiscal</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/localizacao</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/administracao</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/secretarias</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/galeria-de-prefeitos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/prefeito</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/pat-posto-de-atendimento-ao-trabalhador</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/conselhos-municipais</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/audiencias-publicas</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/audiencia-publica</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/news</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/noticia</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/diario-oficial</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/chamadas-publicas</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/chamamento-publico</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/acesso-restrito-login</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cadastro</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/recados</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/matriz</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/contato</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/arquivos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/editais</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/downloads</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/telefones-uteis</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cemiterios</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/mapa</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/pesquisa</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cadastro-ciptea</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/chamamento-publico-item</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/galerias</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/galerias-item</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/newsletter</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/enquetes</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/enquete</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/recados_raw</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/vigilancia-epidemiologica</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/coronavirus</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/dengue</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/vacinometro</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
 			<loc>https://www.cidade.sp.gov.br/galeria-de-videos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=1&amp;titulo=vigilancia-sanitaria-municipal-alerta-para-golpe-do-falso-fiscal</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/preview_noticia</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=51&amp;titulo=dia-das-criancas-tera-programacao-especial-na-praca-da-pinacoteca</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/recados_raw_formulario</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=2&amp;titulo=unidades-de-saude-estarao-abertas-no-proximo-sabado-para-vacinacao-contra-poliomielite</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/legislacoes</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=3&amp;titulo=turismo-vai-abrir-inscricoes-para-feira-turistica-mesas-na-praca</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/lei-adir-blanc</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=52&amp;titulo=feira-regional-da-cuesta-em-cidade-acontece-neste-domingo</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/lei-paulo-gustavo</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=50&amp;titulo=cidade-marca-presenca-na-feira-do-empreendedor-do-sebrae-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/licitacoes</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=6&amp;titulo=prefeitura-informa-sobre-interdicao-no-centro</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/agenda-de-eventos</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=7&amp;titulo=prefeitura-orienta-sobre-interdicoes-de-transito-na-regiao-da-rodoviaria</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/concursos</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=9&amp;titulo=esporte-divulga-cronograma-dos-37o-jogos-estudantis- cat-b</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/processos-seletivos</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=10&amp;titulo=festival-de-inverno-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=1&amp;titulo=noticia</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=11&amp;titulo=univesp-realiza-aula-inaugural-dos-novos-cursos-a-distancia-do-segundo-semestre-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=2&amp;titulo=noticia</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=12&amp;titulo=prefeitura-realizara-mutirao-de-castracao-gratuita-para-caes</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=3&amp;titulo=noticia</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
 		
 		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=13&amp;titulo=edital-cidade-cenica-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=14&amp;titulo=cidade-esta-agendando-mamografias-gratuitas-a-mulheres-com-mais-de-40-anos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=15&amp;titulo=secretaria-de-educacao-realizara-a-2a-jornada-municipal-da-educacao-infantil-</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=16&amp;titulo=rua-doutor-guimaraes,-na-vila-antartica,-sera-interditada-para-obras-de-recape</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=49&amp;titulo=concerto-revive-parceria-de-adoniran-barbosa-e-osvaldo-moles-no-teatro-municipal-de-cidade</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=17&amp;titulo=feira-do-verde-2024-abrira-inscricoes-para-expositores</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=18&amp;titulo=secretaria-de-cultura-realiza-a-mostra-cidade-cenica-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=19&amp;titulo=centro-de-acolhimento-de-animais-de-cidade-promove-feirinha-de-adocao-de-caes-e-gatos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=20&amp;titulo=parque-municipal-de-cidade-tera-feirinha-de-adocao-de-caes-no-proximo-domingo</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=21&amp;titulo=programação-musitur-31-de-agosto-a-22-de-outubro</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=22&amp;titulo=prefeitura-divulga-lista-de-expositores-e-atividades-culturais-para-a-feira-do-verde-em-cidade</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=23&amp;titulo=inscricoes-abertas-para-curso-gratuito-de-lideranca</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=24&amp;titulo=prefeitura-abre-inscricao-para-credenciamento-da-13a-feira-do-empreendedorismo-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=25&amp;titulo=prefeitura-convoca-audiencia-publica-para-elaboracao-do-loa-2025</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=27&amp;titulo=prefeitura-informa-sobre-restricao-de-estacionamento-na-regiao-central-nesta-semana</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=28&amp;titulo=ato-civico-e-desfile-em-comemoracao-a-independencia-do-brasil-serao-neste-sabado</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=29&amp;titulo=fmvz-e-prefeitura-realizam-3a-acao-de-saude-publica-veterinaria</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=30&amp;titulo=cidade-sediara-a-proxima-edicao-da-feira-regional-da-cuesta-em-outubro</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=31&amp;titulo=nota-de-pesar</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=32&amp;titulo=praca-do-bosque-recebe-feira-da-casa-do-artesao-neste-sabado</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=33&amp;titulo=turismo-tera-em-setembro-mais-uma-edicao-do-vem-passarinhar-</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=34&amp;titulo=abertura-dos-jogos-infantis-plinio-paganini-sera-nesta-sexta-feira-13-de-setembro</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=35&amp;titulo=qualifica-sp-esta-com-inscricoes-abertas-para-cursos-gratuitos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=36&amp;titulo=turismo-realiza-de-27-a-29-de-setembro-2o-festival-de-aves-de-cidade-</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=37&amp;titulo=camara-realiza-audiencia-publica-sobre-cumprimento-de-metas-fiscais</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=38&amp;titulo=parque-municipal-de-cidade-tera-feirinha-de-adocao-de-caes-e-gatos-no-dia-29-de-setembro-</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=39&amp;titulo=prefeitura-comunica-recape-na-rua-visconde-do-rio-branco-nesta-quinta-feira</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=40&amp;titulo=trilha-da-cachoeira-da-marta-esta-interditada-temporariamente</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=41&amp;titulo=2o-festival-de-aves-de-cidade-oferece-atividades-gratuitas-de-passarinhada</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=42&amp;titulo=cidade-promove-nesta-semana-o-2o-festival-de-aves,-evento-com-programacao-diversificada</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=43&amp;titulo=parque-da-cachoeira-da-marta-esta-aberto-para-visitacao</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=44&amp;titulo=palestra:-documentacao-museologica-enquanto-estrategia-de-salvaguarda-da-colecao-do-museu-historico-e-pedagogico-francisco-blasi</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=46&amp;titulo=programação-musitur-para-o-mes-de-outubro-2024</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=45&amp;titulo=2o-festival-de-aves-de-cidade-acontece-neste-final-de-semana</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=47&amp;titulo=outubro-rosa-cidade-segue-com-agendamento-de-mamografia-gratuita-a-mulheres-com-mais-de-40-anos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=48&amp;titulo=prefeitura-realizara-mutirao-de-castracao-gratuita-para-caes</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=55&amp;titulo=secretaria-de-cultura-realiza-oficina-pontos-mis:-fotografia-como-memoria-e-afeto</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=54&amp;titulo=prefeitura-realizara-leilao-de-equipamentos-e-automoveis</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=53&amp;titulo=confira-o-expediente-nas-reparticoes-publicas-municipais-no-feriado-de-nossa-senhora-aparecida-</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=56&amp;titulo=turismo-esta-com-inscricoes-abertas-para-o-programa-vem-passarinhar,-cidade-</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=60&amp;titulo=cine-teatro-apresenta-o-filme-minha-vida-em-marte</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=57&amp;titulo=emef-joao-maria-e-unipex-fmb-concluem-projeto-de-saude-mental-que-concorre-ao-premio-ciencia-para-todos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=58&amp;titulo=projeto-guri-abre-vagas-para-cursos-de-percussao-e-canto</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=59&amp;titulo=quintas-noturnas-na-pinacoteca-a-partir-de-hoje-ate-as-21h</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=61&amp;titulo=teatro-municipal-apresenta-o-espetaculo:-[des]humanizacao</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=62&amp;titulo=encontros-cinefilos-do-cineclube-paratodos-acontecem-neste-domingo</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=64&amp;titulo=escola-municipal-de-educacao-infantil-recebe-novo-espaco-ludico-e-parquinho-infantil</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=63&amp;titulo=prefeitura-abre-processo-eleitoral-para-o-conselho-da-cidade-de-cidade</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=65&amp;titulo=secretaria-de-cultura-apresenta-parara-um-reino-pela-musica</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=67&amp;titulo=projeto-hub-de-inovacao-cultural-oferece-oportunidade-em-cidade</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=68&amp;titulo=banda-municipal-se-apresenta-em-homenagem-ao-dia-do-funcionario-publico</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=69&amp;titulo=educacao-divulgou-os-finalistas-da-2a-olimpiada-literaria-e-1a-olimpiada-de-matematica</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=70&amp;titulo=estagiarios-recebem-capacitacao-para-servicos-de-educacao-especial</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=71&amp;titulo=saude-promove-acoes-no-outubro-rosa-com-foco-na-saude-da-mulher</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=75&amp;titulo=cine-itinerante-apresenta-o-filme-bacurau-na-praca-do-caima</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=76&amp;titulo=cine-teatro-apresenta-o-filme-bandida-a-numero-um</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=72&amp;titulo=acao-formativa:-leitura-dramatica-[des]humanizacao-acontece-no-garage-espaco-de-cultura</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=73&amp;titulo=secretaria-municipal-de-cultura-traz-o-espetaculo-cabeca-oca-no-teatro-municipal-</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=77&amp;titulo=limpeza-de-tumulos-para-o-dia-de-finados-deve-ser-feita-ate-30-de-outubro</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=78&amp;titulo=orquestra-jazz-sinfonica-grateful-se-apresenta-em-cidade</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=79&amp;titulo=outubro-rosa-casa-da-mama-realizara-caminhada-para-conscientizacao-sobre-o-cancer-de-mama</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=80&amp;titulo=prefeitura-de-cidade-tera-concurso-publico-para-mais-de-40-cargos</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=81&amp;titulo=ensaio-didatico-da-banda-sinfonica-municipal-acontece-na-escola-sophia-gabriel</loc>
-			<lastmod>2024-11-04T09:11:49+00:00</lastmod>
+			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=4&amp;titulo=noticia</loc>
+			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.9</priority>
 		</url>
