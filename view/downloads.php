@@ -74,7 +74,7 @@ if( $counter_diarios > 1 ){
 					<div class="downloads-item">
 					
 						<a 
-							href="arquivos/'. $item['arquivo'] .'" 
+							href="uploads/'. $item['arquivo'] .'" 
 							target="_blank"
 						>
 						

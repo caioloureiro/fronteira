@@ -30,7 +30,7 @@ $sql = '';
 //$sql .= "UPDATE downloads SET ativo = 0 WHERE arquivo = '". $nome_arquivo ."';";
 $sql .= "UPDATE editais SET ativo = 0 WHERE arquivo = '". $nome_arquivo ."';";
 
-$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('".$_COOKIE['botucatu_ADMIN_SESSION_usuario'] ."','Excluiu da pasta galeria o arquivo: ". $delete ."','". date( 'Y-m-d H:i:s' ) ."');";
+$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('".$_COOKIE['fronteira_ADMIN_SESSION_usuario'] ."','Excluiu da pasta galeria o arquivo: ". $delete ."','". date( 'Y-m-d H:i:s' ) ."');";
 $conn->multi_query( $sql );
 $conn->close();
 

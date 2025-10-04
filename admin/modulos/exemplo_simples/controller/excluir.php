@@ -17,7 +17,7 @@ if( $_SERVER['HTTP_HOST'] == 'localhost' ){
 
 require $raiz_site .'controller/funcoes.php';
 
-if( !isset( $_COOKIE['previso_ADMIN_SESSION_usuario'] ) ){
+if( !isset( $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ) ){
 	echo'<script>window.history.back();</script>';
 	exit;
 }
@@ -27,7 +27,7 @@ $id = $_GET['id'];
 //$sql = "DELETE FROM exemplos WHERE id = ". $id .";";
 $sql = "UPDATE exemplos SET ativo = 0 WHERE id = ". $id .";";
 
-$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['previso_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: exemplo. Excluiu o item de ID: ".$id."','". date( 'Y-m-d H:i:s' ) ."');";
+$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: exemplo. Excluiu o item de ID: ".$id."','". date( 'Y-m-d H:i:s' ) ."');";
 
 //echo $sql; die();
 ?>

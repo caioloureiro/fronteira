@@ -79,7 +79,7 @@ if( $counter_diarios > 1 ){
 					<div class="diario-oficial-item">
 					
 						<a 
-							href="uploads/'. $item['arquivo'] .'" 
+							href="'. $item['arquivo'] .'" 
 							target="_blank"
 						>
 						

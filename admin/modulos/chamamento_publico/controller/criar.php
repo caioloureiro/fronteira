@@ -19,7 +19,7 @@ require $raiz_site .'controller/funcoes.php';
 
 //dd( $_POST );
 
-if( !isset( $_COOKIE['botucatu_ADMIN_SESSION_usuario'] ) ){
+if( !isset( $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ) ){
 	echo'<script>window.history.back();</script>';
 	exit;
 }
@@ -66,7 +66,7 @@ $sql .= "INSERT INTO chamamento_publico (
 	"'". $descricao ."' ".
 ");";
 
-$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['botucatu_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: chamamento_publico. Criou o item ". $titulo ."','". date( 'Y-m-d H:i:s' ) ."');";
+$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: chamamento_publico. Criou o item ". $titulo ."','". date( 'Y-m-d H:i:s' ) ."');";
 
 //echo $sql; die();
 

@@ -66,7 +66,7 @@ $sql .= "INSERT INTO editais (
 	"". $modalidade_item_id ." ".
 ");";
 
-$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['botucatu_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: editais. Criou o item ". $nome ."','". date( 'Y-m-d H:i:s' ) ."');";
+$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: editais. Criou o item ". $nome ."','". date( 'Y-m-d H:i:s' ) ."');";
 $conn->multi_query( $sql );
 $conn->close();
 

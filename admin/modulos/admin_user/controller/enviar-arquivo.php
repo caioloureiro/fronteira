@@ -1,13 +1,9 @@
 <?php
-//
-
 error_reporting (E_ALL & ~ E_NOTICE & ~ E_DEPRECATED);
 date_default_timezone_set('America/Sao_Paulo');
 
 $raiz_site = '../../../../';
 $raiz_admin = '../../../';
-
-require $raiz_site .'controller/funcoes.php';
 
 if( $_SERVER['HTTP_HOST'] == 'localhost' ){
 
@@ -19,159 +15,119 @@ if( $_SERVER['HTTP_HOST'] == 'localhost' ){
 	
 }
 
-$formatos_validos = array(
-	"zip",
-	"jpg",
-	"jpeg",
-	"png",
-	"gif",
-	"bmp",
-	"pdf",
-	"zip",
-	"rar",
-	"webp"
+require $raiz_site .'controller/funcoes.php';
+	
+/*Start - SUBIR ARQUIVO*/
+reset( $_FILES ); 
+//echo '<pre>'; print_r( $_FILES['arquivo'] ); echo'</pre>'; exit;
+
+$arquivo_subir_array = $_FILES['arquivo'];
+//echo '<pre>'; print_r( $arquivo_subir_array ); echo'</pre>'; exit;
+
+$arquivo_subir = $arquivo_subir_array['name'];
+//echo $arquivo_subir; exit;
+
+$phpFileUploadErrors = array(
+	0 => 'Não há erro, arquivo enviado com sucesso',
+	1 => 'O arquivo enviado excede a diretiva upload_max_filesize no php.ini',
+	2 => 'O arquivo enviado excede a diretiva MAX_FILE_SIZE especificada no formulário HTML',
+	3 => 'O arquivo enviado foi carregado apenas parcialmente',
+	4 => 'Nenhum arquivo foi carregado',
+	6 => 'Faltando uma pasta temporária',
+	7 => 'Falha ao gravar arquivo no disco.',
+	8 => 'Uma extensão PHP interrompeu o upload do arquivo.',
 );
 
-$arquivo_bloqueado = 0;
+$formatos_validos = array(
+	"bmp",
+	"gif",
+	"jpeg",
+	"jpg",
+	"png",
+	"webp",
+	"avif",
+	
+	"BMP",
+	"GIF",
+	"JPEG",
+	"JPG",
+	"PNG",
+	"WEBP",
+	"AVIF",
+);
 
-$tamanho_maximo = 1024*1000000; // 1Gb
+$arquivo_aceito = 0;
 
-$pasta = $raiz_admin .'usuarios/';
+$tamanho_maximo = 1024 * 20000; // 20Mb
+
+$pasta = $_POST['pasta'];
+//echo $pasta; exit;
 
 $contagem = 0;
 
-//dd( $_FILES );
+require $raiz_site .'controller/replace.php'; //ARQUIVO REPLACE.PHP COM ARRAY DE ITENS PARA SUBSTITUIR
+
+$tipo_de_arquivo_array = explode( '.', trim( strip_tags( $arquivo_subir ) ) );
+//echo '<pre>'; print_r( $tipo_de_arquivo_array ); echo'</pre>'; exit;
+
+$tipo_de_arquivo = $tipo_de_arquivo_array[ count($tipo_de_arquivo_array)  -1 ];
+//echo $tipo_de_arquivo; exit;
+
+foreach( $formatos_validos as $allow ){
+	
+	if( $tipo_de_arquivo == $allow ){ 
+		
+		$arquivo_aceito = 1;
+		
+	}
+	
+}
+
+//echo '$arquivo_aceito: '. $arquivo_aceito; exit;
+
+if( $arquivo_aceito == 0 ){ echo'O tipo de arquivo '. $tipo_de_arquivo .' não é aceito.'; exit; }
+if( $arquivo_subir_array['error'] == 4 ) { echo'O arquivo não subiu.'; exit; }
+
+if( $arquivo_subir_array['error'] == 0 ){ //SEM ERROS
+	
+	if( $arquivo_subir_array['size'] > $tamanho_maximo ) { echo'O arquivo é muito grande. Deve ser menor que 20MB.'; exit; }
+	
+	/*Start - RENOMEAR ARQUIVO POR SEGURANÇA*/
+	$name = $arquivo_subir;
+	$name = mb_strtolower( $name );
+	$explodir_nome = explode( ' ', $name );
+	$last_nome_numero = count( $explodir_nome ) - 1;
+	$explodir_extensao = explode( '.', $explodir_nome[ $last_nome_numero ] );
+	$extensao_arquivo_recebido = $explodir_extensao[1];
+	$nome_final = '';
+	$nome_final = date('Y-m-d-H-i-s') .'-';
+	
+	for( $i = 0; $i < count( $explodir_nome ) - 1; $i++){
+		
+		if(
+			$explodir_nome[$i] != '-' &&
+			$explodir_nome[$i] != ''
+		){ $nome_final .= $explodir_nome[$i] .'-';}
+		
+	}
+	
+	$nome_final .= $explodir_extensao[0];
+	$nome_final .= '.'. $explodir_extensao[1];
+	
+	$nome_final = str_replace( array_keys( $replace ), $replace, $nome_final );
+	
+	//echo $nome_final; exit;
+	/*End - RENOMEAR ARQUIVO POR SEGURANÇA*/
+
+	move_uploaded_file( $arquivo_subir_array["tmp_name"], $pasta.$nome_final ); //SOBE O ARQUIVO
+
+}
+/*End - SUBIR ARQUIVO*/
+
+$sql = "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Subiu o arquivo ( noticia ): ".$pasta.$nome_final."','". date( 'Y-m-d H:i:s' ) ."');";
+$conn->multi_query( $sql );
+$conn->close();
+
+echo $nome_final;
 
 ?>
-<!doctype html>
-<html lang="pt-br" prefix="og: https://ogp.me/ns#">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Painel de Controle</title>
-		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatable/2.0.1/css/datatable.css" integrity="sha512-zHpjdnFxcMInClTw4ZqdX6NNLuPU+iJMZEQsyIjXuQX8TZXzRhZIlUi0tQTGQxt/UGruFgs0qTBshuGN0ts/vQ==" crossorigin="anonymous" />
-	</head>
-	<body>
-		
-		<div class="box">
-		
-			<?php
-			
-				require $raiz_admin .'controller/replace.php';
-			
-				if( isset($_POST) and $_SERVER['REQUEST_METHOD'] == "POST" ){
-					
-					foreach( $_FILES['enviarArquivoItem']['name'] as $f => $name ){
-						
-						$tipo_de_arquivo = explode( '/', trim( strip_tags( $_FILES['enviarArquivoItem']['type'][$f] ) ) );
-						
-						//dd( $tipo_de_arquivo[1] );
-						
-						foreach( $formatos_validos as $allow ){
-							
-							if( $tipo_de_arquivo[1] == $allow ){ 
-								
-								$arquivo_bloqueado = 1;
-								
-							}
-							
-						}
-						
-						if( $arquivo_bloqueado == 0 ){
-						
-							echo'
-							<script> 
-								alert("O tipo de arquivo '. $tipo_de_arquivo[1] .' não é aceito.");
-								window.history.back(); 
-							</script>
-							';
-							
-							exit; 
-						
-						}
-						
-						if($_FILES['enviarArquivoItem']['error'][$f] == 4) {
-
-							continue;
-							
-						}
-
-						if($_FILES['enviarArquivoItem']['error'][$f] == 0){
-
-							if($_FILES['enviarArquivoItem']['size'][$f] > $tamanho_maximo) {
-
-								$message[] = "$name é muito grande!.";
-
-								continue;
-								
-							}
-							
-							$name = mb_strtolower( $name );
-							
-							$explodir_nome = explode( ' ', $name );
-							
-							$last_nome_numero = count( $explodir_nome ) - 1;
-							
-							$explodir_extensao = explode( '.', $explodir_nome[ $last_nome_numero ] );
-							
-							$extensao_arquivo_recebido = $explodir_extensao[1];
-							
-							$nome_final = '';
-							
-							$nome_final = date('Y-m-d-H-i-s') .'-';
-							
-							for( $i = 0; $i < count( $explodir_nome ) - 1; $i++){
-								
-								if(
-									$explodir_nome[$i] != '-' &&
-									$explodir_nome[$i] != ''
-								){ $nome_final .= $explodir_nome[$i] .'-';}
-								
-							}
-							
-							$nome_final .= $explodir_extensao[0];
-							$nome_final .= '.'. $explodir_extensao[1];
-							
-							$nome_final = str_replace( array_keys( $replace ), $replace, $nome_final );
-
-							move_uploaded_file($_FILES["enviarArquivoItem"]["tmp_name"][$f], $pasta.$nome_final);
-							
-							$sql = "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Subiu o arquivo ( notícia ): ".$pasta.$nome_final."','". date( 'Y-m-d H:i:s' ) ."');";
-							$conn->multi_query( $sql );
-							$conn->close();
-							
-							echo'<script> window.location = "../view/novo-02?arquivo='. $nome_final .'"; </script>';
-							
-						}
-						
-					}
-					
-				}
-				
-			?>
-			
-		</div>
-		
-		<script>
-			let copiar = document.querySelector('.copiar');
-			let copiar_input = document.querySelector('.copiar_input');
-			
-			function copiar_texto(){
-	
-				copiar_input.select(); 
-				copiar_input.setSelectionRange(0, 99999);
-				document.execCommand("copy");				
-				alert("Item copiado para área de transferência: " + copiar_input.value);
-				
-			}
-		</script>
-		
-		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/datatable/2.0.1/js/datatable.js" integrity="sha512-9Jte0+zkyqOLUDxEfIz74iRN9geJm2oBwSYDdZVLzBWa3cxGh0YWw4/aBmq2FTJodryloQjd7mCxHo+gHQwzcA==" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="<?php echo $raiz_admin ?>js/motor.js"></script>	
-		
-	</body>
-	
-</html>

@@ -1,0 +1,12 @@
+/*Start - css/ouvidoria.css*/
+.ouvidoria-itens{
+width:100%;
+height:auto;
+background-color:var(--teste00);
+float:left;
+margin-top:2vw;
+margin-bottom:1vw;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+/*End - css/ouvidoria.css*/

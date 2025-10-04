@@ -1,14 +1,14 @@
 <!-- Start - view/legislacoes.php !-->
 <?php
 
-require 'model/chamadas_publicas.php';
+require 'model/legislacoes.php';
 
-$chamadas_publicas_array_total = array_reverse( $chamadas_publicas_array_total );
+$legislacoes_array = array_reverse( $legislacoes_array );
 
 $counterHTML =  'Nenhum item encontrado.';
 $counter_diarios = 0;
 
-foreach( $chamadas_publicas_array_total as $count_item ){ $counter_diarios++; }
+foreach( $legislacoes_array as $count_item ){ $counter_diarios++; }
 
 if( $counter_diarios == 1 ){
 	$counterHTML = '1 item encontrado.';
@@ -20,296 +20,83 @@ if( $counter_diarios > 1 ){
 
 
 ?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatable/2.0.1/css/datatable.css" integrity="sha512-zHpjdnFxcMInClTw4ZqdX6NNLuPU+iJMZEQsyIjXuQX8TZXzRhZIlUi0tQTGQxt/UGruFgs0qTBshuGN0ts/vQ==" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatable/2.0.1/js/datatable.js" integrity="sha512-9Jte0+zkyqOLUDxEfIz74iRN9geJm2oBwSYDdZVLzBWa3cxGh0YWw4/aBmq2FTJodryloQjd7mCxHo+gHQwzcA==" crossorigin="anonymous"></script>
 
-<style><?php require 'css/legislacoes.css'; ?></style>
+<style>
+	<?php 
+		require 'css/legislacoes.css'; 
+		require 'css/tabela.css'; 
+	?>
+</style>
 
 <section class="legislacoes">
 	
 	<div class="box">
 		
-		<?= $pagina['texto'] ?>
-		
-		<div 
-			class="legislacoes-filtro"
-			title="Essa busca é reativa, basta apenas digitar para achar o resultado."
-		>
-			
-			<div class="legislacoes-filtro-titulo">BUSCA DETALHADA</div>
-			
-			<div class="legislacoes-filtro-campo">
-				
-				<div class="legislacoes-filtro-col01">
-					
-					<div class="legislacoes-filtro-label">Titulo</div>
-					<div class="legislacoes-filtro-input">
-						<input type="text" class="input_titulo" />
-					</div>
-					
-				</div>
-				
-				<div class="legislacoes-filtro-col01">
-					
-					<div class="legislacoes-filtro-label">Categorias</div>
-					<div class="legislacoes-filtro-input">
-						<input type="text" class="input_categorias" />
-					</div>
-					
-				</div>
-				
-			</div>
-			
-		</div>
-		
 		<div class="legislacoes-counter"><?php echo $counterHTML ?></div>
-	
-		<div class="legislacoes-campo div_chamadas_publicas_scroll">
 		
-			<?php
+		<table class="tabela_legislacoes">
+		
+			<thead>
 				
-				foreach( $chamadas_publicas_array as $item ){
-					
-					$data = date( 'd/m/Y', strtotime( $item['data'] ) );
-					
-					$categorias = explode( ';', trim( strip_tags( $item['categorias'] ) ) );
-
-					echo '
-					<div class="legislacoes-item">
-					
-						<a 
-							href="arquivos/'. $item['arquivo'] .'" 
-							target="_blank"
-						>
-						
-							<div class="col20">
-								<div class="legislacoes-thumb-campo">
-									<div class="legislacoes-thumb">
-										<span class="material-symbols-outlined">picture_as_pdf</span>
-									</div>
-								</div>
-							</div>
-							<div class="col80">
-							
-								<div class="legislacoes-linha">
-								
-									<div class="legislacoes-titulo"><span>'. $item['titulo'] .'</span></div>
-									
-									<div class="legislacoes-btn">
-										<div class="legislacoes-btn-icone">
-											<span class="material-symbols-outlined">download</span>
-										</div>
-										<div class="legislacoes-btn-nome">Acessar</div>
-									</div>
-									
-								</div>
-								
-								<div class="legislacoes-linha dados">
-									<div class="legislacoes-dado">
-										<div class="legislacoes-dado-icone">
-											<span class="material-symbols-outlined">calendar_month</span>
-										</div>
-										<div class="legislacoes-dado-item"><strong>Postagem:</strong> '. $data .'</div>
-									</div>
-									<div class="legislacoes-dado">
-										<div class="legislacoes-dado-icone">
-											<span class="material-symbols-outlined">tag</span>
-										</div>
-										<div 
-											class="
-												legislacoes-dado-item 
-												chamadas_publicas_categorias
-											"
-										>
-											<div class="legislacoes-txt"><strong>Categorias:</strong> </div>
-											';
-											
-												foreach( $categorias as $categoria ){
-
-													echo '<div class="legislacoes-tag">'. $categoria .'</div>';
-													
-												}
-												
-											echo'
-										</div>
-									</div>
-								</div>
-								
-							</div>
-							
-						</a>
-						
-					</div>
-					';
-					
-				}
+				<tr>
 				
-			?>
+					<th style="width:10vw">Categoria</th>
+					<th style="width:40vw">Objeto</th>
+					<th style="width:10vw">Publicação</th>
+					
+				</tr>
+				
+			</thead>
 			
-		</div>
+			<tbody>
+			
+				<?php
+					
+					foreach( $legislacoes_array as $item ){
+						
+						echo'
+						<tr>
+							<td>'. $item['categoria'] .'</td>
+							<td>
+								<a 
+									href="legislacao&id='. $item['id'] .'" 
+									title="acessar"
+								>
+									'. $item['texto'] .'
+								</a>
+							</td>
+							<td>'. data_tempo( $item['data'] ) .'</td>
+							
+						</tr>
+						';
+						
+					}
+					
+				?>
+				
+			</tbody>
+		
+		</table>
+		
+		<div id="tabela_legislacoes_paginacao" class="pagination"></div>
 		
 	</div>
 	
 </section>
 
-<!--  
-<div 
-	class="debug"
-	style="
-		position:fixed;
-		top:2vw;
-		right:2vw;
-		background-color:red;
-		color:white;
-		z-index:9999;
-		width:5vw;
-		height:5vw;
-	"
->0</div>
-!-->
-
 <script>
 
-/*Start - Filtro REATIVO*/
-let input_titulo = document.querySelector('.input_titulo');
-let input_categorias = document.querySelector('.input_categorias');
-let itens = document.querySelector('.legislacoes-campo');
-
-if( itens ){
+	let tabela_datatable = document.querySelector('.tabela_legislacoes');
 	
-	input_titulo.addEventListener('keyup', function() {
-		
-		let input_titulo = document.querySelector('.input_titulo').value.toUpperCase();
-		let itens = document.querySelector('.legislacoes-campo');
-		
-		let card = itens.querySelectorAll('.legislacoes-item');
-		
-		for( let i = 0; i < card.length; i++ ){
-
-			let a = card[i].querySelector('.legislacoes-titulo');
-			
-			if( a.innerHTML.toUpperCase().indexOf( input_titulo ) > -1 ){
-				
-				card[i].style.display = '';
-				
-			}else{
-				
-				card[i].style.display = 'none';
-				
-			}
-			
-		}
-
+	var datatable = new DataTable( tabela_datatable, {
+		pageSize: 100, /* QUANTOS ITENS POR PÁGINA */
+		sort: [true, true, true], /* QUANTAS COLUNAS? ORDENAÇÃO */
+		filters: ['select', true, true], /* QUANTAS COLUNAS? FILTROS */
+		filterText: 'Buscar... ', /* PLACEHOLDER DO FILTRO */
+		pagingDivSelector: "#tabela_legislacoes_paginacao"
 	});
 	
-	input_categorias.addEventListener('keyup', function() {
-		
-		let input_categorias = document.querySelector('.input_categorias').value.toUpperCase();
-		let itens = document.querySelector('.legislacoes-campo');
-		
-		let card = itens.querySelectorAll('.legislacoes-item');
-		
-		for( let i = 0; i < card.length; i++ ){
-
-			let a = card[i].querySelector('.chamadas_publicas_categorias');
-			
-			if( a.innerHTML.toUpperCase().indexOf( input_categorias ) > -1 ){
-				
-				card[i].style.display = '';
-				
-			}else{
-				
-				card[i].style.display = 'none';
-				
-			}
-			
-		}
-
-	});
-	
-}
-/*End - Filtro REATIVO*/
-
-let div_chamadas_publicas_scroll = document.querySelector('.div_chamadas_publicas_scroll');
-
-/*Start - Efeitos de Scroll*/
-let body = document.body;
-let html = document.documentElement;
-
-let document_height = Math.max( 
-	body.scrollHeight, 
-	body.offsetHeight, 
-	html.clientHeight, 
-	html.scrollHeight, 
-	html.offsetHeight 
-);
-//console.log( 'document_height', document_height ); 
-
-let window_height = window.innerHeight;
-//console.log( 'window_height', window_height ); 
-
-let pagina_counter = 1;
-
-function buscar_resultados( pagina_counter ){
-	
-	var formData = new FormData();
-	formData.append( 'pagina_counter', pagina_counter );
-	
-	var xhr = new XMLHttpRequest();
-	xhr.open( 'POST', 'model/chamadas_publicas_scroll.php', true );
-	
-	var resultado = '';
-	
-	//console.log( 'teste pagina_counter: ', pagina_counter );
-	
-	xhr.onreadystatechange = function(){
-		
-		if( 
-			xhr.status === 200 
-			&& xhr.readyState == 4
-		){
-			
-			//console.log( 'teste pagina_counter: ', pagina_counter );
-			
-			//console.log( xhr.responseText );
-			
-			div_chamadas_publicas_scroll.innerHTML += xhr.responseText;
-			
-		}
-		
-	};
-	
-	xhr.send( formData );
-	
-}
-
-window.addEventListener('scroll', function() {
-	
-	var gatilho = window.scrollY + window_height;
-
-	document_height = Math.max( 
-		body.scrollHeight, 
-		body.offsetHeight, 
-		html.clientHeight, 
-		html.scrollHeight, 
-		html.offsetHeight 
-	);
-	//console.log( 'document_height', document_height ); 
-	
-	//let debug = document.querySelector('.debug');
-	//debug.innerHTML = gatilho;
-
-	if( gatilho >= document_height ){
-		
-		//console.log( 'pagina_counter', pagina_counter ); 
-		
-		pagina_counter++;
-		
-		buscar_resultados( pagina_counter );
-		
-	}
-	
-});
-
-/*End - Efeitos de Scroll*/
-
 </script>
 <!-- End - view/legislacoes.php !-->

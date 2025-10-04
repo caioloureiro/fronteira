@@ -20,7 +20,7 @@ require $raiz_site .'model/chamamento_publico.php';
 require $raiz_site .'model/downloads.php';
 require $raiz_site .'model/editais.php';
 
-if( !isset( $_COOKIE['botucatu_ADMIN_SESSION_usuario'] ) ){
+if( !isset( $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ) ){
 	echo'<script>window.history.back();</script>';
 	exit;
 }
@@ -101,7 +101,7 @@ foreach( $arquivos_array as $arquivo ){
 			"". $modalidade_item_id ." ".
 		");";
 
-		$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['botucatu_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: editais. Criou o item ". $nome ."','". date( 'Y-m-d H:i:s' ) ."');";
+		$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: editais. Criou o item ". $nome ."','". date( 'Y-m-d H:i:s' ) ."');";
 		
 	}
 	
@@ -133,7 +133,7 @@ foreach( $editais_array as $edital ){
 			
 			$sql .= "UPDATE editais SET ativo = 0 WHERE id = ". $edital['id'] .";";
 
-			$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['botucatu_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: editais. Excluiu o item de ID: ". $edital['id'] ."','". date( 'Y-m-d H:i:s' ) ."');";
+			$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: editais. Excluiu o item de ID: ". $edital['id'] ."','". date( 'Y-m-d H:i:s' ) ."');";
 			
 		}
 		

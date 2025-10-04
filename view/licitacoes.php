@@ -1,14 +1,14 @@
 <!-- Start - view/licitacoes.php !-->
 <?php
 
-require 'model/chamadas_publicas.php';
+require 'model/licitacoes.php';
 
-$chamadas_publicas_array_total = array_reverse( $chamadas_publicas_array_total );
+$licitacoes_array = array_reverse( $licitacoes_array );
 
 $counterHTML =  'Nenhum item encontrado.';
 $counter_diarios = 0;
 
-foreach( $chamadas_publicas_array_total as $count_item ){ $counter_diarios++; }
+foreach( $licitacoes_array as $count_item ){ $counter_diarios++; }
 
 if( $counter_diarios == 1 ){
 	$counterHTML = '1 item encontrado.';
@@ -18,298 +18,109 @@ if( $counter_diarios > 1 ){
 	$counterHTML = $counter_diarios .' itens encontrados.';
 }
 
+usort($licitacoes_array, function( $a, $b ){ //Função responsável por ordenar
+	$al = mb_strtolower($a['publicacao']);
+	$bl = mb_strtolower($b['publicacao']);
+	if ($al == $bl){ return 0; }
+	return ($bl > $al) ? +1 : -1; // < ASC; > DESC
+});
 
 ?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatable/2.0.1/css/datatable.css" integrity="sha512-zHpjdnFxcMInClTw4ZqdX6NNLuPU+iJMZEQsyIjXuQX8TZXzRhZIlUi0tQTGQxt/UGruFgs0qTBshuGN0ts/vQ==" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatable/2.0.1/js/datatable.js" integrity="sha512-9Jte0+zkyqOLUDxEfIz74iRN9geJm2oBwSYDdZVLzBWa3cxGh0YWw4/aBmq2FTJodryloQjd7mCxHo+gHQwzcA==" crossorigin="anonymous"></script>
 
-<style><?php require 'css/licitacoes.css'; ?></style>
+<style>
+	<?php 
+		require 'css/licitacoes.css'; 
+		require 'css/tabela.css'; 
+	?>
+</style>
 
 <section class="licitacoes">
 	
 	<div class="box">
 		
-		<?= $pagina['texto'] ?>
-		
-		<div 
-			class="licitacoes-filtro"
-			title="Essa busca é reativa, basta apenas digitar para achar o resultado."
-		>
-			
-			<div class="licitacoes-filtro-titulo">BUSCA DETALHADA</div>
-			
-			<div class="licitacoes-filtro-campo">
-				
-				<div class="licitacoes-filtro-col01">
-					
-					<div class="licitacoes-filtro-label">Titulo</div>
-					<div class="licitacoes-filtro-input">
-						<input type="text" class="input_titulo" />
-					</div>
-					
-				</div>
-				
-				<div class="licitacoes-filtro-col01">
-					
-					<div class="licitacoes-filtro-label">Categorias</div>
-					<div class="licitacoes-filtro-input">
-						<input type="text" class="input_categorias" />
-					</div>
-					
-				</div>
-				
-			</div>
-			
-		</div>
-		
 		<div class="licitacoes-counter"><?php echo $counterHTML ?></div>
-	
-		<div class="licitacoes-campo div_chamadas_publicas_scroll">
 		
-			<?php
+		<table class="tabela_licitacoes">
+		
+			<thead>
 				
-				foreach( $chamadas_publicas_array as $item ){
-					
-					$data = date( 'd/m/Y', strtotime( $item['data'] ) );
-					
-					$categorias = explode( ';', trim( strip_tags( $item['categorias'] ) ) );
-
-					echo '
-					<div class="licitacoes-item">
-					
-						<a 
-							href="arquivos/'. $item['arquivo'] .'" 
-							target="_blank"
-						>
-						
-							<div class="col20">
-								<div class="licitacoes-thumb-campo">
-									<div class="licitacoes-thumb">
-										<span class="material-symbols-outlined">picture_as_pdf</span>
-									</div>
-								</div>
-							</div>
-							<div class="col80">
-							
-								<div class="licitacoes-linha">
-								
-									<div class="licitacoes-titulo"><span>'. $item['titulo'] .'</span></div>
-									
-									<div class="licitacoes-btn">
-										<div class="licitacoes-btn-icone">
-											<span class="material-symbols-outlined">download</span>
-										</div>
-										<div class="licitacoes-btn-nome">Acessar</div>
-									</div>
-									
-								</div>
-								
-								<div class="licitacoes-linha dados">
-									<div class="licitacoes-dado">
-										<div class="licitacoes-dado-icone">
-											<span class="material-symbols-outlined">calendar_month</span>
-										</div>
-										<div class="licitacoes-dado-item"><strong>Postagem:</strong> '. $data .'</div>
-									</div>
-									<div class="licitacoes-dado">
-										<div class="licitacoes-dado-icone">
-											<span class="material-symbols-outlined">tag</span>
-										</div>
-										<div 
-											class="
-												licitacoes-dado-item 
-												chamadas_publicas_categorias
-											"
-										>
-											<div class="licitacoes-txt"><strong>Categorias:</strong> </div>
-											';
-											
-												foreach( $categorias as $categoria ){
-
-													echo '<div class="licitacoes-tag">'. $categoria .'</div>';
-													
-												}
-												
-											echo'
-										</div>
-									</div>
-								</div>
-								
-							</div>
-							
-						</a>
-						
-					</div>
-					';
-					
-				}
+				<tr>
 				
-			?>
+					<th style="width:40vw">Tipo</th>
+					<th style="width:40vw">Número</th>
+					<th style="width:40vw">Objeto</th>
+					<th style="width:10vw">Publicação</th>
+					<th style="width:10vw">Situação</th>
+					
+				</tr>
+				
+			</thead>
 			
-		</div>
+			<tbody>
+			
+				<?php
+					
+					foreach( $licitacoes_array as $item ){
+						
+						echo'
+						<tr>
+							<td>
+								<a 
+									href="licitacao&id='. $item['id'] .'" 
+									title="acessar"
+								>
+									'. $item['categoria'] .'
+								</a>
+							</td>
+							<td>
+								<a 
+									href="licitacao&id='. $item['id'] .'" 
+									title="acessar"
+								>
+									'. $item['numero'] .'
+								</a>
+							</td>
+							<td>
+								<a 
+									href="licitacao&id='. $item['id'] .'" 
+									title="acessar"
+								>
+									'. $item['objeto'] .'
+								</a>
+							</td>
+							<td>'. data_tempo( $item['publicacao'] ) .'</td>
+							<td>'. $item['situacao'] .'</td>
+							
+						</tr>
+						';
+						
+					}
+					
+				?>
+				
+			</tbody>
+		
+		</table>
+		
+		<div id="tabela_licitacoes_paginacao" class="pagination"></div>
 		
 	</div>
 	
 </section>
 
-<!--  
-<div 
-	class="debug"
-	style="
-		position:fixed;
-		top:2vw;
-		right:2vw;
-		background-color:red;
-		color:white;
-		z-index:9999;
-		width:5vw;
-		height:5vw;
-	"
->0</div>
-!-->
-
 <script>
 
-/*Start - Filtro REATIVO*/
-let input_titulo = document.querySelector('.input_titulo');
-let input_categorias = document.querySelector('.input_categorias');
-let itens = document.querySelector('.licitacoes-campo');
-
-if( itens ){
+	let tabela_datatable = document.querySelector('.tabela_licitacoes');
 	
-	input_titulo.addEventListener('keyup', function() {
-		
-		let input_titulo = document.querySelector('.input_titulo').value.toUpperCase();
-		let itens = document.querySelector('.licitacoes-campo');
-		
-		let card = itens.querySelectorAll('.licitacoes-item');
-		
-		for( let i = 0; i < card.length; i++ ){
-
-			let a = card[i].querySelector('.licitacoes-titulo');
-			
-			if( a.innerHTML.toUpperCase().indexOf( input_titulo ) > -1 ){
-				
-				card[i].style.display = '';
-				
-			}else{
-				
-				card[i].style.display = 'none';
-				
-			}
-			
-		}
-
+	var datatable = new DataTable( tabela_datatable, {
+		pageSize: 100, /* QUANTOS ITENS POR PÁGINA */
+		sort: [true, true, true, true, true], /* QUANTAS COLUNAS? ORDENAÇÃO */
+		filters: ['select', true, true, true, 'select'], /* QUANTAS COLUNAS? FILTROS */
+		filterText: 'Buscar... ', /* PLACEHOLDER DO FILTRO */
+		pagingDivSelector: "#tabela_licitacoes_paginacao"
 	});
 	
-	input_categorias.addEventListener('keyup', function() {
-		
-		let input_categorias = document.querySelector('.input_categorias').value.toUpperCase();
-		let itens = document.querySelector('.licitacoes-campo');
-		
-		let card = itens.querySelectorAll('.licitacoes-item');
-		
-		for( let i = 0; i < card.length; i++ ){
-
-			let a = card[i].querySelector('.chamadas_publicas_categorias');
-			
-			if( a.innerHTML.toUpperCase().indexOf( input_categorias ) > -1 ){
-				
-				card[i].style.display = '';
-				
-			}else{
-				
-				card[i].style.display = 'none';
-				
-			}
-			
-		}
-
-	});
-	
-}
-/*End - Filtro REATIVO*/
-
-let div_chamadas_publicas_scroll = document.querySelector('.div_chamadas_publicas_scroll');
-
-/*Start - Efeitos de Scroll*/
-let body = document.body;
-let html = document.documentElement;
-
-let document_height = Math.max( 
-	body.scrollHeight, 
-	body.offsetHeight, 
-	html.clientHeight, 
-	html.scrollHeight, 
-	html.offsetHeight 
-);
-//console.log( 'document_height', document_height ); 
-
-let window_height = window.innerHeight;
-//console.log( 'window_height', window_height ); 
-
-let pagina_counter = 1;
-
-function buscar_resultados( pagina_counter ){
-	
-	var formData = new FormData();
-	formData.append( 'pagina_counter', pagina_counter );
-	
-	var xhr = new XMLHttpRequest();
-	xhr.open( 'POST', 'model/chamadas_publicas_scroll.php', true );
-	
-	var resultado = '';
-	
-	//console.log( 'teste pagina_counter: ', pagina_counter );
-	
-	xhr.onreadystatechange = function(){
-		
-		if( 
-			xhr.status === 200 
-			&& xhr.readyState == 4
-		){
-			
-			//console.log( 'teste pagina_counter: ', pagina_counter );
-			
-			//console.log( xhr.responseText );
-			
-			div_chamadas_publicas_scroll.innerHTML += xhr.responseText;
-			
-		}
-		
-	};
-	
-	xhr.send( formData );
-	
-}
-
-window.addEventListener('scroll', function() {
-	
-	var gatilho = window.scrollY + window_height;
-
-	document_height = Math.max( 
-		body.scrollHeight, 
-		body.offsetHeight, 
-		html.clientHeight, 
-		html.scrollHeight, 
-		html.offsetHeight 
-	);
-	//console.log( 'document_height', document_height ); 
-	
-	//let debug = document.querySelector('.debug');
-	//debug.innerHTML = gatilho;
-
-	if( gatilho >= document_height ){
-		
-		//console.log( 'pagina_counter', pagina_counter ); 
-		
-		pagina_counter++;
-		
-		buscar_resultados( pagina_counter );
-		
-	}
-	
-});
-
-/*End - Efeitos de Scroll*/
-
 </script>
 <!-- End - view/licitacoes.php !-->

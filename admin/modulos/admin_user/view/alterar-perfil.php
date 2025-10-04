@@ -1,6 +1,4 @@
 <?php
-//
-
 error_reporting (E_ALL & ~ E_NOTICE & ~ E_DEPRECATED);
 date_default_timezone_set('America/Sao_Paulo');
 
@@ -37,7 +35,10 @@ require $raiz_site .'model/admin_user.php';
 		
 			<?php
 				
-				require $raiz_admin .'view/escurecer.php';
+				$pasta_nome = 'usuarios';
+				$pasta = $raiz_admin .'usuarios/';
+			
+				require $raiz_admin .'view/escurecer.php'; 
 				require 'imagens.php';
 				
 				foreach( $admin_user_array as $usuario ){
@@ -62,9 +63,47 @@ require $raiz_site .'model/admin_user.php';
 
 									<div class="col10"><span>Imagem: </span></div>
 
-									<div class="col90"><div class="escolher-imagem-btn item-escolher-imagem-btn" onclick="abrir_item_imagens()" style="background-image:url( '. $raiz_admin .'usuarios/'. $usuario['foto'] .')"></div></div>
-									<div class="linha"><div class="col10">Foto: </div><div class="col90"><input name="foto" class="item-escolher-imagem-input" value="'. $usuario['foto'] .'"/></div></div>
+									<div class="col20">
+										<div 
+											class="escolher-imagem-btn item-escolher-imagem-btn" 
+											style="background-image:url( '. $pasta . $usuario['foto'] .')"
+										></div>
+									</div>
 									
+									<div class="col25">
+										<span><div class="btn" onclick="abrir_item_imagens()">Clique aqui para escolher a imagem do servidor.</div></span>
+									</div>
+									
+									<div class="col30">
+										<span>
+											<label 
+												class="btn arquivo_escolhido" 
+												for="arquivo" 
+												title="Clique aqui para selecionar o arquivo desejado."
+											>Escolher imagem do dispositivo</label>
+											<input type="file" name="arquivo_subir" id="arquivo" />
+											<div 
+												class="enviar-arquivo-submit" 
+												title="Clique aqui para ENVIAR a imagem."
+												onclick="subirArquivo()"
+												style="float:left"
+											>Enviar</div>
+										</span>
+									</div>
+									
+								</div>
+								
+								<div class="linha">
+									<div class="col10">
+										<span>URL Imagem: </span>
+									</div>
+									<div class="col90">
+										<input 
+											name="imagem" 
+											class="item-escolher-imagem-input" 
+											value="'. $usuario['foto'] .'"
+										/>
+									</div>
 								</div>
 							
 								<div class="linha">
@@ -131,6 +170,7 @@ require $raiz_site .'model/admin_user.php';
 		</div>
 		
 		<script>
+			
 			let item_escolher_imagem_input = document.querySelector('.item-escolher-imagem-input');
 			let item_escolher_imagem_btn = document.querySelector('.item-escolher-imagem-btn');
 
@@ -140,24 +180,93 @@ require $raiz_site .'model/admin_user.php';
 				
 			});
 			
-			function sair_item_nova(){
-				
-				document.querySelector('.escurecer').classList.remove('on');
-				document.querySelector('.item-nova').classList.remove('on');
-				
-			}
+			/*Start - Arquivo*/
+			let arquivo = document.querySelector('#arquivo');
+			let arquivo_valor = document.getElementById('arquivo');
 
+			if( document.querySelector('#arquivo') ){
+				
+				arquivo.addEventListener('change', function() {
+					
+					var filename = arquivo.files[0].name;
+
+					var arquivo_escolhido = document.querySelector('.arquivo_escolhido');
+
+					if( this.files.length > 1 ){
+
+						arquivo_escolhido.innerHTML = this.files.length +' arquivos selecionados.';
+						
+					}else{
+
+						arquivo_escolhido.innerHTML = filename;
+						
+					}
+					
+				});
+
+			}
+			/*End - Arquivo*/
+			
 			function abrir_item_imagens(){
 				
 				document.querySelector('.escurecer').classList.add('on');
 				document.querySelector('.item-imagens').classList.add('on');
 				
 			}
-			
-			function abrir_imagens_txt(){
+
+			function sair_item_imagens(){
 				
-				document.querySelector('.escurecer').classList.add('on');
-				document.querySelector('.imagens_txt').classList.add('on');
+				document.querySelector('.escurecer').classList.remove('on');
+				document.querySelector('.item-imagens').classList.remove('on');
+				
+			}
+			
+			function subirArquivo(){
+				
+				console.log( 'subirArquivo()' );
+				//console.log( document.querySelector('[name="arquivo_subir"]').files[0] );
+				
+				var subirArquivo_pasta = '<?= $pasta ?>';
+				
+				var formData = new FormData();
+				formData.append( 'arquivo_subir', document.querySelector('[name="arquivo_subir"]').value );
+				formData.append( 'arquivo', document.querySelector('[name="arquivo_subir"]').files[0] );
+				formData.append( 'pasta', "<?= $pasta ?>" );
+
+				var xhr = new XMLHttpRequest();
+				xhr.open( 'POST', '../controller/enviar-arquivo.php', true );
+
+				xhr.onreadystatechange = function(){
+					
+					if( 
+						xhr.status === 200 
+						&& xhr.readyState == 4
+					){
+						
+						//alert( xhr.responseText );
+						document.querySelector('[name="arquivo_subir"]').value = '';
+						document.querySelector('[name="imagem"]').value = xhr.responseText;
+						document.querySelector('.arquivo_escolhido').innerHTML = 'Escolher imagem do dispositivo';
+						item_escolher_imagem_btn.style.backgroundImage = 'url('+ subirArquivo_pasta + xhr.responseText +')' ;
+						document.querySelector('.escolher-imagem-cards-box').innerHTML += ''+
+						'<div onclick="'+
+						'		let item_imagens = document.querySelector(`.item-imagens`);'+
+						'		item_imagens.classList.remove(`on`);'+
+						'		document.querySelector(`.item-escolher-imagem-input`).value = `'+ xhr.responseText +'` ;'+
+						'		document.querySelector(`.item-escolher-imagem-btn`).style.backgroundImage = `url('+ subirArquivo_pasta + xhr.responseText +')` ;'+
+						'	" class="escolher-imagem-cards-card">'+
+						''+
+						'	<div class="escolher-imagem-cards-imagem" style="background-image:url( '+ subirArquivo_pasta + xhr.responseText +' )"></div>'+
+						'	<div class="escolher-imagem-cards-titulo" title="'+ xhr.responseText +'"><span>'+ xhr.responseText +'</span></div>'+
+						'	'+
+						'</div>'+
+						'';
+						
+					}
+					
+				};
+
+				xhr.send( formData );
 				
 			}
 

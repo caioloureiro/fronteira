@@ -203,7 +203,7 @@ width: 7vw;
 height: 7vw;
 line-height: 7vw;
 border-radius:7vw;
-background-color: var(--vermelho);
+background-color: var(--padrao01);
 float: left;
 margin-top: 1.5vw;
 margin-left: 1.8vw;
@@ -212,9 +212,10 @@ overflow:hidden;
 text-align:center;
 }
 .concursos-thumb span{
-font-size:5vw;
-line-height: 7.5vw;
-color:white;
+font-size: 5vw;
+line-height: 7vw;
+color: white;
+font-weight: 900;
 }
 .concursos-linha{
 width:100%;
@@ -303,8 +304,8 @@ overflow:hidden;
 padding:1vw;
 }
 .concursos-dado{
+margin-right:1vw;
 float:left;
-margin-right: 1vw;
 }
 .concursos-dado-icone{
 width:3vw;
@@ -336,39 +337,18 @@ color:var(--fonte);
 text-align: left;
 letter-spacing:0vw;
 }
-.concursos-dado-item.chamadas_publicas_categorias{
-background-color:var(--cinza245);
-line-height:1vw;
-border: 0.1vw solid var(--cinza222);
-border-radius:0.3vw;
-padding:0.5vw;
-}
-.concursos-txt{
-float:left;
-margin-right:0.5vw;
-}
-.concursos-tag{
-font-size:0.7vw;
-line-height:1vw;
-float:left;
-border: 0.1vw solid var(--padrao05);
-background-color:var(--padrao01);
-border-radius:0.3vw;
-color:white;
-padding-left:0.5vw;
-padding-right:0.5vw;
-margin-bottom:0.5vw;
-margin-right:0.5vw;
-}
 
 @media only screen and (max-width:1024px) and (orientation: portrait){
 
 .concursos{
 padding-bottom:3vw;
 }
+.concursos .box{
+overflow-x:scroll;
+}
 .concursos-filtro{
-margin-bottom:3vw;
-padding:3vw;
+margin-bottom: 3vw;
+padding: 3vw;
 border: 0.3vw solid var(--cinza205);
 border-radius: 1vw;
 }
@@ -383,27 +363,23 @@ margin-top:1.5vw;
 .concursos-filtro-col01{
 width:100%;
 padding-right:0vw;
-padding-bottom:3vw;
 }
 .concursos-filtro-col02{
 width:100%;
 padding-right:0vw;
-padding-bottom:3vw;
 }
 .concursos-filtro-col03{
 width:100%;
 padding-right:0vw;
-padding-bottom:3vw;
 }
 .concursos-filtro-col04{
 width:100%;
-padding-right:0vw;
-padding-bottom:3vw;
 }
 .concursos-filtro-label{
 font-size:4vw;
 line-height:6.5vw;
 }
+.concursos-filtro-input{}
 .concursos-filtro-input input{
 font-size:4vw;
 line-height:10vw;
@@ -412,9 +388,9 @@ padding-right:1.5vw;
 border:0.3vw solid var(--cinza205);
 }
 .concursos-filtro-input select{
-height:15vw;
+height:10.5vw;
 font-size:4vw;
-line-height:15vw;
+line-height:10vw;
 padding-left:1.5vw;
 padding-right:1.5vw;
 border:0.3vw solid var(--cinza205);
@@ -431,11 +407,11 @@ margin-top:6vw;
 margin-bottom:6vw;
 padding-top:3vw;
 padding-bottom:3vw;
-padding-left:3vw;
-padding-right:3vw;
+padding-right:0vw;
 border-radius:1vw;
 border: 0.3vw solid var(--cinza205);
 }
+.concursos-item:hover{}
 .concursos-thumb-campo{
 width: 30vw;
 height: 30vw;
@@ -446,52 +422,55 @@ height: 21vw;
 line-height: 21vw;
 border-radius:21vw;
 margin-top: 4.5vw;
-margin-left:30vw;
+margin-left: 5.4vw;
 }
 .concursos-thumb span{
-font-size:15vw;
-line-height:21vw;
-color:white;
+font-size: 25vw;
+line-height: 35vw;
 }
+.concursos-linha{}
 .concursos-titulo{
 width:100%;
-height:20vw;
-margin-right:3vw;
+height: 10vw;
+margin-right:0vw;
 font-size:4vw;
-line-height:5vw;
+line-height:4.5vw;
 }
+.concursos-titulo span{}
 .concursos-btn{
-width:100%;
-height:15vw;
+width:21vw;
 border-radius:1vw;
 }
 .concursos-btn-icone{
-width:15vw;
+width:6vw;
 }
 .concursos-btn-icone span{
-line-height:15vw;
+line-height:10vw;
 font-size:7.5vw;
 }
 .concursos-btn-nome{
-width:67vw;
+width:15vw;
 font-size:4vw;
-line-height:15vw;
-padding-left:1.5vw;
+line-height:10vw;
+padding-left:2.5vw;
 }
 .concursos-linha.dados{
 margin-top:6vw;
 border-radius:1vw;
 padding:3vw;
 }
+.concursos-dado{
+margin-right:0vw;
+}
 .concursos-dado-icone{
 width:15vw;
 height:15vw;
-border-radius:15vw;
 margin-right: 3vw;
+border-radius:15vw;
 }
 .concursos-dado-icone span{
-font-size:10vw;
 line-height:15vw;
+font-size:6vw;
 }
 .concursos-dado-item{
 font-size:4vw;

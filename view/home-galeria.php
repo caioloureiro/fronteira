@@ -46,7 +46,7 @@ $count_galeria = 0;
 					
 						echo '
 						<div class="home-galeria-item" style="background-image:url( galeria/'. $capa .' )">
-							<a href="galerias-item&id='. $gal['id'] .'" target="_blank">
+							<a href="galerias-item&id='. $gal['id'] .'" target="_self">
 								<div class="home-galeria-lente"></div>
 								<div class="home-galeria-foto" style="background-image:url( galeria/'. $capa .' )"></div>
 								<div class="home-galeria-base">

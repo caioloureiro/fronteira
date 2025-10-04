@@ -192,7 +192,7 @@ $sql .= "".
 "); ".
 
 "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ( ".
-	"'". $_COOKIE['botucatu_ADMIN_SESSION_usuario'] ."',".
+	"'". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ."',".
 	"'Subiu o arquivo ( chamamento_publico ): ".$pasta.$nome_final."',".
 	"'". date( 'Y-m-d H:i:s' ) ."'".
 "); ".

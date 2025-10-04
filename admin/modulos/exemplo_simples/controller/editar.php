@@ -20,7 +20,7 @@ require $raiz_site .'model/exemplos.php';
 
 //dd( $_POST );
 
-if( !isset( $_COOKIE['previso_ADMIN_SESSION_usuario'] ) ){
+if( !isset( $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ) ){
 	echo'<script>window.history.back();</script>';
 	exit;
 }
@@ -40,7 +40,7 @@ $sql = "UPDATE exemplos SET ".
 "nome = '". $nome ."' ".
 "WHERE id = ". $id .";";
 
-$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['previso_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: exemplo. Editou o item: ". $nome ." de ID: ".$id."','". date( 'Y-m-d H:i:s' ) ."');";
+$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: exemplo. Editou o item: ". $nome ." de ID: ".$id."','". date( 'Y-m-d H:i:s' ) ."');";
 
 //echo $sql; die();
 

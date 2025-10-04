@@ -1,0 +1,131 @@
+<?php
+error_reporting (E_ALL & ~ E_NOTICE & ~ E_DEPRECATED);
+date_default_timezone_set('America/Sao_Paulo');
+
+$raiz_site = '../../../../';
+$raiz_admin = '../../../';
+
+if( $_SERVER['HTTP_HOST'] == 'localhost' ){
+
+	require $raiz_site .'model/conexao-off.php';
+
+}else{
+	
+	require $raiz_site .'model/conexao-on.php';
+	
+}
+
+require $raiz_site .'controller/funcoes.php';
+
+//dd( $_POST );
+
+if( !isset( $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ) ){
+	echo'<script>window.history.back();</script>';
+	exit;
+}
+
+if(
+	$_POST['nome'] == '' 
+){
+	echo'<script>window.history.back();</script>';
+	exit;
+}
+
+// Preparar os dados para inserção
+$nome = $_POST['nome'];
+$orgao = isset($_POST['orgao']) ? $_POST['orgao'] : '';
+$endereco = isset($_POST['endereco']) ? $_POST['endereco'] : '';
+$cidade = isset($_POST['cidade']) ? $_POST['cidade'] : '';
+$estado = isset($_POST['estado']) ? $_POST['estado'] : '';
+$email = isset($_POST['email']) ? $_POST['email'] : '';
+$mensagem = isset($_POST['mensagem']) ? $_POST['mensagem'] : '';
+$telefone = isset($_POST['telefone']) ? $_POST['telefone'] : '';
+$cpf = isset($_POST['cpf']) ? $_POST['cpf'] : '';
+$bairro = isset($_POST['bairro']) ? $_POST['bairro'] : '';
+$cep = isset($_POST['cep']) ? $_POST['cep'] : '';
+$tipo = isset($_POST['tipo']) ? $_POST['tipo'] : '';
+$data = isset($_POST['data']) ? $_POST['data'] : date('Y-m-d H:i:s');
+
+// Se a data veio do formato datetime-local, converter para formato MySQL
+if (!empty($_POST['data']) && strpos($_POST['data'], 'T') !== false) {
+    $data = date('Y-m-d H:i:s', strtotime($_POST['data']));
+}
+
+$hoje = date( 'Y-m-d H:i:s' );
+
+$sql = "INSERT INTO contatos (
+    nome, orgao, endereco, cidade, estado, email, 
+    mensagem, telefone, cpf, bairro, cep, tipo, data,
+    created_at, updated_at
+) VALUES (
+    '". $nome ."', 
+    '". $orgao ."', 
+    '". $endereco ."', 
+    '". $cidade ."', 
+    '". $estado ."', 
+    '". $email ."', 
+    '". $mensagem ."', 
+    '". $telefone ."', 
+    '". $cpf ."', 
+    '". $bairro ."', 
+    '". $cep ."', 
+    '". $tipo ."', 
+    '". $data ."',
+    '". $hoje ."',
+    '". $hoje ."'
+);";
+
+$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: contato. Criou o item ". $nome ."','". date( 'Y-m-d H:i:s' ) ."');";
+
+//echo $sql; die();
+
+?>
+<!doctype html>
+<html lang="pt-br" prefix="og: https://ogp.me/ns#">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Painel de Controle</title>
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatable/2.0.1/css/datatable.css" integrity="sha512-zHpjdnFxcMInClTw4ZqdX6NNLuPU+iJMZEQsyIjXuQX8TZXzRhZIlUi0tQTGQxt/UGruFgs0qTBshuGN0ts/vQ==" crossorigin="anonymous" />
+	</head>
+	<body>
+		
+		<style><?php require $raiz_admin .'routes/css-modulo.php'; ?></style>
+		
+		<div class="box">
+		
+			<?php
+			
+				if ( $conn->multi_query( $sql ) === TRUE ) {
+
+					echo'
+					<script>
+						alert("Item CRIADO com sucesso!"); 
+						window.location.href = "'. $raiz_admin .'matriz?pagina=contatos";
+					</script>
+					';
+					
+				} else {
+
+					echo'
+					<div class="alerta-vermelho">Error: ' . $sql . '<br/><br/>' . $conn->error .'</div>
+					<a href="'. $raiz_admin .'matriz?pagina=contatos" ><div class="linha"><button>Retornar</button></div></a>
+					';
+					
+				}
+
+				$conn->close();
+				
+			?>
+			
+		</div>
+		
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/datatable/2.0.1/js/datatable.js" integrity="sha512-9Jte0+zkyqOLUDxEfIz74iRN9geJm2oBwSYDdZVLzBWa3cxGh0YWw4/aBmq2FTJodryloQjd7mCxHo+gHQwzcA==" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="<?php echo $raiz_admin ?>js/motor.js"></script>	
+		
+	</body>
+	
+</html>

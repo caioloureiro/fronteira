@@ -4,7 +4,7 @@
 	<div class="titulo">Usuários Administradores</div>
 	
 	<div class="linha-acao">
-		<a href="modulos/admin_user/view/novo-01"><button class="autores-novo-btn">Criar novo Usuário</button></a>
+		<a href="modulos/admin_user/view/novo-02?arquivo=ignorado"><button class="autores-novo-btn">Criar novo Usuário</button></a>
 	</div>
 
 	<table class="tabela-uma-coluna">

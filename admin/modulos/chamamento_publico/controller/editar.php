@@ -20,7 +20,7 @@ require $raiz_site .'model/chamamento_publico.php';
 
 //dd( $_POST );
 
-if( !isset( $_COOKIE['botucatu_ADMIN_SESSION_usuario'] ) ){
+if( !isset( $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ) ){
 	echo'<script>window.history.back();</script>';
 	exit;
 }
@@ -61,7 +61,7 @@ $sql .= "UPDATE chamamento_publico SET ".
 "data = '". $data ."' ".
 "WHERE id = ". $id .";";
 
-$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['botucatu_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: chamamento_publico. Editou o item: ". $titulo ." de ID: ".$id."','". date( 'Y-m-d H:i:s' ) ."');";
+$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: chamamento_publico. Editou o item: ". $titulo ." de ID: ".$id."','". date( 'Y-m-d H:i:s' ) ."');";
 
 //echo $sql; die();
 

@@ -68,6 +68,9 @@ color:rgba(255,0,0,1);
 .esquerda{ text-align:left; }
 .direita{ text-align:right; }
 .justificar{ text-align:justify; }
+.xdebug-error{
+z-index: 999999999 !important;
+}
 
 /*Start - GRID*/
 .linha{ width:100%; height:auto; line-height:2vw; float:left; margin-top:0.5vw; margin-bottom:0.5vw;}
