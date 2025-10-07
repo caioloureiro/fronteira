@@ -36,15 +36,57 @@ require $raiz_site .'model/esic.php';
 	</head>
 	<body>
 		
-		<style><?php require $raiz_admin .'routes/css-modulo.php'; ?></style>
+		<style>
+			<?php require $raiz_admin .'routes/css-modulo.php'; ?>
+			
+			/* Destaque para a resposta da prefeitura */
+			.resposta-prefeitura {
+				background: linear-gradient(135deg, #f8f9ff 0%, #e8f4fd 100%);
+				border: 2px solid #0066cc;
+				border-radius: 8px;
+				padding: 15px;
+				margin: 10px 0;
+				box-shadow: 0 2px 8px rgba(0, 102, 204, 0.1);
+			}
+			
+			.resposta-prefeitura-titulo {
+				color: #0066cc !important;
+				font-weight: bold !important;
+				font-size: 16px !important;
+				display: block;
+				margin-bottom: 10px;
+				text-shadow: 1px 1px 2px rgba(0, 102, 204, 0.1);
+			}
+			
+			.resposta-prefeitura .jodit-container {
+				border: 2px solid #0066cc !important;
+				border-radius: 6px !important;
+				box-shadow: 0 0 10px rgba(0, 102, 204, 0.2) !important;
+			}
+			
+			.resposta-prefeitura .jodit-toolbar {
+				background: linear-gradient(135deg, #0066cc 0%, #004499 100%) !important;
+				border-bottom: 1px solid #004499 !important;
+			}
+			
+			.resposta-prefeitura .jodit-toolbar button {
+				color: white !important;
+			}
+			
+			.resposta-prefeitura .jodit-toolbar button:hover {
+				background: rgba(255, 255, 255, 0.1) !important;
+			}
+		</style>
 		
 		<?php 
 			
 			$editor_de_texto_valor = '';
+			$item_selecionado = null;
 			
 			foreach( $esic_array as $item ){
 				
 				if( $item['id'] == $_GET['id'] ){
+					$item_selecionado = $item;
 				
 					echo'
 					<div class="lightbox esic-editar on">
@@ -267,11 +309,12 @@ require $raiz_site .'model/esic.php';
 							
 							<div class="separador"></div>
 							
-							<div class="linha linha-auto">
-								<span>Resposta: </span>
+							<div class="linha linha-auto resposta-prefeitura">
+								<span class="resposta-prefeitura-titulo">🏛️ Resposta da Prefeitura: </span>
 								<textarea id="editor_resposta" name="resposta"></textarea>
 							</div>
 							
+							'. (!empty($item['anexo']) ? '
 							<div class="linha">
 								<div class="col10">
 									<span>Anexo: </span>
@@ -281,8 +324,14 @@ require $raiz_site .'model/esic.php';
 										name="anexo" 
 										value="'. $item['anexo'] .'" 
 									/>
+									<div style="margin-top: 8px;">
+										<a href="' . $raiz_site . 'formularios_arquivos/' . basename($item['anexo']) . '" target="_blank" style="color: #0066cc; text-decoration: none; padding: 5px 10px; background: #f0f8ff; border: 1px solid #0066cc; border-radius: 4px; display: inline-block;">
+											📎 Visualizar Anexo
+										</a>
+									</div>
 								</div>
 							</div>
+							' : '') .'
 
 							<div class="separador"></div>
 							
@@ -298,6 +347,7 @@ require $raiz_site .'model/esic.php';
 					</div>
 					';
 					
+					break; // Sair do loop após encontrar o item
 				}
 				
 			}
@@ -315,15 +365,32 @@ require $raiz_site .'model/esic.php';
 			
 			const editor_resposta = new Jodit("#editor_resposta", {
 				language: "pt_br", // Configurar para português brasileiro
+				placeholder: "Digite aqui a resposta oficial da Prefeitura...",
+				toolbarAdaptive: false,
+				buttons: [
+					'bold', 'italic', 'underline', '|',
+					'ul', 'ol', '|',
+					'font', 'fontsize', '|',
+					'paragraph', '|',
+					'link', '|',
+					'align', '|',
+					'undo', 'redo', '|',
+					'fullsize'
+				],
 			});
 			/*End - JODIT*/
 			
 			/*Start - RECEBE OS DADOS PHP DO BANCO E COLOCA NO PLUGIN EDITOR DE TEXTOS*/
-			let editor_mensagem_json = <?php echo json_encode($item['mensagem'] ?? '', JSON_PRETTY_PRINT) ?>;
-			let editor_resposta_json = <?php echo json_encode($item['resposta'] ?? '', JSON_PRETTY_PRINT) ?>;
+			<?php if ($item_selecionado): ?>
+			let editor_mensagem_json = <?php echo json_encode($item_selecionado['mensagem'] ?? '', JSON_PRETTY_PRINT) ?>;
+			let editor_resposta_json = <?php echo json_encode($item_selecionado['resposta'] ?? '', JSON_PRETTY_PRINT) ?>;
 			
-			document.querySelector('#editor_mensagem').value = editor_mensagem_json;
-			document.querySelector('#editor_resposta').value = editor_resposta_json;
+			// Aguardar o Jodit ser totalmente carregado e então definir os valores
+			setTimeout(function() {
+				editor_mensagem.value = editor_mensagem_json;
+				editor_resposta.value = editor_resposta_json;
+			}, 100);
+			<?php endif; ?>
 			/*End - RECEBE OS DADOS PHP DO BANCO E COLOCA NO PLUGIN EDITOR DE TEXTOS*/
 		
 			function voltar(){
