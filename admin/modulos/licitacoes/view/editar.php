@@ -19,6 +19,7 @@ require $raiz_site .'controller/funcoes.php';
 require $raiz_site .'model/licitacoes.php';
 require $raiz_site .'model/licitacoes_categorias.php';
 require $raiz_site .'model/licitacoes_situacao.php';
+require $raiz_site .'model/licitacoes_anexos.php';
 
 ?>
 <!doctype html>
@@ -38,7 +39,128 @@ require $raiz_site .'model/licitacoes_situacao.php';
 	</head>
 	<body>
 		
-		<style><?php require $raiz_admin .'routes/css-modulo.php'; ?></style>
+		<style>
+			<?php require $raiz_admin .'routes/css-modulo.php'; ?>
+			
+			/* CSS Específico para Anexos */
+			.exibir-anexos {
+				width: 100%;
+				height: auto;
+				min-height: 4vw;
+				float: left;
+				background-color: var(--fundo_02);
+				border: 0.2vw dashed var(--azul);
+				border-radius: 0.5vw;
+				padding: 1vw;
+				margin: 0vw;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				transition: all 0.3s ease;
+			}
+			
+			.exibir-anexos.drag-over {
+				border-color: var(--azul);
+				background-color: var(--azul_transp);
+			}
+			
+			.exibir-anexos:empty::before {
+				content: "Arraste seus arquivos aqui";
+				color: var(--fonte_padrao);
+				font-style: italic;
+				width: 100%;
+				height: 4vw;
+				line-height: 4vw;
+				text-align: center;
+				float: left;
+			}
+			
+			.thumb-anexo {
+				position: relative;
+				width: 8vw;
+				height: 9vw;
+				border: 0.1vw solid var(--cinza_claro);
+				border-radius: 0.5vw;
+				background-color: var(--fundo_02);
+				float: left;
+				margin: 0.5vw;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				transition: transform 0.2s ease;
+			}
+			
+			.thumb-anexo:hover {
+				transform: translateY(-0.2vw);
+			}
+			
+			.thumb-anexo-excluir {
+				position: absolute;
+				top: 0.3vw;
+				right: 0.3vw;
+				width: 1.2vw;
+				height: 1.2vw;
+				background-color: var(--vermelho);
+				border-radius: 50%;
+				cursor: pointer;
+				color: white;
+				font-size: 0.7vw;
+				line-height: 1.2vw;
+				text-align: center;
+				transition: background-color 0.2s ease;
+			}
+			
+			.thumb-anexo-excluir:hover {
+				background-color: var(--vermelho);
+				opacity: 0.8;
+			}
+			
+			.thumb-anexo-icon {
+				width: 3vw;
+				height: 3vw;
+				background-image: url('<?php echo $raiz_site ?>img/pdf.svg');
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center;
+				margin-bottom: 0.5vw;
+			}
+			
+			.thumb-anexo-nome {
+				font-size: 0.7vw;
+				text-align: center;
+				color: var(--fonte_padrao);
+				word-break: break-all;
+				line-height: 1.2;
+				max-height: 3vw;
+				overflow: hidden;
+			}
+			
+			#arquivo_anexos {
+				display: none;
+			}
+			
+			.arquivo_escolhido_anexos {
+				background: var(--azul) !important;
+				color: white !important;
+				border: none !important;
+				padding: 0.8vw 1.5vw !important;
+				border-radius: 0.4vw !important;
+				cursor: pointer !important;
+				font-weight: 500 !important;
+				font-size: 0.9vw !important;
+			}
+			
+			.arquivo_escolhido_anexos:hover {
+				background: var(--azul_escuro) !important;
+			}
+			
+			.anexos-info {
+				background: var(--fundo_02);
+				padding: 1vw;
+				border-radius: 0.4vw;
+				border: 0.1vw solid var(--cinza_claro);
+				font-size: 0.8vw;
+				line-height: 1.4;
+			}
+		</style>
 		
 		<?php 
 			
@@ -227,6 +349,114 @@ require $raiz_site .'model/licitacoes_situacao.php';
 								</div>
 							</div>
 
+							<!-- Start - Anexos Section -->
+							<div class="linha">
+								<div class="col100">
+									<span>📎 Anexos da Licitação: </span>
+								</div>
+							</div>
+							
+							';
+								// Buscar anexos existentes usando o array do model
+								$anexos_existentes = [];
+								if(isset($licitacoes_anexos_array)) {
+									foreach($licitacoes_anexos_array as $anexo) {
+										// Forçar comparação como inteiros e excluir o arquivo do edital
+										if(intval($anexo['licitacao']) == intval($item['id']) && 
+										   intval($anexo['ativo']) == 1 && 
+										   $anexo['arquivo'] != $item['edital']) {
+											$anexos_existentes[] = $anexo;
+										}
+									}
+								}
+							echo'
+							
+							<div class="linha-acao">
+								
+								<div class="col30">
+								
+									<input 
+										type="text" 
+										class="licitacao_id"
+										name="licitacao_id" 
+										value="'. $item['id'] .'" 
+										style="display:none;"
+									/>
+									
+									<label 
+										class="btn arquivo_escolhido_anexos" 
+										for="arquivo_anexos" 
+										title="Clique aqui para selecionar os arquivos desejados."
+									>📁 Escolher Anexos do Computador</label>
+									
+									<input 
+										type="file" 
+										name="arquivos_anexos[]" 
+										id="arquivo_anexos" 
+										class="btn"
+										multiple 
+										accept=".pdf,.zip,.rar,.7z,.doc,.xls,.ppt,.docx,.xlsx,.pptx"
+									/>
+									
+								</div>
+								
+								<div class="col70">
+									<div class="anexos-info">
+										<strong>ℹ️ Instruções:</strong><br>
+										• Arraste ou clique para enviar múltiplos arquivos<br>
+										• Formatos aceitos: PDF, ZIP, RAR, 7Z, DOC, XLS, PPT, DOCX, XLSX, PPTX<br>
+										• Tamanho máximo: 200MB por arquivo<br>
+										• Para excluir, clique no ❌ no canto superior direito
+									</div>
+								</div>
+								
+							</div>
+
+							<div class="separador"></div>
+							
+							<div class="linha linha-auto">
+
+								<div class="exibir-anexos">';
+								
+								// Exibir anexos existentes
+								foreach($anexos_existentes as $anexo) {
+									$extensao = strtoupper(pathinfo($anexo['arquivo'], PATHINFO_EXTENSION));
+									echo '
+									<div class="thumb-anexo" data-anexo-id="'. $anexo['id'] .'">
+										<div class="thumb-anexo-excluir" onclick="excluirAnexoExistente('. $anexo['id'] .')">❌</div>
+										<div class="thumb-anexo-content" style="padding: 0.5vw; text-align: center;">
+											<div class="thumb-anexo-icon"></div>
+											<div class="thumb-anexo-nome" style="font-size: 0.7vw; color: var(--fonte_padrao);">
+												'. htmlspecialchars($anexo['nome']) .'
+											</div>
+											<div style="font-size: 0.6vw; color: var(--cinza-escuro); margin-top: 0.3vw;">
+												'. date('d/m/Y', strtotime($anexo['created_at'])) .'
+											</div>
+											<a href="'. $raiz_site . 'uploads/' . $anexo['arquivo'] .'" 
+												target="_blank" 
+												style="
+													display: inline-block;
+													background: var(--verde-escuro);
+													color: var(--branco);
+													padding: 0.2vw 0.4vw;
+													border-radius: 0.1vw;
+													text-decoration: none;
+													font-size: 0.6vw;
+													margin-top: 0.3vw;
+												"
+											>Ver</a>
+										</div>
+									</div>';
+								}
+								
+								echo '
+								</div>
+								
+							</div>
+
+							<div class="separador"></div>
+							<!-- End - Anexos Section -->
+
 							<div class="linha linha-auto">
 								<div class="col10">
 									<span>Objeto: </span>
@@ -375,6 +605,129 @@ require $raiz_site .'model/licitacoes_situacao.php';
 					console.log( 'Nenhum arquivo selecionado.' );
 				}
 				
+			}
+
+			// === SISTEMA DE ANEXOS (SIMPLIFICADO COMO CRIAR.PHP) ===
+			
+			const licitacaoId = <?= intval($item['id']) ?>;
+
+			// Função para excluir anexo existente
+			function excluirAnexoExistente(anexoId) {
+				if (confirm('Tem certeza que deseja excluir este anexo?')) {
+					
+					const xhr = new XMLHttpRequest();
+					
+					xhr.onreadystatechange = function() {
+						if (xhr.readyState === 4) {
+							if (xhr.status === 200) {
+								try {
+									const resposta = JSON.parse(xhr.responseText);
+									if (resposta.sucesso) {
+										// Remover elemento da interface
+										const elemento = document.querySelector(`[data-anexo-id="${anexoId}"]`);
+										if (elemento) {
+											elemento.remove();
+										}
+										alert('Anexo excluído com sucesso!');
+									} else {
+										alert('Erro: ' + resposta.mensagem);
+									}
+								} catch (e) {
+									console.error('Erro ao processar resposta:', xhr.responseText);
+									alert('Erro ao processar resposta do servidor');
+								}
+							} else {
+								alert('Erro ao excluir arquivo. Código: ' + xhr.status);
+							}
+						}
+					};
+					
+					xhr.open('POST', '../controller/excluir-anexo.php', true);
+					xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+					xhr.send('anexo_id=' + anexoId);
+				}
+			}
+
+			// Configurar drag & drop na área de anexos
+			document.addEventListener('DOMContentLoaded', function() {
+				const exibirAnexos = document.querySelector('.exibir-anexos');
+				const inputAnexos = document.getElementById('arquivo_anexos');
+				
+				if (exibirAnexos && inputAnexos) {
+					// Drag & Drop events
+					exibirAnexos.addEventListener('dragover', function(e) {
+						e.preventDefault();
+						this.classList.add('drag-over');
+					});
+					
+					exibirAnexos.addEventListener('dragleave', function(e) {
+						e.preventDefault();
+						this.classList.remove('drag-over');
+					});
+					
+					exibirAnexos.addEventListener('drop', function(e) {
+						e.preventDefault();
+						this.classList.remove('drag-over');
+						
+						const files = e.dataTransfer.files;
+						if (files.length > 0) {
+							inputAnexos.files = files;
+							processarAnexos(files);
+						}
+					});
+					
+					// Clique para selecionar arquivos
+					exibirAnexos.addEventListener('click', function() {
+						inputAnexos.click();
+					});
+					
+					// Mudança no input
+					inputAnexos.addEventListener('change', function() {
+						if (this.files.length > 0) {
+							processarAnexos(this.files);
+						}
+					});
+				}
+			});
+
+			// Processar anexos selecionados
+			function processarAnexos(files) {
+				Array.from(files).forEach(file => {
+					enviarAnexo(file);
+				});
+			}
+
+			// Enviar anexo individual
+			function enviarAnexo(file) {
+				const formData = new FormData();
+				formData.append('anexo', file);
+				formData.append('licitacao_id', licitacaoId);
+
+				const xhr = new XMLHttpRequest();
+				
+				xhr.onreadystatechange = function() {
+					if (xhr.readyState === 4) {
+						if (xhr.status === 200) {
+							try {
+								const resposta = JSON.parse(xhr.responseText);
+								if (resposta.sucesso) {
+									// Recarregar página para mostrar novo anexo
+									location.reload();
+								} else {
+									alert('Erro: ' + resposta.mensagem);
+								}
+							} catch (e) {
+								console.error('Erro ao processar resposta:', xhr.responseText);
+								alert('Erro ao processar resposta do servidor');
+							}
+						} else {
+							alert('Erro ao enviar arquivo. Código: ' + xhr.status);
+						}
+					}
+				};
+
+				xhr.open('POST', '../controller/enviar-anexo.php', true);
+				xhr.send(formData);
 			}
 			
 		</script>

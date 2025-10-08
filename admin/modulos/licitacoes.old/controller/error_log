@@ -1,0 +1,4 @@
+[24-Sep-2025 16:45:11 America/Sao_Paulo] PHP Warning:  Undefined array key "coracaodejesus_ADMIN_SESSION_usuario" in /home/fronteiramg/public_html/admin/modulos/licitacoes/controller/enviar-arquivo.php on line 132
+[24-Sep-2025 16:45:26 America/Sao_Paulo] PHP Warning:  Undefined array key "coracaodejesus_ADMIN_SESSION_usuario" in /home/fronteiramg/public_html/admin/modulos/licitacoes/controller/enviar-arquivo.php on line 132
+[03-Oct-2025 06:56:29 America/Sao_Paulo] PHP Warning:  Undefined array key "fronteira_ADMIN_SESSION_usuario" in /home/fronteiramg/public_html/admin/modulos/licitacoes/controller/enviar-arquivo.php on line 132
+[03-Oct-2025 14:19:35 America/Sao_Paulo] PHP Warning:  Undefined array key "fronteira_ADMIN_SESSION_usuario" in /home/fronteiramg/public_html/admin/modulos/licitacoes/controller/enviar-arquivo.php on line 132

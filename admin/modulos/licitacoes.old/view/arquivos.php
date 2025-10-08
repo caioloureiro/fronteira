@@ -35,7 +35,6 @@
 							let item_arquivos = document.querySelector(`.item-arquivos`);
 							item_arquivos.classList.remove(`on`);
 							document.querySelector(`.item-escolher-arquivo-input`).value = `uploads/'.$arquivo[$i].'` ;
-							mostrarArquivoSelecionadoServidor(`'.$arquivo[$i].'`);
 						"
 						class="linha"
 					>

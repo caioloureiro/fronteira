@@ -66,51 +66,7 @@ $sql = "INSERT INTO licitacoes (
 	",'". $hoje ."'".
 ");";
 
-// Executar primeiro a inserção da licitação para obter o ID
-if ( $conn->query( $sql ) === TRUE ) {
-	
-	$licitacao_id = $conn->insert_id;
-	
-	// Processar anexos que já foram enviados temporariamente
-	$pasta_uploads = $raiz_site .'uploads/';
-	
-	// Buscar anexos na pasta uploads que foram enviados recentemente (últimos 30 minutos)
-	$arquivos = glob($pasta_uploads . date('Y-m-d-H-i') . '*');
-	
-	// Adicionar também arquivos do minuto anterior para casos de mudança de minuto
-	$minuto_anterior = date('Y-m-d-H-i', strtotime('-1 minute'));
-	$arquivos = array_merge($arquivos, glob($pasta_uploads . $minuto_anterior . '*'));
-	
-	foreach($arquivos as $arquivo_path) {
-		$nome_arquivo = basename($arquivo_path);
-		$nome_original = $nome_arquivo; // Pode ser melhorado para recuperar o nome original
-		
-		// Inserir anexo na tabela licitacoes_anexos
-		$sql_anexo = "INSERT INTO licitacoes_anexos (
-			ativo,
-			created_at,
-			updated_at,
-			nome, 
-			arquivo, 
-			licitacao
-		) VALUES (
-			1,
-			'". $hoje ."',
-			'". $hoje ."', 
-			'". addslashes($nome_original) ."', 
-			'". addslashes($nome_arquivo) ."', 
-			'". $licitacao_id ."' 
-		)";
-		
-		$conn->query($sql_anexo);
-	}
-	
-	$sql_log = "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: licitacoes. Criou o item ". $nome ." com " . count($arquivos) . " anexos','". date( 'Y-m-d H:i:s' ) ."')";
-	$conn->query($sql_log);
-	
-} else {
-	$error_message = $conn->error;
-}
+$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: licitacoes. Criou o item ". $nome ."','". date( 'Y-m-d H:i:s' ) ."');";
 
 //echo $sql; die();
 
@@ -133,20 +89,19 @@ if ( $conn->query( $sql ) === TRUE ) {
 		
 			<?php
 			
-				if ( isset($licitacao_id) && $licitacao_id > 0 ) {
+				if ( $conn->multi_query( $sql ) === TRUE ) {
 
 					echo'
 					<script>
-						alert("Licitação CRIADA com sucesso! Anexos processados."); 
+						alert("Item CRIADO com sucesso!"); 
 						window.location.href = "'. $raiz_admin .'matriz?pagina=licitacoes";
 					</script>
 					';
 					
 				} else {
 
-					$error_msg = isset($error_message) ? $error_message : $conn->error;
 					echo'
-					<div class="alerta-vermelho">Error: ' . $error_msg .'</div>
+					<div class="alerta-vermelho">Error: ' . $sql . '<br/><br/>' . $conn->error .'</div>
 					<a href="'. $raiz_admin .'matriz?pagina=licitacoes" ><div class="linha"><button>Retornar</button></div></a>
 					';
 					
