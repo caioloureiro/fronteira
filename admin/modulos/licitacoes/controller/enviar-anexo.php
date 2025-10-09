@@ -179,9 +179,9 @@ if( move_uploaded_file( $arquivo_subir_array["tmp_name"], $pasta.$nome_final ) )
 
 		$sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Subiu anexo para licitação: ".$pasta.$nome_final."','". date( 'Y-m-d H:i:s' ) ."');";
 		
-		if($conexao_bd->multi_query( $sql )) {
+		if($conn->multi_query( $sql )) {
 			// Buscar o ID do anexo inserido
-			$anexo_id = $conexao_bd->insert_id;
+			$anexo_id = $conn->insert_id;
 			$anexo_dados['id'] = $anexo_id;
 		}
 	}
@@ -193,5 +193,5 @@ else{
 	retornarResposta(false, 'Falha no upload do arquivo.');
 }
 
-$conexao_bd->close();
+$conn->close();
 ?>

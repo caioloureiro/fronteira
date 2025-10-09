@@ -20,6 +20,7 @@ require $raiz_site .'model/licitacoes.php';
 require $raiz_site .'model/licitacoes_categorias.php';
 require $raiz_site .'model/licitacoes_situacao.php';
 require $raiz_site .'model/licitacoes_anexos.php';
+require $raiz_site .'model/admin_user.php';
 
 ?>
 <!doctype html>
@@ -43,6 +44,16 @@ require $raiz_site .'model/licitacoes_anexos.php';
 			<?php require $raiz_admin .'routes/css-modulo.php'; ?>
 			
 			/* CSS Específico para Anexos */
+			
+			/* Ícone X superior - tema responsivo */
+			<?php
+			foreach( $admin_user_array as $cfg ){
+				if( $cfg['tema'] == 'escuro' && $_COOKIE['fronteira_ADMIN_SESSION_usuario'] == $cfg['usuario'] ){ 
+					echo '.lightbox-fechar { filter: brightness(0) invert(1); }';
+				}
+			}
+			?>
+			
 			.exibir-anexos {
 				width: 100%;
 				height: auto;
@@ -398,6 +409,16 @@ require $raiz_site .'model/licitacoes_anexos.php';
 										accept=".pdf,.zip,.rar,.7z,.doc,.xls,.ppt,.docx,.xlsx,.pptx"
 									/>
 									
+									<div class="btn" 
+										onclick="abrirArquivosParaAnexo()" 
+										style="
+											background: var(--azul); 
+											color: var(--branco); 
+											margin-top: 0.5vw;
+										"
+										title="Selecionar arquivo já existente no servidor"
+									>🗃️ Anexar Arquivo do Servidor</div>
+									
 								</div>
 								
 								<div class="col70">
@@ -514,8 +535,20 @@ require $raiz_site .'model/licitacoes_anexos.php';
 		<script>
 			
 			/*Start - RECEBE OD DADOS PHP DO BANCO E COLOCA NO PLUGIN EDITOR DE TEXTOS*/
+			// Detectar tema do usuário via PHP
+			<?php
+			$temaEscuro = false;
+			foreach( $admin_user_array as $cfg ){
+				if( $cfg['tema'] == 'escuro' && $_COOKIE['fronteira_ADMIN_SESSION_usuario'] == $cfg['usuario'] ){ 
+					$temaEscuro = true;
+					break;
+				}
+			}
+			?>
+			
 			const editor = new Jodit("#editor", {
 				language: "pt_br", // Configurar para português brasileiro
+				theme: <?php echo $temaEscuro ? '"dark"' : '"default"'; ?>, // Aplicar tema baseado na configuração do usuário
 			});
 			
 			let editor_de_texto_json = <?php echo $editor_de_texto_json ?>; //peguei o Multidimensional Array PHP e converti
@@ -536,6 +569,15 @@ require $raiz_site .'model/licitacoes_anexos.php';
 			function abrirArquivos(){
 				
 				document.querySelector('.item-arquivos').classList.add("on");
+				
+			}
+			
+			function abrirArquivosParaAnexo(){
+				
+				document.querySelector('.item-arquivos').classList.add("on");
+				
+				// Marcar que é para anexo
+				window.anexoMode = true;
 				
 			}
 			
@@ -676,11 +718,6 @@ require $raiz_site .'model/licitacoes_anexos.php';
 						}
 					});
 					
-					// Clique para selecionar arquivos
-					exibirAnexos.addEventListener('click', function() {
-						inputAnexos.click();
-					});
-					
 					// Mudança no input
 					inputAnexos.addEventListener('change', function() {
 						if (this.files.length > 0) {
@@ -727,6 +764,39 @@ require $raiz_site .'model/licitacoes_anexos.php';
 				};
 
 				xhr.open('POST', '../controller/enviar-anexo.php', true);
+				xhr.send(formData);
+			}
+			
+			function adicionarArquivoComoAnexo(nomeArquivo) {
+				// Criar um objeto FormData para enviar o arquivo do servidor como anexo
+				const formData = new FormData();
+				formData.append('arquivo_servidor', nomeArquivo);
+				formData.append('licitacao_id', licitacaoId);
+
+				const xhr = new XMLHttpRequest();
+				
+				xhr.onreadystatechange = function() {
+					if (xhr.readyState === 4) {
+						if (xhr.status === 200) {
+							try {
+								const response = JSON.parse(xhr.responseText);
+								if(response.sucesso) {
+									alert('Arquivo anexado com sucesso!');
+									// Recarregar a página para mostrar o novo anexo
+									location.reload();
+								} else {
+									alert('Erro: ' + response.mensagem);
+								}
+							} catch(e) {
+								alert('Erro ao processar resposta do servidor');
+							}
+						} else {
+							alert('Erro ao anexar arquivo. Código: ' + xhr.status);
+						}
+					}
+				};
+
+				xhr.open('POST', '../controller/enviar-anexo-servidor.php', true);
 				xhr.send(formData);
 			}
 			

@@ -18,6 +18,7 @@ if( $_SERVER['HTTP_HOST'] == 'localhost' ){
 require $raiz_site .'controller/funcoes.php';
 require $raiz_site .'model/licitacoes_categorias.php';
 require $raiz_site .'model/licitacoes_situacao.php';
+require $raiz_site .'model/admin_user.php';
 
 usort($licitacoes_categorias_array, function( $a, $b ){ //Função responsável por ordenar
 	$al = mb_strtolower($a['nome']);
@@ -53,6 +54,15 @@ usort($licitacoes_situacao_array, function( $a, $b ){ //Função responsável po
 		
 		<style>
 			<?php require $raiz_admin .'routes/css-modulo.php'; ?>
+			
+			/* Ícone X superior - tema responsivo */
+			<?php
+			foreach( $admin_user_array as $cfg ){
+				if( $cfg['tema'] == 'escuro' && $_COOKIE['fronteira_ADMIN_SESSION_usuario'] == $cfg['usuario'] ){ 
+					echo '.lightbox-fechar { filter: brightness(0) invert(1); }';
+				}
+			}
+			?>
 			
 			/* Estilos para o sistema de anexos */
 			.anexos-info {
@@ -463,6 +473,16 @@ usort($licitacoes_situacao_array, function( $a, $b ){ //Função responsável po
 							accept=".pdf,.zip,.rar,.7z,.doc,.xls,.ppt,.docx,.xlsx,.pptx"
 						/>
 						
+						<div class="btn" 
+							onclick="abrirArquivosParaAnexo()" 
+							style="
+								background: var(--azul); 
+								color: var(--branco); 
+								margin-top: 0.5vw;
+							"
+							title="Selecionar arquivo já existente no servidor"
+						>🗃️ Anexar Arquivo do Servidor</div>
+						
 					</div>
 					
 					<div class="col70">
@@ -517,8 +537,20 @@ usort($licitacoes_situacao_array, function( $a, $b ){ //Função responsável po
 		<script>
 			
 			/*Start - JODIT*/
+			// Detectar tema do usuário via PHP
+			<?php
+			$temaEscuro = false;
+			foreach( $admin_user_array as $cfg ){
+				if( $cfg['tema'] == 'escuro' && $_COOKIE['fronteira_ADMIN_SESSION_usuario'] == $cfg['usuario'] ){ 
+					$temaEscuro = true;
+					break;
+				}
+			}
+			?>
+			
 			const editor = new Jodit("#editor", {
 				language: "pt_br", // Configurar para português brasileiro
+				theme: <?php echo $temaEscuro ? '"dark"' : '"default"'; ?>, // Aplicar tema baseado na configuração do usuário
 			});
 			/*End - JODIT*/
 			
@@ -531,6 +563,15 @@ usort($licitacoes_situacao_array, function( $a, $b ){ //Função responsável po
 			function abrirArquivos(){
 				
 				document.querySelector('.item-arquivos').classList.add("on");
+				
+			}
+			
+			function abrirArquivosParaAnexo(){
+				
+				document.querySelector('.item-arquivos').classList.add("on");
+				
+				// Marcar que é para anexo
+				window.anexoMode = true;
 				
 			}
 			
@@ -974,6 +1015,32 @@ usort($licitacoes_situacao_array, function( $a, $b ){ //Função responsável po
 				}
 			}
 			/*End - SISTEMA DE ANEXOS*/
+			
+			function adicionarArquivoComoAnexo(nomeArquivo) {
+				// Para criar.php, vamos adicionar o arquivo à lista local
+				// que será enviada quando o formulário for submetido
+				
+				// Verificar se já existe
+				const anexosExistentes = document.querySelectorAll('.thumb-anexo');
+				for(let anexo of anexosExistentes) {
+					const nomeExistente = anexo.querySelector('.thumb-anexo-nome');
+					if(nomeExistente && nomeExistente.textContent.trim() === nomeArquivo) {
+						alert('Este arquivo já foi adicionado como anexo.');
+						return;
+					}
+				}
+				
+				// Adicionar à lista visual usando a mesma função que o sistema atual
+				const fakeFile = {
+					name: nomeArquivo,
+					size: 0,
+					type: 'application/octet-stream',
+					fromServer: true
+				};
+				
+				adicionarThumbAnexo(fakeFile, nomeArquivo);
+				alert('Arquivo do servidor adicionado com sucesso!');
+			}
 			
 		</script>
 		
