@@ -9,451 +9,2873 @@
 >
 	
 	<url>
-		<loc>https://www.cidade.sp.gov.br/</loc>
-		<lastmod>2025-09-03T17:09:45+00:00</lastmod>
+		<loc>https://www.fronteira.mg.gov.br/</loc>
+		<lastmod>2025-10-08T23:28:40+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.00</priority>
 	</url>
 	
-		<url>
-			<loc>https://www.cidade.sp.gov.br/historia</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/dados-gerais</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/simbolos</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/feriados-e-pontos-facultativos</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/turismo</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/estrutura-administrativa</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/enderecos-oficiais-e-telefones</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cacs-fundeb</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cmas</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cmdca</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/conselho-municipal-de-educacao</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/comtur</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/conselho-tutelar</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/cae</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/legislacao-da-transparencia</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/contabil</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/covid-19</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/instrumentos-de-planejamento</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/ppa</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/ldo</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/loa</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/balancetes</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/repasse-ao-legislativo</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/receitas</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/despesas</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/balancos</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/demonstrativos-fiscais-anexos</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/rreo-relatorios-resumido-da-execucao-orcamentaria</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/rgf-relatorio-de-gestao-fiscal</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/localizacao</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/administracao</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/secretarias</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/galeria-de-prefeitos</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/prefeito</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/conselhos-municipais</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/news</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/recados</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/arquivos</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/editais</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/downloads</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/mapa</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/pesquisa</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/galerias</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/galerias-item</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/newsletter</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/enquetes</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/enquete</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/recados_raw</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/galeria-de-videos</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/preview_noticia</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/recados_raw_formulario</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/legislacoes</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/lei-adir-blanc</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/lei-paulo-gustavo</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/licitacoes</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/agenda-de-eventos</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/concursos</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/processos-seletivos</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=1&amp;titulo=noticia</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=2&amp;titulo=noticia</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=3&amp;titulo=noticia</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
-		<url>
-			<loc>https://www.cidade.sp.gov.br/noticia&amp;id=4&amp;titulo=noticia</loc>
-			<lastmod>2025-09-03T17:09:45+00:00</lastmod>
-			<changefreq>weekly</changefreq>
-			<priority>0.9</priority>
-		</url>
-		
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/historia</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/dados-gerais</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/simbolos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/feriados-e-pontos-facultativos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/turismo</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/estrutura-administrativa</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/enderecos-oficiais-e-telefones</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/cacs-fundeb</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/cmas</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/cmdca</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/conselho-municipal-de-educacao</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/comtur</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/conselho-tutelar</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/cae</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/legislacao-da-transparencia</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/contabil</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/covid-19</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/instrumentos-de-planejamento</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/ppa</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/ldo</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/loa</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/balancetes</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/repasse-ao-legislativo</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/receitas</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/despesas</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/balancos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/demonstrativos-fiscais-anexos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/rreo-relatorios-resumido-da-execucao-orcamentaria</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/rgf-relatorio-de-gestao-fiscal</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/lei-adir-blanc</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/localizacao</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/administracao</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/secretarias</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/galeria-de-prefeitos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/prefeito</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/conselhos-municipais</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/news</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/recados</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/arquivos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/editais</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/downloads</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/mapa</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/pesquisa</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/galerias</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/galerias-item</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/newsletter</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/enquetes</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/enquete</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/recados_raw</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/galeria-de-videos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/preview_noticia</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/recados_raw_formulario</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/legislacoes</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/lei-paulo-gustavo</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/licitacoes</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/agenda-de-eventos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/concursos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/processos-seletivos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/licitacao</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/legislacao</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/concurso</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/esic</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/ouvidoria</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/acesso-protocolo-home</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=1&amp;titulo=boletim-dirio-coronavrus-20-07-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=2&amp;titulo=boletim-dirio-coronavrus-21-07-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=3&amp;titulo=boletim-dirio-coronavrus-23-07-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=4&amp;titulo=boletim-dirio-coronavrus-24-07-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=5&amp;titulo=boletim-dirio-coronavrus-25-07-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=6&amp;titulo=boletim-dirio-coronavrus-26-07-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=7&amp;titulo=boletim-dirio-coronavrus-27-07-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=8&amp;titulo=boletim-dirio-coronavrus-28-07-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=9&amp;titulo=boletim-dirio-coronavrus-29-07-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=10&amp;titulo=a-secretaria-de-sade-de-fronteira-comunica-que-foi-registrado-o-primeiro-bito-no-municpio-em-um-paciente-com-covid-19</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=11&amp;titulo=boletim-dirio-coronavrus-30-07-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=12&amp;titulo=boletim-dirio-coronavrus-31-07-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=13&amp;titulo=boletim-dirio-coronavrus-01-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=14&amp;titulo=boletim-dirio-coronavrus-02-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=15&amp;titulo=boletim-dirio-coronavrus-03-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=16&amp;titulo=boletim-dirio-coronavrus-04-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=17&amp;titulo=nota-de-esclarecimento-a-respeito-do-vdeo-veiculado-nessa-quarta-feira-dia-05-de-agosto-onde-oferecido-exame-de</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=18&amp;titulo=boletim-dirio-coronavrus-06-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=19&amp;titulo=boletim-dirio-coronavrus-07-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=20&amp;titulo=boletim-dirio-coronavrus-08-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=21&amp;titulo=boletim-dirio-coronavrus-09-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=22&amp;titulo=boletim-dirio-coronavrus-10-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=23&amp;titulo=boletim-dirio-coronavrus-11-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=24&amp;titulo=comunicado-importante</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=25&amp;titulo=boletim-dirio-coronavrus-13-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=26&amp;titulo=comunicado</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=27&amp;titulo=boletim-dirio-coronavrus-15-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=28&amp;titulo=boletim-dirio-coronavrus-14-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=29&amp;titulo=boletim-dirio-coronavrus-12-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=30&amp;titulo=boletim-dirio-coronavrus-16-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=31&amp;titulo=boletim-dirio-coronavrus-17-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=32&amp;titulo=boletim-dirio-coronavrus-18-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=33&amp;titulo=boletim-dirio-coronavrus-19-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=34&amp;titulo=boletim-dirio-coronavrus-20-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=35&amp;titulo=boletim-dirio-coronavrus-21-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=36&amp;titulo=cadastro-do-setor-cultural-de-fronteira-mg-para-implantao-da-lei-aldir-blanc</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=37&amp;titulo=boletim-dirio-coronavrus-23-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=38&amp;titulo=boletim-dirio-coronavrus-22-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=39&amp;titulo=boletim-dirio-coronavrus-24-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=40&amp;titulo=boletim-dirio-coronavrus-25-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=41&amp;titulo=boletim-dirio-coronavrus-26-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=42&amp;titulo=boletim-dirio-coronavrus-27-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=43&amp;titulo=boletim-dirio-coronavrus-28-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=44&amp;titulo=boletim-dirio-coronavrus-29-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=45&amp;titulo=boletim-dirio-coronavrus-30-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=46&amp;titulo=boletim-dirio-coronavrus-31-08-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=47&amp;titulo=boletim-dirio-coronavrus-01-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=48&amp;titulo=boletim-dirio-coronavrus-02-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=49&amp;titulo=boletim-dirio-coronavrus-03-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=50&amp;titulo=boletim-dirio-coronavrus-04-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=51&amp;titulo=boletim-dirio-coronavrus-05-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=52&amp;titulo=boletim-dirio-coronavrus-06-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=53&amp;titulo=boletim-dirio-coronavrus-07-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=54&amp;titulo=boletim-dirio-coronavrus-08-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=55&amp;titulo=boletim-dirio-coronavrus-09-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=56&amp;titulo=boletim-dirio-coronavrus-10-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=57&amp;titulo=boletim-dirio-coronavrus-11-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=58&amp;titulo=boletim-dirio-coronavrus-12-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=59&amp;titulo=boletim-dirio-coronavrus-13-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=60&amp;titulo=boletim-dirio-coronavrus-14-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=61&amp;titulo=boletim-dirio-coronavrus-15-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=62&amp;titulo=boletim-dirio-coronavrus-16-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=63&amp;titulo=boletim-dirio-coronavrus-17-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=64&amp;titulo=boletim-dirio-coronavrus-18-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=65&amp;titulo=boletim-dirio-coronavrus-19-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=66&amp;titulo=boletim-dirio-coronavrus-20-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=67&amp;titulo=boletim-dirio-coronavrus-21-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=68&amp;titulo=boletim-dirio-coronavrus-22-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=69&amp;titulo=boletim-dirio-coronavrus-23-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=70&amp;titulo=boletim-dirio-coronavrus-24-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=71&amp;titulo=boletim-dirio-coronavrus-25-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=72&amp;titulo=boletim-dirio-coronavrus-26-06-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=73&amp;titulo=boletim-dirio-coronavrus-27-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=74&amp;titulo=boletim-dirio-coronavrus-28-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=75&amp;titulo=boletim-dirio-coronavrus-29-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=76&amp;titulo=boletim-dirio-coronavrus-30-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=77&amp;titulo=boletim-dirio-coronavrus-01-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=78&amp;titulo=boletim-dirio-coronavrus-02-09-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=79&amp;titulo=boletim-dirio-coronavrus-03-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=80&amp;titulo=boletim-dirio-coronavrus-04-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=81&amp;titulo=boletim-dirio-coronavrus-05-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=82&amp;titulo=boletim-dirio-coronavrus-06-05-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=83&amp;titulo=boletim-dirio-coronavrus-07-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=84&amp;titulo=boletim-dirio-coronavrus-08-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=85&amp;titulo=boletim-dirio-coronavrus-09-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=86&amp;titulo=boletim-dirio-coronavrus-10-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=87&amp;titulo=boletim-dirio-coronavrus-11-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=88&amp;titulo=boletim-dirio-coronavrus-12-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=89&amp;titulo=boletim-dirio-coronavrus-13-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=90&amp;titulo=boletim-dirio-coronavrus-14-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=91&amp;titulo=nota-de-esclarecimento</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=92&amp;titulo=boletim-dirio-coronavrus-15-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=93&amp;titulo=boletim-dirio-coronavrus-16-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=94&amp;titulo=boletim-dirio-coronavrus-17-05-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=95&amp;titulo=boletim-dirio-coronavrus-18-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=96&amp;titulo=boletim-dirio-coronavrus-19-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=97&amp;titulo=boletim-dirio-coronavrus-20-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=98&amp;titulo=boletim-dirio-coronavrus-21-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=99&amp;titulo=boletim-dirio-coronavrus-22-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=100&amp;titulo=boletim-dirio-coronavrus-23-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=101&amp;titulo=boletim-dirio-coronavrus-24-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=102&amp;titulo=boletim-dirio-coronavrus-25-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=103&amp;titulo=boletim-dirio-coronavrus-26-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=104&amp;titulo=boletim-dirio-coronavrus-27-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=105&amp;titulo=boletim-dirio-coronavrus-28-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=106&amp;titulo=boletim-dirio-coronavrus-29-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=107&amp;titulo=boletim-dirio-coronavrus-30-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=108&amp;titulo=boletim-dirio-coronavrus-31-10-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=109&amp;titulo=boletim-dirio-coronavrus-01-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=110&amp;titulo=boletim-dirio-coronavrus-02-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=111&amp;titulo=boletim-dirio-coronavrus-03-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=112&amp;titulo=boletim-dirio-coronavrus-04-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=113&amp;titulo=boletim-dirio-coronavrus-05-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=114&amp;titulo=boletim-dirio-coronavrus-06-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=115&amp;titulo=boletim-dirio-coronavrus-07-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=116&amp;titulo=boletim-dirio-coronavrus-08-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=117&amp;titulo=boletim-dirio-coronavrus-09-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=118&amp;titulo=boletim-dirio-coronavrus-10-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=119&amp;titulo=boletim-dirio-coronavrus-11-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=120&amp;titulo=boletim-dirio-coronavrus-12-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=121&amp;titulo=boletim-dirio-coronavrus-13-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=122&amp;titulo=boletim-dirio-coronavrus-14-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=123&amp;titulo=boletim-dirio-coronavrus-15-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=124&amp;titulo=boletim-dirio-coronavrus-16-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=125&amp;titulo=boletim-dirio-coronavrus-17-01-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=126&amp;titulo=boletim-dirio-coronavrus-18-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=127&amp;titulo=boletim-dirio-coronavrus-19-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=128&amp;titulo=boletim-dirio-coronavrus-20-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=129&amp;titulo=boletim-dirio-coronavrus-21-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=130&amp;titulo=boletim-dirio-coronavrus-22-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=131&amp;titulo=boletim-dirio-coronavrus-23-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=132&amp;titulo=boletim-dirio-coronavrus-24-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=133&amp;titulo=boletim-dirio-coronavrus-25-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=134&amp;titulo=boletim-dirio-coronavrus-26-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=135&amp;titulo=boletim-dirio-coronavrus-27-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=136&amp;titulo=boletim-dirio-coronavrus-28-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=137&amp;titulo=comunicado-secretaria-de-sade</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=138&amp;titulo=boletim-dirio-coronavrus-29-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=139&amp;titulo=boletim-dirio-coronavrus-30-11-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=140&amp;titulo=boletim-dirio-coronavrus-01-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=141&amp;titulo=boletim-dirio-coronavrus-0212-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=142&amp;titulo=boletim-dirio-coronavrus-03-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=143&amp;titulo=boletim-dirio-coronavrus-04-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=144&amp;titulo=boletim-dirio-coronavrus-05-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=145&amp;titulo=boletim-dirio-coronavrus-06-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=146&amp;titulo=boletim-dirio-coronavrus-07-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=147&amp;titulo=boletim-dirio-coronavrus-08-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=148&amp;titulo=boletim-dirio-coronavrus-09-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=149&amp;titulo=boletim-dirio-coronavrus-10-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=150&amp;titulo=boletim-dirio-coronavrus-11-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=151&amp;titulo=boletim-dirio-coronavrus-12122020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=152&amp;titulo=boletim-dirio-coronavrus-13-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=153&amp;titulo=boletim-dirio-coronavrus-14-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=154&amp;titulo=boletim-dirio-coronavrus-15-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=155&amp;titulo=boletim-dirio-coronavrus-16-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=156&amp;titulo=comunicado-informamos-que-a-farmcia-municipal-estar-fechada-nos-dias-24122020-25122020-31122020-e-01012021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=157&amp;titulo=boletim-dirio-coronavrus-17122020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=158&amp;titulo=boletim-dirio-coronavrus-18-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=159&amp;titulo=boletim-dirio-coronavrus-19-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=160&amp;titulo=boletim-dirio-coronavrus-20-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=161&amp;titulo=boletim-dirio-coronavrus-21-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=162&amp;titulo=boletim-dirio-coronavrus-22-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=163&amp;titulo=boletim-dirio-coronavrus-23-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=164&amp;titulo=boletim-dirio-coronavrus-24-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=165&amp;titulo=boletim-dirio-coronavrus-25-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=166&amp;titulo=boletim-dirio-coronavrus-26-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=167&amp;titulo=boletim-dirio-coronavrus-27-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=168&amp;titulo=boletim-dirio-coronavrus-28-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=169&amp;titulo=boletim-dirio-coronavrus-29-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=170&amp;titulo=boletim-dirio-coronavrus-30-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=171&amp;titulo=boletim-dirio-coronavrus-31-12-2020</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=172&amp;titulo=boletim-dirio-corona-virus</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=173&amp;titulo=boletim-12-de-janeiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=174&amp;titulo=boletim-13-janeiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=175&amp;titulo=boletim-covid-19-dia-14-janeiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=176&amp;titulo=boletim-dirio-covid-19-dia-15-de-janeiro</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=177&amp;titulo=boletim-dirio-covid-19-atualizado-dia-16-de-janeiro</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=178&amp;titulo=boletim-covid-19-atualizado-no-dia-19-janeiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=179&amp;titulo=boletim-covid-19-atualizado-no-dia-20-janeiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=180&amp;titulo=boletim-covid-19-atualizado-no-dia-21-janeiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=181&amp;titulo=boletim-covid-19-atualizado-no-dia-23-janeiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=182&amp;titulo=boletim-covid-19-atualizado-no-dia-25-janeiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=183&amp;titulo=boletim-covid-19-atualizado-no-dia-26-janeiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=184&amp;titulo=boletim-covid-19-atualizado-no-dia-27-janeiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=185&amp;titulo=boletim-covid-19-atualizado-no-dia-28-janeiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=186&amp;titulo=boletim-dirio-covid-19-30-de-janeiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=187&amp;titulo=boletim-covid-19-atualizado-no-dia-02-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=188&amp;titulo=boletim-covid-19-atualizado-no-dia-04-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=189&amp;titulo=boletim-covid-19-atualizado-no-dia-02-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=190&amp;titulo=boletim-covid-19-atualizado-no-dia-03-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=191&amp;titulo=boletim-covid-19-atualizado-no-dia-04-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=192&amp;titulo=boletim-covid-19-atualizado-no-dia-05-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=193&amp;titulo=boletim-covid-19-atualizado-no-dia-06-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=194&amp;titulo=boletim-covid-19-atualizado-no-dia-09-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=195&amp;titulo=boletim-covid-19-atualizado-no-dia-10-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=196&amp;titulo=boletim-covid-19-atualizado-no-dia-12-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=197&amp;titulo=boletim-covid-19-atualizado-no-dia-11-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=198&amp;titulo=boletim-covid-19-atualizado-no-dia-13-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=199&amp;titulo=boletim-covid-19-atualizado-no-dia-15-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=200&amp;titulo=boletim-covid-19-atualizado-no-dia-17-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=201&amp;titulo=boletim-covid-19-atualizado-no-dia-18-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=202&amp;titulo=boletim-covid-19-atualizado-no-dia-19-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=203&amp;titulo=boletim-covid-19-atualizado-no-dia-22-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=204&amp;titulo=boletim-covid-19-atualizado-no-dia-23-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=205&amp;titulo=boletim-coronavrus</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=206&amp;titulo=boletim-covid-19-atualizado-25-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=207&amp;titulo=boletim-covid-19-atualizado-25-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=208&amp;titulo=boletim-covid-19-atualizado-24-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=209&amp;titulo=boletim-covid-19-atualizado-26-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=210&amp;titulo=boletim-covid-19-atualizado-27-fevereiro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=211&amp;titulo=boletim-covid-19-atualizado-02-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=212&amp;titulo=boletim-covid-19-atualizado-03-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=213&amp;titulo=boletim-covid-19-atualizado-05-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=214&amp;titulo=boletim-covid-19-atualizado-06-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=215&amp;titulo=boletim-covid-19-atualizado-03-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=216&amp;titulo=boletim-covid-19-atualizado-08-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=217&amp;titulo=boletim-covid-19-atualizado-09-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=218&amp;titulo=boletim-covid-19-atualizado10-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=219&amp;titulo=boletim-covid-19-atualizado-11-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=220&amp;titulo=boletim-covid-19-atualizado-12-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=221&amp;titulo=boletim-covid-19-atualizado-13-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=222&amp;titulo=boletim-covid-19-atualizado-14-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=223&amp;titulo=boletim-covid-19-atualizado-15-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=224&amp;titulo=boletim-covid-19-atualizado-16-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=225&amp;titulo=boletim-covid-19-atualizado-17-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=226&amp;titulo=boletim-covid-19-atualizado-17-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=227&amp;titulo=boletim-covid-19-atualizado-18-de-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=228&amp;titulo=boletim-covid-19-atualizado-19-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=229&amp;titulo=boletim-covid-19-atualizado-20-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=230&amp;titulo=boletim-covid-19-atualizado-22-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=231&amp;titulo=boletim-covid-19-atualizado-23-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=232&amp;titulo=boletim-covid-19-atualizado-24-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=233&amp;titulo=boletim-covid-19-atualizado-25-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=234&amp;titulo=boletim-covid-19-atualizado-26-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=235&amp;titulo=boletim-covid-19-atualizado-27-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=236&amp;titulo=boletim-covid-19-atualizado-29-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=237&amp;titulo=boletim-covid-19-atualizado-30-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=238&amp;titulo=boletim-covid-19-atualizado-31-maro-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=239&amp;titulo=boletim-covid-19-atualizado-01-abril-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=240&amp;titulo=boletim-covid-19-atualizado-05-abril-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=241&amp;titulo=vacinmetro-29032021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=242&amp;titulo=boletim-covid-19-atualizado-06-abril-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=243&amp;titulo=boletim-covid-19-atualizado-07-abril-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=244&amp;titulo=boletim-covid-19-atualizado-08-abril-de-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=245&amp;titulo=vacinmetro-07042021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=246&amp;titulo=vacinmetro-13042021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=247&amp;titulo=covid-19-governo-adquire-4-mscaras-faciais-oronasais-com-sistema-vni-para-auxiliar-no-tratamento-da-doena</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=248&amp;titulo=covid-19-fronteira-mg-receber-310-vacinas-nesta-tera-feira</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=249&amp;titulo=todas-as-atividades-econmicas-podero-funcionar-em-fronteira-mg</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=250&amp;titulo=campanha-nacional-de-vacinao-contra-a-influenza-2021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=251&amp;titulo=campanha-de-vacinao-covid-18</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=252&amp;titulo=teste21</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=253&amp;titulo=vacinmetro-21042021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=254&amp;titulo=imunizao-fronteira-recebe-novo-lote-de-vacinas-contra-a-covid-19</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=255&amp;titulo=vacinmetro-28042021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=256&amp;titulo=vacinmetro-05052021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=257&amp;titulo=vacinmetro-12052021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=258&amp;titulo=vacinmetro-18052021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=259&amp;titulo=vacinmetro-26052021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=260&amp;titulo=vacinmetro-02062021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=261&amp;titulo=vacinmetro-09062021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=262&amp;titulo=vacinmetro-30062021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=263&amp;titulo=vacinmetro-07072021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=264&amp;titulo=vacinmetro-20072021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=265&amp;titulo=vacinmetro-12082021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=266&amp;titulo=vacinmetro-19082021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=267&amp;titulo=vacinmetro-01092021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=268&amp;titulo=vacinmetro-14092021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=269&amp;titulo=vacinmetro-04102021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=270&amp;titulo=vacinmetro-19112021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=271&amp;titulo=em-apenas-10-meses-de-governo-fronteira-tornou-se-um-canteiro-de-obras</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=272&amp;titulo=vacinmetro-25112021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=273&amp;titulo=vacinmetro-03122021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=274&amp;titulo=vacinmetro-16122021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=275&amp;titulo=vacinmetro-21122021</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=276&amp;titulo=vacinmetro-12012022</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=277&amp;titulo=vacinmetro-02022022</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=278&amp;titulo=convite-audincia-pblica</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=279&amp;titulo=vacinmetro-18022022</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=280&amp;titulo=vacinmetro-02032022</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=281&amp;titulo=vacinmetro-17032022</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=282&amp;titulo=vacinmetro-23032022</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=283&amp;titulo=vacinmetro-31032022</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=284&amp;titulo=vacinmetro-07042022</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=285&amp;titulo=campanha-nacional-de-vacinao-contra-influenza-e-sarampo-2022</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=286&amp;titulo=informe-boletim-covid-19</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=287&amp;titulo=vacinmetro-14042022</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=288&amp;titulo=mudana-do-sistema-de-nota-fiscal-nfs-e</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=289&amp;titulo=convite-audincia-pblica</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=290&amp;titulo=audincia-pblica-elaborao-do-oramento-2023</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=291&amp;titulo=audincia-pblica</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=292&amp;titulo=prefeitura-informa</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=293&amp;titulo=prefeitura-promove-ao-especial-do-dia-da-mulher-em-parceria-com-o-projeto-sororidade-lash</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=294&amp;titulo=prefeitura-promove-ao-especial-do-dia-da-mulher-em-parceria-com-o-projeto-sororidade-lash</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=295&amp;titulo=oportunidade-de-emprego</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=296&amp;titulo=convite-especial-para-as-mulheres</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=297&amp;titulo=bp-bunge-abre-novas-vagas-para-trabalhadores-de-fronteira-mg</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=298&amp;titulo=mutiro-de-limpeza-contra-a-dengue-coleta-mais-de-18-caminhes-de-lixos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=299&amp;titulo=governo-promove-mais-sade-para-hipertensos-e-diabticos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=300&amp;titulo=creche-comemora-dia-dos-povos-indgenas</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=301&amp;titulo=governo-promove-mais-sade-para-hipertensos-e-diabticos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=302&amp;titulo=servidores-so-orientados-e-homenageados-dia-mundial-da-segurana-e-sade-do-trabalho</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=303&amp;titulo=25-campanha-nacional-de-vacinao-contra-a-influenza-imunizou-at-o-momento-17-mil</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=304&amp;titulo=governo-de-fronteira-cria-campanha-de-vacinao-para-acamados</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=305&amp;titulo=governo-promove-sade-fsica-bucal-e-mental-para-idosos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=306&amp;titulo=mutiro-do-microempreendedor</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=307&amp;titulo=maio-amarelo-governo-realiza-campanha-de-preveno-e-conscientizao-para-reduo-de-acidentes-de-trnsito</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=308&amp;titulo=municpio-fomenta-processo-de-coleta-seletiva</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=309&amp;titulo=inaugurada-nova-sede-da-delegacia-de-fronteira-mg</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=310&amp;titulo=voltado-para-diabticos-e-hipertensos-com-confraternizao</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=311&amp;titulo=fronteira-empata-em-estreia-emocionante-na-copa-trs-rios-de-futsal</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=312&amp;titulo=cadastro-municipal-de-cultura</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=313&amp;titulo=audincia-pblica-lei-paulo-gustavo</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=314&amp;titulo=arrai-bernardo</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=315&amp;titulo=segunda-via-de-itpu-online</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=316&amp;titulo=era-uma-vez-turma-da-mnica-resgata-personagens-importantes-da-literatura-infantil</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=317&amp;titulo=7-mutiro-de-vacinao-contra-o-covid-19</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=318&amp;titulo=governo-de-fronteira-promove-dia-de-cinema-para-crianas-e-refora-o-combate-ao-trabalho-infantil</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=319&amp;titulo=governo-de-fronteira-realiza-confraternizao-para-terceira-idade</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=320&amp;titulo=com-apresentaes-e-show-inesquecveis-arrai-de-fronteira-atrai-grande-pblico</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=321&amp;titulo=muito-elogiado-arrai-do-cmei-santo-antnio-atrai-um-bom-pblico</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=322&amp;titulo=1-parte-concentrao-tradio-2-cavalgada-atrai-grande-pblico</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=323&amp;titulo=2-parte-desfile-cavaleiros-cavaleiros-percorrem-cerca-de-10-km-seguidos-de-veculos</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=324&amp;titulo=3-parte-queima-do-alho-queima-do-alho-em-prol-do-projeto-corao-solidrio</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=325&amp;titulo=parabns-fronteira</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=326&amp;titulo=1-parte-gincana-tradicional-volta-a-ser-atrao-no-aniversrio-de-fronteira</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=327&amp;titulo=2-parte-gincana-tradicional-movimenta-praa-da-vitria-competies-de-moto-e-ciclismo-foram-as-atraes</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=328&amp;titulo=arrai-do-cras-protagonizou-muita-alegria-e-entretenimento</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=329&amp;titulo=seminrio-de-jiu-jitsu-em-fronteira-contou-com-a-participao-de-dois-mestres-importantes</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=330&amp;titulo=aps-intenso-trabalho-fronteira-passar-a-receber-icms-do-turismo-pela-primeira-vez</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=331&amp;titulo=9-jornada-cultural</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=332&amp;titulo=ciclfest-2023-fronteira-um-paraso-no-brasil-central</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=333&amp;titulo=programa-mame-beb-2023-chega-ao-final</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=334&amp;titulo=uma-noite-inesquecvel</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=335&amp;titulo=audincia-pblica</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=336&amp;titulo=convnio-consignet-ativo-no-municpio</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=337&amp;titulo=convite-para-audincia-pblica-2-quadrimestre-2024</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=338&amp;titulo=convite-para-audincia-pblica-da-lei-oramentria-anual-loa-2025-clique-e-veja-mais-informaes</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=339&amp;titulo=prefeitura-de-fronteira-recebe-selo-ouro-do-mec-em-compromisso-com-a-alfabetizao</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=340&amp;titulo=convite-para-audincia-pblica-3-quadrimestre-2024</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=341&amp;titulo=a-secretaria-de-educao-de-fronteira-na-imerso-supervisoras-educacionais-de-alta-performance</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=342&amp;titulo=declarao-anual-de-faturamento-do-exerccio-de-2024-mei</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=343&amp;titulo=audincia-pblica-1-quadrimestre-2025</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
+			<url>
+				<loc>https://www.fronteira.mg.gov.br/noticia&amp;id=344&amp;titulo=audincia-pblica-sobre-os-instrumentos-de-planejamento-ppa-ldo-e-loa</loc>
+				<lastmod>2025-10-08T23:28:40+00:00</lastmod>
+				<changefreq>weekly</changefreq>
+				<priority>0.9</priority>
+			</url>
+			
 </urlset>
