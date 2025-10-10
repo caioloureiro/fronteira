@@ -18,6 +18,8 @@ if( $_SERVER['HTTP_HOST'] == 'localhost' ){
 require $raiz_site .'controller/funcoes.php';
 require $raiz_site .'model/legislacoes.php';
 require $raiz_site .'model/legislacoes_categorias.php';
+require $raiz_site .'model/legislacoes_anexos.php';
+require $raiz_site .'model/admin_user.php';
 
 ?>
 <!doctype html>
@@ -37,7 +39,144 @@ require $raiz_site .'model/legislacoes_categorias.php';
 	</head>
 	<body>
 		
-		<style><?php require $raiz_admin .'routes/css-modulo.php'; ?></style>
+		<style>
+			<?php require $raiz_admin .'routes/css-modulo.php'; ?>
+			
+			/* CSS Específico para Anexos */
+			
+			/* Ícone X superior - tema responsivo */
+			<?php
+			foreach( $admin_user_array as $cfg ){
+				if( $cfg['tema'] == 'escuro' && $_COOKIE['fronteira_ADMIN_SESSION_usuario'] == $cfg['usuario'] ){ 
+					echo '.lightbox-fechar { filter: brightness(0) invert(1); }';
+				}
+			}
+			?>
+			
+			.exibir-anexos {
+				width: 100%;
+				height: auto;
+				min-height: 4vw;
+				float: left;
+				background-color: var(--fundo_02);
+				border: 0.2vw dashed var(--azul);
+				border-radius: 0.5vw;
+				padding: 1vw;
+				margin: 0vw;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				transition: all 0.3s ease;
+			}
+			
+			.exibir-anexos.drag-over {
+				border-color: var(--azul);
+				background-color: var(--azul_transp);
+			}
+			
+			.exibir-anexos:empty::before {
+				content: "Arraste seus arquivos aqui";
+				color: var(--fonte_padrao);
+				font-style: italic;
+				width: 100%;
+				height: 4vw;
+				line-height: 4vw;
+				text-align: center;
+				float: left;
+			}
+			
+			.thumb-anexo {
+				position: relative;
+				width: 8vw;
+				height: 9vw;
+				border: 0.1vw solid var(--cinza_claro);
+				border-radius: 0.5vw;
+				background-color: var(--fundo_02);
+				float: left;
+				margin: 0.5vw;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				transition: transform 0.2s ease;
+			}
+			
+			.thumb-anexo:hover {
+				transform: translateY(-0.2vw);
+			}
+			
+			.thumb-anexo-excluir {
+				position: absolute;
+				top: 0.3vw;
+				right: 0.3vw;
+				width: 1.2vw;
+				height: 1.2vw;
+				background-color: var(--vermelho);
+				border-radius: 50%;
+				cursor: pointer;
+				color: white;
+				font-size: 0.7vw;
+				line-height: 1.2vw;
+				text-align: center;
+				transition: background-color 0.2s ease;
+			}
+			
+			.thumb-anexo-excluir:hover {
+				background-color: var(--vermelho);
+				opacity: 0.8;
+			}
+			
+			.thumb-anexo-icon {
+				width: 3vw;
+				height: 3vw;
+				background-image: url('<?php echo $raiz_site ?>img/pdf.svg');
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center;
+				margin-bottom: 0.5vw;
+			}
+			
+			.thumb-anexo-nome {
+				font-size: 0.7vw;
+				text-align: center;
+				color: var(--fonte_padrao);
+				word-break: break-word;
+				line-height: 1.2;
+				max-height: 3vw;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+				padding: 0 0.2vw;
+			}
+			
+			#arquivo_anexos {
+				display: none;
+			}
+			
+			.arquivo_escolhido_anexos {
+				background: var(--azul) !important;
+				color: white !important;
+				border: none !important;
+				padding: 0.8vw 1.5vw !important;
+				border-radius: 0.3vw !important;
+				cursor: pointer !important;
+				font-size: 0.8vw !important;
+				transition: all 0.3s ease !important;
+			}
+			
+			.arquivo_escolhido_anexos:hover {
+				background: var(--azul-escuro) !important;
+			}
+			
+			.anexos-info {
+				background: var(--fundo_02);
+				border: 0.1vw solid var(--cinza_claro);
+				border-radius: 0.3vw;
+				padding: 1vw;
+				font-size: 0.7vw;
+				line-height: 1.4;
+				color: var(--fonte_padrao);
+			}
+		</style>
 		
 		<?php 
 			
@@ -193,6 +332,133 @@ require $raiz_site .'model/legislacoes_categorias.php';
 
 							<div class="separador"></div>
 							
+							<!-- Start - Anexos Section -->
+							<div class="linha">
+								<div class="col100">
+									<span>📎 Anexos da Legislação: </span>
+								</div>
+							</div>
+							
+							';
+								// Buscar anexos existentes usando o array do model
+								$anexos_existentes = [];
+								if(isset($legislacoes_anexos_array) && is_array($legislacoes_anexos_array)) {
+									foreach($legislacoes_anexos_array as $anexo) {
+										// Forçar comparação como inteiros e excluir o arquivo do edital
+										if(isset($anexo['legislacao']) && isset($anexo['ativo']) && isset($anexo['arquivo']) &&
+										   intval($anexo['legislacao']) == intval($item['id']) && 
+										   intval($anexo['ativo']) == 1 && 
+										   $anexo['arquivo'] != $item['arquivo']) {
+											$anexos_existentes[] = $anexo;
+										}
+									}
+								}
+							echo'
+							
+							<div class="linha-acao">
+								
+								<div class="col30">
+								
+									<input 
+										type="text" 
+										class="legislacao_id"
+										name="legislacao_id" 
+										value="'. $item['id'] .'" 
+										style="display:none;"
+									/>
+									
+									<label 
+										class="btn arquivo_escolhido_anexos" 
+										for="arquivo_anexos" 
+										title="Clique aqui para selecionar os arquivos desejados."
+									>📁 Escolher Anexos do Computador</label>
+									
+									<input 
+										type="file" 
+										name="arquivos_anexos[]" 
+										id="arquivo_anexos" 
+										class="btn"
+										multiple 
+										accept=".pdf,.zip,.rar,.7z,.doc,.xls,.ppt,.docx,.xlsx,.pptx"
+									/>
+									
+									<div class="btn" 
+										onclick="abrirArquivosParaAnexo()" 
+										style="
+											background: var(--azul); 
+											color: var(--branco); 
+											margin-top: 0.5vw;
+										"
+										title="Selecionar arquivo já existente no servidor"
+									>🗃️ Anexar Arquivo do Servidor</div>
+									
+								</div>
+								
+								<div class="col70">
+									<div class="anexos-info">
+										<strong>ℹ️ Instruções:</strong><br>
+										• Arraste ou clique para enviar múltiplos arquivos<br>
+										• Formatos aceitos: PDF, ZIP, RAR, 7Z, DOC, XLS, PPT, DOCX, XLSX, PPTX<br>
+										• Tamanho máximo: 200MB por arquivo<br>
+										• Para excluir, clique no ❌ no canto superior direito
+									</div>
+								</div>
+								
+							</div>
+
+							<div class="separador"></div>
+							
+							<div class="linha linha-auto">
+
+								<div class="exibir-anexos">';
+								
+								// Exibir anexos existentes
+								foreach($anexos_existentes as $anexo) {
+									$extensao = strtoupper(pathinfo($anexo['arquivo'], PATHINFO_EXTENSION));
+									
+									// Se o nome estiver vazio, extrair do arquivo removendo timestamp
+									$nome_exibir = $anexo['nome'];
+									if(empty($nome_exibir)) {
+										$nome_exibir = preg_replace('/^\d{4}-\d{2}-\d{2}-\d{2}-\d{2}-\d{2}-/', '', $anexo['arquivo']);
+									}
+									
+									echo '
+									<div class="thumb-anexo" data-anexo-id="'. $anexo['id'] .'">
+										<div class="thumb-anexo-excluir" title="Excluir anexo">❌</div>
+										<div class="thumb-anexo-content" style="padding: 0.5vw; text-align: center;">
+											<div class="thumb-anexo-icon"></div>
+											<div class="thumb-anexo-nome" style="font-size: 0.7vw; color: var(--fonte_padrao);">
+												'. htmlspecialchars($nome_exibir) .'
+											</div>
+											<div style="font-size: 0.6vw; color: var(--cinza-escuro); margin-top: 0.3vw;">
+												'. date('d/m/Y', strtotime($anexo['created_at'])) .'
+											</div>
+											<a href="'. $raiz_site . 'uploads/' . $anexo['arquivo'] .'" 
+												target="_blank" 
+												style="
+													display: inline-block;
+													background: var(--verde-escuro);
+													color: var(--branco);
+													padding: 0.2vw 0.4vw;
+													border-radius: 0.1vw;
+													text-decoration: none;
+													font-size: 0.6vw;
+													margin-top: 0.3vw;
+												"
+											>Ver</a>
+										</div>
+									</div>
+									';
+								}
+								
+								echo '
+								</div>
+								
+							</div>
+							<!-- End - Anexos Section -->
+
+							<div class="separador"></div>
+							
 							<div class="linha-acao"> 
 								<button type="submit">Gravar</button> 
 								<div class="btn" onclick="voltar()">Cancelar</div>
@@ -216,8 +482,20 @@ require $raiz_site .'model/legislacoes_categorias.php';
 		<script>
 			
 			/*Start - RECEBE OD DADOS PHP DO BANCO E COLOCA NO PLUGIN EDITOR DE TEXTOS*/
+			// Detectar tema do usuário via PHP
+			<?php
+			$temaEscuro = false;
+			foreach( $admin_user_array as $cfg ){
+				if( $cfg['tema'] == 'escuro' && $_COOKIE['fronteira_ADMIN_SESSION_usuario'] == $cfg['usuario'] ){ 
+					$temaEscuro = true;
+					break;
+				}
+			}
+			?>
+			
 			const editor = new Jodit("#editor", {
 				language: "pt_br", // Configurar para português brasileiro
+				theme: <?php echo $temaEscuro ? '"dark"' : '"default"'; ?>, // Aplicar tema baseado na configuração do usuário
 			});
 			
 			let editor_de_texto_json = <?php echo $editor_de_texto_json ?>; //peguei o Multidimensional Array PHP e converti
@@ -238,6 +516,251 @@ require $raiz_site .'model/legislacoes_categorias.php';
 			function abrirArquivos(){
 				
 				document.querySelector('.item-arquivos').classList.add("on");
+				
+			}
+			
+			function abrirArquivosParaAnexo(){
+				document.querySelector('.item-arquivos').classList.add("on");
+				
+				// Marcar que é para anexo
+				window.anexoMode = true;
+			}
+			
+			/*Start - SISTEMA DE ANEXOS*/
+			let anexos_contador = 0;
+			const legislacaoId = document.querySelector('.legislacao_id').value;
+			
+			// Função para processar arquivos (local ou drag & drop)
+			function processarArquivos(files) {
+				
+				// Para editar.php, enviamos diretamente para o servidor
+				for(let i = 0; i < files.length; i++) {
+					enviarAnexo(files[i]);
+				}
+			}
+			
+			// Função para enviar anexo individual
+			function enviarAnexo(file) {
+				const formData = new FormData();
+				formData.append('arquivos_anexos[]', file);
+				formData.append('legislacao', legislacaoId);
+
+				const xhr = new XMLHttpRequest();
+				
+				xhr.onreadystatechange = function() {
+					if (xhr.readyState === 4) {
+						if (xhr.status === 200) {
+							try {
+								console.log('Resposta do servidor:', xhr.responseText);
+								const response = JSON.parse(xhr.responseText);
+								if(response.sucesso) {
+									console.log('Anexo enviado com sucesso!');
+									// Aguardar um pouco antes de recarregar anexos
+									setTimeout(function() {
+										carregarAnexos();
+									}, 500);
+								} else {
+									alert('Erro: ' + response.mensagem);
+								}
+							} catch(e) {
+								console.error('Erro ao processar JSON:', e);
+								console.error('Resposta recebida:', xhr.responseText);
+								alert('Erro ao processar resposta do servidor: ' + e.message);
+							}
+						} else {
+							alert('Erro ao enviar arquivo. Código: ' + xhr.status);
+						}
+					}
+				};
+
+				xhr.open('POST', '../controller/enviar-anexo.php', true);
+				xhr.send(formData);
+			}
+			
+			// Event listener para o input file
+			if( document.querySelector('#arquivo_anexos') ){
+				document.querySelector('#arquivo_anexos').addEventListener('change', function() {
+					processarArquivos(this.files);
+					this.value = ''; // Limpar input
+				});
+			}
+			
+			// Suporte para Drag & Drop
+			if( document.querySelector('.exibir-anexos') ){
+				
+				let dropZone = document.querySelector('.exibir-anexos');
+				
+				// Prevenir comportamento padrão
+				['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+					dropZone.addEventListener(eventName, preventDefaults, false);
+					document.body.addEventListener(eventName, preventDefaults, false);
+				});
+				
+				// Destacar área quando arrastar sobre ela
+				['dragenter', 'dragover'].forEach(eventName => {
+					dropZone.addEventListener(eventName, highlight, false);
+				});
+				
+				['dragleave', 'drop'].forEach(eventName => {
+					dropZone.addEventListener(eventName, unhighlight, false);
+				});
+				
+				// Processar arquivos soltos
+				dropZone.addEventListener('drop', handleDrop, false);
+				
+				function preventDefaults (e) {
+					e.preventDefault();
+					e.stopPropagation();
+				}
+				
+				function highlight(e) {
+					dropZone.classList.add('drag-over');
+				}
+				
+				function unhighlight(e) {
+					dropZone.classList.remove('drag-over');
+				}
+				
+				function handleDrop(e) {
+					let dt = e.dataTransfer;
+					let files = dt.files;
+					
+					processarArquivos(files);
+				}
+			}
+			
+			// Função para carregar anexos existentes
+			function carregarAnexos() {
+				const xhr = new XMLHttpRequest();
+				xhr.open('GET', '../controller/listar-anexos.php?legislacao=' + legislacaoId, true);
+				
+				xhr.onreadystatechange = function () {
+					if (xhr.readyState === 4 && xhr.status === 200) {
+						console.log('HTML recebido:', xhr.responseText);
+						document.querySelector('.exibir-anexos').innerHTML = xhr.responseText;
+						console.log('HTML inserido na página');
+					}
+				};
+				
+				xhr.send();
+			}
+			
+			// Função para excluir anexo
+			function excluirAnexo(idAnexo) {
+				if (confirm('Tem certeza que deseja excluir este anexo?')) {
+					const xhr = new XMLHttpRequest();
+					xhr.open('POST', '../controller/excluir-anexo.php', true);
+					xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+					
+					xhr.onreadystatechange = function () {
+						if (xhr.readyState === 4 && xhr.status === 200) {
+							try {
+								const response = JSON.parse(xhr.responseText);
+								if (response.sucesso) {
+									carregarAnexos();
+								} else {
+									alert('Erro ao excluir anexo: ' + response.mensagem);
+								}
+							} catch(e) {
+								console.error('Erro ao processar resposta:', e);
+								console.error('Resposta recebida:', xhr.responseText);
+								alert('Erro ao processar resposta do servidor');
+							}
+						}
+					};
+					
+					xhr.send('anexo_id=' + idAnexo);
+				}
+			}
+			
+			// Função para adicionar arquivo do servidor como anexo
+			function adicionarArquivoComoAnexo(nomeArquivo) {
+				const xhr = new XMLHttpRequest();
+				xhr.open('POST', '../controller/enviar-anexo-servidor.php', true);
+				xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+				
+				xhr.onreadystatechange = function () {
+					if (xhr.readyState === 4) {
+						if (xhr.status === 200) {
+							try {
+								const response = JSON.parse(xhr.responseText);
+								if (response.sucesso) {
+									console.log('Arquivo do servidor anexado com sucesso');
+									carregarAnexos();
+									alert('Arquivo anexado com sucesso!');
+								} else {
+									alert('Erro ao anexar arquivo: ' + response.mensagem);
+								}
+							} catch(e) {
+								console.error('Erro ao processar resposta:', e);
+								alert('Erro ao processar resposta do servidor');
+							}
+						} else {
+							alert('Erro na comunicação com o servidor');
+						}
+					}
+				};
+				
+				const params = 'arquivo_servidor=' + encodeURIComponent(nomeArquivo) + 
+							  '&legislacao=' + legislacaoId;
+				xhr.send(params);
+			}
+			
+			// Carregar anexos existentes ao carregar a página
+			// COMENTADO: Anexos já são carregados via PHP, só recarregar após upload/exclusão
+			// document.addEventListener('DOMContentLoaded', function() {
+			// 	carregarAnexos();
+			// });
+			
+			// Event delegation para botões de excluir anexos (elementos dinâmicos)
+			document.addEventListener('click', function(e) {
+				// Verificar se clicou no botão de excluir anexo
+				if (e.target.classList.contains('thumb-anexo-excluir')) {
+					e.preventDefault();
+					e.stopPropagation();
+					
+					// Pegar o ID do anexo do elemento pai
+					const thumbAnexo = e.target.closest('.thumb-anexo');
+					if (thumbAnexo) {
+						const idAnexo = thumbAnexo.getAttribute('data-anexo-id');
+						if (idAnexo) {
+							excluirAnexo(idAnexo);
+						}
+					}
+				}
+			});
+			/*End - SISTEMA DE ANEXOS*/
+			
+			function enviarArquivo(){
+				
+				let arquivo_subir = document.querySelector('[name="arquivo_subir"]');
+				
+				if( arquivo_subir.files.length > 0 ){
+					
+					let formData = new FormData();
+					formData.append( 'arquivo_subir', arquivo_subir.files[0] );
+					
+					let xhr = new XMLHttpRequest();
+					
+					xhr.onreadystatechange = function(){
+						
+						if( xhr.readyState == 4 && xhr.status == 200 ){
+							
+							document.querySelector('[name="arquivo_subir"]').value = '';
+							document.querySelector('.item-escolher-arquivo-input').value = '';
+							document.querySelector('.item-escolher-arquivo-input').value = 'uploads/'+ xhr.responseText;
+							
+						}
+						
+					};
+
+					xhr.open( 'POST', '../../../routes/enviar-arquivo.php' );
+					xhr.send( formData );
+					
+				}
+				else{
+					console.log( 'Nenhum arquivo selecionado.' );
+				}
 				
 			}
 			

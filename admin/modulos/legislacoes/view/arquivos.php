@@ -29,12 +29,25 @@
 					$arquivo[$i] != '.' &&
 					$arquivo[$i] != '..'
 				){
+					$nomeArquivo = addslashes($arquivo[$i]);
 					echo'
 					<div
 						onClick="
-							let item_arquivos = document.querySelector(`.item-arquivos`);
-							item_arquivos.classList.remove(`on`);
-							document.querySelector(`.item-escolher-arquivo-input`).value = `uploads/'.$arquivo[$i].'` ;
+							let item_arquivos = document.querySelector(\'.item-arquivos\');
+							
+							// Verificar se é para anexo
+							if(window.anexoMode) {
+								// Chamar função para adicionar como anexo
+								if(typeof adicionarArquivoComoAnexo === \'function\') {
+									adicionarArquivoComoAnexo(\''.$nomeArquivo.'\');
+								}
+								window.anexoMode = false;
+								item_arquivos.classList.remove(\'on\');
+							} else {
+								// Comportamento normal para campo de arquivo
+								document.querySelector(\'.item-escolher-arquivo-input\').value = \'uploads/'.$arquivo[$i].'\';
+								item_arquivos.classList.remove(\'on\');
+							}
 						"
 						class="linha"
 					>
@@ -91,6 +104,7 @@ if( itens ){
 function sair_item_arquivos(){
 	
 	document.querySelector('.item-arquivos').classList.remove("on");
+	window.anexoMode = false; // Reset do modo anexo
 	
 }
 </script>
