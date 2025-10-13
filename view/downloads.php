@@ -59,6 +59,13 @@ if( $counter_diarios > 1 ){
 		</div>
 		
 		<div class="downloads-counter"><?php echo $counterHTML ?></div>
+		
+		<?php if(!empty($categoria_nome)): ?>
+		<div style="background: var(--azul); color: white; padding: 1vw; border-radius: 0.5vw; margin-bottom: 1vw; text-align: center;">
+			<strong>Filtrando por categoria:</strong> <?php echo htmlspecialchars($categoria_nome); ?>
+			<a href="downloads" style="color: white; text-decoration: underline; margin-left: 1vw;">Limpar filtro</a>
+		</div>
+		<?php endif; ?>
 	
 		<div class="downloads-campo div_downloads_scroll">
 		
@@ -68,7 +75,27 @@ if( $counter_diarios > 1 ){
 					
 					$data = date( 'd/m/Y', strtotime( $item['data'] ) );
 					
-					$categorias = explode( ';', trim( strip_tags( $item['categorias'] ) ) );
+					// Processar categorias - verificar se são IDs numéricos ou nomes
+					$categorias_raw = explode( ';', trim( strip_tags( $item['categorias'] ) ) );
+					$categorias = array();
+					
+					foreach($categorias_raw as $cat) {
+						$cat = trim($cat);
+						if(!empty($cat)) {
+							// Se for número, buscar nome na tabela categorias
+							if(is_numeric($cat)) {
+								$sql_cat = "SELECT nome FROM categorias WHERE id = " . intval($cat) . " AND ativo = 1";
+								$result_cat = $conn->query($sql_cat);
+								if($result_cat && $result_cat->num_rows > 0) {
+									$cat_data = $result_cat->fetch_assoc();
+									$categorias[] = $cat_data['nome'];
+								}
+							} else {
+								// Já é nome, usar direto
+								$categorias[] = $cat;
+							}
+						}
+					}
 
 					echo '
 					<div class="downloads-item">
@@ -246,10 +273,19 @@ let window_height = window.innerHeight;
 
 let pagina_counter = 1;
 
+// Obter categoria da URL se houver
+const urlParams = new URLSearchParams(window.location.search);
+const categoriaFiltro = urlParams.get('categoria');
+
 function buscar_resultados( pagina_counter ){
 	
 	var formData = new FormData();
 	formData.append( 'pagina_counter', pagina_counter );
+	
+	// Adicionar filtro de categoria se existir
+	if(categoriaFiltro) {
+		formData.append( 'categoria', categoriaFiltro );
+	}
 	
 	var xhr = new XMLHttpRequest();
 	xhr.open( 'POST', 'model/downloads_scroll.php', true );

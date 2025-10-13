@@ -25,7 +25,34 @@ $ini = $final - $itens_por_vez;
 
 //echo 'de '. $ini .' até '. $final .' '; exit;
 
-$sql_downloads_scroll = "SELECT * FROM downloads ORDER BY id DESC LIMIT ". $itens_por_vez ." OFFSET ". $ini;
+// Verificar se há filtro de categoria via POST
+$filtro_categoria = '';
+if(isset($_POST['categoria']) && !empty($_POST['categoria'])) {
+	$categoria_slug = trim($_POST['categoria']);
+	
+	// Buscar o ID da categoria pelo nome/slug
+	$categoria_slug_limpo = str_replace('-', ' ', $categoria_slug);
+	$sql_categoria = "SELECT id, nome FROM categorias WHERE ativo = 1 AND (LOWER(REPLACE(nome, ' ', '-')) = ? OR LOWER(nome) LIKE ?)";
+	$stmt_cat = $conn->prepare($sql_categoria);
+	$categoria_like = '%' . $categoria_slug_limpo . '%';
+	$stmt_cat->bind_param("ss", $categoria_slug, $categoria_like);
+	$stmt_cat->execute();
+	$result_cat = $stmt_cat->get_result();
+	
+	if($result_cat->num_rows > 0) {
+		$categoria_data = $result_cat->fetch_assoc();
+		$categoria_nome = $categoria_data['nome'];
+		
+		// Filtrar downloads que contém essa categoria
+		$filtro_categoria = " AND (categorias LIKE '%;" . $conn->real_escape_string($categoria_nome) . ";%' 
+								  OR categorias LIKE '" . $conn->real_escape_string($categoria_nome) . ";%'
+								  OR categorias LIKE '%;" . $conn->real_escape_string($categoria_nome) . "'
+								  OR categorias = '" . $conn->real_escape_string($categoria_nome) . "')";
+	}
+	$stmt_cat->close();
+}
+
+$sql_downloads_scroll = "SELECT * FROM downloads WHERE ativo = 1" . $filtro_categoria . " ORDER BY id DESC LIMIT ". $itens_por_vez ." OFFSET ". $ini;
 
 //echo $sql_downloads_scroll; exit;
 
@@ -45,7 +72,27 @@ foreach( $downloads_scroll_array as $item ){
 	
 	$data = date( 'd/m/Y', strtotime( $item['data'] ) );
 	
-	$categorias = explode( ';', trim( strip_tags( $item['categorias'] ) ) ); }
+	// Processar categorias - verificar se são IDs numéricos ou nomes
+	$categorias_raw = explode( ';', trim( strip_tags( $item['categorias'] ) ) );
+	$categorias = array();
+	
+	foreach($categorias_raw as $cat) {
+		$cat = trim($cat);
+		if(!empty($cat)) {
+			// Se for número, buscar nome na tabela categorias
+			if(is_numeric($cat)) {
+				$sql_cat = "SELECT nome FROM categorias WHERE id = " . intval($cat) . " AND ativo = 1";
+				$result_cat = $conn->query($sql_cat);
+				if($result_cat && $result_cat->num_rows > 0) {
+					$cat_data = $result_cat->fetch_assoc();
+					$categorias[] = $cat_data['nome'];
+				}
+			} else {
+				// Já é nome, usar direto
+				$categorias[] = $cat;
+			}
+		}
+	}
 
 	$html .= '
 	<div class="downloads-item">
