@@ -144,6 +144,7 @@ require $raiz_site .'model/admin_user.php';
 				text-overflow: ellipsis;
 				display: -webkit-box;
 				-webkit-line-clamp: 2;
+				line-clamp: 2;
 				-webkit-box-orient: vertical;
 				padding: 0 0.2vw;
 			}
