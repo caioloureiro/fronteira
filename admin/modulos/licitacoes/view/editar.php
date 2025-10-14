@@ -345,22 +345,21 @@ require $raiz_site .'model/admin_user.php';
 											style="float: left;"
 										>Enviar</div>
 									</span>
-								</div>
-								<div class="col15">
-									<span>Customizar link do arquivo:</span>
-								</div>
-								<div class="col25">
-									<input 
-										type="text" 
-										name="edital" 
-										class="item-escolher-arquivo-input"
-										required
-										value="'. $item['edital'] .'"
-									/>
-								</div>
 							</div>
+							<div class="col15">
+								<span>Customizar link do arquivo:</span>
+							</div>
+							<div class="col25">
+								<input 
+									type="text" 
+									name="edital" 
+									class="item-escolher-arquivo-input"
+									value="'. $item['edital'] .'"
+								/>
+							</div>
+						</div>
 
-							<!-- Start - Anexos Section -->
+						<!-- Start - Anexos Section -->
 							<div class="linha">
 								<div class="col100">
 									<span>📎 Anexos da Licitação: </span>

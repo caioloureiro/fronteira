@@ -409,7 +409,6 @@ usort($licitacoes_situacao_array, function( $a, $b ){ //Função responsável po
 							name="edital" 
 							class="item-escolher-arquivo-input"
 							style="display: none;"
-							required
 						/>
 						<div id="arquivo-selecionado-edital" style="display: none;">
 							<span class="nome-arquivo"></span>
