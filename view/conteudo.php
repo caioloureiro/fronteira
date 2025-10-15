@@ -1,6 +1,8 @@
 <!-- Start - view/conteudo.php !-->
 <?php
 
+require 'model/paginas_anexos.php';
+
 $pagina = '';
 $pagina_titulo = '';
 $pagina_texto = '';
@@ -16,6 +18,7 @@ $pagina_facebook = '';
 $pagina_instagram = '';
 $pagina_twitter = '';
 $pagina_localizacao = '';
+$pagina_id = '';
 
 foreach( $paginas as $item ){
 	
@@ -36,6 +39,7 @@ foreach( $paginas as $item ){
 		$pagina_instagram = $item['instagram'];
 		$pagina_twitter = $item['twitter'];
 		$pagina_localizacao = $item['localizacao'];
+		$pagina_id = $item['id'];
 		
 	}
 	
@@ -187,6 +191,60 @@ foreach( $paginas as $item ){
 			if( $pagina_localizacao != '' ){
 				
 				echo'<div class="conteudo-mapa">'. $pagina_localizacao .'</div>';
+				
+			}
+			
+			// Verificar se existem anexos para esta página
+			$anexos_encontrados = array();
+			foreach( $paginas_anexos_array as $anexo ){
+				if( $anexo['pagina'] == $pagina_id && $anexo['ativo'] == 1 ){
+					$anexos_encontrados[] = $anexo;
+				}
+			}
+			
+			// Exibir anexos se existirem
+			if( count($anexos_encontrados) > 0 ){
+				
+				echo '<div class="separador"></div>';
+				echo '<style>'; require 'css/licitacao.css'; echo '</style>';
+				echo '<div class="licitacao-linha"><div class="col100 licitacao-realce">Anexos:</div></div>';
+				
+				foreach( $anexos_encontrados as $anexo ){
+					
+					$nome_arquivo = '-';
+					
+					if( $anexo['nome'] == '' ){ 
+						$nome_arquivo = $anexo['arquivo']; 
+					} else { 
+						$nome_arquivo = $anexo['nome']; 
+					}
+					
+					// Adicionar uploads/ se não existir no início
+					$arquivo_path = $anexo['arquivo'];
+					if (!empty($arquivo_path) && strpos($arquivo_path, 'uploads/') !== 0) {
+						$arquivo_path = 'uploads/' . $arquivo_path;
+					}
+					
+					// Verificar se o arquivo do anexo existe
+					if( !empty($arquivo_path) ) {
+						echo '
+						<div 
+							class="licitacao-download-item" 
+							title="Anexo"
+						>
+							<a 
+								href="'. $arquivo_path .'" 
+								target="_blank"
+							>
+								<div class="licitacao-download-icone" alt="icone pdf download de arquivos">'; require 'img/pdf.svg'; echo'</div>
+								<div class="licitacao-download-nome">'. htmlspecialchars($nome_arquivo) .'</div>
+								<div class="licitacao-download-btn">Download</div>
+							</a>
+						</div>
+						';
+					}
+					
+				}
 				
 			}
 			
