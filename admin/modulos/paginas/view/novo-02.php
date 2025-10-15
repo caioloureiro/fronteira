@@ -203,17 +203,20 @@ require $raiz_site .'controller/funcoes.php';
 			}
 		</style>
 	
-		<?php 
+	
+	<?php 
+	
+		require $raiz_admin .'view/escurecer.php'; 
 		
-			require $raiz_admin .'view/escurecer.php'; 
-			
-			$pasta_nome = 'img';
-			$pasta = $raiz_site .'img/';
-			require 'imagens.php';
-			
-		?>
+		$pasta_nome = 'uploads';
+		$pasta = $raiz_site .'uploads/';
+		require 'arquivos.php';
 		
-		<div class="lightbox pagina-nova on">
+		$pasta_nome = 'img';
+		$pasta = $raiz_site .'img/';
+		require 'imagens.php';
+		
+	?>		<div class="lightbox pagina-nova on">
 
 			<form action="../controller/criar.php" method="POST">
 			
@@ -667,42 +670,41 @@ require $raiz_site .'controller/funcoes.php';
 				}
 			}
 			
-			// Função para adicionar arquivo do servidor como anexo
-			function adicionarArquivoComoAnexo(nomeArquivo) {
-				// Para criar.php, vamos adicionar o arquivo à lista local
-				// que será enviada quando o formulário for submetido
-				
-				// Verificar se já existe
-				const anexosExistentes = document.querySelectorAll('.thumb-anexo');
-				for(let anexo of anexosExistentes) {
-					const nomeExistente = anexo.querySelector('.thumb-anexo-nome');
-					if(nomeExistente && nomeExistente.textContent.trim() === nomeArquivo) {
-						alert('Este arquivo já foi adicionado como anexo.');
-						return;
-					}
-				}
-				
-				// Adicionar à lista visual
-				anexos_contador++;
-				
-				let html_anexo = `
-				<div class="thumb-anexo thumb_anexo_${anexos_contador}">
-					<div 
-						class="thumb-anexo-excluir"
-						onclick="excluirAnexo( 'thumb_anexo_${anexos_contador}', '${nomeArquivo}' )"
-						title="Excluir anexo"
-					>❌</div>
-					<div class="thumb-anexo-icon"></div>
-					<div class="thumb-anexo-nome" title="${nomeArquivo}">${nomeArquivo}</div>
-				</div>
-				`;
-				
-				document.querySelector('.exibir-anexos').innerHTML += html_anexo;
-				alert('Arquivo do servidor adicionado com sucesso!');
-			}
-			/*End - SISTEMA DE ANEXOS*/
+		// Função para adicionar arquivo do servidor como anexo
+		function adicionarArquivoComoAnexo(nomeArquivo) {
+			// Para criar.php, vamos adicionar o arquivo à lista local
+			// que será enviada quando o formulário for submetido
 			
-		</script>
+			// Verificar se já existe
+			const anexosExistentes = document.querySelectorAll('.thumb-anexo');
+			for(let anexo of anexosExistentes) {
+				const nomeExistente = anexo.querySelector('.thumb-anexo-nome');
+				if(nomeExistente && nomeExistente.textContent.trim() === nomeArquivo) {
+					alert('Este arquivo já foi adicionado como anexo.');
+					return;
+				}
+			}
+			
+			// Adicionar à lista visual
+			anexos_contador++;
+			
+			let html_anexo = `
+			<div class="thumb-anexo thumb_anexo_${anexos_contador}">
+				<div 
+					class="thumb-anexo-excluir"
+					onclick="excluirAnexo( 'thumb_anexo_${anexos_contador}', '${nomeArquivo}' )"
+					title="Excluir anexo"
+				>❌</div>
+				<div class="thumb-anexo-icon"></div>
+				<div class="thumb-anexo-nome" title="${nomeArquivo}">${nomeArquivo}</div>
+				<input type="hidden" name="anexos_servidor[]" value="${nomeArquivo}">
+			</div>
+			`;
+			
+			document.querySelector('.exibir-anexos').innerHTML += html_anexo;
+			alert('Arquivo do servidor adicionado com sucesso!');
+		}
+		/*End - SISTEMA DE ANEXOS*/		</script>
 		
 	</body>
 	

@@ -203,19 +203,22 @@ require $raiz_site .'model/paginas_anexos.php';
 			}
 		</style>
 	
-		<?php 
+	
+	<?php 
+	
+		require $raiz_admin .'view/escurecer.php'; 
 		
-			require $raiz_admin .'view/escurecer.php'; 
-			
-			$pasta_nome = 'img';
-			$pasta = $raiz_site .'img/';
-			
-			require 'imagens.php';
-			require 'visualizar_pagina.php';
-			
-		?>
+		$pasta_nome = 'uploads';
+		$pasta = $raiz_site .'uploads/';
+		require 'arquivos.php';
 		
-		<div class="box">
+		$pasta_nome = 'img';
+		$pasta = $raiz_site .'img/';
+		
+		require 'imagens.php';
+		require 'visualizar_pagina.php';
+		
+	?>		<div class="box">
 		
 			<?php
 				

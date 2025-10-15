@@ -92,6 +92,82 @@ $sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". 
 
 //echo $sql; die();
 
+// Executar SQL e processar anexos
+if ( $conn->multi_query( $sql ) === TRUE ) {
+	
+	// Aguardar todas as queries serem executadas
+	do {
+		$conn->store_result();
+	} while ($conn->next_result());
+	
+	// Buscar o ID da página recém-criada
+	$result = $conn->query("SELECT id FROM paginas WHERE pagina = '". $pagina ."' ORDER BY id DESC LIMIT 1");
+	$row = $result->fetch_assoc();
+	$pagina_id = $row['id'];
+	
+	// Processar anexos do computador (enviados temporariamente)
+	$pasta_uploads = $raiz_site .'uploads/';
+	$arquivos = glob($pasta_uploads . date('Y-m-d-H-i') . '*');
+	
+	// Adicionar também arquivos do minuto anterior
+	$minuto_anterior = date('Y-m-d-H-i', strtotime('-1 minute'));
+	$arquivos = array_merge($arquivos, glob($pasta_uploads . $minuto_anterior . '*'));
+	
+	foreach($arquivos as $arquivo_path) {
+		$nome_arquivo = basename($arquivo_path);
+		
+		$sql_anexo = "INSERT INTO paginas_anexos (
+			ativo,
+			created_at,
+			updated_at,
+			nome, 
+			arquivo, 
+			pagina
+		) VALUES (
+			1,
+			'". date( 'Y-m-d H:i:s' ) ."',
+			'". date( 'Y-m-d H:i:s' ) ."', 
+			'". addslashes($nome_arquivo) ."', 
+			'". addslashes($nome_arquivo) ."', 
+			'". $pagina_id ."' 
+		)";
+		
+		$conn->query($sql_anexo);
+	}
+	
+	// Processar anexos do servidor (se houver)
+	if(isset($_POST['anexos_servidor']) && is_array($_POST['anexos_servidor'])) {
+		foreach($_POST['anexos_servidor'] as $nome_arquivo) {
+			$nome_arquivo = basename($nome_arquivo); // Segurança: apenas o nome do arquivo
+			
+			$sql_anexo = "INSERT INTO paginas_anexos (
+				ativo,
+				created_at,
+				updated_at,
+				nome, 
+				arquivo, 
+				pagina
+			) VALUES (
+				1,
+				'". date( 'Y-m-d H:i:s' ) ."',
+				'". date( 'Y-m-d H:i:s' ) ."', 
+				'". addslashes($nome_arquivo) ."', 
+				'". addslashes($nome_arquivo) ."', 
+				'". $pagina_id ."' 
+			)";
+			
+			$conn->query($sql_anexo);
+		}
+	}
+	
+	$sucesso = true;
+} else {
+	$sucesso = false;
+	$erro = $conn->error;
+}
+
+$conn->close();
+
 ?>
 <!doctype html>
 <html lang="pt-br" prefix="og: https://ogp.me/ns#">
@@ -111,7 +187,7 @@ $sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". 
 		
 			<?php
 			
-				if ( $conn->multi_query( $sql ) === TRUE ) {
+				if ( $sucesso === true ) {
 
 					echo'
 					<div class="alerta-verde">Item criado com sucesso.</div>
@@ -121,13 +197,11 @@ $sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". 
 				} else {
 
 					echo'
-					<div class="alerta-vermelho">Error: ' . $sql . '<br/><br/>' . $conn->error .'</div>
+					<div class="alerta-vermelho">Error: ' . $erro .'</div>
 					<a href="'. $raiz_admin .'matriz?pagina=paginas" ><div class="linha"><button>Retornar</button></div></a>
 					';
 					
 				}
-
-				$conn->close();
 				
 			?>
 			
