@@ -140,40 +140,64 @@ require $raiz_site .'model/admin_user.php';
 				color: var(--fonte_padrao);
 				word-break: break-all;
 				line-height: 1.2;
-				max-height: 3vw;
-				overflow: hidden;
-			}
-			
-			#arquivo_anexos {
-				display: none;
-			}
-			
-			.arquivo_escolhido_anexos {
-				background: var(--azul) !important;
-				color: white !important;
-				border: none !important;
-				padding: 0.8vw 1.5vw !important;
-				border-radius: 0.4vw !important;
-				cursor: pointer !important;
-				font-weight: 500 !important;
-				font-size: 0.9vw !important;
-			}
-			
-			.arquivo_escolhido_anexos:hover {
-				background: var(--azul_escuro) !important;
-			}
-			
-			.anexos-info {
-				background: var(--fundo_02);
-				padding: 1vw;
-				border-radius: 0.4vw;
-				border: 0.1vw solid var(--cinza_claro);
-				font-size: 0.8vw;
-				line-height: 1.4;
-			}
-		</style>
+			max-height: 3vw;
+			overflow: hidden;
+		}
 		
-		<?php 
+		#arquivo_anexos {
+			display: none;
+		}
+		
+		.arquivo_escolhido_anexos {
+			display: inline-block !important;
+			margin-right: 1vw !important;
+			margin-bottom: 1vw !important;
+			white-space: nowrap !important;
+			vertical-align: top !important;
+			background: var(--azul) !important;
+			color: white !important;
+			border: none !important;
+			padding: 0.8vw 1.5vw !important;
+			border-radius: 0.4vw !important;
+			cursor: pointer !important;
+			font-weight: 500 !important;
+			font-size: 0.9vw !important;
+		}
+		
+		.arquivo_escolhido_anexos:hover {
+			background: var(--azul_escuro) !important;
+		}
+		
+		.btn-anexo-servidor {
+			display: inline-block !important;
+			margin-bottom: 1vw !important;
+			white-space: nowrap !important;
+			vertical-align: top !important;
+			background: var(--azul) !important;
+			color: white !important;
+			border: none !important;
+			padding: 0.8vw 1.5vw !important;
+			border-radius: 0.4vw !important;
+			cursor: pointer !important;
+			font-weight: 500 !important;
+			font-size: 0.9vw !important;
+		}
+		
+		.btn-anexo-servidor:hover {
+			background: var(--azul_escuro) !important;
+		}
+		
+		.anexos-info {
+			background: var(--fundo_02);
+			padding: 1vw;
+			border-radius: 0.4vw;
+			border: 0.1vw solid var(--cinza_claro);
+			font-size: 0.8vw;
+			line-height: 1.4;
+			margin-top: 1vw;
+			color: var(--fonte_padrao);
+		}
+	</style>		<?php 
 			
 			$editor_de_texto_valor = '';
 			
@@ -366,79 +390,75 @@ require $raiz_site .'model/admin_user.php';
 								</div>
 							</div>
 							
-							';
-								// Buscar anexos existentes usando o array do model
-								$anexos_existentes = [];
-								if(isset($licitacoes_anexos_array)) {
-									foreach($licitacoes_anexos_array as $anexo) {
-										// Forçar comparação como inteiros e excluir o arquivo do edital
-										if(intval($anexo['licitacao']) == intval($item['id']) && 
-										   intval($anexo['ativo']) == 1 && 
-										   $anexo['arquivo'] != $item['edital']) {
-											$anexos_existentes[] = $anexo;
-										}
+						';
+							// Buscar anexos existentes usando o array do model
+							$anexos_existentes = [];
+							if(isset($licitacoes_anexos_array)) {
+								foreach($licitacoes_anexos_array as $anexo) {
+									// Forçar comparação como inteiros e excluir o arquivo do edital
+									if(intval($anexo['licitacao']) == intval($item['id']) && 
+									   intval($anexo['ativo']) == 1 && 
+									   $anexo['arquivo'] != $item['edital']) {
+										$anexos_existentes[] = $anexo;
 									}
 								}
-							echo'
+						}
+					echo'
+					
+					<div class="linha">
+						
+						<div class="col100">
+						
+							<input 
+								type="text" 
+								class="licitacao_id"
+								name="licitacao_id" 
+								value="'. $item['id'] .'" 
+								style="display:none;"
+							/>
 							
-							<div class="linha-acao">
-								
-								<div class="col30">
-								
-									<input 
-										type="text" 
-										class="licitacao_id"
-										name="licitacao_id" 
-										value="'. $item['id'] .'" 
-										style="display:none;"
-									/>
-									
-									<label 
-										class="btn arquivo_escolhido_anexos" 
-										for="arquivo_anexos" 
-										title="Clique aqui para selecionar os arquivos desejados."
-									>📁 Escolher Anexos do Computador</label>
-									
-									<input 
-										type="file" 
-										name="arquivos_anexos[]" 
-										id="arquivo_anexos" 
-										class="btn"
-										multiple 
-										accept=".pdf,.zip,.rar,.7z,.doc,.xls,.ppt,.docx,.xlsx,.pptx"
-									/>
-									
-									<div class="btn" 
-										onclick="abrirArquivosParaAnexo()" 
-										style="
-											background: var(--azul); 
-											color: var(--branco); 
-											margin-top: 0.5vw;
-										"
-										title="Selecionar arquivo já existente no servidor"
-									>🗃️ Anexar Arquivo do Servidor</div>
-									
-								</div>
-								
-								<div class="col70">
-									<div class="anexos-info">
-										<strong>ℹ️ Instruções:</strong><br>
-										• Arraste ou clique para enviar múltiplos arquivos<br>
-										• Formatos aceitos: PDF, ZIP, RAR, 7Z, DOC, XLS, PPT, DOCX, XLSX, PPTX<br>
-										• Tamanho máximo: 200MB por arquivo<br>
-										• Para excluir, clique no ❌ no canto superior direito
-									</div>
-								</div>
-								
+							<label 
+								class="arquivo_escolhido_anexos" 
+								for="arquivo_anexos" 
+								title="Clique aqui para selecionar os arquivos desejados."
+							>📁 Escolher Anexos do Computador</label>
+							
+							<input 
+								type="file" 
+								name="arquivos_anexos[]" 
+								id="arquivo_anexos" 
+								multiple 
+								accept=".pdf,.zip,.rar,.7z,.doc,.xls,.ppt,.docx,.xlsx,.pptx"
+							/>
+							
+							<div class="btn-anexo-servidor" 
+								onclick="abrirArquivosParaAnexo()" 
+								title="Selecionar arquivo já existente no servidor"
+							>🗃️ Anexar Arquivo do Servidor</div>
+							
+						</div>
+						
+					</div>
+
+					<div class="separador"></div>
+					
+					<div class="linha linha-auto">
+						<div class="col100">
+							<div class="anexos-info">
+								<strong>ℹ️ Instruções:</strong><br>
+								• Arraste ou clique para enviar múltiplos arquivos<br>
+								• Formatos aceitos: PDF, ZIP, RAR, 7Z, DOC, XLS, PPT, DOCX, XLSX, PPTX<br>
+								• Tamanho máximo: 200MB por arquivo<br>
+								• Para excluir, clique no ❌ no canto superior direito
 							</div>
+						</div>
+					</div>
 
-							<div class="separador"></div>
-							
-							<div class="linha linha-auto">
+					<div class="separador"></div>
+					
+					<div class="linha linha-auto">
 
-								<div class="exibir-anexos">';
-								
-								// Exibir anexos existentes
+						<div class="exibir-anexos">';								// Exibir anexos existentes
 								foreach($anexos_existentes as $anexo) {
 									$extensao = strtoupper(pathinfo($anexo['arquivo'], PATHINFO_EXTENSION));
 									echo '

@@ -162,9 +162,34 @@ require $raiz_site .'model/admin_user.php';
 				cursor: pointer !important;
 				font-size: 0.8vw !important;
 				transition: all 0.3s ease !important;
+				display: inline-block !important;
+				margin-right: 1vw !important;
+				margin-bottom: 1vw !important;
+				text-align: center !important;
+				white-space: nowrap !important;
+				vertical-align: top !important;
 			}
 			
 			.arquivo_escolhido_anexos:hover {
+				background: var(--azul-escuro) !important;
+			}
+			
+			.btn-anexo-servidor {
+				background: var(--azul) !important;
+				color: var(--branco) !important;
+				display: inline-block !important;
+				padding: 0.8vw 1.5vw !important;
+				border-radius: 0.3vw !important;
+				cursor: pointer !important;
+				font-size: 0.8vw !important;
+				text-align: center !important;
+				transition: all 0.3s ease !important;
+				margin-bottom: 1vw !important;
+				white-space: nowrap !important;
+				vertical-align: top !important;
+			}
+			
+			.btn-anexo-servidor:hover {
 				background: var(--azul-escuro) !important;
 			}
 			
@@ -176,6 +201,7 @@ require $raiz_site .'model/admin_user.php';
 				font-size: 0.7vw;
 				line-height: 1.4;
 				color: var(--fonte_padrao);
+				margin-top: 1vw;
 			}
 		</style>
 		
@@ -356,9 +382,9 @@ require $raiz_site .'model/admin_user.php';
 								}
 							echo'
 							
-							<div class="linha-acao">
+							<div class="linha">
 								
-								<div class="col30">
+								<div class="col100">
 								
 									<input 
 										type="text" 
@@ -369,7 +395,7 @@ require $raiz_site .'model/admin_user.php';
 									/>
 									
 									<label 
-										class="btn arquivo_escolhido_anexos" 
+										class="arquivo_escolhido_anexos" 
 										for="arquivo_anexos" 
 										title="Clique aqui para selecionar os arquivos desejados."
 									>📁 Escolher Anexos do Computador</label>
@@ -383,19 +409,19 @@ require $raiz_site .'model/admin_user.php';
 										accept=".pdf,.zip,.rar,.7z,.doc,.xls,.ppt,.docx,.xlsx,.pptx"
 									/>
 									
-									<div class="btn" 
+									<div class="btn-anexo-servidor" 
 										onclick="abrirArquivosParaAnexo()" 
-										style="
-											background: var(--azul); 
-											color: var(--branco); 
-											margin-top: 0.5vw;
-										"
 										title="Selecionar arquivo já existente no servidor"
 									>🗃️ Anexar Arquivo do Servidor</div>
 									
 								</div>
 								
-								<div class="col70">
+							</div>
+
+							<div class="separador"></div>
+							
+							<div class="linha linha-auto">
+								<div class="col100">
 									<div class="anexos-info">
 										<strong>ℹ️ Instruções:</strong><br>
 										• Arraste ou clique para enviar múltiplos arquivos<br>
@@ -404,9 +430,8 @@ require $raiz_site .'model/admin_user.php';
 										• Para excluir, clique no ❌ no canto superior direito
 									</div>
 								</div>
-								
 							</div>
-
+							
 							<div class="separador"></div>
 							
 							<div class="linha linha-auto">

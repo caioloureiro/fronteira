@@ -17,6 +17,7 @@ if( $_SERVER['HTTP_HOST'] == 'localhost' ){
 
 require $raiz_site .'controller/funcoes.php';
 require $raiz_site .'model/paginas.php';
+require $raiz_site .'model/paginas_anexos.php';
 
 ?>
 <!doctype html>
@@ -40,6 +41,163 @@ require $raiz_site .'model/paginas.php';
 			<?php 
 				require $raiz_admin .'routes/css-modulo.php'; 
 			?>
+			
+			/* CSS Específico para Anexos */
+			
+			/* Ícone X superior - tema responsivo */
+			<?php
+			foreach( $admin_user_array as $cfg ){
+				if( $cfg['tema'] == 'escuro' && $_COOKIE['fronteira_ADMIN_SESSION_usuario'] == $cfg['usuario'] ){ 
+					echo '.lightbox-fechar { filter: brightness(0) invert(1); }';
+				}
+			}
+			?>
+			
+			.exibir-anexos {
+				width: 100%;
+				height: auto;
+				min-height: 4vw;
+				float: left;
+				background-color: var(--fundo_02);
+				border: 0.2vw dashed var(--azul);
+				border-radius: 0.5vw;
+				padding: 1vw;
+				margin: 0vw;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				transition: all 0.3s ease;
+			}
+			
+			.exibir-anexos.drag-over {
+				border-color: var(--azul);
+				background-color: var(--azul_transp);
+			}
+			
+			.exibir-anexos:empty::before {
+				content: "Arraste seus arquivos aqui";
+				color: var(--fonte_padrao);
+				font-style: italic;
+				width: 100%;
+				height: 4vw;
+				line-height: 4vw;
+				text-align: center;
+				float: left;
+			}
+			
+			.thumb-anexo {
+				position: relative;
+				width: 8vw;
+				height: 9vw;
+				border: 0.1vw solid var(--cinza_claro);
+				border-radius: 0.5vw;
+				background-color: var(--fundo_02);
+				float: left;
+				margin: 0.5vw;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				transition: transform 0.2s ease;
+			}
+			
+			.thumb-anexo:hover {
+				transform: translateY(-0.2vw);
+			}
+			
+			.thumb-anexo-excluir {
+				position: absolute;
+				top: 0.3vw;
+				right: 0.3vw;
+				width: 1.2vw;
+				height: 1.2vw;
+				background-color: var(--vermelho);
+				border-radius: 50%;
+				cursor: pointer;
+				color: white;
+				font-size: 0.7vw;
+				line-height: 1.2vw;
+				text-align: center;
+				transition: background-color 0.2s ease;
+			}
+			
+			.thumb-anexo-excluir:hover {
+				background-color: var(--vermelho);
+				opacity: 0.8;
+			}
+			
+			.thumb-anexo-icon {
+				width: 3vw;
+				height: 3vw;
+				background-image: url('<?php echo $raiz_site ?>img/pdf.svg');
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center;
+				margin-bottom: 0.5vw;
+			}
+			
+			.thumb-anexo-nome {
+				font-size: 0.7vw;
+				text-align: center;
+				color: var(--fonte_padrao);
+				word-break: break-all;
+				line-height: 1.2;
+				max-height: 3vw;
+				overflow: hidden;
+			}
+			
+			#arquivo_anexos {
+				display: none;
+			}
+			
+			.arquivo_escolhido_anexos {
+				background: var(--azul) !important;
+				color: white !important;
+				border: none !important;
+				padding: 0.8vw 1.5vw !important;
+				border-radius: 0.3vw !important;
+				cursor: pointer !important;
+				font-size: 0.8vw !important;
+				transition: all 0.3s ease !important;
+				display: inline-block !important;
+				margin-right: 1vw !important;
+				margin-bottom: 1vw !important;
+				text-align: center !important;
+				white-space: nowrap !important;
+				vertical-align: top !important;
+			}
+			
+			.arquivo_escolhido_anexos:hover {
+				background: var(--azul-escuro) !important;
+			}
+			
+			.btn-anexo-servidor {
+				background: var(--azul) !important;
+				color: var(--branco) !important;
+				display: inline-block !important;
+				padding: 0.8vw 1.5vw !important;
+				border-radius: 0.3vw !important;
+				cursor: pointer !important;
+				font-size: 0.8vw !important;
+				text-align: center !important;
+				transition: all 0.3s ease !important;
+				margin-bottom: 1vw !important;
+				white-space: nowrap !important;
+				vertical-align: top !important;
+			}
+			
+			.btn-anexo-servidor:hover {
+				background: var(--azul-escuro) !important;
+			}
+			
+			.anexos-info {
+				background: var(--fundo_02);
+				border: 0.1vw solid var(--cinza_claro);
+				border-radius: 0.3vw;
+				padding: 1vw;
+				font-size: 0.7vw;
+				line-height: 1.4;
+				color: var(--fonte_padrao);
+				margin-top: 1vw;
+			}
+			
 			.info_pagina{
 				display:none;
 			}
@@ -299,6 +457,87 @@ require $raiz_site .'model/paginas.php';
 									<textarea id="editor" name="editor_texto"></textarea>
 								</div>
 
+								<div class="separador"></div>
+								
+								<!-- Start - Anexos Section -->
+								<div class="linha">
+									<div class="col100">
+										<span>📎 Anexos da Página: </span>
+									</div>
+								</div>
+								
+								<div class="linha">
+									
+									<div class="col100">
+									
+										<label 
+											class="arquivo_escolhido_anexos" 
+											for="arquivo_anexos" 
+											title="Clique aqui para selecionar os arquivos desejados."
+										>📁 Escolher Anexos do Computador</label>
+										
+										<input 
+											type="file" 
+											name="arquivos_anexos[]" 
+											id="arquivo_anexos" 
+											class="btn"
+											multiple 
+											accept=".pdf,.zip,.rar,.7z,.doc,.xls,.ppt,.docx,.xlsx,.pptx"
+										/>
+										
+										<div class="btn-anexo-servidor" 
+											onclick="abrirArquivosParaAnexo()" 
+											title="Selecionar arquivo já existente no servidor"
+										>🗃️ Anexar Arquivo do Servidor</div>
+										
+									</div>
+									
+								</div>
+
+								<div class="separador"></div>
+								
+								<div class="linha linha-auto">
+									<div class="col100">
+										<div class="anexos-info">
+											<strong>ℹ️ Instruções:</strong><br>
+											• Arraste ou clique para enviar múltiplos arquivos<br>
+											• Formatos aceitos: PDF, ZIP, RAR, 7Z, DOC, XLS, PPT, DOCX, XLSX, PPTX<br>
+											• Tamanho máximo: 200MB por arquivo<br>
+											• Para excluir, clique no ❌ no canto superior direito
+										</div>
+									</div>
+								</div>
+								
+								<div class="separador"></div>
+								
+								<div class="linha linha-auto">
+									<div class="exibir-anexos" id="exibir_anexos_'. $pag['id'] .'">
+										'; 
+										
+										// Carregar anexos existentes
+										foreach( $paginas_anexos_array as $anexo ){
+											if( $anexo['pagina'] == $pag['id'] ){
+												echo '
+												<div class="thumb-anexo" data-anexo-id="'. $anexo['id'] .'">
+													<div 
+														class="thumb-anexo-excluir"
+														onclick="excluirAnexoExistente( '. $anexo['id'] .', this )"
+														title="Excluir anexo"
+													>❌</div>
+													<div class="thumb-anexo-icon"></div>
+													<div class="thumb-anexo-nome" title="'. htmlspecialchars($anexo['nome']) .'">'. htmlspecialchars($anexo['nome']) .'</div>
+												</div>
+												';
+											}
+										}
+										
+										echo '
+									</div>
+								</div>
+								<!-- End - Anexos Section -->
+
+								<div class="separador"></div>
+
 								<div class="linha-acao"> 
 									<button type="submit">Gravar</button> 
 									<div class="btn" onclick="voltar()">Cancelar</div>
@@ -328,11 +567,20 @@ require $raiz_site .'model/paginas.php';
 			
 			console.log( editor_de_texto_json );
 			
-			//document.querySelector('.editor_de_texto .recebe').value = editor_de_texto_json;
-			//document.querySelector('.editor_de_texto #text-input').innerHTML = editor_de_texto_json;
+			/*Start - JODIT com tema dinâmico*/
+			<?php
+			$temaEscuro = false;
+			foreach( $admin_user_array as $cfg ){
+				if( $cfg['tema'] == 'escuro' && $_COOKIE['fronteira_ADMIN_SESSION_usuario'] == $cfg['usuario'] ){ 
+					$temaEscuro = true;
+					break;
+				}
+			}
+			?>
 			
 			const editor = new Jodit("#editor", {
-				language: "pt_br", // Configurar para português brasileiro
+				language: "pt_br",
+				theme: <?php echo $temaEscuro ? '"dark"' : '"default"'; ?>
 			});
 			editor.value = editor_de_texto_json;
 			/*End - RECEBE OD DADOS PHP DO BANCO E COLOCA NO PLUGIN EDITOR DE TEXTOS*/
@@ -393,6 +641,241 @@ require $raiz_site .'model/paginas.php';
 				window.history.back();
 				
 			}
+			
+			// Função para abrir arquivos do servidor para anexo
+			function abrirArquivosParaAnexo() {
+				document.querySelector('.item-arquivos').classList.add("on");
+				
+				// Marcar que é para anexo
+				window.anexoMode = true;
+			}
+			
+			/*Start - SISTEMA DE ANEXOS*/
+			let anexos_contador = 0;
+			const pagina_id = <?php echo $_GET['id']; ?>;
+			
+			// Função para processar arquivos (local ou drag & drop) 
+			function processarArquivos(files) {
+				
+				for(let i = 0; i < files.length; i++) {
+					uploadAnexo(files[i]);
+				}
+			}
+			
+			// Função para fazer upload via AJAX
+			function uploadAnexo(file) {
+				
+				let formData = new FormData();
+				formData.append('arquivos_anexos[]', file);
+				formData.append('pagina', pagina_id);
+				
+				let xhr = new XMLHttpRequest();
+				
+				xhr.open('POST', '../controller/enviar-anexo.php', true);
+				
+				xhr.onload = function() {
+					if (xhr.status === 200) {
+						try {
+							let resposta = JSON.parse(xhr.responseText);
+							
+							if(resposta.sucesso) {
+								// Adicionar anexo à exibição
+								anexos_contador++;
+								
+								let html_anexo = `
+								<div class="thumb-anexo" data-anexo-id="${resposta.anexo.id}">
+									<div 
+										class="thumb-anexo-excluir"
+										onclick="excluirAnexoExistente( ${resposta.anexo.id}, this )"
+										title="Excluir anexo"
+									>❌</div>
+									<div class="thumb-anexo-icon"></div>
+									<div class="thumb-anexo-nome" title="${resposta.anexo.nome_original}">${resposta.anexo.nome_original}</div>
+								</div>
+								`;
+								
+								document.querySelector('.exibir-anexos').innerHTML += html_anexo;
+								
+								alert('Anexo enviado com sucesso!');
+							} else {
+								alert('Erro: ' + resposta.mensagem);
+							}
+						} catch(e) {
+							console.error('Erro ao processar resposta:', e);
+							alert('Erro ao processar resposta do servidor.');
+						}
+					} else {
+						alert('Erro ao enviar arquivo. Código: ' + xhr.status);
+					}
+				};
+				
+				xhr.onerror = function() {
+					alert('Erro de conexão ao enviar arquivo.');
+				};
+				
+				xhr.send(formData);
+			}
+			
+			// Função para excluir anexo existente
+			function excluirAnexoExistente(anexo_id, elemento) {
+				if(confirm('Tem certeza que deseja excluir este anexo?')) {
+					
+					let xhr = new XMLHttpRequest();
+					xhr.open('POST', '../controller/excluir-anexo.php', true);
+					xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+					
+					xhr.onload = function() {
+						if (xhr.status === 200) {
+							try {
+								let resposta = JSON.parse(xhr.responseText);
+								
+								if(resposta.sucesso) {
+									// Remover elemento da tela
+									elemento.closest('.thumb-anexo').remove();
+									alert('Anexo excluído com sucesso!');
+								} else {
+									alert('Erro: ' + resposta.mensagem);
+								}
+							} catch(e) {
+								console.error('Erro ao processar resposta:', e);
+								alert('Erro ao processar resposta do servidor.');
+							}
+						} else {
+							alert('Erro ao excluir anexo. Código: ' + xhr.status);
+						}
+					};
+					
+					xhr.onerror = function() {
+						alert('Erro de conexão ao excluir anexo.');
+					};
+					
+					xhr.send('id=' + anexo_id);
+				}
+			}
+			
+			// Event listener para o input file
+			if( document.querySelector('#arquivo_anexos') ){
+				document.querySelector('#arquivo_anexos').addEventListener('change', function(e) {
+					e.preventDefault();
+					e.stopPropagation();
+					
+					if(this.files.length > 0) {
+						processarArquivos(this.files);
+						
+						// Limpar input após processar
+						const inputFile = this;
+						setTimeout(function() {
+							inputFile.value = '';
+						}, 100);
+					}
+				});
+			}
+			
+			// Suporte para Drag & Drop
+			if( document.querySelector('.exibir-anexos') ){
+				
+				let dropZone = document.querySelector('.exibir-anexos');
+				
+				// Prevenir comportamento padrão
+				['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+					dropZone.addEventListener(eventName, preventDefaults, false);
+					document.body.addEventListener(eventName, preventDefaults, false);
+				});
+				
+				// Destacar área quando arrastar sobre ela
+				['dragenter', 'dragover'].forEach(eventName => {
+					dropZone.addEventListener(eventName, highlight, false);
+				});
+				
+				['dragleave', 'drop'].forEach(eventName => {
+					dropZone.addEventListener(eventName, unhighlight, false);
+				});
+				
+				// Processar arquivos soltos
+				dropZone.addEventListener('drop', handleDrop, false);
+				
+				function preventDefaults (e) {
+					e.preventDefault();
+					e.stopPropagation();
+				}
+				
+				function highlight(e) {
+					dropZone.classList.add('drag-over');
+				}
+				
+				function unhighlight(e) {
+					dropZone.classList.remove('drag-over');
+				}
+				
+				function handleDrop(e) {
+					let dt = e.dataTransfer;
+					let files = dt.files;
+					
+					processarArquivos(files);
+				}
+			}
+			
+			// Função para adicionar arquivo do servidor como anexo
+			function adicionarArquivoComoAnexo(nomeArquivo) {
+				
+				// Verificar se já existe
+				const anexosExistentes = document.querySelectorAll('.thumb-anexo');
+				for(let anexo of anexosExistentes) {
+					const nomeExistente = anexo.querySelector('.thumb-anexo-nome');
+					if(nomeExistente && nomeExistente.textContent.trim() === nomeArquivo) {
+						alert('Este arquivo já foi adicionado como anexo.');
+						return;
+					}
+				}
+				
+				// Enviar para o servidor
+				let xhr = new XMLHttpRequest();
+				xhr.open('POST', '../controller/enviar-anexo-servidor.php', true);
+				xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+				
+				xhr.onload = function() {
+					if (xhr.status === 200) {
+						try {
+							let resposta = JSON.parse(xhr.responseText);
+							
+							if(resposta.sucesso) {
+								// Adicionar à lista visual
+								anexos_contador++;
+								
+								let html_anexo = `
+								<div class="thumb-anexo" data-anexo-id="${resposta.anexo.id}">
+									<div 
+										class="thumb-anexo-excluir"
+										onclick="excluirAnexoExistente( ${resposta.anexo.id}, this )"
+										title="Excluir anexo"
+									>❌</div>
+									<div class="thumb-anexo-icon"></div>
+									<div class="thumb-anexo-nome" title="${nomeArquivo}">${nomeArquivo}</div>
+								</div>
+								`;
+								
+								document.querySelector('.exibir-anexos').innerHTML += html_anexo;
+								alert('Arquivo do servidor adicionado com sucesso!');
+							} else {
+								alert('Erro: ' + resposta.mensagem);
+							}
+						} catch(e) {
+							console.error('Erro ao processar resposta:', e);
+							alert('Erro ao processar resposta do servidor.');
+						}
+					} else {
+						alert('Erro ao adicionar arquivo. Código: ' + xhr.status);
+					}
+				};
+				
+				xhr.onerror = function() {
+					alert('Erro de conexão ao adicionar arquivo.');
+				};
+				
+				xhr.send('nome_arquivo=' + encodeURIComponent(nomeArquivo) + '&pagina=' + pagina_id);
+			}
+			/*End - SISTEMA DE ANEXOS*/
+			
 		</script>
 		
 	</body>
