@@ -74,19 +74,19 @@ if( itens ){
 		let itens_busca = document.querySelector('.escolher-imagem-cards-input').value.toUpperCase();
 		let itens = document.querySelector('.escolher-imagem-cards-box');
 		
-		let card = itens.querySelectorAll('.escolher-imagem-cards-card');
+		let linhas = itens.querySelectorAll('.linha');
 		
-		for( let i = 0; i < card.length; i++ ){
+		for( let i = 0; i < linhas.length; i++ ){
 
-			let a = card[i].querySelector('.escolher-imagem-cards-titulo');
+			let texto = linhas[i].querySelector('span');
 			
-			if( a.innerHTML.toUpperCase().indexOf( itens_busca ) > -1 ){
+			if( texto && texto.innerHTML.toUpperCase().indexOf( itens_busca ) > -1 ){
 				
-				card[i].style.display = '';
+				linhas[i].style.display = '';
 				
 			}else{
 				
-				card[i].style.display = 'none';
+				linhas[i].style.display = 'none';
 				
 			}
 			
