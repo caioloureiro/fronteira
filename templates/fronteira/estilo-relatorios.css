@@ -562,3 +562,128 @@ body {
 .stat-card {
     animation: fadeIn 0.3s ease-out;
 }
+
+/* ==================================
+   DATATABLE CUSTOMIZAÇÃO
+   ================================== */
+
+/* Paginação do DataTables */
+.datatable-pagination {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+}
+
+.datatable-pagination .pagination {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.datatable-pagination .pagination a,
+.datatable-pagination .pagination span {
+    padding: 0.5rem 1rem;
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.datatable-pagination .pagination a:hover {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+.datatable-pagination .pagination .active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+    font-weight: 600;
+}
+
+/* Filtros do DataTables */
+.datatable-filter {
+    margin-bottom: 1rem;
+}
+
+.datatable-filter input[type="text"] {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    transition: all 0.2s;
+}
+
+.datatable-filter input[type="text"]:focus {
+    outline: none;
+    border-color: var(--accent);
+    background: var(--bg-secondary);
+}
+
+.datatable-filter input[type="text"]::placeholder {
+    color: var(--text-muted);
+}
+
+/* Ordenação nas colunas */
+.tabela-csv th {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    transition: background 0.2s;
+}
+
+.tabela-csv th:hover {
+    background: var(--bg-hover);
+}
+
+.tabela-csv th.sortable::after {
+    content: ' ⇅';
+    opacity: 0.3;
+    font-size: 0.9em;
+}
+
+.tabela-csv th.sorted-asc::after {
+    content: ' ↑';
+    opacity: 1;
+    color: var(--accent);
+}
+
+.tabela-csv th.sorted-desc::after {
+    content: ' ↓';
+    opacity: 1;
+    color: var(--accent);
+}
+
+/* Linhas zebradas melhoradas */
+.tabela-csv tbody tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.tabela-csv tbody tr:hover {
+    background: var(--bg-hover) !important;
+    transition: background 0.15s;
+}
+
+/* Responsivo DataTables */
+@media (max-width: 768px) {
+    .datatable-pagination .pagination a,
+    .datatable-pagination .pagination span {
+        padding: 0.4rem 0.7rem;
+        font-size: 0.85rem;
+    }
+}
+
