@@ -26,6 +26,26 @@ if( !isset( $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ) ){
 
 $nome = $_POST['nome'];
 $pagina = renomear( $_POST['nome'] );
+
+// PROTEÇÃO: Verificar se já existe (evitar duplicatas por submit múltiplo)
+$check_sql = "SELECT id FROM enquete WHERE pagina = '". $conn->real_escape_string($pagina) ."'";
+if (!empty($nome)) {
+    $check_sql .= " AND nome = '". $conn->real_escape_string($nome) ."'";
+}
+$check_sql .= " LIMIT 1";
+$check_result = $conn->query($check_sql);
+
+if ($check_result && $check_result->num_rows > 0) {
+    $row_existente = $check_result->fetch_assoc();
+    echo'
+    <script>
+        alert("Este registro já foi criado recentemente (ID: '. $row_existente['id'] .'). Evite clicar múltiplas vezes no botão Gravar.");
+        window.location.href = "../view/?m=enquete";
+    </script>
+    ';
+    exit;
+}
+
 $rascunho = 0;
 $formulario = $_POST['enquete'];
 $inicio = $_POST['inicio'];

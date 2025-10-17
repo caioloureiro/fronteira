@@ -27,6 +27,26 @@ if( !isset( $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ) ){
 $titulo = $_POST['titulo'];
 $texto = $_POST['editor_texto'];
 $nome = renomear( $titulo );
+
+// PROTEÇÃO: Verificar se já existe (evitar duplicatas por submit múltiplo)
+$check_sql = "SELECT id FROM paginas_fixas WHERE nome = '". $conn->real_escape_string($nome) ."'";
+if (!empty($titulo)) {
+    $check_sql .= " AND titulo = '". $conn->real_escape_string($titulo) ."'";
+}
+$check_sql .= " LIMIT 1";
+$check_result = $conn->query($check_sql);
+
+if ($check_result && $check_result->num_rows > 0) {
+    $row_existente = $check_result->fetch_assoc();
+    echo'
+    <script>
+        alert("Este registro já foi criado recentemente (ID: '. $row_existente['id'] .'). Evite clicar múltiplas vezes no botão Gravar.");
+        window.location.href = "../view/?m=paginas_fixas";
+    </script>
+    ';
+    exit;
+}
+
 $pagina = renomear( $titulo );
 
 $sql = "INSERT INTO paginas_fixas (

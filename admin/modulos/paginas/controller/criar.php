@@ -51,6 +51,21 @@ $localizacao = $_POST['localizacao'];
 $pagina = renomear( $titulo );
 //dd( $pagina );
 
+// PROTEÇÃO: Verificar se a página já existe (evitar duplicatas por submit múltiplo)
+$check_sql = "SELECT id FROM paginas WHERE pagina = '". $conn->real_escape_string($pagina) ."' AND titulo = '". $conn->real_escape_string($titulo) ."' LIMIT 1";
+$check_result = $conn->query($check_sql);
+
+if ($check_result->num_rows > 0) {
+	$row_existente = $check_result->fetch_assoc();
+	echo'
+	<script>
+		alert("Esta página já foi criada recentemente (ID: '. $row_existente['id'] .'). Evite clicar múltiplas vezes no botão Gravar.");
+		window.location.href = "../view/?m=paginas";
+	</script>
+	';
+	exit;
+}
+
 $titulo = str_replace( "'", "&apos;", $titulo );
 $texto = str_replace( "'", "&apos;", $texto );
 

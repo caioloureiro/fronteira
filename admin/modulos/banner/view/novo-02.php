@@ -182,7 +182,30 @@ require $raiz_site .'controller/funcoes.php';
 			}
 			
 		</script>
-		<script src="https://digitalmd.com.br/editor-de-texto/assets/motor.js"></script>
+		<script src="https://digitalmd.com.br/editor-de-texto/assets/motor.js">
+		/*Start - PROTEÇÃO CONTRA SUBMIT MÚLTIPLO*/
+		const form = document.querySelector('form');
+		const submitButton = document.querySelector('button[type="submit"]');
+		
+		if (form && submitButton) {
+			let formularioEnviado = false;
+			
+			form.addEventListener('submit', function(e) {
+				if (formularioEnviado) {
+					e.preventDefault();
+					alert('O formulário já está sendo processado. Por favor, aguarde.');
+					return false;
+				}
+				
+				formularioEnviado = true;
+				submitButton.disabled = true;
+				submitButton.textContent = 'Gravando...';
+				submitButton.style.opacity = '0.6';
+				submitButton.style.cursor = 'not-allowed';
+			});
+		}
+		/*End - PROTEÇÃO CONTRA SUBMIT MÚLTIPLO*/
+		</script>
 		
 	</body>
 	

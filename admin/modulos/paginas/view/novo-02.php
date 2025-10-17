@@ -704,7 +704,35 @@ require $raiz_site .'controller/funcoes.php';
 			document.querySelector('.exibir-anexos').innerHTML += html_anexo;
 			alert('Arquivo do servidor adicionado com sucesso!');
 		}
-		/*End - SISTEMA DE ANEXOS*/		</script>
+		/*End - SISTEMA DE ANEXOS*/
+		
+		/*Start - PROTEÇÃO CONTRA SUBMIT MÚLTIPLO*/
+		const form = document.querySelector('form');
+		const submitButton = document.querySelector('button[type="submit"]');
+		let formularioEnviado = false;
+		
+		form.addEventListener('submit', function(e) {
+			if (formularioEnviado) {
+				e.preventDefault();
+				alert('O formulário já está sendo processado. Por favor, aguarde.');
+				return false;
+			}
+			
+			// Validação básica antes de enviar
+			if (!editor.value || editor.value.trim() === '') {
+				e.preventDefault();
+				alert('O texto não pode ficar em branco.');
+				return false;
+			}
+			
+			formularioEnviado = true;
+			submitButton.disabled = true;
+			submitButton.textContent = 'Gravando...';
+			submitButton.style.opacity = '0.6';
+			submitButton.style.cursor = 'not-allowed';
+		});
+		/*End - PROTEÇÃO CONTRA SUBMIT MÚLTIPLO*/
+		</script>
 		
 	</body>
 	

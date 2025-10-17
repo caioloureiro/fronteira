@@ -30,6 +30,15 @@ $pai = $_POST['pai'];
 $hoje = date( 'Y-m-d H:i:s' ) ;
 //dd( $hoje );
 
+
+// PROTEÇÃO: Verificar se já existe (evitar duplicatas por submit múltiplo)
+$check_duplicate = $conn->query("SELECT id FROM organograma WHERE nome = '". $conn->real_escape_string($nome) ."' LIMIT 1");
+if ($check_duplicate && $check_duplicate->num_rows > 0) {
+    $row_dup = $check_duplicate->fetch_assoc();
+    echo '<script>alert("Este registro já foi criado (ID: '. $row_dup['id'] .'). Evite clicar múltiplas vezes no botão Gravar."); window.history.back();</script>';
+    exit;
+}
+
 $sql = "INSERT INTO organograma (
 	nome, 
 	pai
