@@ -46,7 +46,8 @@ $delete = $_GET['nome'];
 				
 				$sql = "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('".$_COOKIE['fronteira_ADMIN_SESSION_usuario'] ."','Excluiu o arquivo: ". $delete ."','". date( 'Y-m-d H:i:s' ) ."');";
 				$conn->multi_query( $sql );
-				$conn->close();
+    // NÃO fechar a conexão aqui porque css-modulo.php precisa dela para carregar admin_user.php
+    // $conn->close();
 
 				unlink( $delete );
 			
@@ -66,3 +67,8 @@ $delete = $_GET['nome'];
 	</body>
 	
 </html>
+<?php
+if (isset($conn)) {
+    $conn->close();
+}
+?>

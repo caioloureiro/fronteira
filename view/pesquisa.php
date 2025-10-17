@@ -130,9 +130,10 @@ color:var(--preto_lente03);
 							}
 
 							if ($encontrado) {
+								$pagina_link = isset($pag['pagina']) && !empty($pag['pagina']) ? $pag['pagina'] : '#';
 								echo '
 								<tr>
-									<td><a href="' . $pag['pagina'] . '">' . $pag['titulo'] . '</a></td>
+									<td><a href="' . $pagina_link . '">' . htmlspecialchars($pag['titulo']) . '</a></td>
 								</tr>
 								';
 								$count_paginas++;
@@ -179,9 +180,10 @@ color:var(--preto_lente03);
 							}
 
 							if ($encontrado) {
+								$pagina_link = isset($sec['pagina']) && !empty($sec['pagina']) ? $sec['pagina'] : '#';
 								echo '
 								<tr>
-									<td><a href="secretarias&secretaria=' . $sec['pagina'] . '">' . $sec['titulo'] . '</a></td>
+									<td><a href="secretarias&secretaria=' . $pagina_link . '">' . htmlspecialchars($sec['titulo']) . '</a></td>
 								</tr>
 								';
 								$count_secretarias++;
@@ -228,9 +230,10 @@ color:var(--preto_lente03);
 							}
 
 							if ($encontrado) {
+								$pagina_link = isset($download['pagina']) && !empty($download['pagina']) ? $download['pagina'] : '#';
 								echo '
 								<tr>
-									<td><a href="secretarias&secretaria=' . $download['pagina'] . '">' . $download['nome'] . '</a></td>
+									<td><a href="secretarias&secretaria=' . $pagina_link . '">' . htmlspecialchars($download['nome']) . '</a></td>
 								</tr>
 								';
 								$count_downloads++;

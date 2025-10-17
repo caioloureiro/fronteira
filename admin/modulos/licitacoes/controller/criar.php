@@ -152,7 +152,8 @@ if ( $conn->query( $sql ) === TRUE ) {
 					
 				}
 
-				$conn->close();
+    // NÃO fechar a conexão aqui porque css-modulo.php precisa dela para carregar admin_user.php
+    // $conn->close();
 				
 			?>
 			
@@ -165,3 +166,8 @@ if ( $conn->query( $sql ) === TRUE ) {
 	</body>
 	
 </html>
+<?php
+if (isset($conn)) {
+    $conn->close();
+}
+?>

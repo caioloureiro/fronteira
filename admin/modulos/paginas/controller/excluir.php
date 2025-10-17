@@ -62,7 +62,8 @@ $sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". 
 					
 				}
 
-				$conn->close();
+				// NÃO fechar a conexão aqui porque já foi usada no css-modulo.php
+				// $conn->close();
 				
 			?>
 			
@@ -70,7 +71,17 @@ $sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". 
 		
 		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/datatable/2.0.1/js/datatable.js" integrity="sha512-9Jte0+zkyqOLUDxEfIz74iRN9geJm2oBwSYDdZVLzBWa3cxGh0YWw4/aBmq2FTJodryloQjd7mCxHo+gHQwzcA==" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="<?php $raiz_admin ?>js/motor.js"></script>	
+			<script type="text/javascript" src="<?php $raiz_admin ?>js/motor.js"></script>	
+	
+</body>
+
+</html>
+<?php 
+// Fechar conexão no final
+if (isset($conn)) {
+	$conn->close();
+}
+?>	
 		
 	</body>
 	

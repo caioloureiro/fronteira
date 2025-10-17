@@ -86,7 +86,8 @@ $sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". 
 					
 				}
 
-				$conn->close();
+    // NÃO fechar a conexão aqui porque css-modulo.php precisa dela para carregar admin_user.php
+    // $conn->close();
 				
 			?>
 			
@@ -99,3 +100,8 @@ $sql .= "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". 
 	</body>
 	
 </html>
+<?php
+if (isset($conn)) {
+    $conn->close();
+}
+?>

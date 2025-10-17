@@ -157,16 +157,17 @@ if ( $conn->multi_query( $sql ) === TRUE ) {
 			)";
 			
 			$conn->query($sql_anexo);
-		}
 	}
-	
-	$sucesso = true;
-} else {
-	$sucesso = false;
-	$erro = $conn->error;
 }
 
-$conn->close();
+$sucesso = true;
+} else {
+$sucesso = false;
+$erro = $conn->error;
+}
+
+// NÃO fechar a conexão aqui porque css-modulo.php precisa dela para carregar admin_user.php
+// $conn->close();
 
 ?>
 <!doctype html>
@@ -181,9 +182,7 @@ $conn->close();
 	</head>
 	<body>
 		
-		<style><?php require $raiz_admin .'routes/css-modulo.php'; ?></style>
-		
-		<div class="box">
+		<style><?php require $raiz_admin .'routes/css-modulo.php'; ?></style>		<div class="box">
 		
 			<?php
 			
@@ -202,8 +201,8 @@ $conn->close();
 					';
 					
 				}
-				
-			?>
+			
+		?>
 			
 		</div>
 		
@@ -214,3 +213,9 @@ $conn->close();
 	</body>
 	
 </html>
+<?php 
+// Fechar conexão no final
+if (isset($conn)) {
+	$conn->close();
+}
+?>
