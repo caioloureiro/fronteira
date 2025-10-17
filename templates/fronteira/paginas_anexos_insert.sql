@@ -1,0 +1,1740 @@
+-- ============================================================================
+-- INSERTS PARA TABELA paginas_anexos
+-- Gerado em: 16/10/2025 23:04:07
+-- ============================================================================
+-- Total de registros: 582
+-- Sucesso: 21
+-- Problemas (comentados): 561
+-- ============================================================================
+
+-- Desabilita verificação de chaves estrangeiras temporariamente
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- PÁGINA NÃO ENCONTRADA: 'Lista de CMEIS' (idPagina CSV: 142)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Lista de Espera do CMEI Rotary 09/2017', 'uploads/pagina/arquivos/ROTARY-092017.pdf', NULL); -- ID original: 17
+-- PÁGINA NÃO ENCONTRADA: 'Lista de CMEIS' (idPagina CSV: 142)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Lista de Espera do CMEI Recanto Feliz 09/2017', 'uploads/pagina/arquivos/RECANTO-FELIZ-092017.pdf', NULL); -- ID original: 18
+-- PÁGINA NÃO ENCONTRADA: 'Lista de CMEIS' (idPagina CSV: 142)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Lista de Espera do CMEI Candeias 09/2017', 'uploads/pagina/arquivos/NOSSA-SRA-DAS-CANDEIAS-092017.pdf', NULL); -- ID original: 19
+-- PÁGINA NÃO ENCONTRADA: 'Lista de CMEIS' (idPagina CSV: 142)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Lista de Espera do CMEI Mundo Encantado 09/2017', 'uploads/pagina/arquivos/MUNDO-ENCANTADO-092017.pdf', NULL); -- ID original: 20
+-- PÁGINA NÃO ENCONTRADA: 'Lista de CMEIS' (idPagina CSV: 142)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Lista de Espera do CMEI Bonifácio Cionek 09/2017', 'uploads/pagina/arquivos/BONIFACIO-CIONEK-092017.pdf', NULL); -- ID original: 21
+-- PÁGINA NÃO ENCONTRADA: 'Lista de CMEIS' (idPagina CSV: 142)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Lista de Espera do CMEI Santa Barbara 09/2017', 'uploads/pagina/arquivos/SANTA-BARBARA-092017.pdf', NULL); -- ID original: 22
+-- PÁGINA NÃO ENCONTRADA: 'Lista de CMEIS' (idPagina CSV: 142)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Lista de Espera do CMEI Maria Aparecida Belizário 09/2017', 'uploads/pagina/arquivos/MARIA-APARECIDA-BELIZARIO-092017.pdf', NULL); -- ID original: 23
+-- PÁGINA NÃO ENCONTRADA: 'ITR' (idPagina CSV: 156)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ITR', 'uploads/pagina/arquivos/INFRONTEIRA2017.pdf', NULL); -- ID original: 37
+-- PÁGINA NÃO ENCONTRADA: 'ITR' (idPagina CSV: 156)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Oficio-de-Valor-Terra-Nua-HA.pdf', 'uploads/pagina/arquivos/Oficio-de-Valor-Terra-Nua-HA.pdf', NULL); -- ID original: 38
+-- PÁGINA NÃO ENCONTRADA: 'Conselho Tutelar de Fronteira MG' (idPagina CSV: 158)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-CONSELHO-TUTELAR-N-1020-2001.pdf', 'uploads/pagina/arquivos/LEI-CONSELHO-TUTELAR-N-1020-2001.pdf', NULL); -- ID original: 46
+-- PÁGINA NÃO ENCONTRADA: 'Conselho Tutelar de Fronteira MG' (idPagina CSV: 158)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-CONSELHO-TUTELAR-N-1037-2001.pdf', 'uploads/pagina/arquivos/LEI-CONSELHO-TUTELAR-N-1037-2001.pdf', NULL); -- ID original: 47
+-- PÁGINA NÃO ENCONTRADA: 'Conselho Tutelar de Fronteira MG' (idPagina CSV: 158)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-CONSELHO-TUTELAR-N-1021-2001.pdf', 'uploads/pagina/arquivos/LEI-CONSELHO-TUTELAR-N-1021-2001.pdf', NULL); -- ID original: 48
+-- PÁGINA NÃO ENCONTRADA: 'Conselho Tutelar de Fronteira MG' (idPagina CSV: 158)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-CONSELHO-TUTELAR-N-1591-2013.pdf', 'uploads/pagina/arquivos/LEI-CONSELHO-TUTELAR-N-1591-2013.pdf', NULL); -- ID original: 57
+-- PÁGINA NÃO ENCONTRADA: 'Conselho Tutelar de Fronteira MG' (idPagina CSV: 158)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-CONSELHO-TUTELAR-N-1593-2013.pdf', 'uploads/pagina/arquivos/LEI-CONSELHO-TUTELAR-N-1593-2013.pdf', NULL); -- ID original: 58
+-- PÁGINA NÃO ENCONTRADA: 'Conselho Tutelar de Fronteira MG' (idPagina CSV: 158)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-MUNICIPAL-No-1848-2018-REORGANIZACAO-DO-CONSELHO-TUTELAR.pdf', 'uploads/pagina/arquivos/LEI-MUNICIPAL-No-1848-2018-REORGANIZACAO-DO-CONSELHO-TUTELAR.pdf', NULL); -- ID original: 59
+-- PÁGINA NÃO ENCONTRADA: 'Decretos sobre COVID-19 ' (idPagina CSV: 172)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Decreto nº 5907 28/01/2021', 'uploads/pagina/arquivos/DECRETO-No-5907-NOVAS-MEDIDAS-COVID_(264).pdf', NULL); -- ID original: 101
+-- PÁGINA NÃO ENCONTRADA: 'Ofertas de empregos ' (idPagina CSV: 199)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'AUXILIAR DE CONSERVAÇÃO', 'uploads/pagina/arquivos/triunfo.png', NULL); -- ID original: 115
+-- PÁGINA NÃO ENCONTRADA: 'Ofertas de empregos ' (idPagina CSV: 199)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'CONSERVADOR', 'uploads/pagina/arquivos/triunfoGD.png', NULL); -- ID original: 116
+-- PÁGINA NÃO ENCONTRADA: 'Ofertas de empregos ' (idPagina CSV: 199)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'OPERADOR DE TRATOR', 'uploads/pagina/arquivos/triunfoGD_(191).png', NULL); -- ID original: 117
+-- PÁGINA NÃO ENCONTRADA: 'Decretos sobre COVID-19 ' (idPagina CSV: 172)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Decreto nº 5.926 05/02/2021', 'uploads/pagina/arquivos/Decreto-Municipal-Covid-05-Fevereiro-2021.pdf', NULL); -- ID original: 118
+-- PÁGINA NÃO ENCONTRADA: 'Decretos sobre COVID-19 ' (idPagina CSV: 172)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Decreto nº 5.934 11/02/2021', 'uploads/pagina/arquivos/decreto-5934.pdf', NULL); -- ID original: 122
+-- PÁGINA NÃO ENCONTRADA: 'Decretos sobre COVID-19 ' (idPagina CSV: 172)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Decreto nº 5966 12/03/2021', 'uploads/pagina/arquivos/DECRETO-No-5966-.pdf', NULL); -- ID original: 123
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'Despesas de janeiro/2021', 'uploads/pagina/arquivos/012021.pdf', 25); -- ID original: 131, Página: Despesas
+-- PÁGINA NÃO ENCONTRADA: 'Plano Plurianual ' (idPagina CSV: 210)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Leia sobre o Plano Purianual', 'uploads/pagina/arquivos/PLANOPURIANUAL.pdf', NULL); -- ID original: 139
+-- PÁGINA NÃO ENCONTRADA: 'Planejamento e Gestão do Turismo' (idPagina CSV: 212)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Plano Municipal de Turismo de Fronteira 2021', 'uploads/pagina/arquivos/PLANO-MUNICIPAL-DE-TURISMO-DE-FRONTEIRA-2021.pdf', NULL); -- ID original: 140
+-- PÁGINA NÃO ENCONTRADA: 'Publicações' (idPagina CSV: 214)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '04-2021 - Edital de Notificação Regularização Fundiária', 'uploads/pagina/arquivos/EDITAL-04-2021.pdf', NULL); -- ID original: 141
+-- PÁGINA NÃO ENCONTRADA: 'Publicações' (idPagina CSV: 214)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '01-2021 - Edital de Notificação Regularização Fundiária', 'uploads/pagina/arquivos/EDITAL-01-2021.pdf', NULL); -- ID original: 142
+-- PÁGINA NÃO ENCONTRADA: 'VTN' (idPagina CSV: 216)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'VTN 2022', 'uploads/pagina/arquivos/TABELA-DE-VALORES-VTN.pdf', NULL); -- ID original: 143
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2022' (idPagina CSV: 227)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO JAN-2022', 'uploads/pagina/arquivos/01-DUODECIMO-PERIODO-DE-01012022-A-31012022.pdf', NULL); -- ID original: 146
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2022' (idPagina CSV: 227)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO FEV-2022', 'uploads/pagina/arquivos/02-DUODECIMO-PERIODO-DE-01022022-A-28022022.pdf', NULL); -- ID original: 147
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2022' (idPagina CSV: 227)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO MAR-2022', 'uploads/pagina/arquivos/03-DUODECIMO-PERIODO-DE-01032022-A-31032022.pdf', NULL); -- ID original: 148
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2022' (idPagina CSV: 227)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO ABR-2022', 'uploads/pagina/arquivos/04-DUODECIMO-PERIODO-DE-01042022-A-30042022.pdf', NULL); -- ID original: 149
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2022' (idPagina CSV: 227)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO MAI-2022', 'uploads/pagina/arquivos/05-DUODECIMO-PERIODO-DE-01052022-A-31052022.pdf', NULL); -- ID original: 150
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2022' (idPagina CSV: 227)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO JUN-2022', 'uploads/pagina/arquivos/06-DUODECIMO-PERIODO-DE-01062022-A-30062022.pdf', NULL); -- ID original: 151
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2022' (idPagina CSV: 227)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO AGO-2022', 'uploads/pagina/arquivos/08-DUODECIMO-PERIODO-DE-01082022-A-31082022.pdf', NULL); -- ID original: 153
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2022' (idPagina CSV: 227)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO JUL-2022', 'uploads/pagina/arquivos/07-DUODECIMO-PERIODO-DE-01072022-A-31072022.pdf', NULL); -- ID original: 154
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2022' (idPagina CSV: 227)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO SET-2022', 'uploads/pagina/arquivos/09-DUODECIMO-PERIODO-DE-01092022-A-30092022.pdf', NULL); -- ID original: 155
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2022' (idPagina CSV: 227)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO OUT-2022', 'uploads/pagina/arquivos/10-DUODECIMO-PERIODO-DE-01102022-A-31102022.pdf', NULL); -- ID original: 156
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2022' (idPagina CSV: 227)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO NOV-2022', 'uploads/pagina/arquivos/11-DUODECIMO-PERIODO-DE-01112022-A-30112022.pdf', NULL); -- ID original: 157
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Despesas - Balancetes > 2022' (idPagina CSV: 242)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Jan/2022', 'uploads/pagina/arquivos/01-BALANCETE-DA-DESPESA-DO-MES-DE-JANEIRO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 166
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Despesas - Balancetes > 2022' (idPagina CSV: 242)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Fev/2022', 'uploads/pagina/arquivos/02-BALANCETE-DA-DESPESA-DO-MES-DE-FEVEREIRO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 167
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Despesas - Balancetes > 2022' (idPagina CSV: 242)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Mar/2022', 'uploads/pagina/arquivos/03-BALANCETE-DA-DESPESA-DO-MES-DE-MARcO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 168
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Despesas - Balancetes > 2022' (idPagina CSV: 242)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Abr/2022', 'uploads/pagina/arquivos/04-BALANCETE-DA-DESPESA-DO-MES-DE-ABRIL-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 169
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Despesas - Balancetes > 2022' (idPagina CSV: 242)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Mai/2022', 'uploads/pagina/arquivos/05-BALANCETE-DA-DESPESA-DO-MES-DE-MAIO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 170
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Despesas - Balancetes > 2022' (idPagina CSV: 242)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Jun/2022', 'uploads/pagina/arquivos/06-BALANCETE-DA-DESPESA-DO-MES-DE-JUNHO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 171
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Despesas - Balancetes > 2022' (idPagina CSV: 242)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Jul/2022', 'uploads/pagina/arquivos/07-BALANCETE-DA-DESPESA-DO-MES-DE-JULHO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 172
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Despesas - Balancetes > 2022' (idPagina CSV: 242)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Ago/2022', 'uploads/pagina/arquivos/08-BALANCETE-DA-DESPESA-DO-MES-DE-AGOSTO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 173
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Despesas - Balancetes > 2022' (idPagina CSV: 242)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Set/2022', 'uploads/pagina/arquivos/09-BALANCETE-DA-DESPESA-DO-MES-DE-SETEMBRO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 174
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Despesas - Balancetes > 2022' (idPagina CSV: 242)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Out/2022', 'uploads/pagina/arquivos/10-BALANCETE-DA-DESPESA-DO-MES-DE-OUTUBRO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 175
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2022' (idPagina CSV: 222)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Jan/2022', 'uploads/pagina/arquivos/01-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-JANEIRO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 176
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2022' (idPagina CSV: 222)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Fev/2022', 'uploads/pagina/arquivos/02-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-FEVEREIRO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 177
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2022' (idPagina CSV: 222)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Mar/2022', 'uploads/pagina/arquivos/03-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-MARcO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 178
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2022' (idPagina CSV: 222)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Abr/2022', 'uploads/pagina/arquivos/04-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-ABRIL-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 179
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2022' (idPagina CSV: 222)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Mai/2022', 'uploads/pagina/arquivos/05-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-MAIO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 180
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2022' (idPagina CSV: 222)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Jun/2022', 'uploads/pagina/arquivos/06-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-JUNHO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 181
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2022' (idPagina CSV: 222)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Jul/2022', 'uploads/pagina/arquivos/07-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-JULHO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 182
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2022' (idPagina CSV: 222)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Ago/2022', 'uploads/pagina/arquivos/08-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-AGOSTO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 183
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2022' (idPagina CSV: 222)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Set/2022', 'uploads/pagina/arquivos/09-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-SETEMBRO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 184
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2022' (idPagina CSV: 222)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Out/2022', 'uploads/pagina/arquivos/10-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-OUTUBRO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 185
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2020' (idPagina CSV: 224)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Jan/2020', 'uploads/pagina/arquivos/01-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-JANEIRO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 208
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2020' (idPagina CSV: 224)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Fev/2020', 'uploads/pagina/arquivos/02-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-FEVEREIRO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 209
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2020' (idPagina CSV: 224)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Mar/2020', 'uploads/pagina/arquivos/03-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-MARcO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 210
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2020' (idPagina CSV: 224)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Abr/2020', 'uploads/pagina/arquivos/04-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-ABRIL-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 211
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2020' (idPagina CSV: 224)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Mai/2020', 'uploads/pagina/arquivos/05-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-MAIO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 212
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2020' (idPagina CSV: 224)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Jun/2020', 'uploads/pagina/arquivos/06-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-JUNHO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 213
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2020' (idPagina CSV: 224)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Jul/2020', 'uploads/pagina/arquivos/07-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-JULHO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 214
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2020' (idPagina CSV: 224)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Ago/2020', 'uploads/pagina/arquivos/08-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-AGOSTO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 215
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2020' (idPagina CSV: 224)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Set/2020', 'uploads/pagina/arquivos/09-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-SETEMBRO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 216
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2020' (idPagina CSV: 224)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Out/2020', 'uploads/pagina/arquivos/10-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-OUTUBRO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 217
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2020' (idPagina CSV: 224)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Nov/2020', 'uploads/pagina/arquivos/11-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-NOVEMBRO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 218
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2020' (idPagina CSV: 224)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Dez/2020', 'uploads/pagina/arquivos/12-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-DEZEMBRO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 219
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2021' (idPagina CSV: 223)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Jan/2021', 'uploads/pagina/arquivos/01-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-JANEIRO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 220
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2021' (idPagina CSV: 223)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Fev/2021', 'uploads/pagina/arquivos/02-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-FEVEREIRO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 221
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2021' (idPagina CSV: 223)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Mar/2021', 'uploads/pagina/arquivos/03-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-MARcO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 222
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2021' (idPagina CSV: 223)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Abr/2021', 'uploads/pagina/arquivos/04-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-ABRIL-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 223
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2021' (idPagina CSV: 223)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Mai/2021', 'uploads/pagina/arquivos/05-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-MAIO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 224
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2021' (idPagina CSV: 223)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Jun/2021', 'uploads/pagina/arquivos/06-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-JUNHO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 225
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2021' (idPagina CSV: 223)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Jul/2021', 'uploads/pagina/arquivos/07-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-JULHO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 226
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2021' (idPagina CSV: 223)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Ago/2021', 'uploads/pagina/arquivos/08-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-AGOSTO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 227
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2021' (idPagina CSV: 223)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Set/2021', 'uploads/pagina/arquivos/09-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-SETEMBRO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 228
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2021' (idPagina CSV: 223)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Out/2021', 'uploads/pagina/arquivos/10-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-OUTUBRO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 229
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2021' (idPagina CSV: 223)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Nov/2021', 'uploads/pagina/arquivos/11-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-NOVEMBRO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 230
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2021' (idPagina CSV: 223)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Dez/2021', 'uploads/pagina/arquivos/12-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-DEZEMBRO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 231
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2021' (idPagina CSV: 217)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Jan/2021', 'uploads/pagina/arquivos/01-BALANCETE-DA-DESPESA-DO-MES-DE-JANEIRO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 232
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2021' (idPagina CSV: 217)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Fev/2021', 'uploads/pagina/arquivos/02-BALANCETE-DA-DESPESA-DO-MES-DE-FEVEREIRO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 233
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2021' (idPagina CSV: 217)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Mar/2021', 'uploads/pagina/arquivos/03-BALANCETE-DA-DESPESA-DO-MES-DE-MARcO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 234
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2021' (idPagina CSV: 217)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Abr/2021', 'uploads/pagina/arquivos/04-BALANCETE-DA-DESPESA-DO-MES-DE-ABRIL-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 235
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2021' (idPagina CSV: 217)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Mai/2021', 'uploads/pagina/arquivos/05-BALANCETE-DA-DESPESA-DO-MES-DE-MAIO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 236
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2021' (idPagina CSV: 217)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Jun/2021', 'uploads/pagina/arquivos/06-BALANCETE-DA-DESPESA-DO-MES-DE-JUNHO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 237
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2021' (idPagina CSV: 217)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Jul/2021', 'uploads/pagina/arquivos/07-BALANCETE-DA-DESPESA-DO-MES-DE-JULHO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 238
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2021' (idPagina CSV: 217)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Ago/2021', 'uploads/pagina/arquivos/08-BALANCETE-DA-DESPESA-DO-MES-DE-AGOSTO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 239
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2021' (idPagina CSV: 217)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Set/2021', 'uploads/pagina/arquivos/09-BALANCETE-DA-DESPESA-DO-MES-DE-SETEMBRO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 240
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2021' (idPagina CSV: 217)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Out/2021', 'uploads/pagina/arquivos/10-BALANCETE-DA-DESPESA-DO-MES-DE-OUTUBRO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 241
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2021' (idPagina CSV: 217)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Nov/2021', 'uploads/pagina/arquivos/11-BALANCETE-DA-DESPESA-DO-MES-DE-NOVEMBRO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 242
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2021' (idPagina CSV: 217)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Dez/2021', 'uploads/pagina/arquivos/12-BALANCETE-DA-DESPESA-DO-MES-DE-DEZEMBRO-DE-2021-ORGAO-02.pdf', NULL); -- ID original: 243
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2020' (idPagina CSV: 218)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Jan/2020', 'uploads/pagina/arquivos/01-BALANCETE-DA-DESPESA-DO-MES-DE-JANEIRO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 244
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2020' (idPagina CSV: 218)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Fev/2020', 'uploads/pagina/arquivos/02-BALANCETE-DA-DESPESA-DO-MES-DE-FEVEREIRO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 245
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2020' (idPagina CSV: 218)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Mar/2020', 'uploads/pagina/arquivos/03-BALANCETE-DA-DESPESA-DO-MES-DE-MARcO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 246
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2020' (idPagina CSV: 218)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Abr/2020', 'uploads/pagina/arquivos/04-BALANCETE-DA-DESPESA-DO-MES-DE-ABRIL-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 247
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2020' (idPagina CSV: 218)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Mai/2020', 'uploads/pagina/arquivos/05-BALANCETE-DA-DESPESA-DO-MES-DE-MAIO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 248
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2020' (idPagina CSV: 218)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Jun/2020', 'uploads/pagina/arquivos/06-BALANCETE-DA-DESPESA-DO-MES-DE-JUNHO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 249
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2020' (idPagina CSV: 218)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Jul/2020', 'uploads/pagina/arquivos/07-BALANCETE-DA-DESPESA-DO-MES-DE-JULHO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 250
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2020' (idPagina CSV: 218)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Ago/2020', 'uploads/pagina/arquivos/08-BALANCETE-DA-DESPESA-DO-MES-DE-AGOSTO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 251
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2020' (idPagina CSV: 218)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Set/2020', 'uploads/pagina/arquivos/09-BALANCETE-DA-DESPESA-DO-MES-DE-SETEMBRO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 252
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2020' (idPagina CSV: 218)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Out/2020', 'uploads/pagina/arquivos/10-BALANCETE-DA-DESPESA-DO-MES-DE-OUTUBRO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 253
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2020' (idPagina CSV: 218)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Nov/2020', 'uploads/pagina/arquivos/11-BALANCETE-DA-DESPESA-DO-MES-DE-NOVEMBRO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 254
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2020' (idPagina CSV: 218)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Dez/2020', 'uploads/pagina/arquivos/12-BALANCETE-DA-DESPESA-DO-MES-DE-DEZEMBRO-DE-2020-ORGAO-02.pdf', NULL); -- ID original: 255
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2021' (idPagina CSV: 228)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUEODÉCIMO JAN-2021', 'uploads/pagina/arquivos/01-DUODECIMO-PERIODO-DE-01012021-A-31012021.pdf', NULL); -- ID original: 256
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2021' (idPagina CSV: 228)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUEODÉCIMO FEV-2021', 'uploads/pagina/arquivos/02-DUODECIMO-PERIODO-DE-01022021-A-28022021.pdf', NULL); -- ID original: 257
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2021' (idPagina CSV: 228)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUEODÉCIMO MAR-2021', 'uploads/pagina/arquivos/03-DUODECIMO-PERIODO-DE-01032021-A-31032021.pdf', NULL); -- ID original: 258
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2021' (idPagina CSV: 228)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUEODÉCIMO ABR-2021', 'uploads/pagina/arquivos/04-DUODECIMO-PERIODO-DE-01042021-A-30042021.pdf', NULL); -- ID original: 259
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2021' (idPagina CSV: 228)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUEODÉCIMO MAI-2021', 'uploads/pagina/arquivos/05-DUODECIMO-PERIODO-DE-01052021-A-31052021.pdf', NULL); -- ID original: 260
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2021' (idPagina CSV: 228)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUEODÉCIMO JUN-2021', 'uploads/pagina/arquivos/06-DUODECIMO-PERIODO-DE-01062021-A-30062021.pdf', NULL); -- ID original: 261
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2021' (idPagina CSV: 228)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUEODÉCIMO JUL-2021', 'uploads/pagina/arquivos/07-DUODECIMO-PERIODO-DE-01072021-A-31072021.pdf', NULL); -- ID original: 262
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2021' (idPagina CSV: 228)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUEODÉCIMO AGO-2021', 'uploads/pagina/arquivos/08-DUODECIMO-PERIODO-DE-01082021-A-31082021.pdf', NULL); -- ID original: 263
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2021' (idPagina CSV: 228)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUEODÉCIMO SET-2021', 'uploads/pagina/arquivos/09-DUODECIMO-PERIODO-DE-01092021-A-30092021.pdf', NULL); -- ID original: 264
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2021' (idPagina CSV: 228)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUEODÉCIMO OUT-2021', 'uploads/pagina/arquivos/10-DUODECIMO-PERIODO-DE-01102021-A-31102021.pdf', NULL); -- ID original: 265
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2021' (idPagina CSV: 228)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUEODÉCIMO NOV-2021', 'uploads/pagina/arquivos/11-DUODECIMO-PERIODO-DE-01112021-A-30112021.pdf', NULL); -- ID original: 266
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2021' (idPagina CSV: 228)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUEODÉCIMO DEZ-2021', 'uploads/pagina/arquivos/12-DUODECIMO-PERIODO-DE-01122021-A-31122021.pdf', NULL); -- ID original: 267
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2020' (idPagina CSV: 229)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO JAN-2020', 'uploads/pagina/arquivos/01-DUODECIMO-PERIODO-DE-01012020-A-31012020.pdf', NULL); -- ID original: 268
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2020' (idPagina CSV: 229)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO FEV-2020', 'uploads/pagina/arquivos/02-DUODECIMO-PERIODO-DE-01022020-A-29022020.pdf', NULL); -- ID original: 269
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2020' (idPagina CSV: 229)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO MAR-2020', 'uploads/pagina/arquivos/03-DUODECIMO-PERIODO-DE-01032020-A-31032020.pdf', NULL); -- ID original: 270
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2020' (idPagina CSV: 229)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO ABR-2020', 'uploads/pagina/arquivos/04-DUODECIMO-PERIODO-DE-01042020-A-30042020.pdf', NULL); -- ID original: 271
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2020' (idPagina CSV: 229)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO MAI-2020', 'uploads/pagina/arquivos/05-DUODECIMO-PERIODO-DE-01052020-A-31052020.pdf', NULL); -- ID original: 272
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2020' (idPagina CSV: 229)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO JUN-2020', 'uploads/pagina/arquivos/06-DUODECIMO-PERIODO-DE-01062020-A-30062020.pdf', NULL); -- ID original: 273
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2020' (idPagina CSV: 229)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO JUL-2020', 'uploads/pagina/arquivos/07-DUODECIMO-PERIODO-DE-01072020-A-31072020.pdf', NULL); -- ID original: 274
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2020' (idPagina CSV: 229)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO AGO-2020', 'uploads/pagina/arquivos/08-DUODECIMO-PERIODO-DE-01082020-A-31082020.pdf', NULL); -- ID original: 275
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2020' (idPagina CSV: 229)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO SET-2020', 'uploads/pagina/arquivos/09-DUODECIMO-PERIODO-DE-01092020-A-30092020.pdf', NULL); -- ID original: 276
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2020' (idPagina CSV: 229)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO OUT-2020', 'uploads/pagina/arquivos/10-DUODECIMO-PERIODO-DE-01102020-A-31102020.pdf', NULL); -- ID original: 277
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2022' (idPagina CSV: 236)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Demonstrativo da Despesa com Pessoal 1°semestre 2022', 'uploads/pagina/arquivos/RGF-Anexo-01-Demonstrativo-da-Despesa-com-Pessoal-1semestre-2022.pdf', NULL); -- ID original: 278
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Demonstrativo da Despesa com Pessoal 1°quadrimestre 2021', 'uploads/pagina/arquivos/RGF-Anexo-01-Demonstrativo-da-Despesa-com-Pessoal-1quadrimestre-2021.pdf', NULL); -- ID original: 280
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Demonstrativo da Despesa com Pessoal 2°quadrimestre 2021', 'uploads/pagina/arquivos/RGF-Anexo-01-Demonstrativo-da-Despesa-com-Pessoal-2quadrimestre-2021.pdf', NULL); -- ID original: 281
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Demonstrativo da Despesa com Pessoal 3°quadrimestre 2021', 'uploads/pagina/arquivos/RGF-Anexo-01-Demonstrativo-da-Despesa-com-Pessoal-3quadrimestre-2021.pdf', NULL); -- ID original: 282
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 -  Demonstrativo da divida consolidada líquida 1° quadrimestre 2021', 'uploads/pagina/arquivos/RGF-Anexo-02-Demonstrativo-da-divida-consolidada-liquida-1-quadrimestre-2021.pdf', NULL); -- ID original: 283
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 -  Demonstrativo da divida consolidada líquida 2° quadrimestre 2021', 'uploads/pagina/arquivos/RGF-Anexo-02-Demonstrativo-da-divida-consolidada-liquida-2-quadrimestre-2021.pdf', NULL); -- ID original: 284
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 -  Demonstrativo da divida consolidada líquida 3° quadrimestre 2021', 'uploads/pagina/arquivos/RGF-Anexo-02-Demonstrativo-da-divida-consolidada-liquida-3-quadrimestre-2021.pdf', NULL); -- ID original: 285
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 -  Demonstrativo da divida consolidada líquida 1° quadrimestre 2020', 'uploads/pagina/arquivos/RGF-Anexo-02-Demonstrativo-da-divida-consolidada-liquida-1-quadrimestre-2020.pdf', NULL); -- ID original: 286
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 -  Demonstrativo da divida consolidada líquida 2° quadrimestre 2020', 'uploads/pagina/arquivos/RGF-Anexo-02-Demonstrativo-da-divida-consolidada-liquida-2-quadrimestre-2020.pdf', NULL); -- ID original: 287
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 -  Demonstrativo da divida consolidada líquida 3° quadrimestre 2020', 'uploads/pagina/arquivos/RGF-Anexo-02-Demonstrativo-da-divida-consolidada-liquida-3-quadrimestre-2020.pdf', NULL); -- ID original: 288
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2022' (idPagina CSV: 236)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 -  Demonstrativo da divida consolidada líquida 1° semestre 2022', 'uploads/pagina/arquivos/RGF-Anexo-02-Demonstrativo-da-divida-consolidada-liquida-1-semestre-2022.pdf', NULL); -- ID original: 289
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 -  Demonstrativo da despesa com pessoal 1° quadrimestre 2020', 'uploads/pagina/arquivos/RGF-Anexo-01-Demonstrativo-da-Despesa-com-Pessoal-1quadrimestre-2020.pdf', NULL); -- ID original: 290
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 -  Demonstrativo da despesa com pessoal 2° quadrimestre 2020', 'uploads/pagina/arquivos/RGF-Anexo-01-Demonstrativo-da-Despesa-com-Pessoal-2quadrimestre-2020.pdf', NULL); -- ID original: 291
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 -  Demonstrativo da despesa com pessoal 3° quadrimestre 2020', 'uploads/pagina/arquivos/RGF-Anexo-01-Demonstrativo-da-Despesa-com-Pessoal-3quadrimestre-2020.pdf', NULL); -- ID original: 292
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2022' (idPagina CSV: 236)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 04 -  Demonstrativo das operações de crédito 1° semestre  2022', 'uploads/pagina/arquivos/RGF-Anexo-04-Demonstrativo-das-operacoes-de-credito-1-semestre-2022.pdf', NULL); -- ID original: 294
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 04 -  Demonstrativo das operações de crédito 1° quadrimestre  2021', 'uploads/pagina/arquivos/RGF-Anexo-04-Demonstrativo-das-operacoes-de-credito-1-quadrimestre-2021.pdf', NULL); -- ID original: 295
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 04 -  Demonstrativo das operações de crédito 2° quadrimestre  2021', 'uploads/pagina/arquivos/RGF-Anexo-04-Demonstrativo-das-operacoes-de-credito-2-quadrimestre-2021.pdf', NULL); -- ID original: 296
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 04 -  Demonstrativo das operações de crédito 3° quadrimestre  2021', 'uploads/pagina/arquivos/RGF-Anexo-04-Demonstrativo-das-operacoes-de-credito-3-quadrimestre-2021.pdf', NULL); -- ID original: 297
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 04 -  Demonstrativo das operações de crédito 1° quadrimestre  2020', 'uploads/pagina/arquivos/RGF-Anexo-04-Demonstrativo-das-operacoes-de-credito-1-quadrimestre-2020.pdf', NULL); -- ID original: 298
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 04 -  Demonstrativo das operações de crédito 2° quadrimestre  2020', 'uploads/pagina/arquivos/RGF-Anexo-04-Demonstrativo-das-operacoes-de-credito-2-quadrimestre-2020.pdf', NULL); -- ID original: 299
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 04 -  Demonstrativo das operações de crédito 3° quadrimestre  2020', 'uploads/pagina/arquivos/RGF-Anexo-04-Demonstrativo-das-operacoes-de-credito-3-quadrimestre-2020.pdf', NULL); -- ID original: 300
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2022' (idPagina CSV: 236)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 05 -  Demonstrativo da disponibilidade de caixa e dos restos a pagar 1° semestre 2022', 'uploads/pagina/arquivos/RGF-Anexo-05-Desmonstrativo-da-disponibilidade-de-caixa-e-dos-restos-a-pagar-1o-semestre-2022.pdf', NULL); -- ID original: 301
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2022' (idPagina CSV: 236)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 -  Demonstrativo Simplificado do relatório de gestão fiscal 1° semestre 2022', 'uploads/pagina/arquivos/RGF-Anexo-06-Demonstrativo-simplificado-do-relatorio-de-gestao-fiscal-1-semestre-2022.pdf', NULL); -- ID original: 302
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo Garantias Concedidas e Contragarantias Recebidas - 1° quadrimestre 2020', 'uploads/pagina/arquivos/RGF-Anexo-03-Demonstrativo-Garantias-Concedidas-e-Contragarantias-Recebidas-1-quadrimestre-2020.pdf', NULL); -- ID original: 304
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo Garantias Concedidas e Contragarantias Recebidas - 2° quadrimestre 2020', 'uploads/pagina/arquivos/RGF-Anexo-03-Demonstrativo-Garantias-Concedidas-e-Contragarantias-Recebidas-2-quadrimestre-2020.pdf', NULL); -- ID original: 305
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo Garantias Concedidas e Contragarantias Recebidas - 3° quadrimestre 2020', 'uploads/pagina/arquivos/RGF-Anexo-03-Demonstrativo-Garantias-Concedidas-e-Contragarantias-Recebidas-3-quadrimestre-2020.pdf', NULL); -- ID original: 306
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo Garantias Concedidas e Contragarantias Recebidas - 1° quadrimestre  2021', 'uploads/pagina/arquivos/RGF-Anexo-03-Demonstrativo-Garantias-Concedidas-e-Contragarantias-Recebidas-1-quadrimestre-2021.pdf', NULL); -- ID original: 307
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo Garantias Concedidas e Contragarantias Recebidas - 2° quadrimestre  2021', 'uploads/pagina/arquivos/RGF-Anexo-03-Demonstrativo-Garantias-Concedidas-e-Contragarantias-Recebidas-2-quadrimestre-2021.pdf', NULL); -- ID original: 308
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo Garantias Concedidas e Contragarantias Recebidas - 3° quadrimestre  2021', 'uploads/pagina/arquivos/RGF-Anexo-03-Demonstrativo-Garantias-Concedidas-e-Contragarantias-Recebidas-3-quadrimestre-2021.pdf', NULL); -- ID original: 309
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 05 - Demonstrativo da disponibilidade de caixa e dos restos a pagar 1°quadrimestre 2021', 'uploads/pagina/arquivos/RGF-Anexo-05-Demonstrativo-da-disponibilidade-de-caixa-e-dos-restos-a-pagar-1quadrimestre-2021.pdf', NULL); -- ID original: 310
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 05 - Demonstrativo da disponibilidade de caixa e dos restos a pagar 2°quadrimestre 2021', 'uploads/pagina/arquivos/RGF-Anexo-05-Demonstrativo-da-disponibilidade-de-caixa-e-dos-restos-a-pagar-2quadrimestre-2021.pdf', NULL); -- ID original: 311
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 05 - Demonstrativo da disponibilidade de caixa e dos restos a pagar 3°quadrimestre 2021', 'uploads/pagina/arquivos/RGF-Anexo-05-Demonstrativo-da-disponibilidade-de-caixa-e-dos-restos-a-pagar-3quadrimestre-2021.pdf', NULL); -- ID original: 312
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo simplificado do relatório de gestão fiscal 1 ° quadrimestre  2020', 'uploads/pagina/arquivos/RGF-Anexo-06-Demonstrativo-simplificado-do-relatorio-de-gestao-fiscal-1-quadrimestre-2020.pdf', NULL); -- ID original: 313
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo simplificado do relatório de gestão fiscal 2 ° quadrimestre  2020', 'uploads/pagina/arquivos/RGF-Anexo-06-Demonstrativo-simplificado-do-relatorio-de-gestao-fiscal-2-quadrimestre-2020.pdf', NULL); -- ID original: 314
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo simplificado do relatório de gestão fiscal 3° quadrimestre  2020', 'uploads/pagina/arquivos/RGF-Anexo-06-Demonstrativo-simplificado-do-relatorio-de-gestao-fiscal-3-quadrimestre-2020.pdf', NULL); -- ID original: 315
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo simplificado do relatório de gestão fiscal 1 ° quadrimestre  2021', 'uploads/pagina/arquivos/RGF-Anexo-06-Demonstrativo-simplificado-do-relatorio-de-gestao-fiscal-1-quadrimestre-2021.pdf', NULL); -- ID original: 316
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo simplificado do relatório de gestão fiscal 2° quadrimestre  2021', 'uploads/pagina/arquivos/RGF-Anexo-06-Demonstrativo-simplificado-do-relatorio-de-gestao-fiscal-2-quadrimestre-2021.pdf', NULL); -- ID original: 317
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2021' (idPagina CSV: 235)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo simplificado do relatório de gestão fiscal 3 ° quadrimestre  2021', 'uploads/pagina/arquivos/RGF-Anexo-06-Demonstrativo-simplificado-do-relatorio-de-gestao-fiscal-3-quadrimestre-2021.pdf', NULL); -- ID original: 318
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2021' (idPagina CSV: 244)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO 14 - BALANÇO PATRIMONIAL 2021 CONF. NBC T 16.6', 'uploads/pagina/arquivos/ANEXO-14-BALANCO-PATRIMONIAL-2021-CONF-NBC-T-166.pdf', NULL); -- ID original: 319
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2021' (idPagina CSV: 244)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO 12 - BALANÇO ORÇAMENTÁRIO 2021  - CONF. NBCT 16.6', 'uploads/pagina/arquivos/ANEXO-12-BALANCO-ORCAMENTARIO-2021-CONF-NBCT-166.pdf', NULL); -- ID original: 320
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2021' (idPagina CSV: 244)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO 13 - BALANÇO FINANCEIRO 2021 - CONF. NBC T 16.6', 'uploads/pagina/arquivos/ANEXO-13-BALANCO-FINANCEIRO-2021-CONF-NBC-T-166.pdf', NULL); -- ID original: 321
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2020' (idPagina CSV: 245)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO 12 - BALANÇO ORÇAMENTÁRIO 2020 - CONF. NBC T 16.6', 'uploads/pagina/arquivos/ANEXO-12-BALANCO-ORCAMENTARIO-2020-CONF-NBC-T-166.pdf', NULL); -- ID original: 322
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2020' (idPagina CSV: 245)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO 13 - BALANÇO FINANCEIRO 2020 - CONF. NBC T 16.6', 'uploads/pagina/arquivos/ANEXO-13-BALANCO-FINANCEIRO-2020-CONF-NBC-T-166.pdf', NULL); -- ID original: 323
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2020' (idPagina CSV: 245)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO 14 - BALANÇO PATRIMONIAL 2020 - CONF. NBC T 16.6', 'uploads/pagina/arquivos/ANEXO-14-BALANCO-PATRIMONIAL-2020-CONF-NBC-T-166.pdf', NULL); -- ID original: 324
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2020' (idPagina CSV: 245)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO 15 - DEMONSTRATIVO DAS VARIAÇÕES PATRIMONIAIS 2020 - CONF. NBC T 16.6', 'uploads/pagina/arquivos/ANEXO-15-DEMONSTRATIVO-DAS-VARIACOES-PATRIMONIAIS-2020-CONF-NBC-T-166.pdf', NULL); -- ID original: 325
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2021' (idPagina CSV: 244)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO 15 - DEMONSTRATIVO DAS VARIAÇÕES PATRIMONIAIS 2021 - CONF. NBC T 16.6', 'uploads/pagina/arquivos/ANEXO-15-DEMONSTRATIVO-DAS-VARIACOES-PATRIMONIAIS-2021-CONF-NBC-T-166.pdf', NULL); -- ID original: 326
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 05 - Demonstrativo da disponibilidade de caixa e dos restos a pagar 1°quadrimestre 2020', 'uploads/pagina/arquivos/RGF-Anexo-05-Demonstrativo-da-disponibilidade-de-caixa-e-dos-restos-a-pagar-1quadrimestre-2020.pdf', NULL); -- ID original: 327
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 05 - Demonstrativo da disponibilidade de caixa e dos restos a pagar 2°quadrimestre 2020', 'uploads/pagina/arquivos/RGF-Anexo-05-Demonstrativo-da-disponibilidade-de-caixa-e-dos-restos-a-pagar-2quadrimestre-2020.pdf', NULL); -- ID original: 328
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2020' (idPagina CSV: 234)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 05 - Demonstrativo da disponibilidade de caixa e dos restos a pagar 3°quadrimestre 2020', 'uploads/pagina/arquivos/RGF-Anexo-05-Demonstrativo-da-disponibilidade-de-caixa-e-dos-restos-a-pagar-3quadrimestre-2020.pdf', NULL); -- ID original: 329
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2022' (idPagina CSV: 236)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo Garantias Concedidas e Contragarantias Recebidas - 1° semestre  2022', 'uploads/pagina/arquivos/RGF-Anexo-03-Demonstrativo-Garantias-Concedidas-e-Contragarantias-Recebidas-1-semestre-2022.pdf', NULL); -- ID original: 330
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2022' (idPagina CSV: 222)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Nov/2022', 'uploads/pagina/arquivos/11-BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-NOVEMBRO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 332
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Despesas - Balancetes > 2022' (idPagina CSV: 242)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Nov/2022', 'uploads/pagina/arquivos/11-BALANCETE-DA-DESPESA-DO-MES-DE-NOVEMBRO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 333
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 1°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-1Bimestre-2022.pdf', NULL); -- ID original: 334
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 2°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-2Bimestre-2022.pdf', NULL); -- ID original: 335
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 3°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-3Bimestre-2022.pdf', NULL); -- ID original: 336
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 4°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-4Bimestre-2022.pdf', NULL); -- ID original: 337
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 5°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-5Bimestre-2022.pdf', NULL); -- ID original: 338
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 1°bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-1bimestre-2022.pdf', NULL); -- ID original: 339
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 2°bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-2bimestre-2022.pdf', NULL); -- ID original: 340
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 3°bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-3bimestre-2022.pdf', NULL); -- ID original: 341
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 4°bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-4bimestre-2022.pdf', NULL); -- ID original: 342
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 5°bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-5bimestre-2022.pdf', NULL); -- ID original: 343
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 1°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-1Bimestre-2022.pdf', NULL); -- ID original: 344
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 2°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-2Bimestre-2022.pdf', NULL); -- ID original: 345
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 3°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-3Bimestre-2022.pdf', NULL); -- ID original: 346
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 4°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-4Bimestre-2022.pdf', NULL); -- ID original: 347
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 5°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-5Bimestre-2022.pdf', NULL); -- ID original: 348
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 1°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-1Bimestre-2021.pdf', NULL); -- ID original: 349
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 2°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-2Bimestre-2021.pdf', NULL); -- ID original: 350
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 3°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-3Bimestre-2021.pdf', NULL); -- ID original: 351
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 4°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-4Bimestre-2021.pdf', NULL); -- ID original: 352
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 5°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-5Bimestre-2021.pdf', NULL); -- ID original: 353
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 6°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-6Bimestre-2021.pdf', NULL); -- ID original: 354
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 1°bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-1bimestre-2021.pdf', NULL); -- ID original: 355
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 2°bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-2bimestre-2021.pdf', NULL); -- ID original: 356
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 3°bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-3bimestre-2021.pdf', NULL); -- ID original: 357
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 4°bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-4bimestre-2021.pdf', NULL); -- ID original: 358
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 5°bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-5bimestre-2021.pdf', NULL); -- ID original: 359
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 6°bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-6bimestre-2021.pdf', NULL); -- ID original: 360
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 1°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-1Bimestre-2021.pdf', NULL); -- ID original: 361
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 2°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-2Bimestre-2021.pdf', NULL); -- ID original: 362
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 3°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-3Bimestre-2021.pdf', NULL); -- ID original: 363
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 4°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-4Bimestre-2021.pdf', NULL); -- ID original: 364
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 5°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-5Bimestre-2021.pdf', NULL); -- ID original: 365
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 6°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-6Bimestre-2021.pdf', NULL); -- ID original: 366
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 1°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-1Bimestre-2020.pdf', NULL); -- ID original: 367
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 2°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-2Bimestre-2020.pdf', NULL); -- ID original: 368
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 3°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-3Bimestre-2020.pdf', NULL); -- ID original: 369
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 4°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-4Bimestre-2020.pdf', NULL); -- ID original: 370
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 5°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-5Bimestre-2020.pdf', NULL); -- ID original: 371
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 6°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-6Bimestre-2020.pdf', NULL); -- ID original: 372
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 1°bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-1bimestre-2020.pdf', NULL); -- ID original: 373
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 2°bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-2bimestre-2020.pdf', NULL); -- ID original: 374
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 3°bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-3bimestre-2020.pdf', NULL); -- ID original: 375
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 4°bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-4bimestre-2020.pdf', NULL); -- ID original: 376
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 5°bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-5bimestre-2020.pdf', NULL); -- ID original: 377
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 6°bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-6bimestre-2020.pdf', NULL); -- ID original: 378
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 1°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-1Bimestre-2020.pdf', NULL); -- ID original: 379
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 2°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-2Bimestre-2020.pdf', NULL); -- ID original: 380
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 3°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-3Bimestre-2020.pdf', NULL); -- ID original: 381
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 5°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-5Bimestre-2020.pdf', NULL); -- ID original: 382
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 4°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-4Bimestre-2020.pdf', NULL); -- ID original: 383
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 6°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-6Bimestre-2020.pdf', NULL); -- ID original: 384
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 1°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-1Bimestre-2021.pdf', NULL); -- ID original: 385
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 2°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-2Bimestre-2021.pdf', NULL); -- ID original: 386
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 3°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-3Bimestre-2021.pdf', NULL); -- ID original: 387
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 4°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-4Bimestre-2021.pdf', NULL); -- ID original: 388
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 5°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-5Bimestre-2021.pdf', NULL); -- ID original: 389
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 6°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-6Bimestre-2021.pdf', NULL); -- ID original: 390
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de restos à pagar 1°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-restos-a-pagar-1Bimestre-2021.pdf', NULL); -- ID original: 391
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de restos à pagar 2°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-restos-a-pagar-2Bimestre-2021.pdf', NULL); -- ID original: 392
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de restos à pagar 3°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-restos-a-pagar-3Bimestre-2021.pdf', NULL); -- ID original: 393
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de restos à pagar 4°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-restos-a-pagar-4Bimestre-2021.pdf', NULL); -- ID original: 394
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de restos à pagar 5°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-restos-a-pagar-5Bimestre-2021.pdf', NULL); -- ID original: 395
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de restos à pagar 6°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-restos-a-pagar-6Bimestre-2021.pdf', NULL); -- ID original: 396
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 1°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-1Bimestre-2020.pdf', NULL); -- ID original: 407
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 2°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-2Bimestre-2020.pdf', NULL); -- ID original: 408
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 3°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-3Bimestre-2020.pdf', NULL); -- ID original: 409
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 4°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-4Bimestre-2020.pdf', NULL); -- ID original: 410
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 6°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-6Bimestre-2020.pdf', NULL); -- ID original: 411
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 5°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-5Bimestre-2020.pdf', NULL); -- ID original: 412
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de Restos à pagar 1°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-Restos-a-pagar-1Bimestre-2020.pdf', NULL); -- ID original: 413
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de Restos à pagar 2°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-Restos-a-pagar-2Bimestre-2020.pdf', NULL); -- ID original: 414
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de Restos à pagar 3°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-Restos-a-pagar-3Bimestre-2020.pdf', NULL); -- ID original: 415
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de Restos à pagar 4°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-Restos-a-pagar-4Bimestre-2020.pdf', NULL); -- ID original: 416
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de Restos à pagar 5°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-Restos-a-pagar-5Bimestre-2020.pdf', NULL); -- ID original: 417
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de Restos à pagar 6°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-Restos-a-pagar-6Bimestre-2020.pdf', NULL); -- ID original: 418
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 1°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-1Bimestre-2022.pdf', NULL); -- ID original: 419
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 2° Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-2-Bimestre-2022.pdf', NULL); -- ID original: 420
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 3° Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-3-Bimestre-2022.pdf', NULL); -- ID original: 421
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 4° Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstratio-Simplificado-do-RREO-4Bimestre-2022.pdf', NULL); -- ID original: 422
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 5° Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstratio-Simplificado-do-RREO-5Bimestre-2022.pdf', NULL); -- ID original: 423
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 1°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-1Bimestre-2022.pdf', NULL); -- ID original: 425
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 2°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-2Bimestre-2022.pdf', NULL); -- ID original: 426
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 3°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-3Bimestre-2022.pdf', NULL); -- ID original: 427
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 4°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-4Bimestre-2022.pdf', NULL); -- ID original: 428
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 5°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-5Bimestre-2022.pdf', NULL); -- ID original: 429
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de Restos à Pagar 1°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-Restos-a-Pagar-1Bimestre-2022.pdf', NULL); -- ID original: 430
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de Restos à Pagar 2°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-Restos-a-Pagar-2Bimestre-2022.pdf', NULL); -- ID original: 431
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de Restos à Pagar 3°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-Restos-a-Pagar-3Bimestre-2022.pdf', NULL); -- ID original: 432
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de Restos à Pagar 4°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-Restos-a-Pagar-4Bimestre-2022.pdf', NULL); -- ID original: 433
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de Restos à Pagar 5°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-Restos-a-Pagar-5Bimestre-2022.pdf', NULL); -- ID original: 434
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 1°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-1Bimestre-2021.pdf', NULL); -- ID original: 435
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 2°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-2Bimestre-2021.pdf', NULL); -- ID original: 436
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 3°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-3Bimestre-2021.pdf', NULL); -- ID original: 437
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 4°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-4Bimestre-2021.pdf', NULL); -- ID original: 438
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 5°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-5Bimestre-2021.pdf', NULL); -- ID original: 439
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2021' (idPagina CSV: 240)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 6°Bimestre 2021', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-6Bimestre-2021.pdf', NULL); -- ID original: 441
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 1°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-1Bimestre-2020.pdf', NULL); -- ID original: 442
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 2°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-2Bimestre-2020.pdf', NULL); -- ID original: 443
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 3°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-3Bimestre-2020.pdf', NULL); -- ID original: 444
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 4°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-4Bimestre-2020.pdf', NULL); -- ID original: 445
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 5°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-5Bimestre-2020.pdf', NULL); -- ID original: 446
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2020' (idPagina CSV: 239)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 6°Bimestre 2020', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-6Bimestre-2020.pdf', NULL); -- ID original: 447
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Despesas - Balancetes > 2022' (idPagina CSV: 242)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Despesa Dez/2022', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-DO-MES-DE-DEZEMBRO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 448
+-- PÁGINA NÃO ENCONTRADA: 'Receitas > 2022' (idPagina CSV: 222)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Balancete da Receita Dez/2022', 'uploads/pagina/arquivos/BALANCETE-DA-RECEITA-ORCAMENTARIA-DO-MES-DE-DEZEMBRO-DE-2022-ORGAO-02.pdf', NULL); -- ID original: 449
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2022' (idPagina CSV: 227)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO DEZ-2022', 'uploads/pagina/arquivos/12-DUODECIMO-PERIODO-DE-01122022-A-31122022.pdf', NULL); -- ID original: 450
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2022' (idPagina CSV: 236)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Demonstrativo da Despesa com Pessoal  2° semestre  2022', 'uploads/pagina/arquivos/RGF-Anexo-01-Demonstrativo-da-Despesa-com-Pessoal-2semestre-2022.pdf', NULL); -- ID original: 451
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2022' (idPagina CSV: 236)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 -  Demonstrativo da divida consolidada líquida 2° semestre 2022', 'uploads/pagina/arquivos/RGF-Anexo-02-Demonstrativo-da-divida-consolidada-liquida-2-semestre-2022.pdf', NULL); -- ID original: 452
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2022' (idPagina CSV: 236)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo Garantias Concedidas e Contragarantias Recebidas - 2° semestre  2022', 'uploads/pagina/arquivos/RGF-Anexo-03-Demonstrativo-Garantias-Concedidas-e-Contragarantias-Recebidas-2-semestre-2022.pdf', NULL); -- ID original: 453
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2022' (idPagina CSV: 236)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 04 -  Demonstrativo das operações de crédito 2° semestre  2022', 'uploads/pagina/arquivos/RGF-Anexo-04-Demonstrativo-das-operacoes-de-credito-2-semestre-2022.pdf', NULL); -- ID original: 454
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2022' (idPagina CSV: 236)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 05 -  Demonstrativo da disponibilidade de caixa e dos restos a pagar 2° semestre 2022', 'uploads/pagina/arquivos/RGF-Anexo-05-Desmonstrativo-da-disponibilidade-de-caixa-e-dos-restos-a-pagar-2o-semestre-2022.pdf', NULL); -- ID original: 455
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RGF > 2022' (idPagina CSV: 236)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 -  Demonstrativo Simplificado do relatório de gestão fiscal 2° semestre 2022', 'uploads/pagina/arquivos/RGF-Anexo-06-Demonstrativo-simplificado-do-relatorio-de-gestao-fiscal-2-semestre-2022.pdf', NULL); -- ID original: 456
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 01 - Balanço Orçamentário 6°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-01-Balanco-Orcamentario-6Bimestre-2022.pdf', NULL); -- ID original: 457
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 02 - Demonstrativo da execução das despesas por função 6°bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-02-Demonstrativo-da-execucao-das-despesas-por-funcao-6bimestre-2022.pdf', NULL); -- ID original: 458
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 03 - Demonstrativo da Receita Corrente Líquida 6°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-03-Demonstrativo-da-Receita-Corrente-Liquida-6Bimestre-2022.pdf', NULL); -- ID original: 459
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 06 - Demonstrativo dos Resultados Primário e Nominal 6°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-06-Demonstrativo-dos-Resultados-Primario-e-Nominal-6Bimestre-2022.pdf', NULL); -- ID original: 460
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 07 - Demonstrativo de Restos à Pagar 6°Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-07-Demonstrativo-de-Restos-a-Pagar-6Bimestre-2022.pdf', NULL); -- ID original: 461
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2022' (idPagina CSV: 241)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo 14 - Demonstrativo Simplificado do RREO 6° Bimestre 2022', 'uploads/pagina/arquivos/RREO-Anexo-14-Demonstrativo-Simplificado-do-RREO-6-Bimestre-2022.pdf', NULL); -- ID original: 462
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EDITAL DE ABEETURA CONSELHO TUTELAR', 'uploads/pagina/arquivos/ApendiceIVMinutadeEditaldeaberturadeprocessodeescolha.pdf', NULL); -- ID original: 463
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'FICHA DE INSCRIÇÃO PARA CANDIDATURA A CONSELHEIRO TUTELAR', 'uploads/pagina/arquivos/FICHA-DE-INCRICAO-CONSELHO-TUTELAR-FRONTEIRAMG.pdf', NULL); -- ID original: 464
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'TORIO DE MUNICIPIO QUE ADERIRAM AO EMPRESTIMO DE URNAS ELETRONICAS PARA AS ELEIÇÕES DOS MEMBROS DOS CONSELHOS TUTELARES DO ESTADO DE MINAS GERAIS', 'uploads/pagina/arquivos/RELATORIO-DE-MUNICIPIO-QUE-ADERIRAM-AO-EMPRESTIMO-DE-URNAS-ELETRONICAS-PARA-AS-ELEICOES-DOS-MEMBROS-DOS-CONSELHOS-TUTELARES-NO-ESTADO-DE-MINAS-GERAIS.pdf', NULL); -- ID original: 465
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'CRONOGRAMA PARA O PROCESSO UNIFICADO', 'uploads/pagina/arquivos/CRONOGRAMA-PARA-O-PROCESSO-UNIFICADO-DE-ESCOLHA-DOS-MEMBROS-DO-CONSELHO-TUTELAR.pdf', NULL); -- ID original: 466
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'PLANILHA DE MUNICÍPIOS', 'uploads/pagina/arquivos/PLANILHA-MUNICIPIOS.pdf', NULL); -- ID original: 467
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'CALENDÁRIO', 'uploads/pagina/arquivos/CALENDARIO.pdf', NULL); -- ID original: 468
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'RELAÇÃO DOS CANDIDATOS INSCRITOS E ABERTURA DE PRAZO PARA IMPUGNAÇÕES', 'uploads/pagina/arquivos/RELACAO-DOS-CANDIDATOS-INSCRITOS-E-ABERTURA-DE-PRAZO-PARA-MPUGNACOES.pdf', NULL); -- ID original: 469
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'RESOLUÇÃO Nº 09', 'uploads/pagina/arquivos/RESOLUCAO-No-09.pdf', NULL); -- ID original: 470
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ATO RECISÓRIO', 'uploads/pagina/arquivos/ATO-DECISORIO-CMDCA-publicar.pdf', NULL); -- ID original: 472
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'INSTITUIÇÕES RELIGIOSAS', 'uploads/pagina/arquivos/INSTITUICOES-RELIGIOSAS-CMDCA.pdf', NULL); -- ID original: 473
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'COMUNICADO', 'uploads/pagina/arquivos/COMUNICADO.pdf', NULL); -- ID original: 474
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'RESULTADO FINAL DOS CANDIDATOS APTOS', 'uploads/pagina/arquivos/RESULTADO-FINAL-DOS-CANDIADATOS-APTSO-ITEM-712-1.pdf', NULL); -- ID original: 475
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LOCAL DE PROVAS CONSELHO TUTELAR', 'uploads/pagina/arquivos/COMUNICADO-local-de-provas-conselho-tutelar.pdf', NULL); -- ID original: 476
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'CONDUTAS VEDADAS CANDIDATOS', 'uploads/pagina/arquivos/RESOLUCAO-No10-CONDUTAS-VEDADS-AOS-CANDIDATOS-CT-1.pdf', NULL); -- ID original: 477
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'CONVOCAÇÃO EXCEPCIONAL', 'uploads/pagina/arquivos/CONVOCACAO-EXCEPCIONAL-PROVAS-CT.pdf', NULL); -- ID original: 478
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ADITIVO AO EDITAL', 'uploads/pagina/arquivos/aditivo-ao-edital.pdf', NULL); -- ID original: 479
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'RETIFICAÇÃO EDITAL', 'uploads/pagina/arquivos/Retificacao-No-02-do-Edital-012023-Item-712.pdf', NULL); -- ID original: 480
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'GABARITO DA PROVA - CONSELHO TUTELAR', 'uploads/pagina/arquivos/GABARITO-DA-PROVA-RESULTADO.pdf', NULL); -- ID original: 481
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'RESULTADO FINAL PROVA DOS CANDIDATOS', 'uploads/pagina/arquivos/RESULTADO-FINAL-PROVA-CANDIDATOS.pdf', NULL); -- ID original: 482
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DADOS ESSENCIAIS A CANDIDATURA', 'uploads/pagina/arquivos/DADOS-ESSENCIAIS-A-CANDIDATURA-1.docx', NULL); -- ID original: 483
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'CARTA DE CREDENCIAMENTO', 'uploads/pagina/arquivos/Carta-de-Credenciamento.pdf', NULL); -- ID original: 484
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ESCOLA MARECHAL CASTELO BRANCO', 'uploads/pagina/arquivos/Escola-Marechal-Castelo-Branco-2.pdf', NULL); -- ID original: 485
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ESCOLA POLIANA ZIZA FERREIRA', 'uploads/pagina/arquivos/Escola-Poliana-Ziza-Ferreira-3.pdf', NULL); -- ID original: 486
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'RETIFICAÇÃO E ANULAÇÃO', 'uploads/pagina/arquivos/Retificacao-e-Anulacao-ATO-DECISORIO-No-02-RESOLUCAO-032023-IteM-13-e-14.pdf', NULL); -- ID original: 487
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'RESOLUÇÃO', 'uploads/pagina/arquivos/RESOLUCAO-03-REC-ADM-MPMG-12-2023.pdf', NULL); -- ID original: 488
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'RESOLUÇÃO Nº 17', 'uploads/pagina/arquivos/Resolucao-no17.pdf', NULL); -- ID original: 489
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'COMUNICADO TREMG', 'uploads/pagina/arquivos/COMUNICADO-TREMG.pdf', NULL); -- ID original: 490
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'CONVOCAÇÃO AVALIAÇÃO PSICOLOGICA', 'uploads/pagina/arquivos/CONVOCACAO-AVALIACAO-PSICOLOGICA.pdf', NULL); -- ID original: 491
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EDITAL 02', 'uploads/pagina/arquivos/EDITAL-02.pdf', NULL); -- ID original: 492
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'NORMAS DA CAMPANHA ELEITORAL', 'uploads/pagina/arquivos/NORMAS-DA-CAMPANHA-ELEITORAL-1.pdf', NULL); -- ID original: 493
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LISTA FINAL DOS CANDIDATOS APTOS', 'uploads/pagina/arquivos/LISTA-FINAL-DOS-CANDIDATOS-APTOS-AO-PLEITO.pdf', NULL); -- ID original: 494
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'AVALIAÇÃO PSICOLOGICA', 'uploads/pagina/arquivos/APTOS-AVALIACAO-PSICOLOGICA-final.pdf', NULL); -- ID original: 495
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Termo-de-Cessao-Assinado0001.pdf', 'uploads/pagina/arquivos/Termo-de-Cessao-Assinado0001.pdf', NULL); -- ID original: 496
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'TERMO DE COMPROMISSO', 'uploads/pagina/arquivos/TERMO-DE-COMPROMISSO.pdf', NULL); -- ID original: 497
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'COMISSÃO ESPECIAL PROCESSO DE ESCOLHA', 'uploads/pagina/arquivos/COMISSAO-ESPECIAL-PROCESSO-DE-ESCOLHA.pdf', NULL); -- ID original: 498
+-- PÁGINA NÃO ENCONTRADA: 'VTN' (idPagina CSV: 216)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'VTN 2023', 'uploads/pagina/arquivos/VTN-2023-1.pdf', NULL); -- ID original: 499
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DEFINIÇÃO MESÁRIOS', 'uploads/pagina/arquivos/EDITAL-NUMERO-03-DEFINICAO-DE-MESARIOS-PRESIDENTES-Fiscais-e-Candidatos.pdf', NULL); -- ID original: 500
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DISCIPLINA FISCAIS', 'uploads/pagina/arquivos/RESOLUCAO-n-26-DISCIPLINA-FISCAIS-NO-DIA-DA-VOTACAO.pdf', NULL); -- ID original: 501
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ATA DE APURAÇÃO DO PROCESSO DE ESCOLHA DOS MEMBROS DO CONSELHO TUTELAR DO MUNICÍPIO DE FRONTEIRA/MG', 'uploads/pagina/arquivos/ATA-DE-APURACAO-CONSELHO-TUTELAR-FRONTEI-3.pdf', NULL); -- ID original: 503
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'CONVOCACAO-DE-REUNIAO-EXTRAORDINARIA-PARA-OITIVAS.pdf', 'uploads/pagina/arquivos/CONVOCACAO-DE-REUNIAO-EXTRAORDINARIA-PARA-OITIVAS.pdf', NULL); -- ID original: 504
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'PUBLICAÇÃO DO RESULTADO DA VOTAÇÃO', 'uploads/pagina/arquivos/PUBLICACAO-DO-RESULTADO-DA-VOTACAO.pdf', NULL); -- ID original: 505
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'IMPUGNACAO.pdf', 'uploads/pagina/arquivos/IMPUGNACAO.pdf', NULL); -- ID original: 506
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'AUDIOVISUAL-FRONTEIRA-PUBLICACOES1.pdf', 'uploads/pagina/arquivos/AUDIOVISUAL-FRONTEIRA-PUBLICACOES1.pdf', NULL); -- ID original: 511
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DEMAIS-AREAS-FRONTEIRA-PUBLICACOES1.pdf', 'uploads/pagina/arquivos/DEMAIS-AREAS-FRONTEIRA-PUBLICACOES1.pdf', NULL); -- ID original: 512
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EDITAL-DE-RETIFICACAO-012023-AUDIOVISUAL-11122023.pdf', 'uploads/pagina/arquivos/EDITAL-DE-RETIFICACAO-012023-AUDIOVISUAL-11122023.pdf', NULL); -- ID original: 514
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EDITAL-DE-RETIFICACAO-022023-DEMAIS-AREAS-11122023.pdf', 'uploads/pagina/arquivos/EDITAL-DE-RETIFICACAO-022023-DEMAIS-AREAS-11122023.pdf', NULL); -- ID original: 515
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EDITAL-RESULTADO-PROVISORIO.pdf', 'uploads/pagina/arquivos/EDITAL-RESULTADO-PROVISORIO.pdf', NULL); -- ID original: 516
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EDITAL-DE-RETIFICACAO-E-REMANEJAMENTO-AUDIOVISUAL-221223.pdf', 'uploads/pagina/arquivos/EDITAL-DE-RETIFICACAO-E-REMANEJAMENTO-AUDIOVISUAL-221223.pdf', NULL); -- ID original: 517
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EDITAL-DE-RETIFICACAO-E-REMANEJAMENTO-022023-DEMAIS-AREAS-221223.pdf', 'uploads/pagina/arquivos/EDITAL-DE-RETIFICACAO-E-REMANEJAMENTO-022023-DEMAIS-AREAS-221223.pdf', NULL); -- ID original: 518
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EDITAL-DE-PUBLICACAO-FINAL-E-HOMOLOGACAO-DOS-PROJETOS-SELECIONADOS-DEMAIS-AREAS-LC-1952022-LPG-26122023.pdf', 'uploads/pagina/arquivos/EDITAL-DE-PUBLICACAO-FINAL-E-HOMOLOGACAO-DOS-PROJETOS-SELECIONADOS-DEMAIS-AREAS-LC-1952022-LPG-26122023.pdf', NULL); -- ID original: 519
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EDITAL-DE-PUBLICACAO-FINAL-E-HOMOLOGACAO-DOS-PROJETOS-SELECIONADOS-AUDIO-VISUAL-LC-1952022-LPG-26122023.pdf', 'uploads/pagina/arquivos/EDITAL-DE-PUBLICACAO-FINAL-E-HOMOLOGACAO-DOS-PROJETOS-SELECIONADOS-AUDIO-VISUAL-LC-1952022-LPG-26122023.pdf', NULL); -- ID original: 520
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EXTRATO-TERMO-DE-EXECUCAO-CULTURAL-AUDIOVISUAL.pdf', 'uploads/pagina/arquivos/EXTRATO-TERMO-DE-EXECUCAO-CULTURAL-AUDIOVISUAL.pdf', NULL); -- ID original: 521
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EXTRATO-TERMO-DE-EXECUCAO-CULTURAL-DEMAIS-AREAS.pdf', 'uploads/pagina/arquivos/EXTRATO-TERMO-DE-EXECUCAO-CULTURAL-DEMAIS-AREAS.pdf', NULL); -- ID original: 522
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'CALENDARIO-CMDCA-1.pdf', 'uploads/pagina/arquivos/CALENDARIO-CMDCA-1.pdf', NULL); -- ID original: 523
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'CONVITE-POSSE-E-DIPLOMACAO-Conselho-Tutelar.jpg', 'uploads/pagina/arquivos/CONVITE-POSSE-E-DIPLOMACAO-Conselho-Tutelar.jpg', NULL); -- ID original: 525
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'TERMO-DE-POSSE.pdf', 'uploads/pagina/arquivos/TERMO-DE-POSSE.pdf', NULL); -- ID original: 526
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'RESOLUCAO-032-2023.pdf', 'uploads/pagina/arquivos/RESOLUCAO-032-2023.pdf', NULL); -- ID original: 527
+-- PÁGINA NÃO ENCONTRADA: 'CMDI - CONSELHO MUNICIPAL DE DIREITOS DO IDOSO' (idPagina CSV: 276)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'CONVITE-REUNIAO-02-DE-MAIO.pdf', 'uploads/pagina/arquivos/CONVITE-REUNIAO-02-DE-MAIO.pdf', NULL); -- ID original: 528
+-- PÁGINA NÃO ENCONTRADA: 'CMDI - CONSELHO MUNICIPAL DE DIREITOS DO IDOSO' (idPagina CSV: 276)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EDITAL-No-001-2024.pdf', 'uploads/pagina/arquivos/EDITAL-No-001-2024.pdf', NULL); -- ID original: 529
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2023' (idPagina CSV: 277)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '1o-BIMESTRE-2023-RREO-declaracao.pdf', 'uploads/pagina/arquivos/1o-BIMESTRE-2023-RREO-declaracao.pdf', NULL); -- ID original: 532
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2023' (idPagina CSV: 277)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '2o-BIMESTRE-2023-RREO-declaracao.pdf', 'uploads/pagina/arquivos/2o-BIMESTRE-2023-RREO-declaracao.pdf', NULL); -- ID original: 533
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2023' (idPagina CSV: 277)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '3o-BIMESTRE-2023-RREO-declaracao.pdf', 'uploads/pagina/arquivos/3o-BIMESTRE-2023-RREO-declaracao.pdf', NULL); -- ID original: 534
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2023' (idPagina CSV: 277)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '4-o-BIMESTRE-2023-RREO-declaracao.pdf', 'uploads/pagina/arquivos/4-o-BIMESTRE-2023-RREO-declaracao.pdf', NULL); -- ID original: 535
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2023' (idPagina CSV: 277)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '5o-BIMESTRE-2023-RREOdeclaracao.pdf', 'uploads/pagina/arquivos/5o-BIMESTRE-2023-RREOdeclaracao.pdf', NULL); -- ID original: 536
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2023' (idPagina CSV: 277)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '6o-BIMESTRE-2023-RREO-declaracao.pdf', 'uploads/pagina/arquivos/6o-BIMESTRE-2023-RREO-declaracao.pdf', NULL); -- ID original: 537
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2024' (idPagina CSV: 278)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '1o-BIMESTRE-DE-2024-RREO-declaracao.pdf', 'uploads/pagina/arquivos/1o-BIMESTRE-DE-2024-RREO-declaracao.pdf', NULL); -- ID original: 538
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Anexo-XII-Fronteira.pdf', 'uploads/pagina/arquivos/Anexo-XII-Fronteira.pdf', NULL); -- ID original: 545
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > Declaração' (idPagina CSV: 280)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DECLARACAO-DE-PUBLICACAO-DO-RREO-1.pdf', 'uploads/pagina/arquivos/DECLARACAO-DE-PUBLICACAO-DO-RREO-1.pdf', NULL); -- ID original: 548
+-- PÁGINA NÃO ENCONTRADA: 'Editais' (idPagina CSV: 274)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EDITAL PROCESSO DE ESCOLHA PARA MEMBROS REPRESENTANTES DE ENTIDADES E DA SOCIEDADE CIVIL NO CONSELHO MUNICIPAL DOS DIREITOS DA CRIANÇA E DO ADOLESCENTE - GESTÃO 2024/2026', 'uploads/pagina/arquivos/EDITAL-PROCESSO-DE-ESCOLHA-PARA-MEMBROS-REPRESENTANTES.pdf', NULL); -- ID original: 549
+-- PÁGINA NÃO ENCONTRADA: 'VTN' (idPagina CSV: 216)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'VTN 2024', 'uploads/pagina/arquivos/Oficio-VTN-2024-assinado.pdf', NULL); -- ID original: 550
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'DECRETO Nº7430', 'uploads/pagina/arquivos/DECRETO-N-7430-INSTITUI-A-COMISSAO-DE-SELECAO-DA-LEI-ALDIR-BLANC-COM-A-FINALIDADE-DE-DEFINIR-PAR.pdf', 31); -- ID original: 551, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'Plano Anual de Aplicação dos Recursos', 'uploads/pagina/arquivos/TYFA0386MG-MUNICIPIO-DE-FRONTEIRA.pdf', 31); -- ID original: 552, Página: Lei Aldir Blanc
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > PPA ' (idPagina CSV: 292)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-No-1974-DE-14-DE-OUTUBRO-DE-2021.pdf', 'uploads/pagina/arquivos/LEI-No-1974-DE-14-DE-OUTUBRO-DE-2021.pdf', NULL); -- ID original: 554
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > PPA ' (idPagina CSV: 292)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-No-1974-ANEXOS-PPA.pdf', 'uploads/pagina/arquivos/LEI-No-1974-ANEXOS-PPA.pdf', NULL); -- ID original: 556
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LDO > 2022' (idPagina CSV: 260)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-No-1972-DE-15-DE-SETEMRO-DE-2021.pdf', 'uploads/pagina/arquivos/LEI-No-1972-DE-15-DE-SETEMRO-DE-2021.pdf', NULL); -- ID original: 559
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LDO > 2022' (idPagina CSV: 260)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-No-1972-ANEXOS-LDO.pdf', 'uploads/pagina/arquivos/LEI-No-1972-ANEXOS-LDO.pdf', NULL); -- ID original: 560
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LDO > 2024' (idPagina CSV: 287)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-N-2067-DE-02-DE-OUTUBRO-DE-2023-DISPOE-SOBRE-AS-DIRETRIZES-PARA-ELABORACAO-E-EXECUCAO-DA-LEI.pdf', 'uploads/pagina/arquivos/LEI-N-2067-DE-02-DE-OUTUBRO-DE-2023-DISPOE-SOBRE-AS-DIRETRIZES-PARA-ELABORACAO-E-EXECUCAO-DA-LEI.pdf', NULL); -- ID original: 566
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LDO > 2024' (idPagina CSV: 287)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-N-267-ANEXO-LDO0001.pdf', 'uploads/pagina/arquivos/LEI-N-267-ANEXO-LDO0001.pdf', NULL); -- ID original: 567
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LDO > 2023' (idPagina CSV: 286)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LDO-LEI-2020-DE-14-DE-SETEMBRO-DE-2022-DIRETIZES-ELABORACAO-EXECUCAO-LEI-ORCAMENTARIA-EXERCICIO-2023.pdf', 'uploads/pagina/arquivos/LDO-LEI-2020-DE-14-DE-SETEMBRO-DE-2022-DIRETIZES-ELABORACAO-EXECUCAO-LEI-ORCAMENTARIA-EXERCICIO-2023.pdf', NULL); -- ID original: 568
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LDO > 2021' (idPagina CSV: 303)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-1924-DE-10-09-2020-DISPOE-SOBRE-AS-DIRETRIZES-PARA-ELABORACAO-E-EXECUCAO-DA-LEI-ORCAMENTARIA-.pdf', 'uploads/pagina/arquivos/LEI-1924-DE-10-09-2020-DISPOE-SOBRE-AS-DIRETRIZES-PARA-ELABORACAO-E-EXECUCAO-DA-LEI-ORCAMENTARIA-.pdf', NULL); -- ID original: 569
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LDO > 2021' (idPagina CSV: 303)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-N-1924-ANEXOS-LDO0001.pdf', 'uploads/pagina/arquivos/LEI-N-1924-ANEXOS-LDO0001.pdf', NULL); -- ID original: 570
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LOA > 2023' (idPagina CSV: 288)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-2045-DE-20-DE-DEZEMBRO-DE-2022-ESTIMA-RECEITA-E-FIXA-DESPESA-MUNICIPIO-PARA-EXERCICIO-20230.pdf', 'uploads/pagina/arquivos/LEI-2045-DE-20-DE-DEZEMBRO-DE-2022-ESTIMA-RECEITA-E-FIXA-DESPESA-MUNICIPIO-PARA-EXERCICIO-20230.pdf', NULL); -- ID original: 572
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LOA > 2022' (idPagina CSV: 257)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-No-1986-DE-15-DE-DEZEMBRO-DE-2021_(71).pdf', 'uploads/pagina/arquivos/LEI-No-1986-DE-15-DE-DEZEMBRO-DE-2021_(71).pdf', NULL); -- ID original: 573
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LOA > 2022' (idPagina CSV: 257)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-No-1986-ANEXOS-LOA_(711).pdf', 'uploads/pagina/arquivos/LEI-No-1986-ANEXOS-LOA_(711).pdf', NULL); -- ID original: 574
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LOA > 2024' (idPagina CSV: 290)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LEI-No-2074-DE-14-DE-DEZEMBRO-DE-2023-ESTIMA-A-RECEITA-E-FIXA-A-DESPESA-DO-MUNICIPIO-DE-FRONTEIRA-PARA-O-EXERCICIO-DE-2024-LOA.pdf', 'uploads/pagina/arquivos/LEI-No-2074-DE-14-DE-DEZEMBRO-DE-2023-ESTIMA-A-RECEITA-E-FIXA-A-DESPESA-DO-MUNICIPIO-DE-FRONTEIRA-PARA-O-EXERCICIO-DE-2024-LOA.pdf', NULL); -- ID original: 576
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2024' (idPagina CSV: 278)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '2º BIMESTRE DE 2024 RREO', 'uploads/pagina/arquivos/SICONFIRREOSimplificado5301BIMESTRAL2.pdf', NULL); -- ID original: 578
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2024' (idPagina CSV: 278)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '3º BIMESTRE DE 2024 RREO', 'uploads/pagina/arquivos/SICONFIRREOSimplificado5301BIMESTRAL3.pdf', NULL); -- ID original: 579
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > Repasse ao Legislativo.6' (idPagina CSV: 297)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-janeiro-2023.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-janeiro-2023.pdf', NULL); -- ID original: 580
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > Repasse ao Legislativo.6' (idPagina CSV: 297)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-fevereiro-2023.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-fevereiro-2023.pdf', NULL); -- ID original: 581
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > Repasse ao Legislativo.6' (idPagina CSV: 297)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-marco-2023.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-marco-2023.pdf', NULL); -- ID original: 582
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > Repasse ao Legislativo.6' (idPagina CSV: 297)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-abril-2023.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-abril-2023.pdf', NULL); -- ID original: 583
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > Repasse ao Legislativo.6' (idPagina CSV: 297)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-maio-2023.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-maio-2023.pdf', NULL); -- ID original: 584
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > Repasse ao Legislativo.6' (idPagina CSV: 297)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-junho-2023.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-junho-2023.pdf', NULL); -- ID original: 585
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > Repasse ao Legislativo.6' (idPagina CSV: 297)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-julho-2023.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-julho-2023.pdf', NULL); -- ID original: 586
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > Repasse ao Legislativo.6' (idPagina CSV: 297)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-agosto-2023.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-agosto-2023.pdf', NULL); -- ID original: 587
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > Repasse ao Legislativo.6' (idPagina CSV: 297)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-setembro-2023.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-setembro-2023.pdf', NULL); -- ID original: 588
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > Repasse ao Legislativo.6' (idPagina CSV: 297)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-outubro-2023.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-outubro-2023.pdf', NULL); -- ID original: 589
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > Repasse ao Legislativo.6' (idPagina CSV: 297)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-novembro-2023.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-novembro-2023.pdf', NULL); -- ID original: 590
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > Repasse ao Legislativo.6' (idPagina CSV: 297)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-dezembro-2023.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-dezembro-2023.pdf', NULL); -- ID original: 591
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2024' (idPagina CSV: 298)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-janeiro-2024.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-janeiro-2024.pdf', NULL); -- ID original: 592
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2024' (idPagina CSV: 298)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-fevereiro-2024.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-fevereiro-2024.pdf', NULL); -- ID original: 593
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2024' (idPagina CSV: 298)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-marco-2024.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-marco-2024.pdf', NULL); -- ID original: 594
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2024' (idPagina CSV: 298)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-abril-2024.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-abril-2024.pdf', NULL); -- ID original: 595
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2024' (idPagina CSV: 298)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-maio-2024.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-maio-2024.pdf', NULL); -- ID original: 596
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2024' (idPagina CSV: 298)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-junho-2024.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-junho-2024.pdf', NULL); -- ID original: 597
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2024' (idPagina CSV: 298)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-julho-2024.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-julho-2024.pdf', NULL); -- ID original: 598
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2024' (idPagina CSV: 298)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-agosto-2024.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-agosto-2024.pdf', NULL); -- ID original: 599
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2022' (idPagina CSV: 243)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCO-FINANCEIRO-2022.pdf', 'uploads/pagina/arquivos/BALANCO-FINANCEIRO-2022.pdf', NULL); -- ID original: 600
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2022' (idPagina CSV: 243)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCO-ORCAMENTARIO-2022.pdf', 'uploads/pagina/arquivos/BALANCO-ORCAMENTARIO-2022.pdf', NULL); -- ID original: 601
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2022' (idPagina CSV: 243)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCO-PATRIMONIAL-2022.pdf', 'uploads/pagina/arquivos/BALANCO-PATRIMONIAL-2022.pdf', NULL); -- ID original: 602
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2023' (idPagina CSV: 299)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCO-FINANCEIRO-2023.pdf', 'uploads/pagina/arquivos/BALANCO-FINANCEIRO-2023.pdf', NULL); -- ID original: 603
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2023' (idPagina CSV: 299)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCO-ORCAMENTARIO-2023.pdf', 'uploads/pagina/arquivos/BALANCO-ORCAMENTARIO-2023.pdf', NULL); -- ID original: 604
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2023' (idPagina CSV: 299)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCO-PATRIMONIAL-2023.pdf', 'uploads/pagina/arquivos/BALANCO-PATRIMONIAL-2023.pdf', NULL); -- ID original: 605
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'ANEXO-VII-DECLARACAO-ETNICO-RACIAL.docx', 'uploads/pagina/arquivos/ANEXO-VII-DECLARACAO-ETNICO-RACIAL.docx', 31); -- ID original: 607, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'ANEXO-V-RELATORIO-DE-OBJETO-DE-EXECUCAO-CULTURAL.docx', 'uploads/pagina/arquivos/ANEXO-V-RELATORIO-DE-OBJETO-DE-EXECUCAO-CULTURAL.docx', 31); -- ID original: 608, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'ANEXO-IX-FORMULARIO-DE-INTERPOSICAO-DE-RECURSO.docx', 'uploads/pagina/arquivos/ANEXO-IX-FORMULARIO-DE-INTERPOSICAO-DE-RECURSO.docx', 31); -- ID original: 609, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'ANEXO-I-CATEGORIAS-DE-APOIO.docx', 'uploads/pagina/arquivos/ANEXO-I-CATEGORIAS-DE-APOIO.docx', 31); -- ID original: 610, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'ANEXO-VIII-DECLARACAO-PCD.docx', 'uploads/pagina/arquivos/ANEXO-VIII-DECLARACAO-PCD.docx', 31); -- ID original: 611, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'ANEXO-VI-DECLARACAO-DE-REPRESENTACAO-DE-GRUPO-OU-COLETIVO.docx', 'uploads/pagina/arquivos/ANEXO-VI-DECLARACAO-DE-REPRESENTACAO-DE-GRUPO-OU-COLETIVO.docx', 31); -- ID original: 612, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'ANEXO-II-FORMULARIO-DE-INSCRICAO-PLANO-DE-TRABALHO.docx', 'uploads/pagina/arquivos/ANEXO-II-FORMULARIO-DE-INSCRICAO-PLANO-DE-TRABALHO.docx', 31); -- ID original: 613, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), '1EDITAL-FOMENTO-A-EXECUCAO-DE-ACOES-CULTURAIS-PNAB.docx', 'uploads/pagina/arquivos/1EDITAL-FOMENTO-A-EXECUCAO-DE-ACOES-CULTURAIS-PNAB.docx', 31); -- ID original: 614, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'ANEXO-IV-TERMO-DE-EXECUCAO-CULTURAL.docx', 'uploads/pagina/arquivos/ANEXO-IV-TERMO-DE-EXECUCAO-CULTURAL.docx', 31); -- ID original: 615, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'ANEXO-III-CRITERIOS-DE-SELECAO.docx', 'uploads/pagina/arquivos/ANEXO-III-CRITERIOS-DE-SELECAO.docx', 31); -- ID original: 616, Página: Lei Aldir Blanc
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ATA DE REUNIAO EXTRAORDINARIA 26/06/2024', 'uploads/pagina/arquivos/ATA-DE-REUNIAO-EXTRAORDINARIA-PRORROGACAO-DE-PRAZO-ITEM-13-ANEXO-IV.docx', NULL); -- ID original: 619
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DECRETO-No-7066-DE-01-DE-NOVEMBRO-DE-2023-1.pdf', 'uploads/pagina/arquivos/DECRETO-No-7066-DE-01-DE-NOVEMBRO-DE-2023-1.pdf', NULL); -- ID original: 620
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DECRETO-No-7140-DE-14-DE-DEZEMBRO-DE-2023-ASSINADO-1.pdf', 'uploads/pagina/arquivos/DECRETO-No-7140-DE-14-DE-DEZEMBRO-DE-2023-ASSINADO-1.pdf', NULL); -- ID original: 621
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'EDITAL-No-01-2024-Chamamento-publico-RESULTADO-PROVISORIO.pdf', 'uploads/pagina/arquivos/EDITAL-No-01-2024-Chamamento-publico-RESULTADO-PROVISORIO.pdf', 31); -- ID original: 622, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'ATA-DE-REUNIAO-ORDINARIA-COMISSAO-COMISSAO-DE-SELACAO-DA-LEI-ALDIR-BLANC-210824.docx', 'uploads/pagina/arquivos/ATA-DE-REUNIAO-ORDINARIA-COMISSAO-COMISSAO-DE-SELACAO-DA-LEI-ALDIR-BLANC-210824.docx', 31); -- ID original: 623, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'ATA-DE-REUNIAO-ORDINARIA-COMISSAO-COMISSAO-DE-SELACAO-DA-LEI-ALDIR-BLANC-09122024.docx', 'uploads/pagina/arquivos/ATA-DE-REUNIAO-ORDINARIA-COMISSAO-COMISSAO-DE-SELACAO-DA-LEI-ALDIR-BLANC-09122024.docx', 31); -- ID original: 624, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'EDITAL-No-01-2024-Chamamento-publico-RESULTADO-DEFINITIVO.pdf', 'uploads/pagina/arquivos/EDITAL-No-01-2024-Chamamento-publico-RESULTADO-DEFINITIVO.pdf', 31); -- ID original: 625, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'EDITAL-No-01-2024-Chamamento-publico-RESULTADO-DEFINITIVO_(76).pdf', 'uploads/pagina/arquivos/EDITAL-No-01-2024-Chamamento-publico-RESULTADO-DEFINITIVO_(76).pdf', 31); -- ID original: 626, Página: Lei Aldir Blanc
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'Extrato-Termo-de-execucao-cultural.pdf', 'uploads/pagina/arquivos/Extrato-Termo-de-execucao-cultural.pdf', 31); -- ID original: 628, Página: Lei Aldir Blanc
+-- PÁGINA NÃO ENCONTRADA: 'Eleições CAE 2025' (idPagina CSV: 317)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'EDITAL-DE-CONVOCACAO-DE-ELEICAO-CAE-2025-ASSINADO.pdf', 'uploads/pagina/arquivos/EDITAL-DE-CONVOCACAO-DE-ELEICAO-CAE-2025-ASSINADO.pdf', NULL); -- ID original: 629
+-- PÁGINA NÃO ENCONTRADA: 'Calendário Escolar' (idPagina CSV: 311)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Calendário letivo 2025', 'uploads/pagina/arquivos/CALENDARIO-2025.pdf', NULL); -- ID original: 630
+-- PÁGINA NÃO ENCONTRADA: 'Legislação, Diretrizes e Normas' (idPagina CSV: 316)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Resolução de Matrículas de creches', 'uploads/pagina/arquivos/RESOLUCAO-DE-MATRICULAS-INFANTIL-2025-FRONTEIRA1.pdf', NULL); -- ID original: 631
+-- PÁGINA NÃO ENCONTRADA: 'Legislação, Diretrizes e Normas' (idPagina CSV: 316)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Lista de crianças atendidas CMEIs - 2025', 'uploads/pagina/arquivos/LISTA-DE-CRIANCAS-ATENDIDAS-CMEIs-2025.xlsx', NULL); -- ID original: 632
+-- PÁGINA NÃO ENCONTRADA: 'Legislação, Diretrizes e Normas' (idPagina CSV: 316)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Decreto Nº 7.628 - Regulamenta a Lei Federal Nº15.100, de 13 de janeiro de 2025.', 'uploads/pagina/arquivos/DECRETO-No-7628-REGULAMENTA-A-LEI-FEDERAL-No-15100-DE-13-DE-JANEIRO-DE-20250001.pdf', NULL); -- ID original: 633
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2024' (idPagina CSV: 298)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-setembro-2024.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-setembro-2024.pdf', NULL); -- ID original: 634
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2024' (idPagina CSV: 298)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-outubro-2024.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-outubro-2024.pdf', NULL); -- ID original: 635
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2024' (idPagina CSV: 298)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-novembro-2024.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-novembro-2024.pdf', NULL); -- ID original: 636
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2024' (idPagina CSV: 298)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'repasse-duodecimo-dezembro-2024.pdf', 'uploads/pagina/arquivos/repasse-duodecimo-dezembro-2024.pdf', NULL); -- ID original: 637
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2020' (idPagina CSV: 229)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO NOV-2020', 'uploads/pagina/arquivos/repasse-duodecimo-novembro-2020.pdf', NULL); -- ID original: 639
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2020' (idPagina CSV: 229)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DUODÉCIMO DEZ-2020', 'uploads/pagina/arquivos/repasse-duodecimo-dezembro-2020.pdf', NULL); -- ID original: 640
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2019' (idPagina CSV: 230)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DOUDÉCIMO JAN-2019', 'uploads/pagina/arquivos/repasse-duodecimo-janeiro-2019.pdf', NULL); -- ID original: 641
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2019' (idPagina CSV: 230)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DOUDÉCIMO FEV-2019', 'uploads/pagina/arquivos/repasse-duodecimo-fevereiro-2019.pdf', NULL); -- ID original: 642
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2019' (idPagina CSV: 230)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DOUDÉCIMO MAR-2019', 'uploads/pagina/arquivos/repasse-duodecimo-marco-2019.pdf', NULL); -- ID original: 643
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2019' (idPagina CSV: 230)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DOUDÉCIMO ABR-2019', 'uploads/pagina/arquivos/repasse-duodecimo-abril-2019.pdf', NULL); -- ID original: 644
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2019' (idPagina CSV: 230)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DOUDÉCIMO MAI-2019', 'uploads/pagina/arquivos/repasse-duodecimo-maio-2019.pdf', NULL); -- ID original: 645
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2019' (idPagina CSV: 230)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DOUDÉCIMO JUN-2019', 'uploads/pagina/arquivos/repasse-duodecimo-junho-2019.pdf', NULL); -- ID original: 646
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2019' (idPagina CSV: 230)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DOUDÉCIMO JUL-2019', 'uploads/pagina/arquivos/repasse-duodecimo-julho-2019.pdf', NULL); -- ID original: 647
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2019' (idPagina CSV: 230)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DOUDÉCIMO AGO-2019', 'uploads/pagina/arquivos/repasse-duodecimo-agosto-2019.pdf', NULL); -- ID original: 648
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2019' (idPagina CSV: 230)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DOUDÉCIMO SET-2019', 'uploads/pagina/arquivos/repasse-duodecimo-setembro-2019.pdf', NULL); -- ID original: 649
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2019' (idPagina CSV: 230)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DOUDÉCIMO OUT-2019', 'uploads/pagina/arquivos/repasse-duodecimo-outubro-2019.pdf', NULL); -- ID original: 650
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2019' (idPagina CSV: 230)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DOUDÉCIMO NOV-2019', 'uploads/pagina/arquivos/repasse-duodecimo-novembro-2019.pdf', NULL); -- ID original: 651
+-- PÁGINA NÃO ENCONTRADA: 'Repasse ao Legislativo > 2019' (idPagina CSV: 230)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DOUDÉCIMO DEZ-2019', 'uploads/pagina/arquivos/repasse-duodecimo-dezembro-2019.pdf', NULL); -- ID original: 652
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Demonstrativos Fiscais : anexos > RGF - Relatório de gestão fiscal > ' (idPagina CSV: 305)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'RGF 1º SEMESTRE-2024', 'uploads/pagina/arquivos/SICONFIRGFSimplificado5301SEMESTRAL1.pdf', NULL); -- ID original: 653
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Demonstrativos Fiscais : anexos > RGF - Relatório de gestão fiscal > ' (idPagina CSV: 305)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'RGF 2º SEMESTRE-2024', 'uploads/pagina/arquivos/SICONFIRGFSimplificado5301SEMESTRAL2.pdf', NULL); -- ID original: 654
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2024' (idPagina CSV: 278)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '4º BIMESTRE DE 2024 RREO', 'uploads/pagina/arquivos/SICONFIRREOSimplificado5301BIMESTRAL4.pdf', NULL); -- ID original: 655
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2024' (idPagina CSV: 278)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '5º BIMESTRE DE 2024 RREO', 'uploads/pagina/arquivos/SICONFIRREOSimplificado5301BIMESTRAL5.pdf', NULL); -- ID original: 656
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > RREO > 2024' (idPagina CSV: 278)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '6º BIMESTRE DE 2024 RREO', 'uploads/pagina/arquivos/SICONFIRREOSimplificado5301BIMESTRAL6.pdf', NULL); -- ID original: 658
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO III 1º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-III-2024-1-BIMESTRE.pdf', NULL); -- ID original: 659
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO III 2º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-III-2024-2-BIMESTRE.pdf', NULL); -- ID original: 660
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO III 3º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-III-2024-3-BIMESTRE.pdf', NULL); -- ID original: 661
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO III 4º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-III-2024-4-BIMESTRE.pdf', NULL); -- ID original: 662
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO III 5º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-III-2024-5-BIMESTRE.pdf', NULL); -- ID original: 663
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO III 6º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-III-2024-6-BIMESTRE.pdf', NULL); -- ID original: 664
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO IV 1º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-IV-2024-1-BIMESTRE.pdf', NULL); -- ID original: 665
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO IV 2º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-IV-2024-2-BIMESTRE.pdf', NULL); -- ID original: 666
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO IV 3º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-IV-2024-3-BIMESTRE.pdf', NULL); -- ID original: 667
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO IV 4º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-IV-2024-4-BIMESTRE.pdf', NULL); -- ID original: 668
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO IV 5º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-IV-2024-5-BIMESTRE.pdf', NULL); -- ID original: 669
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO IV 6º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-IV-2024-6-BIMESTRE.pdf', NULL); -- ID original: 670
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO VIII 1º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-VIII-2024-1-BIMESTRE.pdf', NULL); -- ID original: 671
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO VIII 2º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-VIII-2024-2-BIMESTRE.pdf', NULL); -- ID original: 672
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO VIII 3º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-VIII-2024-3-BIMESTRE.pdf', NULL); -- ID original: 673
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO VIII 4º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-VIII-2024-4-BIMESTRE.pdf', NULL); -- ID original: 674
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO VIII 5º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-VIII-2024-5-BIMESTRE.pdf', NULL); -- ID original: 675
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO VIII 6º BIMESTRE-2024', 'uploads/pagina/arquivos/ANEXO-VIII-2024-6-BIMESTRE.pdf', NULL); -- ID original: 676
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2024' (idPagina CSV: 300)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANÇO FINANCEIRO-2024', 'uploads/pagina/arquivos/BALANCO-FINANCEIRO-2024-ANUAL.pdf', NULL); -- ID original: 677
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2024' (idPagina CSV: 300)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANÇO ORÇAMENTARIO-2024', 'uploads/pagina/arquivos/BALANCO-ORCAMENTARIO-2024-DEZEMBRO.pdf', NULL); -- ID original: 678
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2024' (idPagina CSV: 300)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANÇO PATRIMONIAL-2024', 'uploads/pagina/arquivos/BALANCO-PATRIMONIAL-2024-ANUAL.pdf', NULL); -- ID original: 679
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balanços > 2024' (idPagina CSV: 300)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DEMOSTRATIVO DAS VARIAÇÕES PATRIMONIAIS 2024', 'uploads/pagina/arquivos/DEMOSNTRACAO-DAS-VARIACOES-PATRIMONIAIS-2024-ANUAL.pdf', NULL); -- ID original: 680
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DEMOSTRATIVO DOS GASTOS COM PESSOAL 1º SEMESTRE-2024', 'uploads/pagina/arquivos/1-SEMESTRE-2024-DEMONSTRATIVO-DOS-GASTOS-COM-PESSOAL.pdf', NULL); -- ID original: 681
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'DEMOSTRATIVO DOS GASTOS COM PESSOAL 2º SEMESTRE-2024', 'uploads/pagina/arquivos/2-SEMESTRE-2024-DEMONSTRATIVO-DOS-GASTOS-COM-PESSOAL.pdf', NULL); -- ID original: 682
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2024' (idPagina CSV: 294)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA JAN-2024', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-JAN-2024.pdf', NULL); -- ID original: 683
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2024' (idPagina CSV: 294)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA FEV-2024', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-FEV-2024.pdf', NULL); -- ID original: 684
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2024' (idPagina CSV: 294)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA MAR-2024', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-MAR-2024.pdf', NULL); -- ID original: 685
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2024' (idPagina CSV: 294)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA  ABR-2024', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-ABR-2024.pdf', NULL); -- ID original: 686
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2024' (idPagina CSV: 294)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA  MAI-2024', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-MAI-2024.pdf', NULL); -- ID original: 687
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2024' (idPagina CSV: 294)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA  JUN-2024', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-JUN-2024.pdf', NULL); -- ID original: 688
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2024' (idPagina CSV: 294)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA  JUL-2024', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-JUL-2024.pdf', NULL); -- ID original: 689
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2024' (idPagina CSV: 294)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA  AGO-2024', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-AGO-2024.pdf', NULL); -- ID original: 690
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2024' (idPagina CSV: 294)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA  SET-2024', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-SET-2024.pdf', NULL); -- ID original: 691
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2024' (idPagina CSV: 294)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA  OUT-2024', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-OUT-2024.pdf', NULL); -- ID original: 692
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2024' (idPagina CSV: 294)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA  NOV-2024', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-NOV-2024.pdf', NULL); -- ID original: 693
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2024' (idPagina CSV: 294)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA  DEZ-2024', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-DEZ-2024.pdf', NULL); -- ID original: 694
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2024' (idPagina CSV: 295)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA JAN-2024', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-JAN-2024.pdf', NULL); -- ID original: 696
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2024' (idPagina CSV: 295)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA FEV-2024', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-FEV-2024.pdf', NULL); -- ID original: 697
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2024' (idPagina CSV: 295)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA MAR-2024', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-MAR-2024.pdf', NULL); -- ID original: 698
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2024' (idPagina CSV: 295)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA ABR-2024', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-ABR-2024.pdf', NULL); -- ID original: 699
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2024' (idPagina CSV: 295)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA MAI-2024', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-MAI-2024.pdf', NULL); -- ID original: 700
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2024' (idPagina CSV: 295)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA JUN-2024', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-JUN-2024.pdf', NULL); -- ID original: 701
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2024' (idPagina CSV: 295)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA JUL-2024', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-JUL-2024.pdf', NULL); -- ID original: 702
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2024' (idPagina CSV: 295)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA AGO-2024', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-AGO-2024.pdf', NULL); -- ID original: 703
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2024' (idPagina CSV: 295)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA SET-2024', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-SET-2024.pdf', NULL); -- ID original: 704
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2024' (idPagina CSV: 295)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA OUT-2024', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-OUT-2024.pdf', NULL); -- ID original: 705
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2024' (idPagina CSV: 295)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA NOV-2024', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-NOV-2024.pdf', NULL); -- ID original: 706
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2024' (idPagina CSV: 295)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA DEZ-2024', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-DEZ-2024.pdf', NULL); -- ID original: 707
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2023' (idPagina CSV: 293)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA JAN-2023', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-JAN-2023.pdf', NULL); -- ID original: 708
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2023' (idPagina CSV: 293)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA FEV-2023', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-FEV-2023.pdf', NULL); -- ID original: 709
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2023' (idPagina CSV: 293)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA MAR-2023', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-MAR-2023.pdf', NULL); -- ID original: 710
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2023' (idPagina CSV: 293)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA ABR-2023', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-ABR-2023.pdf', NULL); -- ID original: 711
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2023' (idPagina CSV: 293)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA MAI-2023', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-MAI-2023.pdf', NULL); -- ID original: 712
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2023' (idPagina CSV: 293)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA JUN-2023', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-JUN-2023.pdf', NULL); -- ID original: 713
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2023' (idPagina CSV: 293)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA JUL-2023', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-JUL-2023.pdf', NULL); -- ID original: 714
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2023' (idPagina CSV: 293)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA AGO-2023', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-AGO-2023.pdf', NULL); -- ID original: 715
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2023' (idPagina CSV: 293)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA SET-2023', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-SET-2023.pdf', NULL); -- ID original: 716
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2023' (idPagina CSV: 293)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA OUT-2023', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-OUT-2023.pdf', NULL); -- ID original: 717
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2023' (idPagina CSV: 293)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA NOV-2023', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-NOV-2023.pdf', NULL); -- ID original: 718
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2023' (idPagina CSV: 293)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA DEZ-2023', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-DEZ-2023.pdf', NULL); -- ID original: 719
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2023' (idPagina CSV: 296)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA JAN-2023', 'uploads/pagina/arquivos/BALANCETE-DA-RECEITA-JAN-2023.pdf', NULL); -- ID original: 720
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2023' (idPagina CSV: 296)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA FEV-2023', 'uploads/pagina/arquivos/BALANCETE-DA-RECEITA-FEV-2023.pdf', NULL); -- ID original: 721
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2023' (idPagina CSV: 296)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA MAR-2023', 'uploads/pagina/arquivos/BALANCETE-DA-RECEITA-MAR-2023.pdf', NULL); -- ID original: 722
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2023' (idPagina CSV: 296)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA ABR-2023', 'uploads/pagina/arquivos/BALANCETE-DA-RECEITA-ABR-2023.pdf', NULL); -- ID original: 723
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2023' (idPagina CSV: 296)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA MAI-2023', 'uploads/pagina/arquivos/BALANCETE-DA-RECEITA-MAI-2023.pdf', NULL); -- ID original: 724
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2023' (idPagina CSV: 296)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA JUN-2023', 'uploads/pagina/arquivos/BALANCETE-DA-RECEITA-JUN-2023.pdf', NULL); -- ID original: 725
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2023' (idPagina CSV: 296)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA JUL-2023', 'uploads/pagina/arquivos/BALANCETE-DA-RECEITA-JUL-2023.pdf', NULL); -- ID original: 726
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2023' (idPagina CSV: 296)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA AGO-2023', 'uploads/pagina/arquivos/BALANCETE-DA-RECEITA-AGO-2023.pdf', NULL); -- ID original: 727
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2023' (idPagina CSV: 296)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA  SET-2023', 'uploads/pagina/arquivos/BALANCETE-DA-RECEITA-SET-2023.pdf', NULL); -- ID original: 728
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2023' (idPagina CSV: 296)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA  OUT-2023', 'uploads/pagina/arquivos/BALANCETE-DA-RECEITA-OUT-2023.pdf', NULL); -- ID original: 729
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2023' (idPagina CSV: 296)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA  NOV-2023', 'uploads/pagina/arquivos/BALANCETE-DA-RECEITA-NOV-2023.pdf', NULL); -- ID original: 730
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2023' (idPagina CSV: 296)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA RECEITA  DEZ-2023', 'uploads/pagina/arquivos/BALANCETE-DA-RECEITA-DEZ-2023.pdf', NULL); -- ID original: 731
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2019' (idPagina CSV: 219)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA JAN-2019', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-JAN-2019.pdf', NULL); -- ID original: 732
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2019' (idPagina CSV: 219)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA FEV-2019', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-FEV-2019.pdf', NULL); -- ID original: 733
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2019' (idPagina CSV: 219)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA MAR-2019', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-MAR-2019.pdf', NULL); -- ID original: 734
+-- PÁGINA NÃO ENCONTRADA: 'Despesas > 2019' (idPagina CSV: 219)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE DA DESPESA ABR-2019', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-ABR-2019.pdf', NULL); -- ID original: 735
+-- PÁGINA NÃO ENCONTRADA: 'Conselho Municipal do FUNDEB' (idPagina CSV: 314)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Decreto - N - 6688-27-12-2022', 'uploads/pagina/arquivos/DECRETO-N-6688-27-12-2022-20250407165914.pdf', NULL); -- ID original: 736
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'Lei Nº 838 de 15 de outubro de 1997', 'uploads/pagina/arquivos/LEI-838-15-10-1997-CME.pdf', 11); -- ID original: 737, Página: Conselho Municipal de Educação
+INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+(1, NOW(), NOW(), 'Decreto Nº 6687 de 27 de dezembro de 2022', 'uploads/pagina/arquivos/DECRETO-6687-NOMEIA-MEMBROS-E-SUPLENTES-CONSELHO-MUNIC-EDUCACAO.pdf', 11); -- ID original: 738, Página: Conselho Municipal de Educação
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LOA > 2025' (idPagina CSV: 321)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LOA 2025', 'uploads/pagina/arquivos/LEI-N-2127-DE-16-DE-DEZEMBRO-DE-2024-ESTIMA-A-RECEITA-E-FIXA-A-DESPESA-DO-MUNICIPIO-DE-FRONTEIRA-PARA-O-EXERCICIO-FINANCEIRO-DE-2025-1.pdf', NULL); -- ID original: 749
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LDO > 2025' (idPagina CSV: 320)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LDO 2025', 'uploads/pagina/arquivos/LEI-N-2108-DE-25-DE-SETEMBRO-DE-2024-DISPOE-SOBRE-AS-DIRETRIZES-PARA-ELABORACAO-E-EXECUCAO-DA-LEI-ORCAMENTARIA-PARA-O-EXERCICIO-FINANCEIRO-DE-20250001-1.pdf', NULL); -- ID original: 750
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO III 3º - 1º BIMESTRE-2025', 'uploads/pagina/arquivos/ANEXO-III-1o-BIMESTRE-2025-PAGO.pdf', NULL); -- ID original: 753
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO III 3º - 1º BIMESTRE-2025', 'uploads/pagina/arquivos/ANEXO-III-1o-BIMESTRE-2025-LIQUIDADO.pdf', NULL); -- ID original: 754
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO IV 5º - 1ºBIMESTRE - 2025', 'uploads/pagina/arquivos/ANEXO-IV-1o-BIMESTRE-2025-LIQUIDADO.pdf', NULL); -- ID original: 758
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO IV 5º - 1ºBIMESTRE - 2025', 'uploads/pagina/arquivos/ANEXO-IV-1o-BIMESTRE-2025-PAGO-BRUTO.pdf', NULL); -- ID original: 759
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO VIII 6º - 1ºBIMESTRE - 2025', 'uploads/pagina/arquivos/ANEXO-VIII-1o-BIMESTRE-2025-LIQUIDADO.pdf', NULL); -- ID original: 760
+-- PÁGINA NÃO ENCONTRADA: 'Demonstrativos Fiscais : anexos > Prestação de contas- tribunal de contas-TCEMG' (idPagina CSV: 281)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ANEXO VIII 6º - 1ºBIMESTRE - 2025', 'uploads/pagina/arquivos/ANEXO-VIII-1o-BIMESTRE-2025-PAGO.pdf', NULL); -- ID original: 761
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Demonstrativos Fiscais : anexos > RREO - Relatórios resumido da execu' (idPagina CSV: 326)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), '1º  BIMESTRE DE 2025 RREO', 'uploads/pagina/arquivos/1o-BIMESTRE-2025-RREO.pdf', NULL); -- ID original: 763
+-- PÁGINA NÃO ENCONTRADA: 'Conselho Municipal do FUNDEB' (idPagina CSV: 314)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Lei - No - 1939-De-25-de-março-de-2021', 'uploads/pagina/arquivos/LEI-No-1939-DE-25-DE-MARCO-DE-2021.pdf', NULL); -- ID original: 764
+-- PÁGINA NÃO ENCONTRADA: 'Conselho de Alimentação Escolar' (idPagina CSV: 315)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'REGIMENTO-CAE-ATUALIZADO-21-11-1', 'uploads/pagina/arquivos/REGIMENTO-CAE-ATUALIZADO-21-11-1.odt', NULL); -- ID original: 765
+-- PÁGINA NÃO ENCONTRADA: 'Legislação, Diretrizes e Normas' (idPagina CSV: 316)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Lista de crianças atendidas CMEIs - 2025', 'uploads/pagina/arquivos/LISTA-DE-CRIANCAS-ATENDIDAS-DE-MARCO-A-MAIO-2025.xlsx', NULL); -- ID original: 766
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Orçamento > LOA > 2021' (idPagina CSV: 256)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'LOA 2020', 'uploads/pagina/arquivos/LEI-No-1933-LOA-2020.pdf', NULL); -- ID original: 767
+-- PÁGINA NÃO ENCONTRADA: 'Legislação, Diretrizes e Normas' (idPagina CSV: 316)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Curriculo-Municipal-de-Fronteira', 'uploads/pagina/arquivos/CURRICULO-MUNICIPAL-DE-FRONTEIRA.pdf', NULL); -- ID original: 768
+-- PÁGINA NÃO ENCONTRADA: 'Conselho Municipal do FUNDEB' (idPagina CSV: 314)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ATA-N-04-2024-DE-REUNIAO-DE-ANALISE-DAS-PASTAS-DO-QUARTO-TRIMESTRE-2023-DO-CACS-FUNDEB-2023-2026-20250715150541.pdf', 'uploads/pagina/arquivos/ATA-N-04-2024-DE-REUNIAO-DE-ANALISE-DAS-PASTAS-DO-QUARTO-TRIMESTRE-2023-DO-CACS-FUNDEB-2023-2026-20250715150541.pdf', NULL); -- ID original: 769
+-- PÁGINA NÃO ENCONTRADA: 'Conselho Municipal do FUNDEB' (idPagina CSV: 314)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ATA-N-05-2024-ATA-DE-REUNIAO-DE-ANALISE-DAS-PASTAS-DO-PRIMEIRO-TRIMESTRE-DO-CACS-FUNDEB-2023-2026-202507151517011.pdf', 'uploads/pagina/arquivos/ATA-N-05-2024-ATA-DE-REUNIAO-DE-ANALISE-DAS-PASTAS-DO-PRIMEIRO-TRIMESTRE-DO-CACS-FUNDEB-2023-2026-202507151517011.pdf', NULL); -- ID original: 770
+-- PÁGINA NÃO ENCONTRADA: 'Conselho Municipal do FUNDEB' (idPagina CSV: 314)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ATA-N-06-2024-ATA-DE-REUNIAO-DE-ANALISE-DAS-PASTAS-DO-SEGUNDO-TRIMESTRE-DO-CASC-FUNDEB-2023-2026-20250715153055.pdf', 'uploads/pagina/arquivos/ATA-N-06-2024-ATA-DE-REUNIAO-DE-ANALISE-DAS-PASTAS-DO-SEGUNDO-TRIMESTRE-DO-CASC-FUNDEB-2023-2026-20250715153055.pdf', NULL); -- ID original: 771
+-- PÁGINA NÃO ENCONTRADA: 'Conselhos municipais > CMAS - Conselho Municipal de Assistência Social' (idPagina CSV: 329)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Resolucao-CMAS-n-10-2025.pdf', 'uploads/pagina/arquivos/Resolucao-CMAS-n-10-2025.pdf', NULL); -- ID original: 772
+-- PÁGINA NÃO ENCONTRADA: 'Legislação, Diretrizes e Normas' (idPagina CSV: 316)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Lista de espera atualizada', 'uploads/pagina/arquivos/ANEXO-III-LISTA-DE-ESPERA-ATUALIZADA.docx', NULL); -- ID original: 773
+-- PÁGINA NÃO ENCONTRADA: 'LEI PAULO GUSTAVO' (idPagina CSV: 275)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ATA DA REUNIÃO ORDINÁRIA DA COMISSÃO DE SELEÇÃO DE MÉRITO CULTURAL DO MUNICIPIO DE FRONTEIRA - LEI COMPLEMENTAR 195-2022 - LEI PAULO GUSTAVO 27/12/2024', 'uploads/pagina/arquivos/ATA-DA-REUNIAO-ORDINARIA-DA-COMISSAO-DE-SELECAO-DE-MERITO-CULTURAL-DO-MUNICIPIO-DE-FRONTEIRA-LEI-COMPLEMENTAR-195-2022-LEI-PAULO-GUSTAVO.pdf', NULL); -- ID original: 775
+-- PÁGINA NÃO ENCONTRADA: 'Conselho Municipal do FUNDEB' (idPagina CSV: 314)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'ATA-N07-2024-ATA-DE-REUNIAO-DE-ANALISE-DAS-PASTAS-DO-TERCEIRO-TRIMESTRE-DO-CONSELHO-MUNICIPAL-DO-CACS-FUNDEB.pdf', 'uploads/pagina/arquivos/ATA-N07-2024-ATA-DE-REUNIAO-DE-ANALISE-DAS-PASTAS-DO-TERCEIRO-TRIMESTRE-DO-CONSELHO-MUNICIPAL-DO-CACS-FUNDEB.pdf', NULL); -- ID original: 778
+-- PÁGINA NÃO ENCONTRADA: 'PCA' (idPagina CSV: 330)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'PCA 2025', 'uploads/pagina/arquivos/PCA2025CONSOLIDADOFINAL.pdf', NULL); -- ID original: 779
+-- PÁGINA NÃO ENCONTRADA: 'Conselhos municipais > CMAS - Conselho Municipal de Assistência Social' (idPagina CSV: 329)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'Resolucao-CMAS-no-12-2025.pdf', 'uploads/pagina/arquivos/Resolucao-CMAS-no-12-2025.pdf', NULL); -- ID original: 780
+-- PÁGINA NÃO ENCONTRADA: 'VTN' (idPagina CSV: 216)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'VTN 2025', 'uploads/pagina/arquivos/VTN-2025-EMATER.pdf', NULL); -- ID original: 781
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2025' (idPagina CSV: 324)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCO-DA-RECEITA-JAN-2025.', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-JAN-2025.pdf', NULL); -- ID original: 782
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2025' (idPagina CSV: 324)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCO-DA-RECEITA-FEV-2025.', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-FEV-2025.pdf', NULL); -- ID original: 783
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2025' (idPagina CSV: 324)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCO-DA-RECEITA-MAR-2025.', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-MAR-2025.pdf', NULL); -- ID original: 784
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2025' (idPagina CSV: 324)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCO-DA-RECEITA-ABR-2025.', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-ABR-2025.pdf', NULL); -- ID original: 785
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2025' (idPagina CSV: 324)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCO-DA-RECEITA-MAI-2025.', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-MAI-2025.pdf', NULL); -- ID original: 786
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2025' (idPagina CSV: 324)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCO-DA-RECEITA-JUN-2025.', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-JUN-2025.pdf', NULL); -- ID original: 787
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Receitas > 2025' (idPagina CSV: 324)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCO-DA-RECEITA-JUL-2025.', 'uploads/pagina/arquivos/BALANCO-DA-RECEITA-JUL-2025.pdf', NULL); -- ID original: 788
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2025' (idPagina CSV: 323)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE-DA-DESPESA-JAN-2025.', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-JAN-2025.pdf', NULL); -- ID original: 789
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2025' (idPagina CSV: 323)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE-DA-DESPESA-FEV-2025.', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-FEV-2025.pdf', NULL); -- ID original: 790
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2025' (idPagina CSV: 323)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE-DA-DESPESA-MAR-2025.', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-MAR-2025.pdf', NULL); -- ID original: 791
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2025' (idPagina CSV: 323)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE-DA-DESPESA-ABR-2025.', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-ABR-2025.pdf', NULL); -- ID original: 792
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2025' (idPagina CSV: 323)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE-DA-DESPESA-MAI-2025.', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-MAI-2025.pdf', NULL); -- ID original: 793
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2025' (idPagina CSV: 323)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE-DA-DESPESA-JUN-2025.', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-JUN-2025.pdf', NULL); -- ID original: 794
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Balancetes > Despesas > 2025' (idPagina CSV: 323)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'BALANCETE-DA-DESPESA-JUL-2025.', 'uploads/pagina/arquivos/BALANCETE-DA-DESPESA-JUL-2025.pdf', NULL); -- ID original: 795
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2025' (idPagina CSV: 318)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'REPASSE-DUODECIMO-JANEIRO-2025.', 'uploads/pagina/arquivos/REPASSE-DUODECIMO-JANEIRO-2025.pdf', NULL); -- ID original: 796
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2025' (idPagina CSV: 318)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'REPASSE-DUODECIMO-FEVEREIRO-2025.', 'uploads/pagina/arquivos/REPASSE-DUODECIMO-FEVEREIRO-2025.pdf', NULL); -- ID original: 797
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2025' (idPagina CSV: 318)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'REPASSE-DUODECIMO-MARCO-2025.', 'uploads/pagina/arquivos/REPASSE-DUODECIMO-MARCO-2025.pdf', NULL); -- ID original: 798
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2025' (idPagina CSV: 318)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'REPASSE-DUODECIMO-ABRIL-2025.', 'uploads/pagina/arquivos/REPASSE-DUODECIMO-ABRIL-2025.pdf', NULL); -- ID original: 799
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2025' (idPagina CSV: 318)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'REPASSE-DUODECIMO-MAIO-2025.', 'uploads/pagina/arquivos/REPASSE-DUODECIMO-MAIO-2025.pdf', NULL); -- ID original: 800
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2025' (idPagina CSV: 318)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'REPASSE-DUODECIMO-JUNHO-2025.', 'uploads/pagina/arquivos/REPASSE-DUODECIMO-JUNHO-2025.pdf', NULL); -- ID original: 801
+-- PÁGINA NÃO ENCONTRADA: 'Contábil > Repasse ao Legislativo > 2025' (idPagina CSV: 318)
+-- INSERT INTO `paginas_anexos` (`ativo`, `created_at`, `updated_at`, `nome`, `arquivo`, `pagina`) VALUES
+-- (1, NOW(), NOW(), 'REPASSE-DUODECIMO-JULHO-2025.', 'uploads/pagina/arquivos/REPASSE-DUODECIMO-JULHO-2025.pdf', NULL); -- ID original: 802
+
+-- Reabilita verificação de chaves estrangeiras
+SET FOREIGN_KEY_CHECKS = 1;
