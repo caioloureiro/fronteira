@@ -90,28 +90,80 @@ if ( $conn->query( $sql ) === TRUE ) {
 	$minuto_anterior = date('Y-m-d-H-i', strtotime('-1 minute'));
 	$arquivos = array_merge($arquivos, glob($pasta_uploads . $minuto_anterior . '*'));
 	
+	// Normalizar caminho do edital para comparação
+	$arquivo_edital = str_replace('uploads/', '', $edital);
+	
 	foreach($arquivos as $arquivo_path) {
 		$nome_arquivo = basename($arquivo_path);
 		$nome_original = $nome_arquivo; // Pode ser melhorado para recuperar o nome original
 		
-		// Inserir anexo na tabela licitacoes_anexos
-		$sql_anexo = "INSERT INTO licitacoes_anexos (
-			ativo,
-			created_at,
-			updated_at,
-			nome, 
-			arquivo, 
-			licitacao
-		) VALUES (
-			1,
-			'". $hoje ."',
-			'". $hoje ."', 
-			'". addslashes($nome_original) ."', 
-			'". addslashes($nome_arquivo) ."', 
-			'". $licitacao_id ."' 
-		)";
+		// Normalizar nome do arquivo para comparação
+		$nome_arquivo_comparar = str_replace('uploads/', '', $nome_arquivo);
 		
-		$conn->query($sql_anexo);
+		// CRÍTICO: Verificar se não é o mesmo arquivo do edital
+		if($nome_arquivo_comparar != $arquivo_edital && !empty($arquivo_edital)) {
+			// Inserir anexo na tabela licitacoes_anexos
+			$sql_anexo = "INSERT INTO licitacoes_anexos (
+				ativo,
+				created_at,
+				updated_at,
+				nome, 
+				arquivo, 
+				licitacao
+			) VALUES (
+				1,
+				'". $hoje ."',
+				'". $hoje ."', 
+				'". addslashes($nome_original) ."', 
+				'". addslashes($nome_arquivo) ."', 
+				'". $licitacao_id ."' 
+			)";
+			
+			$conn->query($sql_anexo);
+		}
+	}
+	
+	// Processar anexos do servidor selecionados na interface
+	if(isset($_POST['anexos_servidor']) && is_array($_POST['anexos_servidor'])) {
+		foreach($_POST['anexos_servidor'] as $anexo_servidor) {
+			// Limpar e validar nome do arquivo
+			$anexo_servidor = trim($anexo_servidor);
+			
+			// Normalizar nomes para comparação
+			$anexo_servidor_comparar = str_replace('uploads/', '', $anexo_servidor);
+			$arquivo_edital_comparar = str_replace('uploads/', '', $arquivo_edital);
+			
+			// CRÍTICO: Verificar se não é o mesmo arquivo do edital
+			if($anexo_servidor_comparar != $arquivo_edital_comparar && !empty($anexo_servidor)) {
+				// Verificar se o arquivo existe no servidor
+				$caminho_arquivo_servidor = $raiz_site . 'uploads/' . $anexo_servidor;
+				if(file_exists($caminho_arquivo_servidor)) {
+					
+					// Verificar se já não foi inserido (evitar duplicatas)
+					$check_anexo = $conn->query("SELECT id FROM licitacoes_anexos WHERE licitacao = " . intval($licitacao_id) . " AND arquivo = '" . addslashes($anexo_servidor) . "' AND ativo = 1");
+					
+					if (!$check_anexo || $check_anexo->num_rows == 0) {
+						$sql_anexo_servidor = "INSERT INTO licitacoes_anexos (
+							ativo,
+							created_at,
+							updated_at,
+							nome, 
+							arquivo, 
+							licitacao
+						) VALUES (
+							1,
+							'". $hoje ."',
+							'". $hoje ."', 
+							'". addslashes($anexo_servidor) ."', 
+							'". addslashes($anexo_servidor) ."', 
+							'". $licitacao_id ."' 
+						)";
+						
+						$conn->query($sql_anexo_servidor);
+					}
+				}
+			}
+		}
 	}
 	
 	$sql_log = "INSERT INTO rastrear_usuario (usuario, descricao, horario) VALUES ('". $_COOKIE['fronteira_ADMIN_SESSION_usuario'] ." - ". $_SERVER['REMOTE_ADDR'] ."','Tabela: licitacoes. Criou o item ". $nome ." com " . count($arquivos) . " anexos','". date( 'Y-m-d H:i:s' ) ."')";

@@ -397,9 +397,15 @@ require $raiz_site .'model/admin_user.php';
 								foreach($licitacoes_anexos_array as $anexo) {
 									// Forçar comparação como inteiros e excluir o arquivo do edital
 									if(intval($anexo['licitacao']) == intval($item['id']) && 
-									   intval($anexo['ativo']) == 1 && 
-									   $anexo['arquivo'] != $item['edital']) {
-										$anexos_existentes[] = $anexo;
+									   intval($anexo['ativo']) == 1) {
+										
+										// Excluir se o arquivo do anexo for igual ao arquivo do edital
+										$arquivo_anexo = str_replace('uploads/', '', $anexo['arquivo']);
+										$arquivo_edital = str_replace('uploads/', '', $item['edital']);
+										
+									   if($arquivo_anexo != $arquivo_edital) {
+											$anexos_existentes[] = $anexo;
+									   }
 									}
 								}
 						}
@@ -787,6 +793,25 @@ require $raiz_site .'model/admin_user.php';
 			}
 			
 			function adicionarArquivoComoAnexo(nomeArquivo) {
+				// Verificar se o arquivo já está sendo usado como edital
+				const editalAtual = document.querySelector('[name="edital"]').value;
+				const arquivoEdital = editalAtual.replace('uploads/', '');
+				const arquivoAnexo = nomeArquivo.replace('uploads/', '');
+				
+				if(arquivoAnexo === arquivoEdital && arquivoEdital !== '') {
+					alert('❌ ERRO: Este arquivo já está sendo usado como EDITAL da licitação.\n\nO EDITAL não pode ser adicionado como anexo.');
+					return;
+				}
+				
+				// Verificar se o arquivo já existe como anexo
+				const anexosExistentes = document.querySelectorAll('.thumb-anexo-nome');
+				for(let anexo of anexosExistentes) {
+					if(anexo.textContent.trim() === nomeArquivo) {
+						alert('Este arquivo já foi adicionado como anexo.');
+						return;
+					}
+				}
+				
 				// Criar um objeto FormData para enviar o arquivo do servidor como anexo
 				const formData = new FormData();
 				formData.append('arquivo_servidor', nomeArquivo);

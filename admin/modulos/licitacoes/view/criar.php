@@ -945,6 +945,20 @@ usort($licitacoes_situacao_array, function( $a, $b ){ //Função responsável po
 				xhr_delete.send( formData_delete );
 				
 			}
+			
+			function excluirAnexoServidor( thumb, arquivo ){
+				
+				console.log( 'Excluindo anexo do servidor:', arquivo ); 
+				
+				let classe = '.'+ thumb;
+				let elemento = document.querySelector( classe );
+				
+				if( elemento ){
+					elemento.remove();
+					console.log( 'Anexo removido da lista visual' );
+				}
+				
+			}
 
 			if( document.querySelector('#arquivo_anexos') ){
 				
@@ -996,6 +1010,33 @@ usort($licitacoes_situacao_array, function( $a, $b ){ //Função responsável po
 				arquivo_anexos.value = '';
 			}
 			
+			// Função para processar anexos do servidor no submit
+			function processarAnexosServidor() {
+				// Coletar todos os anexos do servidor marcados
+				const anexosServidor = document.querySelectorAll('[data-arquivo-servidor]');
+				
+				if(anexosServidor.length > 0) {
+					// Criar inputs hidden para enviar junto com o formulário
+					const form = document.querySelector('form');
+					
+					anexosServidor.forEach(function(anexo, index) {
+						const nomeArquivo = anexo.getAttribute('data-arquivo-servidor');
+						
+						const input = document.createElement('input');
+						input.type = 'hidden';
+						input.name = 'anexos_servidor[]';
+						input.value = nomeArquivo;
+						
+						form.appendChild(input);
+					});
+				}
+			}
+			
+			// Interceptar o submit do formulário
+			document.querySelector('form').addEventListener('submit', function() {
+				processarAnexosServidor();
+			});
+			
 			// Suporte para Drag & Drop
 			if( document.querySelector('.exibir-anexos') ){
 				
@@ -1042,10 +1083,17 @@ usort($licitacoes_situacao_array, function( $a, $b ){ //Função responsável po
 			/*End - SISTEMA DE ANEXOS*/
 			
 			function adicionarArquivoComoAnexo(nomeArquivo) {
-				// Para criar.php, vamos adicionar o arquivo à lista local
-				// que será enviada quando o formulário for submetido
+				// Verificar se o arquivo já está sendo usado como edital
+				const editalAtual = document.querySelector('[name="edital"]').value;
+				const arquivoEdital = editalAtual.replace('uploads/', '');
+				const arquivoAnexo = nomeArquivo.replace('uploads/', '');
 				
-				// Verificar se já existe
+				if(arquivoAnexo === arquivoEdital && arquivoEdital !== '') {
+					alert('❌ ERRO: Este arquivo já está sendo usado como EDITAL da licitação.\n\nO EDITAL não pode ser adicionado como anexo.');
+					return;
+				}
+				
+				// Verificar se já existe como anexo
 				const anexosExistentes = document.querySelectorAll('.thumb-anexo');
 				for(let anexo of anexosExistentes) {
 					const nomeExistente = anexo.querySelector('.thumb-anexo-nome');
@@ -1055,15 +1103,25 @@ usort($licitacoes_situacao_array, function( $a, $b ){ //Função responsável po
 					}
 				}
 				
-				// Adicionar à lista visual usando a mesma função que o sistema atual
-				const fakeFile = {
-					name: nomeArquivo,
-					size: 0,
-					type: 'application/octet-stream',
-					fromServer: true
-				};
+				// Adicionar à lista visual
+				anexos_contador++;
 				
-				adicionarThumbAnexo(fakeFile, nomeArquivo);
+				let html_anexo = `
+				<div class="thumb-anexo thumb_anexo_${anexos_contador}" data-arquivo-servidor="${nomeArquivo}">
+					<div 
+						class="thumb-anexo-excluir"
+						onclick="excluirAnexoServidor( 'thumb_anexo_${anexos_contador}', '${nomeArquivo}' )"
+						title="Excluir anexo"
+					>❌</div>
+					<div class="thumb-anexo-icon"></div>
+					<div class="thumb-anexo-nome" title="${nomeArquivo}">${nomeArquivo}</div>
+					<div style="font-size: 0.6vw; color: var(--cinza-escuro); margin-top: 0.3vw; text-align: center;">
+						(Do servidor)
+					</div>
+				</div>
+				`;
+				
+				exibir_anexos.innerHTML += html_anexo;
 				alert('Arquivo do servidor adicionado com sucesso!');
 			}
 			

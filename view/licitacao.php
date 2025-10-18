@@ -215,25 +215,32 @@ foreach( $licitacoes_array as $item ){
 				
 				if( $licitacao_existe == 1 ){
 				
-					foreach( $licitacoes_anexos_array as $anexo ){
+				foreach( $licitacoes_anexos_array as $anexo ){
+					
+					if( $anexo['licitacao'] == $_GET['id'] ){
 						
-						if( $anexo['licitacao'] == $_GET['id'] ){
-							
-							$nome_arquivo = '-';
-							
-							if( $anexo['nome'] == '' ){ 
-								$nome_arquivo = $anexo['arquivo']; 
-							} else { 
-								$nome_arquivo = $anexo['nome']; 
-							}
-							
-							// CORREÇÃO: Aplicar a mesma lógica do arquivo principal aos anexos
-							$arquivo_path = $anexo['arquivo'];
-							if (!empty($arquivo_path) && strpos($arquivo_path, 'uploads/') !== 0) {
-							    $arquivo_path = 'uploads/' . $arquivo_path;
-							}
-							
-							// Verificar se o arquivo do anexo existe
+						// CRÍTICO: Verificar se o anexo não é o mesmo arquivo do edital
+						$anexo_arquivo = str_replace('uploads/', '', $anexo['arquivo']);
+						$edital_arquivo = str_replace('uploads/', '', $licitacao_arquivo);
+						
+						// Se for o mesmo arquivo do edital, pular este anexo
+						if($anexo_arquivo === $edital_arquivo && !empty($edital_arquivo)) {
+							continue;
+						}
+						
+						$nome_arquivo = '-';
+						
+						if( $anexo['nome'] == '' ){ 
+							$nome_arquivo = $anexo['arquivo']; 
+						} else { 
+							$nome_arquivo = $anexo['nome']; 
+						}
+						
+						// CORREÇÃO: Aplicar a mesma lógica do arquivo principal aos anexos
+						$arquivo_path = $anexo['arquivo'];
+						if (!empty($arquivo_path) && strpos($arquivo_path, 'uploads/') !== 0) {
+						    $arquivo_path = 'uploads/' . $arquivo_path;
+						}							// Verificar se o arquivo do anexo existe
 							if( !empty($arquivo_path) ) {
 								echo '
 								<div 

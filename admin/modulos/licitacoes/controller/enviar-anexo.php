@@ -161,6 +161,29 @@ if( move_uploaded_file( $arquivo_subir_array["tmp_name"], $pasta.$nome_final ) )
 	
 	// Se for uma licitação nova, não salvar no banco ainda (será salvo quando criar a licitação)
 	if($licitacao_id != 'nova') {
+		
+		// Verificar se o arquivo já está sendo usado como edital desta licitação
+		$sql_check_edital = "SELECT edital FROM licitacoes WHERE id = " . intval($licitacao_id);
+		$result_edital = $conn->query($sql_check_edital);
+		if($result_edital && $result_edital->num_rows > 0) {
+			$row_edital = $result_edital->fetch_assoc();
+			
+			// Normalizar caminhos para comparação - remover 'uploads/' se existir
+			$edital_atual = str_replace('uploads/', '', $row_edital['edital']);
+			$arquivo_comparar = str_replace('uploads/', '', $nome_final);
+			
+			if($edital_atual === $arquivo_comparar && !empty($edital_atual)) {
+				retornarResposta(false, 'ERRO: Este arquivo já está sendo usado como EDITAL da licitação. O edital não pode ser anexo.');
+			}
+		}
+		
+		// Verificar se o arquivo já existe como anexo desta licitação
+		$sql_check_anexo = "SELECT id FROM licitacoes_anexos WHERE licitacao = " . intval($licitacao_id) . " AND arquivo = '" . addslashes($nome_final) . "' AND ativo = 1";
+		$result_anexo = $conn->query($sql_check_anexo);
+		if($result_anexo && $result_anexo->num_rows > 0) {
+			retornarResposta(false, 'Este arquivo já foi adicionado como anexo desta licitação.');
+		}
+		
 		$sql .= "INSERT INTO licitacoes_anexos (
 			ativo,
 			created_at,

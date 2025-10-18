@@ -38,6 +38,28 @@ if(!file_exists($caminho_arquivo)) {
 	retornarResposta(false, 'Arquivo não encontrado no servidor.');
 }
 
+// Verificar se o arquivo já está sendo usado como edital desta licitação
+$sql_check_edital = "SELECT edital FROM licitacoes WHERE id = " . intval($licitacao_id);
+$result_edital = $conn->query($sql_check_edital);
+if($result_edital && $result_edital->num_rows > 0) {
+	$row_edital = $result_edital->fetch_assoc();
+	
+	// Normalizar caminhos para comparação - remover 'uploads/' se existir
+	$edital_atual = str_replace('uploads/', '', $row_edital['edital']);
+	$arquivo_comparar = str_replace('uploads/', '', $arquivo_servidor);
+	
+	if($edital_atual === $arquivo_comparar && !empty($edital_atual)) {
+		retornarResposta(false, 'ERRO: Este arquivo já está sendo usado como EDITAL da licitação. O edital não pode ser anexo.');
+	}
+}
+
+// Verificar se o arquivo já existe como anexo desta licitação
+$sql_check_anexo = "SELECT id FROM licitacoes_anexos WHERE licitacao = " . intval($licitacao_id) . " AND arquivo = '" . addslashes($arquivo_servidor) . "' AND ativo = 1";
+$result_anexo = $conn->query($sql_check_anexo);
+if($result_anexo && $result_anexo->num_rows > 0) {
+	retornarResposta(false, 'Este arquivo já foi adicionado como anexo desta licitação.');
+}
+
 // Obter informações do arquivo
 $extensao = strtolower(pathinfo($arquivo_servidor, PATHINFO_EXTENSION));
 $tamanho = filesize($caminho_arquivo);

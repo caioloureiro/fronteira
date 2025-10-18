@@ -1,0 +1,79 @@
+# ===========================================
+# .gitignore para Sistema da Prefeitura
+# ===========================================
+
+# Pastas de uploads e arquivos dinâmicos
+uploads/
+noticias-img/
+administracao/
+arquivos/
+banners/
+carrossel/
+formularios_arquivos/
+galeria/
+img/
+prefeitos/
+secretarias/
+
+# Arquivos de configuração sensíveis
+model/conexao-on.php
+model/conexao-off.php
+config.php
+.env
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup do banco de dados
+backup_do_banco/
+*.sql
+*.sql.gz
+*.sql.zip
+
+# Arquivos de sessão e cache
+sessions/
+cache/
+temp/
+
+# Arquivos do sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (caso use)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos PHP específicos
+.phpunit.result.cache
+vendor/
+composer.lock
+
+# Arquivos de sistema Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos de sistema Linux/Mac
+*.directory
+.fuse_hidden*
+
+# Backups automáticos
+*.bak
+*.backup
+*.old
